@@ -110,12 +110,3 @@ export default function Privacy() {
   )
 }
 EOF
-cd ~/Documents/rks3-command-base
-# stop any running server (press Ctrl+C first if needed)
-npm run dev
-cat > src/pages/rk3test.tsx <<'EOF'
-export default function RK3Test(){
-  return <h1 style={{padding:40,fontWeight:900}}>RK3 ROUTE TEST</h1>
-}
-EOF
-cd ~/Documents/rks3-command-base && npm run dev -- -p 3005
