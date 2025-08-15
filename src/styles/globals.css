@@ -1,9 +1,6 @@
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      {/* FAMILY GREETING BANNER */}
+
       <div className="rk-topbar" style={{ background: 'rgba(250, 204, 21, 0.9)', color: '#111' }}>
         🎉 DS in the building • RK3 in the building • Avatars in the building • Welcome Family! 🎉
       </div>
@@ -57,3 +54,10 @@ about.js
 contact.js
 terms.js
 privacy.js
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
