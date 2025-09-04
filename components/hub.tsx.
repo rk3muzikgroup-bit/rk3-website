@@ -1,0 +1,42 @@
+import Head from 'next/head'
+import Link from 'next/link'
+
+export default function Hub() {
+  return (
+    <>
+      <Head>
+        <title>RK3 Hub</title>
+        <meta name="description" content="Choose your portal — Street • Soul • Spirit" />
+      </Head>
+
+      <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-black text-white">
+        {/* Header */}
+        <h1 className="text-5xl font-bold text-blue-400 mb-6">
+          ✨ RK3 Portal Hub ✨
+        </h1>
+        <p className="text-lg text-gray-300 mb-10 text-center max-w-lg">
+          Step off the spaceship and choose your portal — each one takes you deeper into 
+          Street, Soul, and Spirit.
+        </p>
+
+        {/* Portal Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 w-full max-w-4xl">
+          <Link href="/street" className="p-6 bg-gray-800 rounded-2xl text-center hover:bg-gray-700 transition">
+            <h2 className="text-2xl font-semibold text-blue-300">Street</h2>
+            <p className="mt-2 text-gray-400">Raw truth, poetry, and the grind.</p>
+          </Link>
+
+          <Link href="/soul" className="p-6 bg-gray-800 rounded-2xl text-center hover:bg-gray-700 transition">
+            <h2 className="text-2xl font-semibold text-green-300">Soul</h2>
+            <p className="mt-2 text-gray-400">Healing, rhythm, and deep vibes.</p>
+          </Link>
+
+          <Link href="/spirit" className="p-6 bg-gray-800 rounded-2xl text-center hover:bg-gray-700 transition">
+            <h2 className="text-2xl font-semibold text-purple-300">Spirit</h2>
+            <p className="mt-2 text-gray-400">Cosmos, wisdom, and light codes.</p>
+          </Link>
+        </div>
+      </main>
+    </>
+  )
+}

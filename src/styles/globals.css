@@ -1,51 +1,11 @@
-/* ===== RK3 Global Styles ===== */
-:root {
-  --rk3-black: #000000;
-  --rk3-gold: #FFD700;
-  --rk3-indigo: #4B0082;
-  --rk3-emerald: #50C878;
-  --rk3-white: #ffffff;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* RK3 defaults so it’s dark even if Tailwind hiccups */
+:root { color-scheme: dark; }
 html, body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: var(--rk3-black);
-  color: var(--rk3-white);
+  min-height: 100%;
+  background: #000;
+  color: #fff;
 }
-
-a {
-  color: var(--rk3-gold);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--rk3-emerald);
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--rk3-gold);
-  margin: 0 0 1rem 0;
-}
-
-/* Buttons */
-button {
-  background-color: var(--rk3-indigo);
-  color: var(--rk3-white);
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1rem;
-}
-
-button:hover {
-  background-color: var(--rk3-emerald);
-}
-
