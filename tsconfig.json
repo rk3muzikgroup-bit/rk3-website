@@ -1,27 +1,38 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
+    "target": "es2022",
     "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
+    "lib": [
+      "dom",
+      "es2022"
+    ],
     "jsx": "preserve",
-    "incremental": true,
-    "plugins": [{ "name": "next" }],
-
-    "baseUrl": "./",
+    "moduleResolution": "bundler",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],                 // keeps @ pointing to project root
-      "components/*": ["components/*"], // sweet short imports for components
-      "styles/*": ["src/styles/*"]      // sweet short imports for your CSS
-    }
+      "@/*": [
+        "./*"
+      ],
+      "@/components/*": [
+        "./src/components/*"
+      ],
+      "@/src/*": [
+        "./src/*"
+      ]
+    },
+    "strict": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "include": [
     "next-env.d.ts",
@@ -29,5 +40,12 @@
     "**/*.ts",
     "**/*.tsx"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ],
+  "plugins": [
+    {
+      "name": "next"
+    }
+  ]
 }

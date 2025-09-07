@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import WarpFlash from "@/components/WarpFlash";
 import WarpRipple from "@/components/WarpRipple";
 import PortalBurst from "@/components/PortalBurst";
-import { realmFxConfig, RealmStyle } from "@/config/realmFxConfig";
+import { realmFxConfig, RealmStyle } from "@/src/config/realmFxConfig";
 
 type Props = {
   path: string;

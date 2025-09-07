@@ -1,11 +1,16 @@
-export default function StreetPage() {
+import CockpitRide from "../../components/CockpitRide";
+
+export default function StreetRidePage() {
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-12">
-      <h1 className="text-5xl font-bold mb-6">Street Realm</h1>
-      <p className="max-w-2xl text-lg text-gray-300 text-center">
-        The Street realm keeps it raw and real — sharpens your mind, speaks to
-        the grind, and honors where we come from.
-      </p>
-    </div>
+    <CockpitRide
+      theme="street"
+      windowVideoSrc="/videos/street_window.mp4"
+      audioSrc="/audio/street_ride.mp3"
+      cockpitPngSrc="/images/cockpit/cockpit_frame_rk3.png"
+      cockpitFit="contain"
+      cockpitScale={1.0}
+      cockpitOffsetY={0}
+      brandMaskEnabled={true}
+    />
   );
 }

@@ -1,11 +1,16 @@
-export default function SpiritPage() {
+import CockpitRide from "../../components/CockpitRide";
+
+export default function SpiritRidePage() {
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-12">
-      <h1 className="text-5xl font-bold mb-6">Spirit Realm</h1>
-      <p className="max-w-2xl text-lg text-gray-300 text-center">
-        The Spirit realm is where higher consciousness, truth, and alignment
-        come to life. Step in to elevate your journey.
-      </p>
-    </div>
+    <CockpitRide
+      theme="spirit"
+      windowVideoSrc="/videos/window/rk3_ship_cruise.mp4"
+      audioSrc="/audio/spirit_ride.mp3"
+      cockpitPngSrc="/images/cockpit/cockpit_frame_rk3.png"
+      cockpitFit="contain"
+      cockpitScale={1.0}
+      cockpitOffsetY={0}
+      brandMaskEnabled={true}
+    />
   );
 }
