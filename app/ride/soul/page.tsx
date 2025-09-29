@@ -1,35 +1,36 @@
 "use client";
+
 import { useEffect } from "react";
+import { useOverlay } from "@/context/OverlayContext";
 import { useRouter } from "next/navigation";
 
-export default function SoulRide() {
+export default function SoulRidePage() {
+  const { showOverlay } = useOverlay();
   const router = useRouter();
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      router.push("/vault");
+    showOverlay("soul", 4000, true); // 💚 soul engine/music
+
+    const t = setTimeout(() => {
+      showOverlay("granted", 2500, true);
+      setTimeout(() => router.push("/vault"), 3000);
     }, 71000);
-    return () => clearTimeout(timer);
-  }, [router]);
+
+    return () => clearTimeout(t);
+  }, [showOverlay, router]);
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center text-center text-white">
+    <div className="relative w-full h-screen bg-black overflow-hidden">
       <video
+        src="/videos/ride/Soul_Ride.mp4"
         autoPlay
-        loop
-        muted={false}
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover z-0"
-      >
-        <source src="/videos/soul-ride.mp4" type="video/mp4" />
-      </video>
-      <div className="absolute inset-0 bg-black/40 z-10" />
-      <div className="relative z-20 px-6">
-        <h1 className="text-5xl font-extrabold mb-6">🌌 Soul Spaceship Ride</h1>
-        <p className="text-lg md:text-2xl text-gray-300 max-w-2xl mx-auto">
-          Drift deeper into the Soul realm.  
-          In 1:11, you’ll reach the Vault.
-        </p>
+        muted
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      <div className="relative z-10 flex items-center justify-center h-full">
+        <h1 className="text-3xl font-bold text-emerald-400 drop-shadow-md">
+          💚 Soul Ride — Flow Into Healing
+        </h1>
       </div>
     </div>
   );

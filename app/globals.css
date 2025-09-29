@@ -1,11 +1,308 @@
-/* app/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* RK3 base reset */
-html, body, #__next { height: 100%; }
-html, body { background-color: #000; color: #fff; }
+/* ===== Base Setup ===== */
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
 
-/* Smooth text + nicer focus rings */
-* { outline-color: rgba(255,255,255,0.25); }
+/* Starfield background */
+body {
+  background: black;
+  background-image:
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-position: 0 0, 25px 25px;
+}
+
+/* ======================
+   Animations
+====================== */
+
+/* --- Fade / Flash --- */
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-in forwards;
+}
+
+@keyframes fadeOut {
+  0%   { opacity: 1; }
+  80%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+.animate-fadeOut {
+  animation: fadeOut 1.2s ease forwards;
+}
+
+@keyframes flash {
+  0%   { opacity: 0; }
+  30%  { opacity: 0.7; }
+  100% { opacity: 0; }
+}
+.animate-flash {
+  animation: flash 0.6s ease-out forwards;
+}
+
+@keyframes fade {
+  0%, 100% { opacity: 0; }
+  20%, 80% { opacity: 1; }
+}
+.animate-fade {
+  animation: fade 2s ease-in-out;
+}
+
+/* --- Cosmic / Ornaments --- */
+@keyframes shooting-star {
+  0%   { transform: translateX(0) translateY(0) scale(1); opacity: 1; }
+  100% { transform: translateX(100vw) translateY(50vh) scale(0.5); opacity: 0; }
+}
+.animate-shooting-star {
+  animation: shooting-star 2s linear forwards;
+}
+
+@keyframes bone-left {
+  0%   { transform: translateX(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateX(-50px) rotate(-45deg); opacity: 0; }
+}
+.animate-bone-left {
+  animation: bone-left 1s forwards;
+}
+
+@keyframes bone-right {
+  0%   { transform: translateX(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateX(50px) rotate(45deg); opacity: 0; }
+}
+.animate-bone-right {
+  animation: bone-right 1s forwards;
+}
+
+/* --- Ticker --- */
+@keyframes marquee {
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+.animate-marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 12s linear infinite;
+  padding-right: 100%; /* smooth loop */
+}
+
+/* --- Cockpit Specific --- */
+@keyframes screenShake {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-12px, 6px); }
+  40% { transform: translate(10px, -8px); }
+  60% { transform: translate(-8px, 4px); }
+  80% { transform: translate(6px, -6px); }
+  100% { transform: translate(0, 0); }
+}
+.fail-shake {
+  animation: screenShake 0.6s ease-in-out;
+}
+
+@keyframes wheel-sway {
+  0%, 100% { transform: rotate(0deg); }
+  25%      { transform: rotate(3deg); }
+  75%      { transform: rotate(-3deg); }
+}
+
+@keyframes warpFlash {
+  0%   { opacity: 0; }
+  20%  { opacity: 0.8; }
+  60%  { opacity: 0.6; }
+  100% { opacity: 0; }
+}
+.animate-warpFlash {
+  animation: warpFlash 0.8s ease-out forwards;
+}
+
+/* --- Credit Roll --- */
+@keyframes creditScroll {
+  0%   { bottom: -100%; }
+  100% { bottom: 100%; }
+}
+.animate-creditScroll {
+  animation: creditScroll 45s linear forwards;
+}
+
+/* --- Pulse Bar --- */
+@keyframes pulseBar {
+  0%   { transform: scaleY(1); }
+  50%  { transform: scaleY(1.8); }
+  100% { transform: scaleY(1); }
+}
+.animate-pulseBar {
+  animation: pulseBar 0.4s ease-out;
+}
+
+/* ======================
+   Luxury Knobs
+====================== */
+.knob {
+  -webkit-appearance: none;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #222 0%, #000 70%);
+  border: 2px solid #333;
+  box-shadow: inset -2px -2px 5px rgba(255,255,255,0.1),
+              inset 2px 2px 8px rgba(0,0,0,0.8),
+              0 0 12px rgba(99, 102, 241, 0.4);
+  transform: rotate(-90deg);
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+}
+.knob::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
+}
+.knob::-moz-range-track {
+  background: transparent;
+  border: none;
+}
+.knob::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff, #ccc);
+  box-shadow: 0 0 6px rgba(255,255,255,0.8);
+  cursor: grab;
+  transition: all 0.2s ease;
+}
+.knob::-webkit-slider-thumb:active {
+  transform: scale(1.2);
+  box-shadow: 0 0 12px rgba(255,255,255,1);
+}
+/* ======================
+   Luxury Knob Variants
+====================== */
+
+/* Base styling stays the same */
+.knob {
+  -webkit-appearance: none;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #222 0%, #000 70%);
+  border: 2px solid #333;
+  transform: rotate(-90deg);
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+}
+
+/* Hide default track */
+.knob::-webkit-slider-runnable-track,
+.knob::-moz-range-track {
+  background: transparent;
+  border: none;
+}
+
+/* Thumb (shared base jewel) */
+.knob::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff, #ccc);
+  cursor: grab;
+  transition: all 0.2s ease;
+}
+.knob::-webkit-slider-thumb:active {
+  transform: scale(1.2);
+}
+
+/* --- Bass (Indigo) --- */
+.knob-bass {
+  box-shadow: inset -2px -2px 5px rgba(255,255,255,0.05),
+              inset 2px 2px 8px rgba(0,0,0,0.7),
+              0 0 14px rgba(99, 102, 241, 0.6); /* Indigo glow */
+}
+.knob-bass::-webkit-slider-thumb {
+  box-shadow: 0 0 8px rgba(99, 102, 241, 0.9);
+}
+.knob-bass::-webkit-slider-thumb:active {
+  box-shadow: 0 0 14px rgba(99, 102, 241, 1);
+}
+
+/* --- Mid (Purple) --- */
+.knob-mid {
+  box-shadow: inset -2px -2px 5px rgba(255,255,255,0.05),
+              inset 2px 2px 8px rgba(0,0,0,0.7),
+              0 0 14px rgba(168, 85, 247, 0.6); /* Purple glow */
+}
+.knob-mid::-webkit-slider-thumb {
+  box-shadow: 0 0 8px rgba(168, 85, 247, 0.9);
+}
+.knob-mid::-webkit-slider-thumb:active {
+  box-shadow: 0 0 14px rgba(168, 85, 247, 1);
+}
+
+/* --- Treble (Emerald) --- */
+.knob-treble {
+  box-shadow: inset -2px -2px 5px rgba(255,255,255,0.05),
+              inset 2px 2px 8px rgba(0,0,0,0.7),
+              0 0 14px rgba(16, 185, 129, 0.6); /* Emerald glow */
+}
+.knob-treble::-webkit-slider-thumb {
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.9);
+}
+.knob-treble::-webkit-slider-thumb:active {
+  box-shadow: 0 0 14px rgba(16, 185, 129, 1);
+}
+/* ===== Knob Breathing Animations ===== */
+@keyframes knob-breathe-indigo {
+  0%, 100% { box-shadow: 0 0 8px rgba(99, 102, 241, 0.4); }
+  50%      { box-shadow: 0 0 18px rgba(99, 102, 241, 0.9); }
+}
+@keyframes knob-breathe-purple {
+  0%, 100% { box-shadow: 0 0 8px rgba(168, 85, 247, 0.4); }
+  50%      { box-shadow: 0 0 18px rgba(168, 85, 247, 0.9); }
+}
+@keyframes knob-breathe-emerald {
+  0%, 100% { box-shadow: 0 0 8px rgba(16, 185, 129, 0.4); }
+  50%      { box-shadow: 0 0 18px rgba(16, 185, 129, 0.9); }
+}
+
+/* Apply to knob variants */
+.knob-bass {
+  animation: knob-breathe-indigo 4s ease-in-out infinite;
+}
+.knob-mid {
+  animation: knob-breathe-purple 4s ease-in-out infinite;
+}
+.knob-treble {
+  animation: knob-breathe-emerald 4s ease-in-out infinite;
+}
+/* Glowing dashboard digits */
+.glow-digit {
+  text-shadow: 0 0 6px rgba(255,255,255,0.4),
+               0 0 12px rgba(99,102,241,0.6);
+  letter-spacing: 1px;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+/* globals.css */
+
+/* Pulse glow that speeds up with mileage */
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 5px rgba(16,185,129,0.3); }
+  50% { box-shadow: 0 0 25px rgba(16,185,129,0.8); }
+  100% { box-shadow: 0 0 5px rgba(16,185,129,0.3); }
+}

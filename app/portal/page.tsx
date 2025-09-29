@@ -1,81 +1,58 @@
-// app/portal/page.tsx
 "use client";
 
-import React, { useEffect, useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
-import { motion } from "framer-motion";
-import { PortalDoorButton } from "../../components/RK3FuturisticUI";
-import VideoBackground from "../../components/VideoBackground";
-import { sendAnalytics } from "../../lib/analytics"; // remove this line if using Option B
+import { useRouter } from "next/navigation";
+import { HUDVolume } from "@/components/HUDVolume";
 
-/* ----- inline background chooser ----- */
-type BGMap = Record<string, string>;
-const BG: BGMap = {
-  meteorite15: "/videos/bg/meteorite_15s.mp4",
-  rk3Cruise: "/videos/window/rk3_ship_cruise.mp4",
-  nebula30: "/videos/bg/nebula_30s.mp4",
-};
-const BG_POSTERS: Partial<BGMap> = {
-  meteorite15: "/videos/bg/meteorite_15s.jpg",
-  rk3Cruise: "/videos/window/rk3_ship_cruise.jpg",
-  nebula30: "/videos/bg/nebula_30s.jpg",
-};
-const SESSION_KEY = "rk3_portal_bg";
-const POOL = ["meteorite15", "rk3Cruise", "nebula30"] as const;
-const WEIGHT: Record<(typeof POOL)[number], number> = { meteorite15: 3, rk3Cruise: 3, nebula30: 2 };
-const pickWeighted = (keys: readonly string[]) => {
-  const bag: string[] = []; keys.forEach(k => { for (let i = 0; i < (WEIGHT as any)[k] || 0; i++) bag.push(k); });
-  return bag[Math.floor(Math.random() * bag.length)] || keys[0];
-};
-function choosePortalBG(override?: string | null) {
-  if (override && BG[override]) { try { sessionStorage.setItem(SESSION_KEY, override); } catch {} return { key: override, src: BG[override], poster: BG_POSTERS[override] }; }
-  try { const saved = sessionStorage.getItem(SESSION_KEY); if (saved && BG[saved]) return { key: saved, src: BG[saved], poster: BG_POSTERS[saved] }; } catch {}
-  const k = pickWeighted(POOL as unknown as string[]); try { sessionStorage.setItem(SESSION_KEY, k); } catch {}
-  return { key: k, src: BG[k], poster: BG_POSTERS[k] };
-}
-/* ------------------------------------ */
+const portals = [
+  { name: "Street", path: "/portals/street", emoji: "🛹" },
+  { name: "Soul", path: "/portals/soul", emoji: "🎶" },
+  { name: "Spirit", path: "/portals/spirit", emoji: "✨" },
+  { name: "Healing", path: "/portals/healing", emoji: "🌀" },
+  { name: "Music", path: "/portals/music", emoji: "🎧" },
+  { name: "Videos", path: "/portals/videos", emoji: "🎥" },
+  { name: "Books", path: "/portals/books", emoji: "📚" },
+  { name: "Legacy", path: "/portals/legacy", emoji: "🏛️" },
+  { name: "Journal", path: "/portals/journal", emoji: "📝" },
+  { name: "Avatars", path: "/portals/avatars", emoji: "👤" },
+  { name: "Merch", path: "/portals/merch", emoji: "🛒" },
+];
 
-export default function PortalPage() {
+export default function PortalsPage() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const [bg, setBg] = useState<{ key: string; src: string; poster?: string } | null>(null);
-
-  useEffect(() => {
-    const override = searchParams?.get("bg");
-    const sel = choosePortalBG(override);
-    setBg(sel);
-    try { sendAnalytics?.("portal_view", { bg: sel.key }); } catch {}
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   return (
-    <main className="relative min-h-svh bg-black text-white overflow-hidden">
-      {bg && <VideoBackground src={bg.src} poster={bg.poster} overlay gradient preload="metadata" />}
+    <div className="relative w-full h-screen bg-black flex items-center justify-center overflow-hidden">
+      {/* Background */}
+      <video
+        src="/videos/vault/vault_bg01.mp4"
+        className="absolute inset-0 w-full h-full object-cover opacity-40"
+        autoPlay
+        muted
+        loop
+        playsInline
+      />
 
-      <section className="relative max-w-6xl mx-auto px-6 py-16">
-        <motion.h1 initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}
-          className="text-3xl md:text-5xl font-bold mb-8 text-center">
-          Choose Your Journey
-        </motion.h1>
+      {/* HUD */}
+      <div className="absolute top-4 right-4 z-20">
+        <HUDVolume />
+      </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 place-items-center">
-          <PortalDoorButton title="STREET" subtitle="Grit • Neon • Pace"
-            imageSrc="/images/street.png"  accent="street" onClick={() => router.push("/street")} />
-          <PortalDoorButton title="SOUL" subtitle="Warm • Gold • Flow"
-            imageSrc="/images/soul.png"    accent="soul"   onClick={() => router.push("/soul")} />
-          <PortalDoorButton title="SPIRIT" subtitle="Indigo • Ether • Elevate"
-            imageSrc="/images/spirit.png"  accent="spirit" onClick={() => router.push("/spirit")} />
-        </div>
-
-        <div className="mt-10 flex items-center justify-center">
+      {/* Portal Grid */}
+      <div className="relative z-10 grid grid-cols-3 gap-6 p-10">
+        {portals.map((portal, idx) => (
           <button
-            onClick={() => { localStorage.removeItem("rk3_seen_intro"); router.replace("/enter"); }}
-            className="rounded-xl bg-white/5 border border-white/15 px-4 py-2 text-sm text-white/90 hover:bg-white/10"
+            key={idx}
+            onClick={() => router.push(portal.path)}
+            className="flex flex-col items-center justify-center w-40 h-40 
+                       rounded-2xl bg-gradient-to-br from-indigo-700 to-emerald-600 
+                       text-white font-bold text-lg shadow-xl hover:scale-105 
+                       hover:shadow-2xl transition transform"
           >
-            Watch the Intro Again
+            <span className="text-3xl mb-2">{portal.emoji}</span>
+            {portal.name}
           </button>
-        </div>
-      </section>
-    </main>
+        ))}
+      </div>
+    </div>
   );
 }

@@ -1,21 +1,37 @@
-// app/layout.tsx
-import "./globals.css";   // ✅ correct relative path now
-import type { Metadata } from "next";
+"use client";
 
-export const metadata: Metadata = {
-  title: "RK3 Music Group",
-  description: "Street • Soul • Spirit — Independent Music & Media Company",
-};
+import { ReactNode } from "react";
+import "./globals.css";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+// Context Providers
+import { EQProvider } from "@/context/EQContext";
+import { NowPlayingProvider } from "@/context/NowPlayingContext";
+import { MileageProvider } from "@/context/MileageContext";
+
+// Cockpit + UI
+import CockpitHUD from "@/components/cockpit/CockpitHUD";
+import CockpitOverlay from "@/components/cockpit/CockpitOverlay";
+import Starfield from "@/components/Starfield";
+
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-black text-white antialiased">
-        {children}
+      <body className="bg-black text-white overflow-hidden">
+        <EQProvider>
+          <NowPlayingProvider>
+            <MileageProvider>
+              {/* Background starfield */}
+              <Starfield />
+
+              {/* Cockpit overlay + HUD */}
+              <CockpitOverlay />
+              <CockpitHUD />
+
+              {/* Page Content */}
+              <main className="relative z-10">{children}</main>
+            </MileageProvider>
+          </NowPlayingProvider>
+        </EQProvider>
       </body>
     </html>
   );

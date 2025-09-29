@@ -1,0 +1,30 @@
+{
+  "tapes": [
+    {
+      "slug": "street-2025-10",
+      "title": "Street • Oct ’25",
+      "audio": "/mixtapes/street_2025-10.mp3",
+      "cover": "/images/mixtapes/street_2025-10.jpg",
+      "chapters": [
+        {"t":"00:00","title":"Intro"},
+        {"t":"03:00","title":"Block: BX"},
+        {"t":"12:20","title":"Exclusive 1"},
+        {"t":"22:40","title":"Finale"}
+      ]
+    },
+    {
+      "slug": "soul-2025-10",
+      "title": "Soul • Oct ’25",
+      "audio": "/mixtapes/soul_2025-10.mp3",
+      "cover": "/images/mixtapes/soul_2025-10.jpg",
+      "chapters": [{"t":"00:00","title":"Intro"}]
+    },
+    {
+      "slug": "spirit-2025-10",
+      "title": "Spirit • Oct ’25",
+      "audio": "/mixtapes/spirit_2025-10.mp3",
+      "cover": "/images/mixtapes/spirit_2025-10.jpg",
+      "chapters": [{"t":"00:00","title":"Intro"}]
+    }
+  ]
+}

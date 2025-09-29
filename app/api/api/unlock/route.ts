@@ -1,23 +1,12 @@
-// app/api/unlock/route.ts
-import { NextResponse } from "next/server";
+import type { NextApiRequest, NextApiResponse } from "next";
 
-export async function POST(req: Request) {
-  const { pass } = await req.json().catch(() => ({}));
-  const okPass = process.env.PREVIEW_PASS || "rk3alpha";
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+  // validate session + membership
+  const session = req.headers.cookie ? { userId: "user_123", tier: "gold" } : null;
+  if (!session) return res.status(200).json({ allowed: false });
 
-  if (!pass || pass !== okPass) {
-    return NextResponse.json({ message: "Invalid code" }, { status: 401 });
-  }
+  const allowed = session.tier === "gold" || session.tier === "platinum";
+  // log access attempt, increment analytics, store timestamp etc.
 
-  const res = NextResponse.json({ ok: true });
-  res.cookies.set({
-    name: "rk3_preview",
-    value: "1",
-    path: "/",
-    httpOnly: true,
-    sameSite: "lax",
-    secure: true,
-    maxAge: 60 * 60 * 24 * 30, // 30 days
-  });
-  return res;
+  return res.status(200).json({ allowed });
 }

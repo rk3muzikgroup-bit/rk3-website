@@ -1,22 +1,22 @@
-// components/FadeTransition.tsx
-import { motion } from "framer-motion";
-import { useEffect } from "react";
+"use client";
+import { motion, AnimatePresence } from "framer-motion";
+import { usePathname } from "next/navigation";
 
-export default function FadeTransition() {
-  useEffect(() => {
-    const audio = new Audio("/sounds/vault-rumble.mp3");
-    audio.volume = 0.6; // adjust power of BOOM
-    audio.play().catch(() => {
-      console.log("Autoplay blocked until user interacts");
-    });
-  }, []);
+export default function FadeTransition({ children }: { children: React.ReactNode }) {
+  const pathname = usePathname();
 
   return (
-    <motion.div
-      className="fixed inset-0 bg-black z-50"
-      initial={{ opacity: 1 }}
-      animate={{ opacity: 0 }}
-      transition={{ duration: 2 }}
-    />
+    <AnimatePresence mode="wait">
+      <motion.div
+        key={pathname}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 1 }}
+        className="w-full h-full"
+      >
+        {children}
+      </motion.div>
+    </AnimatePresence>
   );
 }

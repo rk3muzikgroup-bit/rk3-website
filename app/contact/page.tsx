@@ -1,16 +1,23 @@
+// app/contact/page.tsx
+export const metadata = {
+  title: "RK3 • Contact",
+  description: "Reach out for bookings, collabs, and inquiries.",
+};
+
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-12">
-      <h1 className="text-5xl font-bold mb-6">Contact Us</h1>
-      <p className="max-w-2xl text-lg text-gray-300 text-center mb-4">
-        For bookings, collaborations, or inquiries, reach out to us anytime.
-      </p>
-      <a
-        href="mailto:RK3MusicGroup@gmail.com"
-        className="px-6 py-3 bg-gold-400 text-black rounded-2xl text-lg font-semibold hover:bg-gold-300 transition"
-      >
-        Email: RK3MusicGroup@gmail.com
-      </a>
-    </div>
+    <main className="mx-auto w-[min(1200px,92vw)] py-10">
+      <h1 className="text-2xl font-semibold">Contact</h1>
+      <p className="mt-2 text-white/80">Bookings, collaborations, licensing, and inquiries.</p>
+
+      <form className="mt-8 grid max-w-xl gap-4">
+        <input className="rounded-xl border border-white/15 bg-black/40 px-4 py-3 outline-none" placeholder="Name" />
+        <input className="rounded-xl border border-white/15 bg-black/40 px-4 py-3 outline-none" placeholder="Email" />
+        <textarea className="min-h-[140px] rounded-xl border border-white/15 bg-black/40 px-4 py-3 outline-none" placeholder="Message" />
+        <button className="rounded-xl border border-white/15 bg-white/10 px-4 py-2 text-sm hover:bg-white/15 w-max">
+          Send
+        </button>
+      </form>
+    </main>
   );
 }

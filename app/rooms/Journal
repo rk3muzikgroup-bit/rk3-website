@@ -1,0 +1,22 @@
+import RoomBreathingWrapper from "@/components/RoomBreathingWrapper";
+
+export default function JournalRoom() {
+  return (
+    <RoomBreathingWrapper
+      color="blue"
+      duration={8}
+      audioSrc="/sounds/rooms/journal_ambience.mp3"
+    >
+      <video
+        autoPlay
+        loop
+        muted
+        className="absolute inset-0 w-full h-full object-cover rounded-2xl"
+        src="/videos/rooms/journal_loop.mp4"
+      />
+      <div className="absolute bottom-10 left-10 text-xl text-white">
+        📖 Journal — Reflections, writings, and vault entries. (🔒 Gold)
+      </div>
+    </RoomBreathingWrapper>
+  );
+}

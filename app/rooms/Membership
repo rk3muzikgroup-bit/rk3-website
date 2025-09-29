@@ -1,0 +1,22 @@
+import RoomBreathingWrapper from "@/components/RoomBreathingWrapper";
+
+export default function MembershipRoom() {
+  return (
+    <RoomBreathingWrapper
+      color="red"
+      duration={5}
+      audioSrc="/sounds/rooms/membership_ambience.mp3"
+    >
+      <video
+        autoPlay
+        loop
+        muted
+        className="absolute inset-0 w-full h-full object-cover rounded-2xl"
+        src="/videos/rooms/membership_loop.mp4"
+      />
+      <div className="absolute bottom-10 left-10 text-xl text-white">
+        💎 Membership — Exclusive portals and Platinum features. (🔒 Platinum)
+      </div>
+    </RoomBreathingWrapper>
+  );
+}

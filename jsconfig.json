@@ -8,8 +8,8 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "@/components/*": ["src/components/*"],
-      "@/*": ["src/*"]
+      "@/components/*": ["components/*"],
+      "@/*": ["*"]
     },
     "strict": true,
     "noEmit": true,
