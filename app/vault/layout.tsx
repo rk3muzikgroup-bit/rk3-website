@@ -2,7 +2,7 @@
 
 import type { ReactNode } from "react";
 import { useEffect, useRef } from "react";
-import { HUDVolume } from "@/components/HUDVolume";
+import HUDVolume from "@/components/HUDVolume";
 import WatermarkOverlay from "@/components/WatermarkOverlay";
 import { useUser } from "@/hooks/useUser"; // your real auth hook
 import { usePlaySound } from "@/hooks/usePlaySound";

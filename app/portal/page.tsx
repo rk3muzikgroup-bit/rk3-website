@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { HUDVolume } from "@/components/HUDVolume";
+import HUDVolume from "@/components/HUDVolume";
 
 const portals = [
   { name: "Street", path: "/portals/street", emoji: "🛹" },

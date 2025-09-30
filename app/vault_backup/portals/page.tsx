@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useRef, useState, useEffect } from "react";
 import { usePlaySound } from "@/hooks/usePlaySound";
-import { HUDVolume } from "@/components/HUDVolume";
+import HUDVolume from "@/components/HUDVolume";
 
 type Portal = "street" | "soul" | "spirit";
 

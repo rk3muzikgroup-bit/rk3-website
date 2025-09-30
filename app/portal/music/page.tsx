@@ -1,6 +1,6 @@
 "use client";
 
-import { HUDVolume } from "@/components/HUDVolume";
+import HUDVolume from "@/components/HUDVolume";
 import { useRouter } from "next/navigation";
 
 export default function MusicPortal() {

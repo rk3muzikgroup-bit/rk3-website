@@ -6,6 +6,16 @@ export type RoomConfig = {
   special?: string;
   access: "open" | "gold" | "platinum"; // 🚨 access level
 };
+// minimal placeholder so imports succeed. Replace with real room config later.
+export const ROOMS = {
+  default: {
+    id: 'default',
+    name: 'Default Room',
+    description: 'Placeholder room config'
+  }
+};
+
+export default ROOMS;
 
 export const roomConfig: Record<string, RoomConfig> = {
   self_love: {

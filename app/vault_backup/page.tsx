@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { usePlaySound } from "@/hooks/usePlaySound";
-import { HUDVolume } from "@/components/HUDVolume";
+import HUDVolume from "@/components/HUDVolume";
 import PortalGrid from "@/components/PortalGrid";
 
 export default function VaultPage() {

@@ -1,7 +1,7 @@
 "use client";
 
 import { useParams } from "next/navigation";
-import { HUDVolume } from "@/components/HUDVolume";
+import HUDVolume from "@/components/HUDVolume";
 
 export default function MemberProfile() {
   const { username } = useParams();

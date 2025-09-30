@@ -3,7 +3,7 @@
 import { useParams, useRouter } from "next/navigation";
 import { useRef, useState, useEffect } from "react";
 import { usePlaySound } from "@/hooks/usePlaySound";
-import { HUDVolume } from "@/components/HUDVolume";
+import HUDVolume from "@/components/HUDVolume";
 
 export default function RidePage() {
   const { portal } = useParams(); // "street" | "soul" | "spirit"
