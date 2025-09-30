@@ -1,24 +1,10 @@
-// components/visuals/Starfield.tsx
+cat > components/visuals/Starfield.tsx <<'EOF'
 "use client";
 
 import { useEffect, useRef } from "react";
-import Starfield from "@/components/visuals/Starfield";
-import OrbLayer from "@/components/visuals/OrbLayer";
-import CockpitHUD from "@/components/cockpit/CockpitHUD";
-
-export default function CockpitPage() {
-  return (
-    <div className="relative w-full h-full">
-      <Starfield />
-      <OrbLayer />
-      <CockpitHUD />
-      {/* cockpit video or UI here */}
-    </div>
-  );
-}
 
 export default function Starfield() {
-  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -40,6 +26,7 @@ export default function Starfield() {
       twinkle: Math.random() * 0.02,
     }));
 
+    let rafId: number;
     function draw() {
       ctx.clearRect(0, 0, width, height);
 
@@ -55,7 +42,7 @@ export default function Starfield() {
         if (star.opacity > 1) star.opacity = 1;
       });
 
-      requestAnimationFrame(draw);
+      rafId = requestAnimationFrame(draw);
     }
 
     draw();
@@ -71,6 +58,7 @@ export default function Starfield() {
 
     return () => {
       window.removeEventListener("resize", handleResize);
+      cancelAnimationFrame(rafId);
     };
   }, []);
 
@@ -81,3 +69,7 @@ export default function Starfield() {
     />
   );
 }
+EOF
+
+git add components/visuals/Starfield.tsx
+git commit -m "fix: remove accidental CockpitPage/self-import from Starfield; export only Starfield"

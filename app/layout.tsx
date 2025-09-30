@@ -1,37 +1,31 @@
 "use client";
 
 import { ReactNode } from "react";
-import "./globals.css";
-
-// Context Providers
-import { EQProvider } from "@/context/EQContext";
-import { NowPlayingProvider } from "@/context/NowPlayingContext";
 import { MileageProvider } from "@/context/MileageContext";
+import { NowPlayingProvider } from "@/context/NowPlayingContext";
+import { SteeringProvider } from "@/context/SteeringContext";
+import { EQProvider } from "@/context/EQContext";
 
-// Cockpit + UI
 import CockpitHUD from "@/components/cockpit/CockpitHUD";
-import CockpitOverlay from "@/components/cockpit/CockpitOverlay";
 import Starfield from "@/components/Starfield";
+
+import "./globals.css";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-black text-white overflow-hidden">
-        <EQProvider>
-          <NowPlayingProvider>
-            <MileageProvider>
-              {/* Background starfield */}
-              <Starfield />
-
-              {/* Cockpit overlay + HUD */}
-              <CockpitOverlay />
-              <CockpitHUD />
-
-              {/* Page Content */}
-              <main className="relative z-10">{children}</main>
-            </MileageProvider>
-          </NowPlayingProvider>
-        </EQProvider>
+      <body className="bg-black text-white">
+        <NowPlayingProvider>
+          <MileageProvider>
+            <EQProvider>
+              <SteeringProvider>
+                <Starfield />
+                <CockpitHUD />
+                {children}
+              </SteeringProvider>
+            </EQProvider>
+          </MileageProvider>
+        </NowPlayingProvider>
       </body>
     </html>
   );

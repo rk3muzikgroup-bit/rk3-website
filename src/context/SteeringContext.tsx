@@ -1,16 +1,22 @@
 "use client";
 
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, ReactNode } from "react";
 
 type SteeringContextType = {
-  x: number; // left/right
-  y: number; // forward/back
+  x: number;
+  y: number;
   setSteering: (x: number, y: number) => void;
 };
 
 const SteeringContext = createContext<SteeringContextType | null>(null);
 
-export function SteeringProvider({ children }: { children: React.ReactNode }) {
+export function useSteering() {
+  const ctx = useContext(SteeringContext);
+  if (!ctx) throw new Error("useSteering must be inside SteeringProvider");
+  return ctx;
+}
+
+export function SteeringProvider({ children }: { children: ReactNode }) {
   const [x, setX] = useState(0);
   const [y, setY] = useState(0);
 
@@ -24,10 +30,4 @@ export function SteeringProvider({ children }: { children: React.ReactNode }) {
       {children}
     </SteeringContext.Provider>
   );
-}
-
-export function useSteering() {
-  const ctx = useContext(SteeringContext);
-  if (!ctx) throw new Error("useSteering must be inside SteeringProvider");
-  return ctx;
 }
