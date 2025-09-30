@@ -1,0 +1,9 @@
+export default function CelestialDustField() {
+  return (
+    <div aria-hidden className="pointer-events-none fixed inset-0 -z-10">
+      <div className="w-full h-full" style={{
+        background: 'radial-gradient(circle at 50% 30%, rgba(203,213,225,0.06), transparent 20%)'
+      }} />
+    </div>
+  );
+}
