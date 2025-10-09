@@ -1,34 +1,28 @@
-// middleware.ts
-import type { NextRequest } from "next/server";
-import { NextResponse } from "next/server";
-
-export function middleware(req: NextRequest) {
-  const { pathname, searchParams } = req.nextUrl;
-  const unlocked = req.cookies.get("rk3_vault")?.value === "unlocked";
-
-  // Protect all /vault routes (including /vault/rooms/*)
-  if (pathname.startsWith("/vault")) {
-    if (!unlocked) {
-      const url = req.nextUrl.clone();
-      url.pathname = "/vault-entry";
-      url.searchParams.set("next", pathname + (req.nextUrl.search || ""));
-      return NextResponse.redirect(url);
-    }
+{
+  "name": "rks3-command-base",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "framer-motion": "^11.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^9.12.0",
+    "eslint-config-next": "15.0.0",
+    "tailwindcss": "^3.4.13",
+    "postcss": "^8.4.47",
+    "autoprefixer": "^10.4.20"
   }
-
-  // If already unlocked, skip entry and go to /vault
-  if (pathname === "/vault-entry" && unlocked) {
-    const url = req.nextUrl.clone();
-    url.pathname = "/vault";
-    // preserve any ?next intent if you want:
-    const nextDest = searchParams.get("next");
-    if (nextDest) url.pathname = nextDest;
-    return NextResponse.redirect(url);
-  }
-
-  return NextResponse.next();
 }
-
-export const config = {
-  matcher: ["/vault/:path*", "/vault-entry"],
-};
