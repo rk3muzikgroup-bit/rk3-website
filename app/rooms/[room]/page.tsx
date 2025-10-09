@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { useParams } from "next/navigation";
-import { roomConfig } from "@/config/rooms";
+import { roomConfig } from "../../../config/rooms";
 import { usePlaySound } from "@/hooks/usePlaySound";
 import { useAmbient } from "@/hooks/useAmbient";
 import { useVideoVolume } from "@/hooks/useVideoVolume";

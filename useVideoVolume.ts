@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import { useVolume } from "@/context/VolumeContext";
-import { videoGains } from "@/config/gainMap";
+import { videoGains } from "./config/gainMap";
 
 export function useVideoVolume(src: string, ref: React.RefObject<HTMLVideoElement>) {
   const { volume, muted } = useVolume();

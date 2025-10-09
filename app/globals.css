@@ -306,3 +306,17 @@ body {
   50% { box-shadow: 0 0 25px rgba(16,185,129,0.8); }
   100% { box-shadow: 0 0 5px rgba(16,185,129,0.3); }
 }
+@keyframes flicker {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+.flicker {
+  animation: flicker 3s infinite ease-in-out;
+}
+.btn-livingroom {
+  @apply px-6 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-lg font-semibold shadow-lg transition-all;
+}
+.btn-livingroom {
+  @apply px-6 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-lg font-semibold shadow-lg transition-all;
+}

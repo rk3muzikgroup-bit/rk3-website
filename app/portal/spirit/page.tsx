@@ -1,20 +1,21 @@
 "use client";
 
-import { useEffect } from "react";
-import { useNowPlaying } from "@/context/NowPlayingContext";
-
 export default function SpiritPortal() {
-  const { setFile } = useNowPlaying();
-
-  useEffect(() => {
-    setFile("/sounds/ride/Spirit_Ride.mp3");
-  }, [setFile]);
-
   return (
-    <div className="h-screen w-screen flex flex-col items-center justify-center bg-indigo-950 text-white">
-      <h1 className="text-3xl font-bold mb-2">Spirit Portal</h1>
-      <p className="text-gray-300 mb-4">✨ Beyond the veil, pure essence.</p>
-      <audio src="/sounds/ride/Spirit_Ride.mp3" autoPlay loop />
-    </div>
+    <main className="relative min-h-screen bg-black text-white flex items-center justify-center overflow-hidden">
+      <video
+        src="/videos/backgrounds/starfield_spirit.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      <div className="relative z-10 text-center">
+        <h1 className="text-5xl font-extrabold text-green-400 drop-shadow-lg">
+          ✨ Spirit Portal
+        </h1>
+      </div>
+    </main>
   );
 }

@@ -1,0 +1,13 @@
+# keep heavy media out of deploy bundle
+public/videos/*
+public/sounds/*
+app/mixtapes/*
+hollywood/*
+public/_raw_backup/*
+# safety: local caches
+*.zip
+*.mov
+*.mp4
+*.wav
+*.aiff
+*.flac

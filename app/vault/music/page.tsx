@@ -1,68 +1,43 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-"use client";
+import VaultLayout from "@/components/VaultLayout";
+import MusicFX from "@/components/vault/MusicFX";
 
-import { useRouter } from "next/navigation";
-import { usePlaySound } from "@/hooks/usePlaySound";
-export default function MusicPage() {
+export default function MusicVault() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-black text-white">
-      <div className="text-center max-w-2xl p-6">
-        <h1 className="text-4xl font-bold mb-4">🎧 Music Portal</h1>
-        <p className="text-lg text-gray-300">
-          Beats, vocals, and vibrations — the Music Portal is where RK3 sounds live.
-        </p>
+    <VaultLayout title="🎶 Music Vault">
+      {/* Background mural */}
+      <div className="absolute inset-0 -z-10">
+        <img
+          src="/assets/vault/music_mural.png"
+          alt="Music Mural"
+          className="h-full w-full object-cover opacity-40"
+        />
       </div>
-    </main>
+
+      {/* FX overlay */}
+      <MusicFX />
+
+      {/* Content zone */}
+      <div className="relative z-10 text-white text-center space-y-6">
+        <p className="text-lg">Exclusive tracks & unreleased RK3 sounds</p>
+
+        {/* Track grid */}
+        <div className="grid grid-cols-2 gap-4 max-w-3xl mx-auto">
+          <div className="rounded-lg bg-white/10 p-4 hover:bg-white/20">
+            <p className="font-semibold">Track 1</p>
+            <audio controls className="w-full mt-2">
+              <source src="/sounds/track1.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+          <div className="rounded-lg bg-white/10 p-4 hover:bg-white/20">
+            <p className="font-semibold">Track 2</p>
+            <audio controls className="w-full mt-2">
+              <source src="/sounds/track2.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </div>
+      </div>
+    </VaultLayout>
   );
 }
-
-export default function VaultClosingPage() {
-  const router = useRouter();
-  const [fadeOut, setFadeOut] = useState(false);
-
-  // 🔑 Set vault label here
-  const label = "MUSIC"; // change to AUDIOBOOKS, AVATARS, HEALING, etc.
-
-  useEffect(() => {
-    // 2.5s → fade trigger
-    const fadeTimer = setTimeout(() => setFadeOut(true), 2500);
-
-    // 11s → auto return home
-    const returnTimer = setTimeout(() => {
-      router.push("/");
-    }, 11000);
-
-    return () => {
-      clearTimeout(fadeTimer);
-      clearTimeout(returnTimer);
-    };
-  }, [router]);
-
-  return (
-    <div
-      className={`relative flex items-center justify-center min-h-screen bg-black text-white transition-opacity duration-2000 ${
-        fadeOut ? "opacity-0" : "opacity-100"
-      }`}
-    >
-      <h1 className="text-4xl font-bold tracking-widest">
-        {label} VAULT SEALED
-      </h1>
-    </div>
-  );
-const router = useRouter();
-const playSound = usePlaySound();
-
-const goBack = () => {
-  playSound("vault/unlock");
-  router.push("/vault");
-};
-}
-<button
-  onClick={goBack}
-  className="mt-8 px-6 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 transition font-semibold"
->
-  ⬅ Back to Vault
-</button>

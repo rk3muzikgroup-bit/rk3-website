@@ -1,27 +1,34 @@
-{
-  "name": "rks3-command-base",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "framer-motion": "^11.0.0",
-    "lucide-react": "^0.544.0",
-    "music-metadata": "^11.9.0",
-    "next": "15.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "stripe": "^18.5.0"
-  },
-  "devDependencies": {
-    "@types/node": "24.3.3",
-    "@types/react": "19.1.13",
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "typescript": "5.9.2"
+// middleware.ts
+import type { NextRequest } from "next/server";
+import { NextResponse } from "next/server";
+
+export function middleware(req: NextRequest) {
+  const { pathname, searchParams } = req.nextUrl;
+  const unlocked = req.cookies.get("rk3_vault")?.value === "unlocked";
+
+  // Protect all /vault routes (including /vault/rooms/*)
+  if (pathname.startsWith("/vault")) {
+    if (!unlocked) {
+      const url = req.nextUrl.clone();
+      url.pathname = "/vault-entry";
+      url.searchParams.set("next", pathname + (req.nextUrl.search || ""));
+      return NextResponse.redirect(url);
+    }
   }
+
+  // If already unlocked, skip entry and go to /vault
+  if (pathname === "/vault-entry" && unlocked) {
+    const url = req.nextUrl.clone();
+    url.pathname = "/vault";
+    // preserve any ?next intent if you want:
+    const nextDest = searchParams.get("next");
+    if (nextDest) url.pathname = nextDest;
+    return NextResponse.redirect(url);
+  }
+
+  return NextResponse.next();
 }
+
+export const config = {
+  matcher: ["/vault/:path*", "/vault-entry"],
+};

@@ -1,12 +1,14 @@
 "use client";
 
 import { ReactNode } from "react";
+import Orbs from "@/components/Orbs";
+import Ethers from "@/components/Ethers";
 import CosmicBackgroundsHUD from "@/app/backgrounds/CosmicBackgroundsHUD";
-import { portalConfig } from "@/app/config/portalConfig";
+import portalConfig from "@/utils/portalConfig";
 
 export default function PortalLayout({
   children,
-  portal = "street", // default fallback
+  portal = "street",
 }: {
   children: ReactNode;
   portal?: keyof typeof portalConfig;
@@ -23,6 +25,10 @@ export default function PortalLayout({
         fadeSpeed={config.fadeSpeed}
         showCountdown={config.showCountdown}
       />
+
+      {/* Floating FX */}
+      <Ethers count={30} />
+      <Orbs count={4} />
 
       {/* Portal content layered on top */}
       <div className="absolute inset-0 flex items-center justify-center">

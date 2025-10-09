@@ -1,38 +1,52 @@
 "use client";
 
 import { useState } from "react";
+import { usePlaySound } from "@/hooks/usePlaySound";
 import { useVideoSrc } from "@/hooks/useVideoSrc";
 import { useAmbient } from "@/hooks/useAmbient";
-import { usePlaySound } from "@/hooks/usePlaySound";
 
-export default function TestPage() {
+import Orbs from "@/components/Orbs";
+import Ethers from "@/components/Ethers";
+import CosmicBackgroundsHUD from "@/app/backgrounds/CosmicBackgroundsHUD";
+
+export default function FullTestPage() {
   const [ride, setRide] = useState<"street" | "soul" | "spirit">("street");
 
-  // ambient hum in the background
+  // Ambient background hum
   useAmbient("/sounds/vault/door_hum.mp3", 0.15);
 
-  // playSound hook
+  // Play sound hook
   const playSound = usePlaySound();
 
-  // pick video based on ride state
+  // Video source
   const videoSrc = useVideoSrc(ride);
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white gap-6">
-      <h1 className="text-3xl font-bold">🚀 Hook Test Page</h1>
+    <main className="relative min-h-screen flex flex-col items-center justify-center bg-black text-white overflow-hidden">
+      {/* Background cosmic HUD */}
+      <CosmicBackgroundsHUD cycle={true} duration={15000} />
 
-      {/* Video preview */}
+      {/* Particle FX */}
+      <Ethers count={40} />
+      <Orbs count={7} />
+
+      {/* Headline */}
+      <h1 className="text-4xl md:text-6xl font-bold z-10 mb-6 text-indigo-300 drop-shadow-lg">
+        🚀 RK3 Cosmic Test Page
+      </h1>
+
+      {/* Video Preview */}
       <video
         key={videoSrc}
         autoPlay
         loop
         muted
-        className="w-2/3 rounded-xl shadow-lg border border-gray-700"
+        className="w-2/3 rounded-xl shadow-lg border border-gray-700 z-10"
         src={videoSrc}
       />
 
-      {/* Ride switcher */}
-      <div className="flex gap-4">
+      {/* Ride Switcher */}
+      <div className="flex gap-4 mt-6 z-10">
         <button
           onClick={() => setRide("street")}
           className="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700"
@@ -53,13 +67,13 @@ export default function TestPage() {
         </button>
       </div>
 
-      {/* Sound trigger */}
+      {/* Sound Trigger */}
       <button
         onClick={() => playSound("/sounds/ride/rocket_whoosh.mp3")}
-        className="px-6 py-3 rounded-xl bg-yellow-500 hover:bg-yellow-600 text-black font-semibold"
+        className="mt-6 px-6 py-3 rounded-xl bg-yellow-500 hover:bg-yellow-600 text-black font-semibold z-10"
       >
         🔊 Play Rocket Sound
       </button>
-    </div>
+    </main>
   );
 }

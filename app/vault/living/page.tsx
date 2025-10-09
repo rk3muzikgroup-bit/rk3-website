@@ -1,39 +1,64 @@
 "use client";
 
+import CosmicBackground from "@/components/CosmicBackground";
 import { useRouter } from "next/navigation";
 import { usePlaySound } from "@/hooks/usePlaySound";
+import { motion } from "framer-motion";
+
+const portals = [
+  { name: "Street", path: "/rooms/street", color: "emerald-500" },
+  { name: "Soul", path: "/rooms/soul", color: "indigo-500" },
+  { name: "Spirit", path: "/rooms/spirit", color: "yellow-500" },
+  { name: "Healing Frequencies", path: "/vault/rooms/healing", color: "cyan-500" },
+  { name: "Artifacts Wing", path: "/vault/rooms/artifacts", color: "purple-500" },
+  { name: "Creator’s Chamber", path: "/vault/rooms/creators", color: "pink-500" }, // 🔥 added here
+];
+
 export default function LivingRoomPage() {
+  const router = useRouter();
+  const playSound = usePlaySound();
+
+  const goTo = (path: string) => {
+    playSound("/sounds/vault/unlock.mp3");
+    router.push(path);
+  };
+
   return (
-    <main className="min-h-screen flex items-center justify-center bg-black text-white">
-      <div className="text-center max-w-2xl p-6">
-        <h1 className="text-4xl font-bold mb-4">🛋️ Living Room</h1>
-        <p className="text-lg text-gray-300 mb-6">
-          This is the heart of the Vault — the center where all 13 portals come
-          together. Chill, connect, and vibe before exploring deeper.
+    <div className="relative h-screen w-screen overflow-hidden text-white">
+      <CosmicBackground />
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2 }}
+        className="absolute inset-0 flex flex-col items-center justify-center z-10 p-8"
+      >
+        <h1 className="text-5xl font-bold mb-12">🛋️ Living Room Hub</h1>
+        <p className="text-lg mb-12 max-w-2xl text-center opacity-80">
+          The central nucleus of the Vault. All paths connect here.
         </p>
 
-        <div className="mt-10 flex flex-col space-y-4">
-          <button className="px-6 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 transition font-semibold">
-            Return to Vault
-          </button>
-          <button className="px-6 py-3 rounded-2xl bg-green-600 hover:bg-green-700 transition font-semibold">
-            Explore Portals
-          </button>
+        <div className="grid grid-cols-2 gap-8">
+          {portals.map((portal, i) => (
+            <motion.button
+              key={portal.name}
+              onClick={() => goTo(portal.path)}
+              className={`px-8 py-6 rounded-2xl text-2xl shadow-xl bg-${portal.color} hover:scale-105 transition-transform`}
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: i * 0.3 }}
+            >
+              {portal.name}
+            </motion.button>
+          ))}
         </div>
-      </div>
-    </main>
+
+        <button
+          onClick={() => router.push("/vault/rooms")}
+          className="mt-12 px-8 py-4 bg-gray-800 rounded-xl text-lg"
+        >
+          ⬅ Back to Vault
+        </button>
+      </motion.div>
+    </div>
   );
-}const router = useRouter();
-const playSound = usePlaySound();
-
-const goBack = () => {
-  playSound("vault/unlock");
-  router.push("/vault");
-};
-<button
-  onClick={goBack}
-  className="mt-8 px-6 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 transition font-semibold"
->
-  ⬅ Back to Vault
-</button>
-
+}

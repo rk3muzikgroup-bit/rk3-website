@@ -1,56 +1,55 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { usePlaySound } from "@/hooks/usePlaySound";
+import VaultLayout from "@/components/VaultLayout";
+import MerchFX from "@/components/vault/MerchFX";
 
-export default function MerchPage() {
-  const router = useRouter();
-  const playSound = usePlaySound();
-
-  const goBack = () => {
-    playSound("vault/unlock");
-    router.push("/vault");
-  };
-
+export default function MerchVault() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-black text-white">
-      <div className="text-center max-w-2xl p-6">
-        <h1 className="text-4xl font-bold mb-4">🛍️ Merch Portal</h1>
-        <p className="text-lg text-gray-300 mb-6">
-          Exclusive RK3 drops, fashion, and collectibles — soul on your sleeve.
-        </p>
-        <button
-          onClick={goBack}
-          className="px-6 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 transition font-semibold"
-        >
-          ⬅ Back to Vault
-        </button>
+    <VaultLayout title="🛍️ Merch Vault">
+      {/* Background mural */}
+      <div className="absolute inset-0 -z-10">
+        <img
+          src="/assets/vault/merch_mural.png"
+          alt="Merch Mural"
+          className="h-full w-full object-cover opacity-40"
+        />
       </div>
-    </main>
-  );
-}
-export default function MerchPage() {
-  return (
-    <main className="min-h-screen flex items-center justify-center bg-black text-white">
-      <div className="text-center max-w-2xl p-6">
-        <h1 className="text-4xl font-bold mb-4">🛍️ Merch Portal</h1>
-        <p className="text-lg text-gray-300 mb-6">
-          Welcome to the RK3 Merch Portal — where Street • Soul • Spirit 
-          come to life in exclusive drops, gear, and collectibles.
-        </p>
 
-        <div className="grid grid-cols-2 gap-6 mt-8">
-          {/* Example placeholders — swap these out for real merch items */}
-          <div className="p-4 rounded-2xl bg-white/10 shadow-md hover:bg-indigo-700 transition cursor-pointer">
-            <h2 className="font-semibold text-xl">SOUL • STREET • SPIRIT Tee</h2>
-            <p className="text-gray-400 text-sm">Classic RK3 t-shirt design</p>
+      {/* FX overlay */}
+      <MerchFX />
+
+      {/* Content zone */}
+      <div className="relative z-10 text-white text-center space-y-6">
+        <p className="text-lg">RK3 exclusive drops & collectibles</p>
+
+        {/* Product grid */}
+        <div className="grid grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="rounded-lg bg-yellow-500/20 p-4 hover:bg-yellow-500/30">
+            <img
+              src="/assets/vault/merch_item1.png"
+              alt="Item 1"
+              className="mx-auto mb-2 h-24 w-24 object-contain"
+            />
+            <p className="font-semibold">Item 1</p>
           </div>
-          <div className="p-4 rounded-2xl bg-white/10 shadow-md hover:bg-indigo-700 transition cursor-pointer">
-            <h2 className="font-semibold text-xl">RK3 Hoodie</h2>
-            <p className="text-gray-400 text-sm">Indigo Blue • Emerald Green • Gold</p>
+          <div className="rounded-lg bg-yellow-500/20 p-4 hover:bg-yellow-500/30">
+            <img
+              src="/assets/vault/merch_item2.png"
+              alt="Item 2"
+              className="mx-auto mb-2 h-24 w-24 object-contain"
+            />
+            <p className="font-semibold">Item 2</p>
+          </div>
+          <div className="rounded-lg bg-yellow-500/20 p-4 hover:bg-yellow-500/30">
+            <img
+              src="/assets/vault/merch_item3.png"
+              alt="Item 3"
+              className="mx-auto mb-2 h-24 w-24 object-contain"
+            />
+            <p className="font-semibold">Item 3</p>
           </div>
         </div>
       </div>
-    </main>
+    </VaultLayout>
   );
 }

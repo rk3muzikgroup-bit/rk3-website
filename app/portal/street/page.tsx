@@ -1,20 +1,21 @@
 "use client";
 
-import { useEffect } from "react";
-import { useNowPlaying } from "@/context/NowPlayingContext";
-
 export default function StreetPortal() {
-  const { setFile } = useNowPlaying();
-
-  useEffect(() => {
-    setFile("/sounds/ride/Street_Ride.mp3");
-  }, [setFile]);
-
   return (
-    <div className="h-screen w-screen flex flex-col items-center justify-center bg-black text-white">
-      <h1 className="text-3xl font-bold mb-2">Street Portal</h1>
-      <p className="text-gray-400 mb-4">🚦 Cruising the concrete jungle.</p>
-      <audio src="/sounds/ride/Street_Ride.mp3" autoPlay loop />
-    </div>
+    <main className="relative min-h-screen bg-black text-white flex items-center justify-center overflow-hidden">
+      <video
+        src="/videos/backgrounds/starfield_street.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      <div className="relative z-10 text-center">
+        <h1 className="text-5xl font-extrabold text-blue-400 drop-shadow-lg">
+          🌆 Street Portal
+        </h1>
+      </div>
+    </main>
   );
 }

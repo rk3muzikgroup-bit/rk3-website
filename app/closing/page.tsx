@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import usePlaySound from "@/hooks/usePlaySound";
+import { usePlaySound } from "@/hooks/usePlaySound"; // ✅ named import
 
 export default function VaultClosing() {
   const playClosing = usePlaySound("vault/closing_long");
@@ -13,11 +13,9 @@ export default function VaultClosing() {
   useEffect(() => {
     if (!started) {
       setStarted(true);
-
-      // Sequence: long closing track, then door close, then hum
       playClosing();
-      setTimeout(() => playDoor(), 12000); // 12s in (near end of long)
-      setTimeout(() => playHum(), 13000);  // follow right after
+      setTimeout(() => playDoor(), 12000);
+      setTimeout(() => playHum(), 13000);
     }
   }, [started, playClosing, playDoor, playHum]);
 

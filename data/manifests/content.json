@@ -1,0 +1,62 @@
+{
+  "street": {
+    "beats": [
+      { "title": "Fat Boy Boogie", "artist": "RK3", "full": "/sounds/street/fat-boy-boogie.mp3" },
+      { "title": "Block Poetry", "artist": "RK3", "full": "/sounds/street/block-poetry.mp3" }
+    ],
+    "poetry": [
+      { "title": "Concrete Love", "artist": "RK3", "full": "/sounds/street/concrete-love.mp3" }
+    ],
+    "mixtapes": [
+      { "title": "Concrete Jungle Vol. 1", "artist": "RK3", "full": "/sounds/street/mixtape-concrete-jungle.mp3" }
+    ],
+    "visuals": [
+      { "title": "Graffiti Loop", "src": "/videos/street/graffiti-loop.mp4" }
+    ]
+  },
+  "soul": {
+    "tracks": [
+      { "title": "Healing Ain’t", "artist": "RK3", "full": "/sounds/soul/healing-aint.mp3" }
+    ],
+    "spoken": [
+      { "title": "World is Changing", "artist": "RK3", "full": "/sounds/soul/world-is-changing.mp3" }
+    ],
+    "vibes": [
+      { "title": "Neo-Soul Flow", "artist": "RK3", "full": "/sounds/soul/neo-soul-flow.mp3" }
+    ],
+    "visuals": [
+      { "title": "Soul Glow", "src": "/videos/soul/soul-glow.mp4" }
+    ]
+  },
+  "spirit": {
+    "meditations": [
+      { "title": "On God Mode", "artist": "RK3", "full": "/sounds/spirit/on-god-mode.mp3" }
+    ],
+    "visuals": [
+      { "title": "Cosmic Dust", "src": "/videos/spirit/cosmic-dust.mp4" }
+    ]
+  },
+  "vault": {
+    "frequencies": [
+      { "title": "432 Hz", "artist": "RK3", "full": "/sounds/frequencies/432hz.mp3" },
+      { "title": "528 Hz", "artist": "RK3", "full": "/sounds/frequencies/528hz.mp3" }
+    ],
+    "artifacts": [
+      {
+        "title": "Aztec Sun Stone",
+        "img": "/assets/artifacts/aztec-sunstone.png",
+        "full": "/sounds/artifacts/aztec-chant.mp3"
+      }
+    ],
+    "livingRoom": [
+      { "title": "Cosmic Lounge", "src": "/videos/vault/living-room.mp4" }
+    ]
+  },
+  "ride": {
+    "videos": [
+      { "title": "Street Ride", "src": "/videos/ride/Street_Ride.mp4" },
+      { "title": "Soul Ride", "src": "/videos/ride/Soul_Ride.mp4" },
+      { "title": "Spirit Ride", "src": "/videos/ride/Spirit_Ride.mp4" }
+    ]
+  }
+}

@@ -25,21 +25,21 @@ export default function RidePage() {
   useEffect(() => {
     if (videoRef.current) {
       videoRef.current.volume = 0.5; // baseline for ride videos
-      videoRef.current.play().catch(() => {});
+      videoRef.current.play().catch(() => {
+        console.warn("Ride video autoplay blocked until user interaction.");
+      });
     }
   }, []);
 
-  // 🕒 Timing flow: 59s video fade → 1:11 vault transition
+  // 🕒 Timing flow: fade at 59s → black screen → Vault at 1:11
   useEffect(() => {
-    // Fade video out at 59s
     const fadeTimer = setTimeout(() => {
       setFadeOut(true);
-      setTimeout(() => setBlackScreen(true), 2000); // fully black after fade
+      setTimeout(() => setBlackScreen(true), 2000);
     }, 59000);
 
-    // Route to vault at 71s (1:11)
     const routeTimer = setTimeout(() => {
-      router.push("/vault/portals");
+      router.push("/vault"); // 🚀 go to Vault unlock
     }, 71000);
 
     return () => {
@@ -71,11 +71,11 @@ export default function RidePage() {
         <div className="absolute inset-0 bg-black transition-opacity duration-1000" />
       )}
 
-      {/* 🎛 HUD + Exit (manual control) */}
+      {/* 🎛 HUD + Exit */}
       <div className="absolute inset-0 z-20 flex flex-col items-center justify-end p-8 space-y-6">
         <HUDVolume />
         <button
-          onClick={() => router.push("/vault/portals")}
+          onClick={() => router.push("/vault")}
           className="px-6 py-3 rounded-2xl bg-gray-700 text-white font-bold shadow-lg hover:bg-gray-800 transition"
         >
           🔙 Skip to Vault

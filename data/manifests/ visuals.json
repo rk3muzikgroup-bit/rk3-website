@@ -1,0 +1,38 @@
+{
+  "street": {
+    "visuals": [
+      { "title": "Graffiti Loop", "src": "/videos/street/graffiti-loop.mp4" },
+      { "title": "Corner Nights", "src": "/videos/street/corner-nights.mp4" }
+    ]
+  },
+  "soul": {
+    "visuals": [
+      { "title": "Soul Glow", "src": "/videos/soul/soul-glow.mp4" },
+      { "title": "Blue Smoke", "src": "/videos/soul/blue-smoke.mp4" }
+    ]
+  },
+  "spirit": {
+    "visuals": [
+      { "title": "Cosmic Dust", "src": "/videos/spirit/cosmic-dust.mp4" },
+      { "title": "Galaxy Flow", "src": "/videos/spirit/galaxy-flow.mp4" }
+    ]
+  },
+  "vault": {
+    "artifacts": [
+      { "title": "Aztec Sun Stone", "img": "/assets/artifacts/aztec-sunstone.png" },
+      { "title": "Mayan Jade Mask", "img": "/assets/artifacts/mayan-jade.png" },
+      { "title": "Incan Golden Llama", "img": "/assets/artifacts/incan-llama.png" },
+      { "title": "Olmec Colossal Head", "img": "/assets/artifacts/olmec-head.png" }
+    ],
+    "livingRoom": [
+      { "title": "Cosmic Lounge", "src": "/videos/vault/living-room.mp4" }
+    ]
+  },
+  "ride": {
+    "videos": [
+      { "title": "Street Ride", "src": "/videos/ride/Street_Ride.mp4" },
+      { "title": "Soul Ride", "src": "/videos/ride/Soul_Ride.mp4" },
+      { "title": "Spirit Ride", "src": "/videos/ride/Spirit_Ride.mp4" }
+    ]
+  }
+}

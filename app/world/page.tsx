@@ -1,103 +1,106 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import { useRouter } from "next/navigation";
-import { useVideoSrc } from "@/hooks/useVideoSrc";
-import { usePlaySound } from "@/hooks/usePlaySound";
-import { useNowPlaying } from "@/context/NowPlayingContext";
-import { useAmbient } from "@/hooks/useAmbient";
 import CosmicBackground from "@/components/CosmicBackground";
+import { useRouter } from "next/navigation";
+import { usePlaySound } from "@/hooks/usePlaySound";
+import { motion } from "framer-motion";
 
-export default function MusicWorldPage() {
+export default function WorldPage() {
   const router = useRouter();
   const playSound = usePlaySound();
-  const { setTrack } = useNowPlaying();
-  const musicSrc = useVideoSrc("ride/Street_Ride"); // can swap to a MUSIC loop later
-  const videoRef = useRef<HTMLVideoElement>(null);
 
-  // Ambient entry vibe
-  useAmbient("ride/transition_whoosh", { volume: 0.4 });
-
-  useEffect(() => {
-    setTrack("RKS3 MUSIC WORLD — Infinite Vibes");
-    playSound("vault/unlock");
-  }, [setTrack, playSound]);
+  const goTo = (path: string, sound: string) => {
+    playSound(sound, { volume: 0.8 });
+    router.push(path);
+  };
 
   return (
-    <main className="relative h-screen w-screen overflow-hidden">
-      {/* Cosmic + Music Background */}
+    <div className="relative h-screen w-screen overflow-hidden text-white">
       <CosmicBackground />
-      <video
-        ref={videoRef}
-        src={musicSrc}
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute inset-0 h-full w-full object-cover opacity-80"
-      />
 
-      {/* Overlay Tint */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-indigo-900/50" />
-
-      {/* Title */}
-      <div className="absolute top-6 left-1/2 -translate-x-1/2 text-center z-10">
-        <h1 className="text-4xl font-bold text-yellow-300 drop-shadow-xl tracking-widest">
-          MUSIC WORLD
+      {/* 🎬 Intro cinematic overlay */}
+      <motion.div
+        initial={{ opacity: 1, scale: 1 }}
+        animate={{ opacity: 0, scale: 1.1 }}
+        transition={{ duration: 2, delay: 1 }}
+        className="absolute inset-0 z-50 flex items-center justify-center bg-black"
+      >
+        <h1 className="text-4xl font-bold text-emerald-400 tracking-widest animate-pulse">
+          🌌 INITIATING WORLD SEQUENCE
         </h1>
-        <p className="text-md text-emerald-300 mt-1">
-          Beats • Tracks • Vault Journeys
-        </p>
-      </div>
+      </motion.div>
 
-      {/* Category Buttons */}
-      <div className="absolute inset-0 flex items-center justify-center z-10">
-        <div className="grid grid-cols-2 gap-12">
-          <button
-            onClick={() => {
-              playSound("ride/transition_whoosh");
-              router.push("/world/music/beats");
-            }}
-            className="px-8 py-6 rounded-xl bg-emerald-600/80 hover:bg-emerald-500 text-white font-bold shadow-lg transition transform hover:scale-110"
-          >
-            🎹 Beats
-          </button>
-          <button
-            onClick={() => {
-              playSound("ride/transition_whoosh");
-              router.push("/world/music/tracks");
-            }}
-            className="px-8 py-6 rounded-xl bg-indigo-600/80 hover:bg-indigo-500 text-white font-bold shadow-lg transition transform hover:scale-110"
-          >
-            🎤 Tracks
-          </button>
-          <button
-            onClick={() => {
-              playSound("ride/transition_whoosh");
-              router.push("/world/music/vault");
-            }}
-            className="px-8 py-6 rounded-xl bg-yellow-600/80 hover:bg-yellow-500 text-white font-bold shadow-lg transition transform hover:scale-110"
-          >
-            🌀 Vault Journeys
-          </button>
-          <button
-            onClick={() => {
-              playSound("vault/door_close");
-              router.push("/world");
-            }}
-            className="px-8 py-6 rounded-xl bg-red-600/80 hover:bg-red-500 text-white font-bold shadow-lg transition transform hover:scale-110"
-          >
-            ⬅ Back to World
-          </button>
-        </div>
-      </div>
+      {/* 🌍 Main Content */}
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 2, delay: 1.5 }}
+        className="absolute inset-0 flex flex-col items-center justify-center z-10 space-y-12"
+      >
+        {/* Title */}
+        <motion.h1
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 2 }}
+          className="text-6xl font-extrabold drop-shadow-[0_0_30px_rgba(0,255,200,0.8)]"
+        >
+          🌍 Welcome to the World
+        </motion.h1>
 
-      {/* Now Playing HUD */}
-      <div className="absolute bottom-4 right-6 z-10 bg-black/70 px-4 py-2 rounded-xl shadow-lg">
-        <span className="font-mono text-sm text-yellow-200">
-          🎵 Now Playing: <strong>RKS3 MUSIC WORLD — Infinite Vibes</strong>
-        </span>
-      </div>
-    </main>
+        {/* 🚪 Portals */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 2.5 }}
+          className="flex space-x-12"
+        >
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() =>
+              goTo("/rooms/street", "/sounds/ride/transition_whoosh.mp3")
+            }
+            className="px-10 py-5 bg-emerald-600 rounded-2xl text-2xl font-semibold shadow-[0_0_20px_rgba(16,185,129,0.7)] hover:shadow-[0_0_40px_rgba(16,185,129,1)] transition"
+          >
+            🏙 Street Portal
+          </motion.button>
+
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() =>
+              goTo("/rooms/soul", "/sounds/ride/transition_whoosh.mp3")
+            }
+            className="px-10 py-5 bg-indigo-600 rounded-2xl text-2xl font-semibold shadow-[0_0_20px_rgba(99,102,241,0.7)] hover:shadow-[0_0_40px_rgba(99,102,241,1)] transition"
+          >
+            💚 Soul Portal
+          </motion.button>
+
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() =>
+              goTo("/rooms/spirit", "/sounds/ride/transition_whoosh.mp3")
+            }
+            className="px-10 py-5 bg-yellow-500 text-black rounded-2xl text-2xl font-semibold shadow-[0_0_20px_rgba(234,179,8,0.7)] hover:shadow-[0_0_40px_rgba(234,179,8,1)] transition"
+          >
+            🌌 Spirit Portal
+          </motion.button>
+        </motion.div>
+
+        {/* 🗝️ Vault Entry */}
+        <motion.button
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 3 }}
+          whileHover={{ scale: 1.15 }}
+          whileTap={{ scale: 0.95 }}
+          onClick={() => goTo("/vault/rooms", "/sounds/vault/unlock.mp3")}
+          className="mt-16 px-12 py-6 bg-purple-700 rounded-3xl text-3xl font-bold shadow-[0_0_30px_rgba(168,85,247,0.8)] hover:shadow-[0_0_60px_rgba(168,85,247,1)] transition"
+        >
+          🗝️ Enter Vault Rooms
+        </motion.button>
+      </motion.div>
+    </div>
   );
 }
