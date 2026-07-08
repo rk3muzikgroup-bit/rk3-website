@@ -1,0 +1,387 @@
+{
+  "generatedAt": "2026-07-07T23:06:44.524Z",
+  "sourceFiles": {
+    "catalog": "data/rks3-audio-catalog.full.json",
+    "ingestReport": "data/rks3-audio-report.full.json",
+    "qcReport": "data/rks3-audio-qc-report.full.json",
+    "weakTitlePlan": "data/rks3-audio-weak-title-plan.full.json",
+    "duplicatePlan": "data/rks3-audio-duplicate-version-plan.full.json"
+  },
+  "executiveSummary": {
+    "totalRecords": 483,
+    "sourceRoot": "/Volumes/RK3 DJ SET/RKS3-BACKUP folder/Music Portal",
+    "audioCopied": 0,
+    "activeWebsiteCatalogChanged": false,
+    "activeWebsiteCatalogRecords": 30,
+    "fullMetadataRecords": 483,
+    "currentCategoryCount": 14,
+    "unknownCategoryRecords": 0,
+    "weakTitleRecords": 10,
+    "oddFilenameRecords": 16,
+    "futureLaneRecords": 3,
+    "duplicateTitleGroups": 83,
+    "sameCategoryVersionClusters": 57,
+    "reviewCandidates": 290
+  },
+  "categoryRows": [
+    {
+      "category": "rnb",
+      "count": 135,
+      "percentage": 28
+    },
+    {
+      "category": "rap",
+      "count": 86,
+      "percentage": 17.8
+    },
+    {
+      "category": "healing",
+      "count": 68,
+      "percentage": 14.1
+    },
+    {
+      "category": "instrumentals",
+      "count": 58,
+      "percentage": 12
+    },
+    {
+      "category": "poetry",
+      "count": 37,
+      "percentage": 7.7
+    },
+    {
+      "category": "remixes",
+      "count": 34,
+      "percentage": 7
+    },
+    {
+      "category": "skits",
+      "count": 29,
+      "percentage": 6
+    },
+    {
+      "category": "bilingual",
+      "count": 14,
+      "percentage": 2.9
+    },
+    {
+      "category": "music",
+      "count": 10,
+      "percentage": 2.1
+    },
+    {
+      "category": "promo",
+      "count": 6,
+      "percentage": 1.2
+    },
+    {
+      "category": "mixtapes",
+      "count": 3,
+      "percentage": 0.6
+    },
+    {
+      "category": "soul",
+      "count": 1,
+      "percentage": 0.2
+    },
+    {
+      "category": "spirit",
+      "count": 1,
+      "percentage": 0.2
+    },
+    {
+      "category": "street",
+      "count": 1,
+      "percentage": 0.2
+    }
+  ],
+  "weakTitleRows": [
+    {
+      "category": "healing",
+      "currentTitle": "fa",
+      "proposedTitle": "FA — Title Review",
+      "file": "fa (1).hdwav.wav"
+    },
+    {
+      "category": "instrumentals",
+      "currentTitle": "0332125",
+      "proposedTitle": "Untitled Instrumental 0332125",
+      "file": "0332125.hdwav.wav"
+    },
+    {
+      "category": "poetry",
+      "currentTitle": "❤️ ☀️",
+      "proposedTitle": "Love & Light",
+      "file": "❤️ ☀️ (5).hdwav.wav"
+    },
+    {
+      "category": "poetry",
+      "currentTitle": "fa",
+      "proposedTitle": "FA — Title Review",
+      "file": "fa (2).hdwav.wav"
+    },
+    {
+      "category": "poetry",
+      "currentTitle": "I",
+      "proposedTitle": "I — Title Review",
+      "file": "I (3).hdwav.wav"
+    },
+    {
+      "category": "remixes",
+      "currentTitle": "I",
+      "proposedTitle": "I — Title Review",
+      "file": "I.hdwav.wav"
+    },
+    {
+      "category": "rnb",
+      "currentTitle": "❤️ ☀️",
+      "proposedTitle": "Love & Light",
+      "file": "❤️ ☀️ (8).hdwav.wav"
+    },
+    {
+      "category": "rnb",
+      "currentTitle": "7",
+      "proposedTitle": "Seven",
+      "file": "7 (12).hdwav.wav"
+    },
+    {
+      "category": "rnb",
+      "currentTitle": "fa",
+      "proposedTitle": "FA — Title Review",
+      "file": "fa (9).hdwav.wav"
+    },
+    {
+      "category": "rnb",
+      "currentTitle": "LC",
+      "proposedTitle": "LC — Title Review",
+      "file": "LC (1).hdwav.wav"
+    }
+  ],
+  "topDuplicateGroups": [
+    {
+      "normalizedTitle": "crystal code",
+      "count": 9,
+      "categories": [
+        "Instrumentals"
+      ],
+      "recommendation": "same-title-version-review"
+    },
+    {
+      "normalizedTitle": "heart",
+      "count": 7,
+      "categories": [
+        "Instrumentals"
+      ],
+      "recommendation": "same-title-version-review"
+    },
+    {
+      "normalizedTitle": "level up",
+      "count": 7,
+      "categories": [
+        "Bilingual",
+        "Rap",
+        "Remixes",
+        "R&B"
+      ],
+      "recommendation": "cross-category-title-review"
+    },
+    {
+      "normalizedTitle": "hurt",
+      "count": 6,
+      "categories": [
+        "Remixes",
+        "R&B"
+      ],
+      "recommendation": "cross-category-title-review"
+    },
+    {
+      "normalizedTitle": "law",
+      "count": 6,
+      "categories": [
+        "Healing",
+        "Instrumentals",
+        "Rap",
+        "Remixes",
+        "R&B"
+      ],
+      "recommendation": "cross-category-title-review"
+    },
+    {
+      "normalizedTitle": "throat",
+      "count": 6,
+      "categories": [
+        "Instrumentals"
+      ],
+      "recommendation": "same-title-version-review"
+    },
+    {
+      "normalizedTitle": "women",
+      "count": 6,
+      "categories": [
+        "Poetry",
+        "Rap",
+        "R&B"
+      ],
+      "recommendation": "cross-category-title-review"
+    },
+    {
+      "normalizedTitle": "yoga down",
+      "count": 6,
+      "categories": [
+        "Healing"
+      ],
+      "recommendation": "same-title-version-review"
+    },
+    {
+      "normalizedTitle": "yourself",
+      "count": 6,
+      "categories": [
+        "Healing",
+        "Poetry",
+        "Remixes",
+        "R&B"
+      ],
+      "recommendation": "cross-category-title-review"
+    },
+    {
+      "normalizedTitle": "3rd eye",
+      "count": 5,
+      "categories": [
+        "Instrumentals"
+      ],
+      "recommendation": "same-title-version-review"
+    },
+    {
+      "normalizedTitle": "fo sho",
+      "count": 5,
+      "categories": [
+        "Rap",
+        "R&B"
+      ],
+      "recommendation": "cross-category-title-review"
+    },
+    {
+      "normalizedTitle": "l o v e",
+      "count": 5,
+      "categories": [
+        "Healing",
+        "Poetry",
+        "Rap",
+        "R&B"
+      ],
+      "recommendation": "cross-category-title-review"
+    }
+  ],
+  "topVersionClusters": [
+    {
+      "category": "instrumentals",
+      "normalizedTitle": "crystal code",
+      "count": 9,
+      "recommendation": "same-category-version-review"
+    },
+    {
+      "category": "instrumentals",
+      "normalizedTitle": "heart",
+      "count": 7,
+      "recommendation": "same-category-version-review"
+    },
+    {
+      "category": "healing",
+      "normalizedTitle": "yoga down",
+      "count": 6,
+      "recommendation": "same-category-version-review"
+    },
+    {
+      "category": "instrumentals",
+      "normalizedTitle": "throat",
+      "count": 6,
+      "recommendation": "same-category-version-review"
+    },
+    {
+      "category": "instrumentals",
+      "normalizedTitle": "3rd eye",
+      "count": 5,
+      "recommendation": "same-category-version-review"
+    },
+    {
+      "category": "rnb",
+      "normalizedTitle": "fo sho",
+      "count": 4,
+      "recommendation": "same-category-version-review"
+    },
+    {
+      "category": "rnb",
+      "normalizedTitle": "hurt",
+      "count": 4,
+      "recommendation": "same-category-version-review"
+    },
+    {
+      "category": "bilingual",
+      "normalizedTitle": "bi lingual",
+      "count": 3,
+      "recommendation": "same-category-version-review"
+    },
+    {
+      "category": "bilingual",
+      "normalizedTitle": "reggaetone",
+      "count": 3,
+      "recommendation": "same-category-version-review"
+    },
+    {
+      "category": "healing",
+      "normalizedTitle": "mastery",
+      "count": 3,
+      "recommendation": "same-category-version-review"
+    },
+    {
+      "category": "healing",
+      "normalizedTitle": "tester",
+      "count": 3,
+      "recommendation": "same-category-version-review"
+    },
+    {
+      "category": "instrumentals",
+      "normalizedTitle": "crown",
+      "count": 3,
+      "recommendation": "same-category-version-review"
+    }
+  ],
+  "cleanupPhases": [
+    {
+      "phase": "Phase 1",
+      "title": "Protect the live portal",
+      "status": "Complete",
+      "notes": "Live Music Portal stays on the 30-record local sample while full catalog review continues."
+    },
+    {
+      "phase": "Phase 2",
+      "title": "Correct category aliases",
+      "status": "Complete",
+      "notes": "english:spanish now maps to bilingual. Unknown category count is zero."
+    },
+    {
+      "phase": "Phase 3",
+      "title": "Plan weak-title overrides",
+      "status": "Complete",
+      "notes": "10 weak-title records have proposed display titles. No source files renamed."
+    },
+    {
+      "phase": "Phase 4",
+      "title": "Review duplicate/version groups",
+      "status": "Planned",
+      "notes": "83 duplicate title groups and 57 same-category version clusters need main/alternate/remix/review decisions."
+    },
+    {
+      "phase": "Phase 5",
+      "title": "Choose storage/CDN",
+      "status": "Pending",
+      "notes": "Full HDWAV audio should move to external object storage/CDN before scale deployment."
+    },
+    {
+      "phase": "Phase 6",
+      "title": "Promote full catalog safely",
+      "status": "Pending",
+      "notes": "Only after metadata, storage, and public/review/hidden rules are approved."
+    }
+  ]
+}

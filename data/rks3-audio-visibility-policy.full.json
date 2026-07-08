@@ -1,0 +1,5505 @@
+{
+  "generatedAt": "2026-07-07T23:12:27.756Z",
+  "sourceFiles": {
+    "catalog": "data/rks3-audio-catalog.full.json",
+    "qcReport": "data/rks3-audio-qc-report.full.json",
+    "dashboard": "data/rks3-audio-full-catalog-dashboard.json"
+  },
+  "policyStatus": "planning-only",
+  "livePortalChanged": false,
+  "activeCatalogChanged": false,
+  "audioCopied": 0,
+  "sourceFilesRenamed": false,
+  "sourceFilesDeleted": false,
+  "rules": {
+    "public": [
+      "Record is HDWAV-sourced.",
+      "Record has a clean category.",
+      "Record does not have weak-title flags.",
+      "Record does not have unresolved duplicate/version-review flags.",
+      "Record does not require manual review for filename, category, or lane policy.",
+      "Record is approved for public listening."
+    ],
+    "review": [
+      "Weak title records stay in review until display title is approved.",
+      "Duplicate/title version clusters stay in review until main/alternate/remix status is decided.",
+      "Street/Soul/Spirit legacy records stay in review until future-lane policy is approved.",
+      "Odd filenames stay in review until confirmed safe.",
+      "Records may be playable later but should not be treated as final public launch records yet."
+    ],
+    "hidden": [
+      "Hidden is never automatic.",
+      "Use hidden only for confirmed duplicate clutter, test records, broken audio, private records, or records intentionally excluded from public launch.",
+      "Hidden records should remain in metadata rather than being deleted from source storage."
+    ]
+  },
+  "totals": {
+    "fullCatalogRecords": 483,
+    "publicCandidateCount": 193,
+    "reviewCandidateCount": 290,
+    "hiddenCandidateCount": 0,
+    "weakTitleCount": 10,
+    "oddFilenameCount": 16,
+    "unknownCategoryCount": 0,
+    "futureLaneRecordCount": 3,
+    "duplicateTitleGroupCount": 83,
+    "sameCategoryVersionClusterCount": 57
+  },
+  "categoryBreakdown": {
+    "fullCatalog": {
+      "bilingual": 14,
+      "healing": 68,
+      "instrumentals": 58,
+      "mixtapes": 3,
+      "music": 10,
+      "poetry": 37,
+      "promo": 6,
+      "rap": 86,
+      "remixes": 34,
+      "rnb": 135,
+      "skits": 29,
+      "soul": 1,
+      "spirit": 1,
+      "street": 1
+    },
+    "publicCandidates": {
+      "bilingual": 5,
+      "healing": 29,
+      "instrumentals": 8,
+      "mixtapes": 3,
+      "music": 10,
+      "poetry": 13,
+      "promo": 6,
+      "rap": 41,
+      "remixes": 7,
+      "rnb": 51,
+      "skits": 20
+    },
+    "reviewCandidates": {
+      "bilingual": 9,
+      "healing": 39,
+      "instrumentals": 50,
+      "poetry": 24,
+      "rap": 45,
+      "remixes": 27,
+      "rnb": 84,
+      "skits": 9,
+      "soul": 1,
+      "spirit": 1,
+      "street": 1
+    },
+    "hiddenCandidates": {}
+  },
+  "reviewReasonCounts": {
+    "duplicate-title-group": 273,
+    "same-category-version-cluster": 156,
+    "very-short-title": 7,
+    "double-space": 5,
+    "number-only-title": 2,
+    "no-alphanumeric-title": 2,
+    "weak-audio-slug": 2,
+    "non-ascii-file-name": 11,
+    "future-street-soul-spirit-lane": 3
+  },
+  "publicCandidates": [
+    {
+      "id": "bilingual-grow-bi-c5ee4c73",
+      "title": "GROW BI",
+      "category": "bilingual",
+      "versionLabel": "Version 1",
+      "originalFileName": "GROW BI (1).hdwav.wav",
+      "originalRelativePath": "english:spanish/GROW BI (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/bilingual/grow-bi-c5ee4c73.wav"
+    },
+    {
+      "id": "bilingual-grow-whole-bi-f8154183",
+      "title": "grow whole Bi",
+      "category": "bilingual",
+      "versionLabel": "Version 3",
+      "originalFileName": "grow whole Bi (3).hdwav.wav",
+      "originalRelativePath": "english:spanish/grow whole Bi (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/bilingual/grow-whole-bi-f8154183.wav"
+    },
+    {
+      "id": "bilingual-l-o-t-u-bi-cce3d4af",
+      "title": "L.O.T.U. bi",
+      "category": "bilingual",
+      "versionLabel": "Version 1",
+      "originalFileName": "L.O.T.U. bi (1).hdwav.wav",
+      "originalRelativePath": "english:spanish/L.O.T.U. bi (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/bilingual/l-o-t-u-bi-cce3d4af.wav"
+    },
+    {
+      "id": "bilingual-long-run-neo-soul-8d1fdfb2",
+      "title": "LONG RUN NEO SOUL",
+      "category": "bilingual",
+      "versionLabel": "Version 1",
+      "originalFileName": "LONG RUN NEO SOUL (1).hdwav.wav",
+      "originalRelativePath": "english:spanish/LONG RUN NEO SOUL (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/bilingual/long-run-neo-soul-8d1fdfb2.wav"
+    },
+    {
+      "id": "bilingual-thats-life-bi-neo-3c35aa06",
+      "title": "that's life bi neo",
+      "category": "bilingual",
+      "versionLabel": "Version 1",
+      "originalFileName": "that's life bi neo (1) .hdwav.wav",
+      "originalRelativePath": "english:spanish/that's life bi neo (1) .hdwav.wav",
+      "audioSrc": "/audio/rks3/bilingual/thats-life-bi-neo-3c35aa06.wav"
+    },
+    {
+      "id": "healing-01-chakra-energies-063411e5",
+      "title": "01.chakra energies",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "01.chakra energies.hdwav.wav",
+      "originalRelativePath": "Healing/01.chakra energies.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/01-chakra-energies-063411e5.wav"
+    },
+    {
+      "id": "healing-01-chakras-4c70845d",
+      "title": "01.chakras",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "01.chakras.hdwav.wav",
+      "originalRelativePath": "Healing/01.chakras.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/01-chakras-4c70845d.wav"
+    },
+    {
+      "id": "healing-01-sun-of-god-0f0c8b9c",
+      "title": "01.sun of god",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "01.sun of god.hdwav.wav",
+      "originalRelativePath": "Healing/01.sun of god.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/01-sun-of-god-0f0c8b9c.wav"
+    },
+    {
+      "id": "healing-02-fear-ea72653a",
+      "title": "02.fear",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "02.fear.hdwav.wav",
+      "originalRelativePath": "Healing/02.fear.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/02-fear-ea72653a.wav"
+    },
+    {
+      "id": "healing-02-tzu-efea5d62",
+      "title": "02.Tzu",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "02.Tzu.hdwav.wav",
+      "originalRelativePath": "Healing/02.Tzu.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/02-tzu-efea5d62.wav"
+    },
+    {
+      "id": "healing-03-be-the-lotus-cdfee3f0",
+      "title": "03.be the lotus",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "03.be the lotus.hdwav.wav",
+      "originalRelativePath": "Healing/03.be the lotus.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/03-be-the-lotus-cdfee3f0.wav"
+    },
+    {
+      "id": "healing-04-met-a-tron-b4cf0efe",
+      "title": "04.Met-a-tron",
+      "category": "healing",
+      "versionLabel": "Version 1",
+      "originalFileName": "04.Met-a-tron (1).hdwav.wav",
+      "originalRelativePath": "Healing/04.Met-a-tron (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/04-met-a-tron-b4cf0efe.wav"
+    },
+    {
+      "id": "healing-06-ohm-56d43635",
+      "title": "06.ohm",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "06.ohm.hdwav.wav",
+      "originalRelativePath": "Healing/06.ohm.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/06-ohm-56d43635.wav"
+    },
+    {
+      "id": "healing-07-awakened-women-d4e3f4eb",
+      "title": "07.awakened women",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "07.awakened women.hdwav.wav",
+      "originalRelativePath": "Healing/07.awakened women.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/07-awakened-women-d4e3f4eb.wav"
+    },
+    {
+      "id": "healing-10-children-of-god-57b75c59",
+      "title": "10-Children-of-God",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "10-Children-of-God.hdwav.wav",
+      "originalRelativePath": "Healing/10-Children-of-God.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/10-children-of-god-57b75c59.wav"
+    },
+    {
+      "id": "healing-10-alignment-ecdc89c6",
+      "title": "10.alignment",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "10.alignment.hdwav.wav",
+      "originalRelativePath": "Healing/10.alignment.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/10-alignment-ecdc89c6.wav"
+    },
+    {
+      "id": "healing-5d-intro-26debe33",
+      "title": "5D INTRO",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "5D INTRO.hdwav.wav",
+      "originalRelativePath": "Healing/5D INTRO.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/5d-intro-26debe33.wav"
+    },
+    {
+      "id": "healing-alchemy-in-me-5eb66ce8",
+      "title": "ALCHEMY IN ME",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "ALCHEMY IN ME.hdwav.wav",
+      "originalRelativePath": "Healing/ALCHEMY IN ME.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/alchemy-in-me-5eb66ce8.wav"
+    },
+    {
+      "id": "healing-cant-stop-winning-49e22d84",
+      "title": "can't stop winning",
+      "category": "healing",
+      "versionLabel": "Version 1",
+      "originalFileName": "can't stop winning (1).hdwav.wav",
+      "originalRelativePath": "Healing/can't stop winning (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/cant-stop-winning-49e22d84.wav"
+    },
+    {
+      "id": "healing-cosmic-love-spiritual-melodic-3c9b859e",
+      "title": "cosmic love spiritual melodic",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "cosmic love spiritual melodic.hdwav.wav",
+      "originalRelativePath": "Healing/cosmic love spiritual melodic.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/cosmic-love-spiritual-melodic-3c9b859e.wav"
+    },
+    {
+      "id": "healing-dead-or-not-2-2515af56",
+      "title": "dead or not #2",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "dead or not #2.hdwav.wav",
+      "originalRelativePath": "Healing/dead or not #2.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/dead-or-not-2-2515af56.wav"
+    },
+    {
+      "id": "healing-deepness-1-be1bb0a4",
+      "title": "deepness-#1",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "deepness-#1.hdwav.wav",
+      "originalRelativePath": "Healing/deepness-#1.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/deepness-1-be1bb0a4.wav"
+    },
+    {
+      "id": "healing-did-that-1-bdc85541",
+      "title": "did that-#1",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "did that-#1.hdwav.wav",
+      "originalRelativePath": "Healing/did that-#1.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/did-that-1-bdc85541.wav"
+    },
+    {
+      "id": "healing-fallen-angles-fb7a534e",
+      "title": "FALLEN ANGLES",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "FALLEN ANGLES.hdwav.wav",
+      "originalRelativePath": "Healing/FALLEN ANGLES.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/fallen-angles-fb7a534e.wav"
+    },
+    {
+      "id": "healing-i-am-flame-e9edb2da",
+      "title": "I AM FLAME",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "I AM FLAME.hdwav.wav",
+      "originalRelativePath": "Healing/I AM FLAME.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/i-am-flame-e9edb2da.wav"
+    },
+    {
+      "id": "healing-indian-b8d61f1e",
+      "title": "INDIAN",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "INDIAN.hdwav.wav",
+      "originalRelativePath": "Healing/INDIAN.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/indian-b8d61f1e.wav"
+    },
+    {
+      "id": "healing-isis-ad8d1071",
+      "title": "isis",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "isis.hdwav.wav",
+      "originalRelativePath": "Healing/isis.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/isis-ad8d1071.wav"
+    },
+    {
+      "id": "healing-just-the-start-c7a7ad88",
+      "title": "JUST THE START",
+      "category": "healing",
+      "versionLabel": "Version 1",
+      "originalFileName": "JUST THE START (1).hdwav.wav",
+      "originalRelativePath": "Healing/JUST THE START (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/just-the-start-c7a7ad88.wav"
+    },
+    {
+      "id": "healing-light-7bd1f837",
+      "title": "light",
+      "category": "healing",
+      "versionLabel": "Version 7",
+      "originalFileName": "light (7).hdwav.wav",
+      "originalRelativePath": "Healing/light (7).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/light-7bd1f837.wav"
+    },
+    {
+      "id": "healing-native-land-a6d4f387",
+      "title": "NATIVE LAND",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "NATIVE LAND.hdwav.wav",
+      "originalRelativePath": "Healing/NATIVE LAND.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/native-land-a6d4f387.wav"
+    },
+    {
+      "id": "healing-one-heart-reggae-beats-cb56089b",
+      "title": "one heart reggae beats",
+      "category": "healing",
+      "versionLabel": "Version 1",
+      "originalFileName": "one heart reggae beats (1).hdwav.wav",
+      "originalRelativePath": "Healing/one heart reggae beats (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/one-heart-reggae-beats-cb56089b.wav"
+    },
+    {
+      "id": "healing-rich-look-inwaed-2cf71b22",
+      "title": "RICH LOOK INWAED",
+      "category": "healing",
+      "versionLabel": "Version 1",
+      "originalFileName": "RICH LOOK INWAED (1).hdwav.wav",
+      "originalRelativePath": "Healing/RICH LOOK INWAED (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/rich-look-inwaed-2cf71b22.wav"
+    },
+    {
+      "id": "healing-truly-living-c4120d3a",
+      "title": "Truly living",
+      "category": "healing",
+      "versionLabel": "Version 2",
+      "originalFileName": "Truly living (2).hdwav.wav",
+      "originalRelativePath": "Healing/Truly living (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/truly-living-c4120d3a.wav"
+    },
+    {
+      "id": "healing-tzu-d9ccd11b",
+      "title": "Tzu",
+      "category": "healing",
+      "versionLabel": "Version 9",
+      "originalFileName": "Tzu (9).hdwav.wav",
+      "originalRelativePath": "Healing/Tzu (9).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/tzu-d9ccd11b.wav"
+    },
+    {
+      "id": "instrumentals-astrail-afc542e2",
+      "title": "ASTRAIL",
+      "category": "instrumentals",
+      "versionLabel": "Version 1",
+      "originalFileName": "ASTRAIL (1).hdwav.wav",
+      "originalRelativePath": "Instrumentals/ASTRAIL (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/astrail-afc542e2.wav"
+    },
+    {
+      "id": "instrumentals-astral-ee282693",
+      "title": "ASTRAL",
+      "category": "instrumentals",
+      "versionLabel": "Main",
+      "originalFileName": "ASTRAL.hdwav.wav",
+      "originalRelativePath": "Instrumentals/ASTRAL.hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/astral-ee282693.wav"
+    },
+    {
+      "id": "instrumentals-astral-drift-ad34941f",
+      "title": "Astral Drift",
+      "category": "instrumentals",
+      "versionLabel": "Main",
+      "originalFileName": "Astral Drift.hdwav.wav",
+      "originalRelativePath": "Instrumentals/Astral Drift.hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/astral-drift-ad34941f.wav"
+    },
+    {
+      "id": "instrumentals-clarity-584bca4a",
+      "title": "CLARITY",
+      "category": "instrumentals",
+      "versionLabel": "Main",
+      "originalFileName": "CLARITY.hdwav.wav",
+      "originalRelativePath": "Instrumentals/CLARITY.hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/clarity-584bca4a.wav"
+    },
+    {
+      "id": "instrumentals-instruments-0c148f7b",
+      "title": "instruments",
+      "category": "instrumentals",
+      "versionLabel": "Version 7",
+      "originalFileName": "instruments (7).hdwav.wav",
+      "originalRelativePath": "Instrumentals/instruments (7).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/instruments-0c148f7b.wav"
+    },
+    {
+      "id": "instrumentals-neo-soul-rap-83439aa3",
+      "title": "neo soul rap",
+      "category": "instrumentals",
+      "versionLabel": "Version 1",
+      "originalFileName": "neo soul rap (1).hdwav.wav",
+      "originalRelativePath": "Instrumentals/neo soul rap (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/neo-soul-rap-83439aa3.wav"
+    },
+    {
+      "id": "instrumentals-sacred-echoes-2-0de2299e",
+      "title": "Sacred Echoes-#2",
+      "category": "instrumentals",
+      "versionLabel": "Main",
+      "originalFileName": "Sacred Echoes-#2.hdwav.wav",
+      "originalRelativePath": "Instrumentals/Sacred Echoes-#2.hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/sacred-echoes-2-0de2299e.wav"
+    },
+    {
+      "id": "instrumentals-velvet-petals-bcc48f8d",
+      "title": "Velvet Petals",
+      "category": "instrumentals",
+      "versionLabel": "Version 1",
+      "originalFileName": "Velvet Petals (1).hdwav.wav",
+      "originalRelativePath": "Instrumentals/Velvet Petals (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/velvet-petals-bcc48f8d.wav"
+    },
+    {
+      "id": "mixtapes-1st-mixtape-6a1810fb",
+      "title": "1st Mixtape",
+      "category": "mixtapes",
+      "versionLabel": "Main",
+      "originalFileName": "1st Mixtape.hdwav.wav",
+      "originalRelativePath": "mix-tapes/1st Mixtape.hdwav.wav",
+      "audioSrc": "/audio/rks3/mixtapes/1st-mixtape-6a1810fb.wav"
+    },
+    {
+      "id": "mixtapes-2nd-mixtape-bc85f880",
+      "title": "2nd Mixtape",
+      "category": "mixtapes",
+      "versionLabel": "Main",
+      "originalFileName": "2nd Mixtape.hdwav.wav",
+      "originalRelativePath": "mix-tapes/2nd Mixtape.hdwav.wav",
+      "audioSrc": "/audio/rks3/mixtapes/2nd-mixtape-bc85f880.wav"
+    },
+    {
+      "id": "mixtapes-3rd-mixtape-617ecb88",
+      "title": "3rd Mixtape",
+      "category": "mixtapes",
+      "versionLabel": "Main",
+      "originalFileName": "3rd Mixtape.hdwav.wav",
+      "originalRelativePath": "mix-tapes/3rd Mixtape.hdwav.wav",
+      "audioSrc": "/audio/rks3/mixtapes/3rd-mixtape-617ecb88.wav"
+    },
+    {
+      "id": "music-rk3-001-fears-c42d81e9",
+      "title": "rk3-001-fears",
+      "category": "music",
+      "versionLabel": "Main",
+      "originalFileName": "rk3-001-fears.hdwav.wav",
+      "originalRelativePath": "music/rk3-001-fears.hdwav.wav",
+      "audioSrc": "/audio/rks3/music/rk3-001-fears-c42d81e9.wav"
+    },
+    {
+      "id": "music-rk3-002-sky-dive-f069fbd3",
+      "title": "rk3-002-sky-dive",
+      "category": "music",
+      "versionLabel": "Main",
+      "originalFileName": "rk3-002-sky-dive.hdwav.wav",
+      "originalRelativePath": "music/rk3-002-sky-dive.hdwav.wav",
+      "audioSrc": "/audio/rks3/music/rk3-002-sky-dive-f069fbd3.wav"
+    },
+    {
+      "id": "music-rk3-003-candle-light-flow-35ecdd43",
+      "title": "rk3-003-candle-light-flow",
+      "category": "music",
+      "versionLabel": "Main",
+      "originalFileName": "rk3-003-candle-light-flow.hdwav.wav",
+      "originalRelativePath": "music/rk3-003-candle-light-flow.hdwav.wav",
+      "audioSrc": "/audio/rks3/music/rk3-003-candle-light-flow-35ecdd43.wav"
+    },
+    {
+      "id": "music-rk3-004-my-first-steps-ca3609c9",
+      "title": "rk3-004-my-first-steps",
+      "category": "music",
+      "versionLabel": "Main",
+      "originalFileName": "rk3-004-my-first-steps.hdwav.wav",
+      "originalRelativePath": "music/rk3-004-my-first-steps.hdwav.wav",
+      "audioSrc": "/audio/rks3/music/rk3-004-my-first-steps-ca3609c9.wav"
+    },
+    {
+      "id": "music-rk3-005-no-secret-8a7ecd71",
+      "title": "rk3-005-no-secret",
+      "category": "music",
+      "versionLabel": "Main",
+      "originalFileName": "rk3-005-no-secret.hdwav.wav",
+      "originalRelativePath": "music/rk3-005-no-secret.hdwav.wav",
+      "audioSrc": "/audio/rks3/music/rk3-005-no-secret-8a7ecd71.wav"
+    },
+    {
+      "id": "music-rk3-006-no-stress-e0dcb28a",
+      "title": "rk3-006-no-stress",
+      "category": "music",
+      "versionLabel": "Main",
+      "originalFileName": "rk3-006-no-stress.hdwav.wav",
+      "originalRelativePath": "music/rk3-006-no-stress.hdwav.wav",
+      "audioSrc": "/audio/rks3/music/rk3-006-no-stress-e0dcb28a.wav"
+    },
+    {
+      "id": "music-rk3-007-let-me-know-19d82686",
+      "title": "rk3-007-let-me-know",
+      "category": "music",
+      "versionLabel": "Main",
+      "originalFileName": "rk3-007-let-me-know.hdwav.wav",
+      "originalRelativePath": "music/rk3-007-let-me-know.hdwav.wav",
+      "audioSrc": "/audio/rks3/music/rk3-007-let-me-know-19d82686.wav"
+    },
+    {
+      "id": "music-rk3-008-sun-of-god-7f7f5af7",
+      "title": "rk3-008-Sun-of God",
+      "category": "music",
+      "versionLabel": "Main",
+      "originalFileName": "rk3-008-Sun-of God.hdwav.wav",
+      "originalRelativePath": "music/rk3-008-Sun-of God.hdwav.wav",
+      "audioSrc": "/audio/rks3/music/rk3-008-sun-of-god-7f7f5af7.wav"
+    },
+    {
+      "id": "music-rk3-009-gone-but-still-loved-da4577d4",
+      "title": "rk3-009-Gone-but-still-loved",
+      "category": "music",
+      "versionLabel": "Main",
+      "originalFileName": "rk3-009-Gone-but-still-loved.hdwav.wav",
+      "originalRelativePath": "music/rk3-009-Gone-but-still-loved.hdwav.wav",
+      "audioSrc": "/audio/rks3/music/rk3-009-gone-but-still-loved-da4577d4.wav"
+    },
+    {
+      "id": "music-rk3-010-watch-what-u-say-9e83b160",
+      "title": "rk3-010-watch-what-U-say",
+      "category": "music",
+      "versionLabel": "Main",
+      "originalFileName": "rk3-010-watch-what-U-say.hdwav.wav",
+      "originalRelativePath": "music/rk3-010-watch-what-U-say.hdwav.wav",
+      "audioSrc": "/audio/rks3/music/rk3-010-watch-what-u-say-9e83b160.wav"
+    },
+    {
+      "id": "poetry-all-93411b44",
+      "title": "all",
+      "category": "poetry",
+      "versionLabel": "Version 1",
+      "originalFileName": "all (1).hdwav.wav",
+      "originalRelativePath": "Poetry/all (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/all-93411b44.wav"
+    },
+    {
+      "id": "poetry-awakened-women-33c28bc3",
+      "title": "AWAKENED WOMEN",
+      "category": "poetry",
+      "versionLabel": "Version 3",
+      "originalFileName": "AWAKENED WOMEN (3).hdwav.wav",
+      "originalRelativePath": "Poetry/AWAKENED WOMEN (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/awakened-women-33c28bc3.wav"
+    },
+    {
+      "id": "poetry-breakthrough-d52a1615",
+      "title": "Breakthrough",
+      "category": "poetry",
+      "versionLabel": "Main",
+      "originalFileName": "Breakthrough.hdwav.wav",
+      "originalRelativePath": "Poetry/Breakthrough.hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/breakthrough-d52a1615.wav"
+    },
+    {
+      "id": "poetry-forever-beautiful-dfb2146a",
+      "title": "FOREVER BEAUTIFUL",
+      "category": "poetry",
+      "versionLabel": "Main",
+      "originalFileName": "FOREVER BEAUTIFUL.hdwav.wav",
+      "originalRelativePath": "Poetry/FOREVER BEAUTIFUL.hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/forever-beautiful-dfb2146a.wav"
+    },
+    {
+      "id": "poetry-intro-b67b676d",
+      "title": "INTRO",
+      "category": "poetry",
+      "versionLabel": "Main",
+      "originalFileName": "INTRO.hdwav.wav",
+      "originalRelativePath": "Poetry/INTRO.hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/intro-b67b676d.wav"
+    },
+    {
+      "id": "poetry-intro-star-bound-b3db899a",
+      "title": "INTRO STAR BOUND",
+      "category": "poetry",
+      "versionLabel": "Main",
+      "originalFileName": "INTRO STAR BOUND.hdwav.wav",
+      "originalRelativePath": "Poetry/INTRO STAR BOUND.hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/intro-star-bound-b3db899a.wav"
+    },
+    {
+      "id": "poetry-jesus-reason-version-6aa25caa",
+      "title": "jesus reason version",
+      "category": "poetry",
+      "versionLabel": "Main",
+      "originalFileName": "jesus reason version.hdwav.wav",
+      "originalRelativePath": "Poetry/jesus reason version.hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/jesus-reason-version-6aa25caa.wav"
+    },
+    {
+      "id": "poetry-magnetized-connection-347c0758",
+      "title": "Magnetized Connection",
+      "category": "poetry",
+      "versionLabel": "Main",
+      "originalFileName": "Magnetized Connection.hdwav.wav",
+      "originalRelativePath": "Poetry/Magnetized Connection.hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/magnetized-connection-347c0758.wav"
+    },
+    {
+      "id": "poetry-street-hustle-neo-jazz-bounce-f15dc9fc",
+      "title": "Street Hustle Neo Jazz Bounce",
+      "category": "poetry",
+      "versionLabel": "Version 3",
+      "originalFileName": "Street Hustle Neo Jazz Bounce (3).hdwav.wav",
+      "originalRelativePath": "Poetry/Street Hustle Neo Jazz Bounce (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/street-hustle-neo-jazz-bounce-f15dc9fc.wav"
+    },
+    {
+      "id": "poetry-thouhts-42967e34",
+      "title": "THOUHTS",
+      "category": "poetry",
+      "versionLabel": "Version 1",
+      "originalFileName": "THOUHTS (1).hdwav.wav",
+      "originalRelativePath": "Poetry/THOUHTS (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/thouhts-42967e34.wav"
+    },
+    {
+      "id": "poetry-velvet-whisper-06ede59d",
+      "title": "Velvet Whisper",
+      "category": "poetry",
+      "versionLabel": "Version 1",
+      "originalFileName": "Velvet Whisper (1).hdwav.wav",
+      "originalRelativePath": "Poetry/Velvet Whisper (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/velvet-whisper-06ede59d.wav"
+    },
+    {
+      "id": "poetry-vibration-a315e5c3",
+      "title": "vibration",
+      "category": "poetry",
+      "versionLabel": "Version 9",
+      "originalFileName": "vibration (9).hdwav.wav",
+      "originalRelativePath": "Poetry/vibration (9).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/vibration-a315e5c3.wav"
+    },
+    {
+      "id": "poetry-what-am-i-7de3e5a5",
+      "title": "WHAT AM I",
+      "category": "poetry",
+      "versionLabel": "Main",
+      "originalFileName": "WHAT AM I.hdwav.wav",
+      "originalRelativePath": "Poetry/WHAT AM I.hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/what-am-i-7de3e5a5.wav"
+    },
+    {
+      "id": "promo-come-join-us-family-942a64be",
+      "title": "COME JOIN US FAMILY",
+      "category": "promo",
+      "versionLabel": "Main",
+      "originalFileName": "COME JOIN US FAMILY.hdwav.wav",
+      "originalRelativePath": "promo/COME JOIN US FAMILY.hdwav.wav",
+      "audioSrc": "/audio/rks3/promo/come-join-us-family-942a64be.wav"
+    },
+    {
+      "id": "promo-delta-loop-d295a715",
+      "title": "DELTA LOOP",
+      "category": "promo",
+      "versionLabel": "Main",
+      "originalFileName": "DELTA LOOP.hdwav.wav",
+      "originalRelativePath": "promo/DELTA LOOP.hdwav.wav",
+      "audioSrc": "/audio/rks3/promo/delta-loop-d295a715.wav"
+    },
+    {
+      "id": "promo-legacy-in-flight-00bb13b1",
+      "title": "legacy in flight",
+      "category": "promo",
+      "versionLabel": "Main",
+      "originalFileName": "legacy in flight.hdwav.wav",
+      "originalRelativePath": "promo/legacy in flight.hdwav.wav",
+      "audioSrc": "/audio/rks3/promo/legacy-in-flight-00bb13b1.wav"
+    },
+    {
+      "id": "promo-rk3-4eva-5b388c70",
+      "title": "RK3 4EVA",
+      "category": "promo",
+      "versionLabel": "Main",
+      "originalFileName": "RK3 4EVA.hdwav.wav",
+      "originalRelativePath": "promo/RK3 4EVA.hdwav.wav",
+      "audioSrc": "/audio/rks3/promo/rk3-4eva-5b388c70.wav"
+    },
+    {
+      "id": "promo-rk3-vision-manfesto-7471e6f2",
+      "title": "RK3 VISION MANFESTO",
+      "category": "promo",
+      "versionLabel": "Main",
+      "originalFileName": "RK3 VISION MANFESTO.hdwav.wav",
+      "originalRelativePath": "promo/RK3 VISION MANFESTO.hdwav.wav",
+      "audioSrc": "/audio/rks3/promo/rk3-vision-manfesto-7471e6f2.wav"
+    },
+    {
+      "id": "promo-the-three-paths-27b6ec95",
+      "title": "the three paths",
+      "category": "promo",
+      "versionLabel": "Main",
+      "originalFileName": "the three paths.hdwav.wav",
+      "originalRelativePath": "promo/the three paths.hdwav.wav",
+      "audioSrc": "/audio/rks3/promo/the-three-paths-27b6ec95.wav"
+    },
+    {
+      "id": "rap-40-projects-388011db",
+      "title": "40 Projects",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "40_Projects.hdwav.wav",
+      "originalRelativePath": "Rap/40_Projects.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/40-projects-388011db.wav"
+    },
+    {
+      "id": "rap-allnight-8c01397b",
+      "title": "AllNight",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "AllNight.hdwav.wav",
+      "originalRelativePath": "Rap/AllNight.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/allnight-8c01397b.wav"
+    },
+    {
+      "id": "rap-atlantis-rep-2-e61d478f",
+      "title": "Atlantis rep 2",
+      "category": "rap",
+      "versionLabel": "Version 2",
+      "originalFileName": "Atlantis rep 2.hdwav.wav",
+      "originalRelativePath": "Rap/Atlantis rep 2.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/atlantis-rep-2-e61d478f.wav"
+    },
+    {
+      "id": "rap-be-a-blessing-06596031",
+      "title": "BE A BLESSING",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "BE A BLESSING.hdwav.wav",
+      "originalRelativePath": "Rap/BE A BLESSING.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/be-a-blessing-06596031.wav"
+    },
+    {
+      "id": "rap-bout-2-blow-up-36554cb8",
+      "title": "BOUT 2 BLOW UP",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "BOUT 2 BLOW UP.hdwav.wav",
+      "originalRelativePath": "Rap/BOUT 2 BLOW UP.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/bout-2-blow-up-36554cb8.wav"
+    },
+    {
+      "id": "rap-city-smoke-serenade-1bcd6fbe",
+      "title": "City Smoke Serenade",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "City Smoke Serenade.hdwav.wav",
+      "originalRelativePath": "Rap/City Smoke Serenade.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/city-smoke-serenade-1bcd6fbe.wav"
+    },
+    {
+      "id": "rap-did-that-2-ccec92a1",
+      "title": "did that 2",
+      "category": "rap",
+      "versionLabel": "Version 2",
+      "originalFileName": "did that 2.hdwav.wav",
+      "originalRelativePath": "Rap/did that 2.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/did-that-2-ccec92a1.wav"
+    },
+    {
+      "id": "rap-divine-fem-781f00c6",
+      "title": "DIVINE FEM",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "DIVINE FEM.hdwav.wav",
+      "originalRelativePath": "Rap/DIVINE FEM.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/divine-fem-781f00c6.wav"
+    },
+    {
+      "id": "rap-fears-and-feelings-3582dbdc",
+      "title": "FEARS & FEELINGS",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "FEARS & FEELINGS.hdwav.wav",
+      "originalRelativePath": "Rap/FEARS & FEELINGS.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/fears-and-feelings-3582dbdc.wav"
+    },
+    {
+      "id": "rap-get-big-5ca075a4",
+      "title": "get big",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "get big.hdwav.wav",
+      "originalRelativePath": "Rap/get big.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/get-big-5ca075a4.wav"
+    },
+    {
+      "id": "rap-greater-9d3491c1",
+      "title": "GREATER",
+      "category": "rap",
+      "versionLabel": "Version 4",
+      "originalFileName": "GREATER (4).hdwav.wav",
+      "originalRelativePath": "Rap/GREATER (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/greater-9d3491c1.wav"
+    },
+    {
+      "id": "rap-heal-the-hurt-6670bf15",
+      "title": "Heal The Hurt",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "Heal The Hurt.hdwav.wav",
+      "originalRelativePath": "Rap/Heal The Hurt.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/heal-the-hurt-6670bf15.wav"
+    },
+    {
+      "id": "rap-higher-ascension-8d2f7e9f",
+      "title": "Higher Ascension",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "Higher Ascension.hdwav.wav",
+      "originalRelativePath": "Rap/Higher Ascension.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/higher-ascension-8d2f7e9f.wav"
+    },
+    {
+      "id": "rap-higher-soul-4deac785",
+      "title": "Higher soul",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "Higher soul.hdwav.wav",
+      "originalRelativePath": "Rap/Higher soul.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/higher-soul-4deac785.wav"
+    },
+    {
+      "id": "rap-i-am-8c1031b9",
+      "title": "I Am",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "I Am.hdwav.wav",
+      "originalRelativePath": "Rap/I Am.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/i-am-8c1031b9.wav"
+    },
+    {
+      "id": "rap-let-me-know-3f558af8",
+      "title": "let me know",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "let me know.hdwav.wav",
+      "originalRelativePath": "Rap/let me know.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/let-me-know-3f558af8.wav"
+    },
+    {
+      "id": "rap-light-that-stayed-72d5ea5a",
+      "title": "light that stayed",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "light that stayed.hdwav.wav",
+      "originalRelativePath": "Rap/light that stayed.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/light-that-stayed-72d5ea5a.wav"
+    },
+    {
+      "id": "rap-like-money-f1aa0339",
+      "title": "like money",
+      "category": "rap",
+      "versionLabel": "Version 2",
+      "originalFileName": "like money (2).hdwav.wav",
+      "originalRelativePath": "Rap/like money (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/like-money-f1aa0339.wav"
+    },
+    {
+      "id": "rap-lord-jesus-ea38647d",
+      "title": "lord jesus",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "lord jesus.hdwav.wav",
+      "originalRelativePath": "Rap/lord jesus.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/lord-jesus-ea38647d.wav"
+    },
+    {
+      "id": "rap-metatron-c1699463",
+      "title": "Metatron",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "Metatron.hdwav.wav",
+      "originalRelativePath": "Rap/Metatron.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/metatron-c1699463.wav"
+    },
+    {
+      "id": "rap-midnight-groove-2b8dc764",
+      "title": "Midnight Groove",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "Midnight Groove-(1).hdwav.wav",
+      "originalRelativePath": "Rap/Midnight Groove-(1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/midnight-groove-2b8dc764.wav"
+    },
+    {
+      "id": "rap-moonlight-miles-9bb1e595",
+      "title": "Moonlight Miles",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "Moonlight Miles.hdwav.wav",
+      "originalRelativePath": "Rap/Moonlight Miles.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/moonlight-miles-9bb1e595.wav"
+    },
+    {
+      "id": "rap-noo-secret-79ae9e7e",
+      "title": "NOO SECRET",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "NOO SECRET (1).hdwav.wav",
+      "originalRelativePath": "Rap/NOO SECRET (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/noo-secret-79ae9e7e.wav"
+    },
+    {
+      "id": "rap-off-task-698529c9",
+      "title": "OFF TASK",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "OFF TASK.hdwav.wav",
+      "originalRelativePath": "Rap/OFF TASK.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/off-task-698529c9.wav"
+    },
+    {
+      "id": "rap-outrageous-d85d8fbb",
+      "title": "outrageous",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "outrageous.hdwav.wav",
+      "originalRelativePath": "Rap/outrageous.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/outrageous-d85d8fbb.wav"
+    },
+    {
+      "id": "rap-paradise-weekend-61d27225",
+      "title": "PARADISE WEEKEND",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "PARADISE WEEKEND.hdwav.wav",
+      "originalRelativePath": "Rap/PARADISE WEEKEND.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/paradise-weekend-61d27225.wav"
+    },
+    {
+      "id": "rap-praying-4-her-8f1b689a",
+      "title": "praying 4 her",
+      "category": "rap",
+      "versionLabel": "Version 2",
+      "originalFileName": "praying 4 her (2).hdwav.wav",
+      "originalRelativePath": "Rap/praying 4 her (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/praying-4-her-8f1b689a.wav"
+    },
+    {
+      "id": "rap-right-left-48989575",
+      "title": "Right Left",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "Right_Left.hdwav.wav",
+      "originalRelativePath": "Rap/Right_Left.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/right-left-48989575.wav"
+    },
+    {
+      "id": "rap-street-hustle-278d9788",
+      "title": "street hustle",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "street hustle.hdwav.wav",
+      "originalRelativePath": "Rap/street hustle.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/street-hustle-278d9788.wav"
+    },
+    {
+      "id": "rap-street-hustle-neo-jazz-bdd9b306",
+      "title": "street Hustle Neo Jazz",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "street Hustle Neo Jazz.hdwav.wav",
+      "originalRelativePath": "Rap/street Hustle Neo Jazz.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/street-hustle-neo-jazz-bdd9b306.wav"
+    },
+    {
+      "id": "rap-street-psalms-42e9a84e",
+      "title": "street psalms",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "street psalms.hdwav.wav",
+      "originalRelativePath": "Rap/street psalms.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/street-psalms-42e9a84e.wav"
+    },
+    {
+      "id": "rap-sweetheart-2-fda00e71",
+      "title": "Sweetheart 2",
+      "category": "rap",
+      "versionLabel": "Version 2",
+      "originalFileName": "Sweetheart 2.hdwav.wav",
+      "originalRelativePath": "Rap/Sweetheart 2.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/sweetheart-2-fda00e71.wav"
+    },
+    {
+      "id": "rap-torn-in-two-1532acd6",
+      "title": "Torn in Two",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "Torn in Two (1).hdwav.wav",
+      "originalRelativePath": "Rap/Torn in Two (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/torn-in-two-1532acd6.wav"
+    },
+    {
+      "id": "rap-truly-living-1-df3d3e7c",
+      "title": "Truly living 1",
+      "category": "rap",
+      "versionLabel": "Version 9",
+      "originalFileName": "Truly living 1 (9).hdwav.wav",
+      "originalRelativePath": "Rap/Truly living 1 (9).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/truly-living-1-df3d3e7c.wav"
+    },
+    {
+      "id": "rap-unlock-u-847a62bd",
+      "title": "unlock U",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "unlock U.hdwav.wav",
+      "originalRelativePath": "Rap/unlock U.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/unlock-u-847a62bd.wav"
+    },
+    {
+      "id": "rap-unlocked-05afb76b",
+      "title": "UNLOCKED",
+      "category": "rap",
+      "versionLabel": "Version 3",
+      "originalFileName": "UNLOCKED (3).hdwav.wav",
+      "originalRelativePath": "Rap/UNLOCKED (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/unlocked-05afb76b.wav"
+    },
+    {
+      "id": "rap-velvet-shadows-15f4cc58",
+      "title": "Velvet Shadows",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "Velvet Shadows (1).hdwav.wav",
+      "originalRelativePath": "Rap/Velvet Shadows (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/velvet-shadows-15f4cc58.wav"
+    },
+    {
+      "id": "rap-watch-what-you-say-vocal-be8f2a4d",
+      "title": "Watch What You Say (Vocal)",
+      "category": "rap",
+      "versionLabel": "Version 2",
+      "originalFileName": "Watch What You Say (Vocal)_ (2).hdwav.wav",
+      "originalRelativePath": "Rap/Watch What You Say (Vocal)_ (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/watch-what-you-say-vocal-be8f2a4d.wav"
+    },
+    {
+      "id": "rap-webethenomads-3fda798e",
+      "title": "WeBeTheNomads",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "WeBeTheNomads.hdwav.wav",
+      "originalRelativePath": "Rap/WeBeTheNomads.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/webethenomads-3fda798e.wav"
+    },
+    {
+      "id": "rap-whole-vibe-04a91a87",
+      "title": "whole vibe",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "whole vibe (1).hdwav.wav",
+      "originalRelativePath": "Rap/whole vibe (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/whole-vibe-04a91a87.wav"
+    },
+    {
+      "id": "rap-you-mine-34930224",
+      "title": "YOU MINE",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "YOU MINE (1).hdwav.wav",
+      "originalRelativePath": "Rap/YOU MINE (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/you-mine-34930224.wav"
+    },
+    {
+      "id": "remixes-all-1-48b1bbb9",
+      "title": "all 1",
+      "category": "remixes",
+      "versionLabel": "Version 1",
+      "originalFileName": "all 1.hdwav.wav",
+      "originalRelativePath": "remixes/all 1.hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/all-1-48b1bbb9.wav"
+    },
+    {
+      "id": "remixes-all-2-dc7e0c5b",
+      "title": "all 2",
+      "category": "remixes",
+      "versionLabel": "Version 2",
+      "originalFileName": "all 2.hdwav.wav",
+      "originalRelativePath": "remixes/all 2.hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/all-2-dc7e0c5b.wav"
+    },
+    {
+      "id": "remixes-densities-1-0b934cf3",
+      "title": "DENSITIES-#1",
+      "category": "remixes",
+      "versionLabel": "Main",
+      "originalFileName": "DENSITIES-#1.hdwav.wav",
+      "originalRelativePath": "remixes/DENSITIES-#1.hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/densities-1-0b934cf3.wav"
+    },
+    {
+      "id": "remixes-five-fears-52c84d4a",
+      "title": "FIVE FEARS",
+      "category": "remixes",
+      "versionLabel": "Version 3",
+      "originalFileName": "FIVE FEARS (3).hdwav.wav",
+      "originalRelativePath": "remixes/FIVE FEARS (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/five-fears-52c84d4a.wav"
+    },
+    {
+      "id": "remixes-greater-then-greatest-91ef0c7a",
+      "title": "GREATER THEN GREATEST",
+      "category": "remixes",
+      "versionLabel": "Version 1",
+      "originalFileName": "GREATER THEN GREATEST (1).hdwav.wav",
+      "originalRelativePath": "remixes/GREATER THEN GREATEST (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/greater-then-greatest-91ef0c7a.wav"
+    },
+    {
+      "id": "remixes-higher-path-088f2994",
+      "title": "Higher Path",
+      "category": "remixes",
+      "versionLabel": "Version 1",
+      "originalFileName": "Higher Path (1).hdwav.wav",
+      "originalRelativePath": "remixes/Higher Path (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/higher-path-088f2994.wav"
+    },
+    {
+      "id": "remixes-rks3-street-b713c81c",
+      "title": "RKS3=street",
+      "category": "remixes",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3=street.hdwav.wav",
+      "originalRelativePath": "remixes/RKS3=street.hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/rks3-street-b713c81c.wav"
+    },
+    {
+      "id": "rnb-ashes-in-the-air-fa79b3b4",
+      "title": "Ashes in the Air",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Ashes in the Air.hdwav.wav",
+      "originalRelativePath": "R&B/Ashes in the Air.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/ashes-in-the-air-fa79b3b4.wav"
+    },
+    {
+      "id": "rnb-bae-cation-r-and-b-77fda844",
+      "title": "BAE-CATION.R&B",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "BAE-CATION.R&B.hdwav.wav",
+      "originalRelativePath": "R&B/BAE-CATION.R&B.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/bae-cation-r-and-b-77fda844.wav"
+    },
+    {
+      "id": "rnb-blue-skys-800d32a8",
+      "title": "Blue Skys",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Blue_Skys.hdwav.wav",
+      "originalRelativePath": "R&B/Blue_Skys.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/blue-skys-800d32a8.wav"
+    },
+    {
+      "id": "rnb-breathe-deep-3ecaaa4b",
+      "title": "BREATHE DEEP",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "BREATHE DEEP.hdwav.wav",
+      "originalRelativePath": "R&B/BREATHE DEEP.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/breathe-deep-3ecaaa4b.wav"
+    },
+    {
+      "id": "rnb-causal-thoughts-e27c69d4",
+      "title": "CAUSAL THOUGHTS",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "CAUSAL THOUGHTS.hdwav.wav",
+      "originalRelativePath": "R&B/CAUSAL THOUGHTS.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/causal-thoughts-e27c69d4.wav"
+    },
+    {
+      "id": "rnb-core-earth1-c98ff657",
+      "title": "core earth1",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "core earth1.hdwav.wav",
+      "originalRelativePath": "R&B/core earth1.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/core-earth1-c98ff657.wav"
+    },
+    {
+      "id": "rnb-dead-or-not-balanced-05f4021f",
+      "title": "dead or not-Balanced",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "dead or not-Balanced.hdwav.wav",
+      "originalRelativePath": "R&B/dead or not-Balanced.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/dead-or-not-balanced-05f4021f.wav"
+    },
+    {
+      "id": "rnb-densities-d82b1262",
+      "title": "DENSITIES",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "DENSITIES.hdwav.wav",
+      "originalRelativePath": "R&B/DENSITIES.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/densities-d82b1262.wav"
+    },
+    {
+      "id": "rnb-divine-feminine-ec0cd95f",
+      "title": "Divine Feminine",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Divine_Feminine.hdwav.wav",
+      "originalRelativePath": "R&B/Divine_Feminine.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/divine-feminine-ec0cd95f.wav"
+    },
+    {
+      "id": "rnb-dusty-serenade-1efafe39",
+      "title": "Dusty Serenade",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Dusty Serenade.hdwav.wav",
+      "originalRelativePath": "R&B/Dusty Serenade.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/dusty-serenade-1efafe39.wav"
+    },
+    {
+      "id": "rnb-early-morning-loving-c3197637",
+      "title": "EARLY MORNING LOVING",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "EARLY MORNING LOVING.hdwav.wav",
+      "originalRelativePath": "R&B/EARLY MORNING LOVING.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/early-morning-loving-c3197637.wav"
+    },
+    {
+      "id": "rnb-feel-ok-13ce6acf",
+      "title": "feel ok",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "feel ok.hdwav.wav",
+      "originalRelativePath": "R&B/feel ok.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/feel-ok-13ce6acf.wav"
+    },
+    {
+      "id": "rnb-getting-money-1ac72186",
+      "title": "GETTING MONEY",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "GETTING MONEY.hdwav.wav",
+      "originalRelativePath": "R&B/GETTING MONEY.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/getting-money-1ac72186.wav"
+    },
+    {
+      "id": "rnb-gone-but-still-loved-f1f0efe9",
+      "title": "Gone But Still Loved",
+      "category": "rnb",
+      "versionLabel": "Version 3",
+      "originalFileName": "Gone But Still Loved (3).hdwav.wav",
+      "originalRelativePath": "R&B/Gone But Still Loved (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/gone-but-still-loved-f1f0efe9.wav"
+    },
+    {
+      "id": "rnb-greater-than-the-greatest-b46e3f1f",
+      "title": "Greater Than The Greatest",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Greater_Than_The_Greatest.hdwav.wav",
+      "originalRelativePath": "R&B/Greater_Than_The_Greatest.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/greater-than-the-greatest-b46e3f1f.wav"
+    },
+    {
+      "id": "rnb-grown-love-6e8c4a4e",
+      "title": "GROWN LOVE",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "GROWN LOVE.hdwav.wav",
+      "originalRelativePath": "R&B/GROWN LOVE.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/grown-love-6e8c4a4e.wav"
+    },
+    {
+      "id": "rnb-ha-ha-ha-ha-85805de9",
+      "title": "HA HA HA HA",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "HA HA HA HA.hdwav.wav",
+      "originalRelativePath": "R&B/HA HA HA HA.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/ha-ha-ha-ha-85805de9.wav"
+    },
+    {
+      "id": "rnb-heart-and-mind-5481349d",
+      "title": "Heart & Mind",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Heart_&_Mind.hdwav.wav",
+      "originalRelativePath": "R&B/Heart_&_Mind.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/heart-and-mind-5481349d.wav"
+    },
+    {
+      "id": "rnb-home-5b6d0d55",
+      "title": "home",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "home.hdwav.wav",
+      "originalRelativePath": "R&B/home.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/home-5b6d0d55.wav"
+    },
+    {
+      "id": "rnb-hotshit-80aaf006",
+      "title": "HOTSHIT",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "HOTSHIT.hdwav.wav",
+      "originalRelativePath": "R&B/HOTSHIT.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/hotshit-80aaf006.wav"
+    },
+    {
+      "id": "rnb-just-love-4-6918bca7",
+      "title": "Just Love 4",
+      "category": "rnb",
+      "versionLabel": "Version 4",
+      "originalFileName": "Just Love 4.hdwav.wav",
+      "originalRelativePath": "R&B/Just Love 4.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/just-love-4-6918bca7.wav"
+    },
+    {
+      "id": "rnb-l-o-t-u-7b2aa684",
+      "title": "L.O.T.U.",
+      "category": "rnb",
+      "versionLabel": "Version 2",
+      "originalFileName": "L.O.T.U. (2).hdwav.wav",
+      "originalRelativePath": "R&B/L.O.T.U. (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/l-o-t-u-7b2aa684.wav"
+    },
+    {
+      "id": "rnb-last-day-on-earth-da05c20f",
+      "title": "last day on earth",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "last day on earth.hdwav.wav",
+      "originalRelativePath": "R&B/last day on earth.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/last-day-on-earth-da05c20f.wav"
+    },
+    {
+      "id": "rnb-listen-up-hdwav-33abd361",
+      "title": "listen up.hdwav",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "listen up.hdwav.hdwav.wav",
+      "originalRelativePath": "R&B/listen up.hdwav.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/listen-up-hdwav-33abd361.wav"
+    },
+    {
+      "id": "rnb-luxury-pain-0dcc57f4",
+      "title": "LUXURY PAIN",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "LUXURY PAIN.hdwav.wav",
+      "originalRelativePath": "R&B/LUXURY PAIN.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/luxury-pain-0dcc57f4.wav"
+    },
+    {
+      "id": "rnb-mouth-full-of-lies-a7e92568",
+      "title": "MOUTH FULL OF LIES",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "MOUTH FULL OF LIES.hdwav.wav",
+      "originalRelativePath": "R&B/MOUTH FULL OF LIES.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/mouth-full-of-lies-a7e92568.wav"
+    },
+    {
+      "id": "rnb-neon-skies-5fdf9685",
+      "title": "neon skies",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "neon skies.hdwav.wav",
+      "originalRelativePath": "R&B/neon skies.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/neon-skies-5fdf9685.wav"
+    },
+    {
+      "id": "rnb-no-bond-1-a560eeb7",
+      "title": "NO BOND 1",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "NO BOND 1.hdwav.wav",
+      "originalRelativePath": "R&B/NO BOND 1.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/no-bond-1-a560eeb7.wav"
+    },
+    {
+      "id": "rnb-positions-55704b5c",
+      "title": "POSITIONS",
+      "category": "rnb",
+      "versionLabel": "Version 2",
+      "originalFileName": "POSITIONS (2).hdwav.wav",
+      "originalRelativePath": "R&B/POSITIONS (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/positions-55704b5c.wav"
+    },
+    {
+      "id": "rnb-pray-4-u-1-37a9c1f7",
+      "title": "pray 4 U 1",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "pray 4 U 1.hdwav.wav",
+      "originalRelativePath": "R&B/pray 4 U 1.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/pray-4-u-1-37a9c1f7.wav"
+    },
+    {
+      "id": "rnb-pray-for-her-f371723a",
+      "title": "Pray For Her",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Pray_For_Her.hdwav.wav",
+      "originalRelativePath": "R&B/Pray_For_Her.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/pray-for-her-f371723a.wav"
+    },
+    {
+      "id": "rnb-pray-for-her-1-2dd756bb",
+      "title": "Pray For Her 1",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "Pray_For_Her 1.hdwav.wav",
+      "originalRelativePath": "R&B/Pray_For_Her 1.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/pray-for-her-1-2dd756bb.wav"
+    },
+    {
+      "id": "rnb-rewrote-the-books-3c427c51",
+      "title": "REWROTE THE BOOKS",
+      "category": "rnb",
+      "versionLabel": "Version 4",
+      "originalFileName": "REWROTE THE BOOKS (4).hdwav.wav",
+      "originalRelativePath": "R&B/REWROTE THE BOOKS (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/rewrote-the-books-3c427c51.wav"
+    },
+    {
+      "id": "rnb-rk3-1st-joint-34edca0c",
+      "title": "RK3 1ST JOINT",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "RK3 1ST JOINT.hdwav.wav",
+      "originalRelativePath": "R&B/RK3 1ST JOINT.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/rk3-1st-joint-34edca0c.wav"
+    },
+    {
+      "id": "rnb-show-me-2-061568c1",
+      "title": "SHOW ME 2",
+      "category": "rnb",
+      "versionLabel": "Version 2",
+      "originalFileName": "SHOW ME 2.hdwav.wav",
+      "originalRelativePath": "R&B/SHOW ME 2.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/show-me-2-061568c1.wav"
+    },
+    {
+      "id": "rnb-sleep-6559d3c1",
+      "title": "sleep",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "sleep (1).hdwav.wav",
+      "originalRelativePath": "R&B/sleep (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/sleep-6559d3c1.wav"
+    },
+    {
+      "id": "rnb-still-368c1729",
+      "title": "STILL",
+      "category": "rnb",
+      "versionLabel": "Version 3",
+      "originalFileName": "STILL (3).hdwav.wav",
+      "originalRelativePath": "R&B/STILL (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/still-368c1729.wav"
+    },
+    {
+      "id": "rnb-street-plasm-162909f4",
+      "title": "STREET PLASM",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "STREET PLASM.hdwav.wav",
+      "originalRelativePath": "R&B/STREET PLASM.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/street-plasm-162909f4.wav"
+    },
+    {
+      "id": "rnb-sweetheart-3-dc2cdb74",
+      "title": "sweetheart 3",
+      "category": "rnb",
+      "versionLabel": "Version 3",
+      "originalFileName": "sweetheart 3.hdwav.wav",
+      "originalRelativePath": "R&B/sweetheart 3.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/sweetheart-3-dc2cdb74.wav"
+    },
+    {
+      "id": "rnb-taste-20c3af4c",
+      "title": "TASTE",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "TASTE (1).hdwav.wav",
+      "originalRelativePath": "R&B/TASTE (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/taste-20c3af4c.wav"
+    },
+    {
+      "id": "rnb-that-type-love-4bbe2003",
+      "title": "that type love",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "that type love (1).hdwav.wav",
+      "originalRelativePath": "R&B/that type love (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/that-type-love-4bbe2003.wav"
+    },
+    {
+      "id": "rnb-the-world-4b5fb9b1",
+      "title": "the world",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "the world.hdwav.wav",
+      "originalRelativePath": "R&B/the world.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/the-world-4b5fb9b1.wav"
+    },
+    {
+      "id": "rnb-things-changed-f76c6013",
+      "title": "things changed",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "things changed.hdwav.wav",
+      "originalRelativePath": "R&B/things changed.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/things-changed-f76c6013.wav"
+    },
+    {
+      "id": "rnb-u-the-gift-809ac144",
+      "title": "U the gift",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "U the gift.hdwav.wav",
+      "originalRelativePath": "R&B/U the gift.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/u-the-gift-809ac144.wav"
+    },
+    {
+      "id": "rnb-we-ready-9a4890df",
+      "title": "we ready",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "we ready.hdwav.wav",
+      "originalRelativePath": "R&B/we ready.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/we-ready-9a4890df.wav"
+    },
+    {
+      "id": "rnb-we-ready-1-85ec2111",
+      "title": "we ready 1",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "we ready 1.hdwav.wav",
+      "originalRelativePath": "R&B/we ready 1.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/we-ready-1-85ec2111.wav"
+    },
+    {
+      "id": "rnb-whole-b4-you-1-f92fab47",
+      "title": "Whole B4 You 1",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "Whole_B4_You 1.hdwav.wav",
+      "originalRelativePath": "R&B/Whole_B4_You 1.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/whole-b4-you-1-f92fab47.wav"
+    },
+    {
+      "id": "rnb-woman-wrong-man-6e915f32",
+      "title": "WOMAN WRONG MAN",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "WOMAN WRONG MAN.hdwav.wav",
+      "originalRelativePath": "R&B/WOMAN WRONG MAN.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/woman-wrong-man-6e915f32.wav"
+    },
+    {
+      "id": "rnb-you-are-neo-soul-74b0fb07",
+      "title": "YOU ARE NEO SOUL",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "YOU ARE NEO SOUL.hdwav.wav",
+      "originalRelativePath": "R&B/YOU ARE NEO SOUL.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/you-are-neo-soul-74b0fb07.wav"
+    },
+    {
+      "id": "rnb-you-are-sexy-soft-jazz-d746d1b2",
+      "title": "YOU ARE SEXY SOFT JAZZ",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "YOU ARE SEXY SOFT JAZZ (1).hdwav.wav",
+      "originalRelativePath": "R&B/YOU ARE SEXY SOFT JAZZ (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/you-are-sexy-soft-jazz-d746d1b2.wav"
+    },
+    {
+      "id": "rnb-you-the-one-dbfb0ca5",
+      "title": "you the one",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "you the one (1).hdwav.wav",
+      "originalRelativePath": "R&B/you the one (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/you-the-one-dbfb0ca5.wav"
+    },
+    {
+      "id": "skits-rks3-com-spirit-cosmic-120s-e4dc0099",
+      "title": "RKS3.COM SPIRIT COSMIC 120s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM SPIRIT COSMIC 120s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM SPIRIT COSMIC 120s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-spirit-cosmic-120s-e4dc0099.wav"
+    },
+    {
+      "id": "skits-rks3-com-spirit-60-sec-outro-6b8633c3",
+      "title": "RKS3.COM- SPIRIT.60 SEC OUTRO",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM- SPIRIT.60 SEC OUTRO.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM- SPIRIT.60 SEC OUTRO.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-spirit-60-sec-outro-6b8633c3.wav"
+    },
+    {
+      "id": "skits-rks3-com-finaldoor-60s-ba5d2c06",
+      "title": "RKS3.COM-FINALDOOR 60s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-FINALDOOR 60s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-FINALDOOR 60s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-finaldoor-60s-ba5d2c06.wav"
+    },
+    {
+      "id": "skits-rks3-com-soul-120sec-2-3b0c216d",
+      "title": "RKS3.COM-SOUL 120SEC #2",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-SOUL 120SEC #2.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-SOUL 120SEC #2.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-soul-120sec-2-3b0c216d.wav"
+    },
+    {
+      "id": "skits-rks3-com-soul-outro-60s-957fe5ba",
+      "title": "RKS3.COM-SOUL-OUTRO-60s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-SOUL-OUTRO-60s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-SOUL-OUTRO-60s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-soul-outro-60s-957fe5ba.wav"
+    },
+    {
+      "id": "skits-rks3-com-soul-pathway-5bbba6bd",
+      "title": "RKS3.COM-SOUL-PATHWAY",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-SOUL-PATHWAY.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-SOUL-PATHWAY.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-soul-pathway-5bbba6bd.wav"
+    },
+    {
+      "id": "skits-rks3-com-soul-pathway-60-sec-76725f3d",
+      "title": "RKS3.COM-SOUL-PATHWAY-60 SEC",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-SOUL-PATHWAY-60 SEC.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-SOUL-PATHWAY-60 SEC.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-soul-pathway-60-sec-76725f3d.wav"
+    },
+    {
+      "id": "skits-rks3-com-spirit-outro-60s-4f94b1bf",
+      "title": "RKS3.COM-SPIRIT-OUTRO -60s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-SPIRIT-OUTRO -60s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-SPIRIT-OUTRO -60s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-spirit-outro-60s-4f94b1bf.wav"
+    },
+    {
+      "id": "skits-rks3-com-spirit-outro-final-59a9c052",
+      "title": "RKS3.COM-SPIRIT-OUTRO (Final)",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-SPIRIT-OUTRO (Final).hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-SPIRIT-OUTRO (Final).hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-spirit-outro-final-59a9c052.wav"
+    },
+    {
+      "id": "skits-rks3-com-spirit-outro-final-60s-ebfb2b8e",
+      "title": "RKS3.COM-SPIRIT-OUTRO (Final)- 60s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-SPIRIT-OUTRO (Final)- 60s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-SPIRIT-OUTRO (Final)- 60s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-spirit-outro-final-60s-ebfb2b8e.wav"
+    },
+    {
+      "id": "skits-rks3-com-spirit-pathway-f65fc030",
+      "title": "RKS3.COM-SPIRIT-PATHWAY",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-SPIRIT-PATHWAY.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-SPIRIT-PATHWAY.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-spirit-pathway-f65fc030.wav"
+    },
+    {
+      "id": "skits-rks3-com-spirit-pathway-60s-c0da990a",
+      "title": "RKS3.COM-SPIRIT-PATHWAY-60s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-SPIRIT-PATHWAY-60s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-SPIRIT-PATHWAY-60s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-spirit-pathway-60s-c0da990a.wav"
+    },
+    {
+      "id": "skits-rks3-com-street-outro-60s-balanced-4ae71648",
+      "title": "RKS3.COM-STREET-OUTRO-60s-Balanced",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-STREET-OUTRO-60s-Balanced.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-STREET-OUTRO-60s-Balanced.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-street-outro-60s-balanced-4ae71648.wav"
+    },
+    {
+      "id": "skits-rks3-com-street-pathway-60-sec-4ffd2d42",
+      "title": "RKS3.COM-STREET-PATHWAY-60 SEC",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-STREET-PATHWAY-60 SEC.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-STREET-PATHWAY-60 SEC.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-street-pathway-60-sec-4ffd2d42.wav"
+    },
+    {
+      "id": "skits-rks3-com-street-pathway-60-secs-02f5d090",
+      "title": "RKS3.COM-STREET-PATHWAY-60 SECS",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-STREET-PATHWAY-60 SECS.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-STREET-PATHWAY-60 SECS.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-street-pathway-60-secs-02f5d090.wav"
+    },
+    {
+      "id": "skits-rks3-com-vault-build-up-30-s-61345bad",
+      "title": "RKS3.COM-Vault Build Up (30)s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-Vault Build Up (30)s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-Vault Build Up (30)s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-vault-build-up-30-s-61345bad.wav"
+    },
+    {
+      "id": "skits-rks3-com-vault-closing-outro-60s-46889309",
+      "title": "RKS3.COM-Vault Closing Outro (60s)",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-Vault Closing Outro (60s).hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-Vault Closing Outro (60s).hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-vault-closing-outro-60s-46889309.wav"
+    },
+    {
+      "id": "skits-rks3-com-vault-door-impact-30s-fc08aa01",
+      "title": "RKS3.COM-Vault Door Impact-30s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-Vault Door Impact-30s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-Vault Door Impact-30s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-vault-door-impact-30s-fc08aa01.wav"
+    },
+    {
+      "id": "skits-rks3-com-vault-victory-cue-30s-18c662be",
+      "title": "RKS3.COM-Vault Victory Cue (30s)",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-Vault Victory Cue (30s).hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-Vault Victory Cue (30s).hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-vault-victory-cue-30s-18c662be.wav"
+    },
+    {
+      "id": "skits-rks3-com-vault-victory-cue-60s-70b39eef",
+      "title": "RKS3.COM-Vault-Victory-Cue-60s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-Vault-Victory-Cue-60s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-Vault-Victory-Cue-60s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-vault-victory-cue-60s-70b39eef.wav"
+    }
+  ],
+  "reviewRecords": [
+    {
+      "id": "bilingual-bi-lingual-8e959e7e",
+      "title": "Bi-Lingual",
+      "category": "bilingual",
+      "versionLabel": "Version 1",
+      "originalFileName": "Bi-Lingual (1).hdwav.wav",
+      "originalRelativePath": "english:spanish/Bi-Lingual (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/bilingual/bi-lingual-8e959e7e.wav",
+      "reasons": [
+        "duplicate-title-group:bi lingual",
+        "same-category-version-cluster:bilingual/bi lingual"
+      ]
+    },
+    {
+      "id": "bilingual-bi-lingual-09ae936f",
+      "title": "Bi-Lingual",
+      "category": "bilingual",
+      "versionLabel": "Version 10",
+      "originalFileName": "Bi-Lingual (10).hdwav.wav",
+      "originalRelativePath": "english:spanish/Bi-Lingual (10).hdwav.wav",
+      "audioSrc": "/audio/rks3/bilingual/bi-lingual-09ae936f.wav",
+      "reasons": [
+        "duplicate-title-group:bi lingual",
+        "same-category-version-cluster:bilingual/bi lingual"
+      ]
+    },
+    {
+      "id": "bilingual-bi-lingual-5bdcad5c",
+      "title": "Bi-Lingual",
+      "category": "bilingual",
+      "versionLabel": "Version 3",
+      "originalFileName": "Bi-Lingual (3).hdwav.wav",
+      "originalRelativePath": "english:spanish/Bi-Lingual (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/bilingual/bi-lingual-5bdcad5c.wav",
+      "reasons": [
+        "duplicate-title-group:bi lingual",
+        "same-category-version-cluster:bilingual/bi lingual"
+      ]
+    },
+    {
+      "id": "bilingual-free-727bfdae",
+      "title": "FREE",
+      "category": "bilingual",
+      "versionLabel": "Version 1",
+      "originalFileName": "FREE (1).hdwav.wav",
+      "originalRelativePath": "english:spanish/FREE (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/bilingual/free-727bfdae.wav",
+      "reasons": [
+        "duplicate-title-group:free",
+        "same-category-version-cluster:bilingual/free"
+      ]
+    },
+    {
+      "id": "bilingual-free-4970aa3e",
+      "title": "FREE",
+      "category": "bilingual",
+      "versionLabel": "Version 2",
+      "originalFileName": "FREE (2).hdwav.wav",
+      "originalRelativePath": "english:spanish/FREE (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/bilingual/free-4970aa3e.wav",
+      "reasons": [
+        "duplicate-title-group:free",
+        "same-category-version-cluster:bilingual/free"
+      ]
+    },
+    {
+      "id": "bilingual-level-up-865b0467",
+      "title": "LEVEL UP",
+      "category": "bilingual",
+      "versionLabel": "Version 27",
+      "originalFileName": "LEVEL UP (27) .hdwav.wav",
+      "originalRelativePath": "english:spanish/LEVEL UP (27) .hdwav.wav",
+      "audioSrc": "/audio/rks3/bilingual/level-up-865b0467.wav",
+      "reasons": [
+        "duplicate-title-group:level up"
+      ]
+    },
+    {
+      "id": "bilingual-reggaetone-59768173",
+      "title": "REGGAETONE",
+      "category": "bilingual",
+      "versionLabel": "Version 1",
+      "originalFileName": "REGGAETONE (1).hdwav.wav",
+      "originalRelativePath": "english:spanish/REGGAETONE (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/bilingual/reggaetone-59768173.wav",
+      "reasons": [
+        "duplicate-title-group:reggaetone",
+        "same-category-version-cluster:bilingual/reggaetone"
+      ]
+    },
+    {
+      "id": "bilingual-reggaetone-3883752c",
+      "title": "REGGAETONE",
+      "category": "bilingual",
+      "versionLabel": "Version 2",
+      "originalFileName": "REGGAETONE (2).hdwav.wav",
+      "originalRelativePath": "english:spanish/REGGAETONE (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/bilingual/reggaetone-3883752c.wav",
+      "reasons": [
+        "duplicate-title-group:reggaetone",
+        "same-category-version-cluster:bilingual/reggaetone"
+      ]
+    },
+    {
+      "id": "bilingual-reggaetone-525026e4",
+      "title": "REGGAETONE",
+      "category": "bilingual",
+      "versionLabel": "Version 3",
+      "originalFileName": "REGGAETONE (3).hdwav.wav",
+      "originalRelativePath": "english:spanish/REGGAETONE (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/bilingual/reggaetone-525026e4.wav",
+      "reasons": [
+        "duplicate-title-group:reggaetone",
+        "same-category-version-cluster:bilingual/reggaetone"
+      ]
+    },
+    {
+      "id": "healing-allareone-23077149",
+      "title": "ALLAREONE",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "ALLAREONE.hdwav.wav",
+      "originalRelativePath": "Healing/ALLAREONE.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/allareone-23077149.wav",
+      "reasons": [
+        "duplicate-title-group:allareone"
+      ]
+    },
+    {
+      "id": "healing-chakra-615a76e1",
+      "title": "chakra",
+      "category": "healing",
+      "versionLabel": "Version 4",
+      "originalFileName": "chakra (4).hdwav.wav",
+      "originalRelativePath": "Healing/chakra (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/chakra-615a76e1.wav",
+      "reasons": [
+        "duplicate-title-group:chakra"
+      ]
+    },
+    {
+      "id": "healing-changed-fb5cba81",
+      "title": "CHANGED",
+      "category": "healing",
+      "versionLabel": "Version 13",
+      "originalFileName": "CHANGED (13).hdwav.wav",
+      "originalRelativePath": "Healing/CHANGED (13).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/changed-fb5cba81.wav",
+      "reasons": [
+        "duplicate-title-group:changed",
+        "same-category-version-cluster:healing/changed"
+      ]
+    },
+    {
+      "id": "healing-changed-21eaba0d",
+      "title": "CHANGED",
+      "category": "healing",
+      "versionLabel": "Version 7",
+      "originalFileName": "CHANGED (7).hdwav.wav",
+      "originalRelativePath": "Healing/CHANGED (7).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/changed-21eaba0d.wav",
+      "reasons": [
+        "duplicate-title-group:changed",
+        "same-category-version-cluster:healing/changed"
+      ]
+    },
+    {
+      "id": "healing-core-earth-60be27d4",
+      "title": "core earth",
+      "category": "healing",
+      "versionLabel": "Version 2",
+      "originalFileName": "core earth (2).hdwav.wav",
+      "originalRelativePath": "Healing/core earth (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/core-earth-60be27d4.wav",
+      "reasons": [
+        "duplicate-title-group:core earth",
+        "same-category-version-cluster:healing/core earth"
+      ]
+    },
+    {
+      "id": "healing-core-earth-27dd67ba",
+      "title": "core earth",
+      "category": "healing",
+      "versionLabel": "Version 4",
+      "originalFileName": "core earth (4).hdwav.wav",
+      "originalRelativePath": "Healing/core earth (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/core-earth-27dd67ba.wav",
+      "reasons": [
+        "duplicate-title-group:core earth",
+        "same-category-version-cluster:healing/core earth"
+      ]
+    },
+    {
+      "id": "healing-dead-or-not-46a5729a",
+      "title": "dead or not",
+      "category": "healing",
+      "versionLabel": "Version 3",
+      "originalFileName": "dead or not (3).hdwav.wav",
+      "originalRelativePath": "Healing/dead or not (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/dead-or-not-46a5729a.wav",
+      "reasons": [
+        "duplicate-title-group:dead or not"
+      ]
+    },
+    {
+      "id": "healing-fa-844f67d1",
+      "title": "fa",
+      "category": "healing",
+      "versionLabel": "Version 1",
+      "originalFileName": "fa (1).hdwav.wav",
+      "originalRelativePath": "Healing/fa (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/fa-844f67d1.wav",
+      "reasons": [
+        "very-short-title",
+        "duplicate-title-group:fa"
+      ]
+    },
+    {
+      "id": "healing-h-m-0d318223",
+      "title": "h m",
+      "category": "healing",
+      "versionLabel": "Version 5",
+      "originalFileName": "h _ m  _ (5).hdwav.wav",
+      "originalRelativePath": "Healing/h _ m  _ (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/h-m-0d318223.wav",
+      "reasons": [
+        "double-space",
+        "duplicate-title-group:h m",
+        "same-category-version-cluster:healing/h m"
+      ]
+    },
+    {
+      "id": "healing-h-m-fcb7c397",
+      "title": "h m",
+      "category": "healing",
+      "versionLabel": "Version 8",
+      "originalFileName": "h _ m  _ (8).hdwav.wav",
+      "originalRelativePath": "Healing/h _ m  _ (8).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/h-m-fcb7c397.wav",
+      "reasons": [
+        "double-space",
+        "duplicate-title-group:h m",
+        "same-category-version-cluster:healing/h m"
+      ]
+    },
+    {
+      "id": "healing-heavens-call-498862f5",
+      "title": "Heaven's Call",
+      "category": "healing",
+      "versionLabel": "Version 1",
+      "originalFileName": "Heaven's Call (1).hdwav.wav",
+      "originalRelativePath": "Healing/Heaven's Call (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/heavens-call-498862f5.wav",
+      "reasons": [
+        "duplicate-title-group:heaven s call"
+      ]
+    },
+    {
+      "id": "healing-inner-light-cfe7f5c8",
+      "title": "Inner Light",
+      "category": "healing",
+      "versionLabel": "Version 2",
+      "originalFileName": "Inner Light (2).hdwav.wav",
+      "originalRelativePath": "Healing/Inner Light (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/inner-light-cfe7f5c8.wav",
+      "reasons": [
+        "duplicate-title-group:inner light",
+        "same-category-version-cluster:healing/inner light"
+      ]
+    },
+    {
+      "id": "healing-inner-light-7683b926",
+      "title": "Inner Light",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "Inner Light.hdwav.wav",
+      "originalRelativePath": "Healing/Inner Light.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/inner-light-7683b926.wav",
+      "reasons": [
+        "duplicate-title-group:inner light",
+        "same-category-version-cluster:healing/inner light"
+      ]
+    },
+    {
+      "id": "healing-just-love-e840c99e",
+      "title": "Just Love",
+      "category": "healing",
+      "versionLabel": "Version 4",
+      "originalFileName": "Just Love (4).hdwav.wav",
+      "originalRelativePath": "Healing/Just Love (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/just-love-e840c99e.wav",
+      "reasons": [
+        "duplicate-title-group:just love"
+      ]
+    },
+    {
+      "id": "healing-l-o-v-e-47cf5e18",
+      "title": "L.O.V.E.",
+      "category": "healing",
+      "versionLabel": "Version 1",
+      "originalFileName": "L.O.V.E. (1).hdwav.wav",
+      "originalRelativePath": "Healing/L.O.V.E. (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/l-o-v-e-47cf5e18.wav",
+      "reasons": [
+        "duplicate-title-group:l o v e"
+      ]
+    },
+    {
+      "id": "healing-law-8802df08",
+      "title": "LAW",
+      "category": "healing",
+      "versionLabel": "Version 4",
+      "originalFileName": "LAW (4).hdwav.wav",
+      "originalRelativePath": "Healing/LAW (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/law-8802df08.wav",
+      "reasons": [
+        "duplicate-title-group:law"
+      ]
+    },
+    {
+      "id": "healing-mastery-f6c6aeec",
+      "title": "mastery",
+      "category": "healing",
+      "versionLabel": "Version 1",
+      "originalFileName": "mastery (1).hdwav.wav",
+      "originalRelativePath": "Healing/mastery (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/mastery-f6c6aeec.wav",
+      "reasons": [
+        "duplicate-title-group:mastery",
+        "same-category-version-cluster:healing/mastery"
+      ]
+    },
+    {
+      "id": "healing-mastery-cfde3cce",
+      "title": "mastery",
+      "category": "healing",
+      "versionLabel": "Version 4",
+      "originalFileName": "mastery (4).hdwav.wav",
+      "originalRelativePath": "Healing/mastery (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/mastery-cfde3cce.wav",
+      "reasons": [
+        "duplicate-title-group:mastery",
+        "same-category-version-cluster:healing/mastery"
+      ]
+    },
+    {
+      "id": "healing-mastery-d298d353",
+      "title": "mastery",
+      "category": "healing",
+      "versionLabel": "Version 5",
+      "originalFileName": "mastery (5).hdwav.wav",
+      "originalRelativePath": "Healing/mastery (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/mastery-d298d353.wav",
+      "reasons": [
+        "duplicate-title-group:mastery",
+        "same-category-version-cluster:healing/mastery"
+      ]
+    },
+    {
+      "id": "healing-met-72f71cfb",
+      "title": "Met",
+      "category": "healing",
+      "versionLabel": "Version 7",
+      "originalFileName": "Met (7).hdwav.wav",
+      "originalRelativePath": "Healing/Met (7).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/met-72f71cfb.wav",
+      "reasons": [
+        "duplicate-title-group:met"
+      ]
+    },
+    {
+      "id": "healing-no-stress-20d6894c",
+      "title": "no stress",
+      "category": "healing",
+      "versionLabel": "Version 10",
+      "originalFileName": "no stress (10).hdwav.wav",
+      "originalRelativePath": "Healing/no stress (10).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/no-stress-20d6894c.wav",
+      "reasons": [
+        "duplicate-title-group:no stress"
+      ]
+    },
+    {
+      "id": "healing-off-7ae567b2",
+      "title": "OFF",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "OFF.hdwav.wav",
+      "originalRelativePath": "Healing/OFF.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/off-7ae567b2.wav",
+      "reasons": [
+        "duplicate-title-group:off"
+      ]
+    },
+    {
+      "id": "healing-position-7f0d95ec",
+      "title": "POSITION",
+      "category": "healing",
+      "versionLabel": "Version 3",
+      "originalFileName": "POSITION (3).hdwav.wav",
+      "originalRelativePath": "Healing/POSITION (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/position-7f0d95ec.wav",
+      "reasons": [
+        "duplicate-title-group:position"
+      ]
+    },
+    {
+      "id": "healing-really-d8ff0f60",
+      "title": "Really",
+      "category": "healing",
+      "versionLabel": "Version 2",
+      "originalFileName": "Really (2).hdwav.wav",
+      "originalRelativePath": "Healing/Really (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/really-d8ff0f60.wav",
+      "reasons": [
+        "duplicate-title-group:really"
+      ]
+    },
+    {
+      "id": "healing-roller-456d457e",
+      "title": "ROLLER",
+      "category": "healing",
+      "versionLabel": "Version 10",
+      "originalFileName": "ROLLER (10).hdwav.wav",
+      "originalRelativePath": "Healing/ROLLER (10).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/roller-456d457e.wav",
+      "reasons": [
+        "duplicate-title-group:roller"
+      ]
+    },
+    {
+      "id": "healing-sun-of-god-f9def525",
+      "title": "sun of God",
+      "category": "healing",
+      "versionLabel": "Version 8",
+      "originalFileName": "sun of God (8).hdwav.wav",
+      "originalRelativePath": "Healing/sun of God (8).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/sun-of-god-f9def525.wav",
+      "reasons": [
+        "duplicate-title-group:sun of god"
+      ]
+    },
+    {
+      "id": "healing-tester-44bcedcb",
+      "title": "tester",
+      "category": "healing",
+      "versionLabel": "Version 1",
+      "originalFileName": "tester (1).hdwav.wav",
+      "originalRelativePath": "Healing/tester (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/tester-44bcedcb.wav",
+      "reasons": [
+        "duplicate-title-group:tester",
+        "same-category-version-cluster:healing/tester"
+      ]
+    },
+    {
+      "id": "healing-tester-fa44dbaf",
+      "title": "tester",
+      "category": "healing",
+      "versionLabel": "Version 2",
+      "originalFileName": "tester (2).hdwav.wav",
+      "originalRelativePath": "Healing/tester (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/tester-fa44dbaf.wav",
+      "reasons": [
+        "duplicate-title-group:tester",
+        "same-category-version-cluster:healing/tester"
+      ]
+    },
+    {
+      "id": "healing-tester-438fc9a2",
+      "title": "tester",
+      "category": "healing",
+      "versionLabel": "Version 4",
+      "originalFileName": "tester (4).hdwav.wav",
+      "originalRelativePath": "Healing/tester (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/tester-438fc9a2.wav",
+      "reasons": [
+        "duplicate-title-group:tester",
+        "same-category-version-cluster:healing/tester"
+      ]
+    },
+    {
+      "id": "healing-the-great-reveal-25eb847b",
+      "title": "THE GREAT REVEAL",
+      "category": "healing",
+      "versionLabel": "Version 2",
+      "originalFileName": "THE GREAT REVEAL (2).hdwav.wav",
+      "originalRelativePath": "Healing/THE GREAT REVEAL (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/the-great-reveal-25eb847b.wav",
+      "reasons": [
+        "duplicate-title-group:the great reveal"
+      ]
+    },
+    {
+      "id": "healing-thouhgts-a5e225e6",
+      "title": "THOUHGTS",
+      "category": "healing",
+      "versionLabel": "Version 6",
+      "originalFileName": "THOUHGTS (6).hdwav.wav",
+      "originalRelativePath": "Healing/THOUHGTS (6).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/thouhgts-a5e225e6.wav",
+      "reasons": [
+        "duplicate-title-group:thouhgts"
+      ]
+    },
+    {
+      "id": "healing-yoga-down-4bff31fe",
+      "title": "YOGA DOWN",
+      "category": "healing",
+      "versionLabel": "Version 1",
+      "originalFileName": "YOGA DOWN (1).hdwav.wav",
+      "originalRelativePath": "Healing/YOGA DOWN (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/yoga-down-4bff31fe.wav",
+      "reasons": [
+        "duplicate-title-group:yoga down",
+        "same-category-version-cluster:healing/yoga down"
+      ]
+    },
+    {
+      "id": "healing-yoga-down-62cbe3b0",
+      "title": "YOGA DOWN",
+      "category": "healing",
+      "versionLabel": "Version 2",
+      "originalFileName": "YOGA DOWN (2).hdwav.wav",
+      "originalRelativePath": "Healing/YOGA DOWN (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/yoga-down-62cbe3b0.wav",
+      "reasons": [
+        "duplicate-title-group:yoga down",
+        "same-category-version-cluster:healing/yoga down"
+      ]
+    },
+    {
+      "id": "healing-yoga-down-e6f3680e",
+      "title": "YOGA DOWN",
+      "category": "healing",
+      "versionLabel": "Version 3",
+      "originalFileName": "YOGA DOWN (3).hdwav.wav",
+      "originalRelativePath": "Healing/YOGA DOWN (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/yoga-down-e6f3680e.wav",
+      "reasons": [
+        "duplicate-title-group:yoga down",
+        "same-category-version-cluster:healing/yoga down"
+      ]
+    },
+    {
+      "id": "healing-yoga-down-ad32a249",
+      "title": "YOGA DOWN",
+      "category": "healing",
+      "versionLabel": "Version 5",
+      "originalFileName": "YOGA DOWN (5).hdwav.wav",
+      "originalRelativePath": "Healing/YOGA DOWN (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/yoga-down-ad32a249.wav",
+      "reasons": [
+        "duplicate-title-group:yoga down",
+        "same-category-version-cluster:healing/yoga down"
+      ]
+    },
+    {
+      "id": "healing-yoga-down-3299feaa",
+      "title": "YOGA DOWN",
+      "category": "healing",
+      "versionLabel": "Version 6",
+      "originalFileName": "YOGA DOWN (6).hdwav.wav",
+      "originalRelativePath": "Healing/YOGA DOWN (6).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/yoga-down-3299feaa.wav",
+      "reasons": [
+        "duplicate-title-group:yoga down",
+        "same-category-version-cluster:healing/yoga down"
+      ]
+    },
+    {
+      "id": "healing-yoga-down-ab2e024a",
+      "title": "YOGA DOWN",
+      "category": "healing",
+      "versionLabel": "Main",
+      "originalFileName": "YOGA DOWN.hdwav.wav",
+      "originalRelativePath": "Healing/YOGA DOWN.hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/yoga-down-ab2e024a.wav",
+      "reasons": [
+        "duplicate-title-group:yoga down",
+        "same-category-version-cluster:healing/yoga down"
+      ]
+    },
+    {
+      "id": "healing-yourself-9ae236b8",
+      "title": "yourself",
+      "category": "healing",
+      "versionLabel": "Version 1",
+      "originalFileName": "yourself (1).hdwav.wav",
+      "originalRelativePath": "Healing/yourself (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/yourself-9ae236b8.wav",
+      "reasons": [
+        "duplicate-title-group:yourself",
+        "same-category-version-cluster:healing/yourself"
+      ]
+    },
+    {
+      "id": "healing-yourself-170711bd",
+      "title": "yourself",
+      "category": "healing",
+      "versionLabel": "Version 2",
+      "originalFileName": "yourself (2).hdwav.wav",
+      "originalRelativePath": "Healing/yourself (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/healing/yourself-170711bd.wav",
+      "reasons": [
+        "duplicate-title-group:yourself",
+        "same-category-version-cluster:healing/yourself"
+      ]
+    },
+    {
+      "id": "instrumentals-0332125-4da479bb",
+      "title": "0332125",
+      "category": "instrumentals",
+      "versionLabel": "Main",
+      "originalFileName": "0332125.hdwav.wav",
+      "originalRelativePath": "Instrumentals/0332125.hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/0332125-4da479bb.wav",
+      "reasons": [
+        "number-only-title"
+      ]
+    },
+    {
+      "id": "instrumentals-3rd-eye-8805842c",
+      "title": "3rd eye",
+      "category": "instrumentals",
+      "versionLabel": "Version 1",
+      "originalFileName": "3rd eye (1).hdwav.wav",
+      "originalRelativePath": "Instrumentals/3rd eye (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/3rd-eye-8805842c.wav",
+      "reasons": [
+        "duplicate-title-group:3rd eye",
+        "same-category-version-cluster:instrumentals/3rd eye"
+      ]
+    },
+    {
+      "id": "instrumentals-3rd-eye-84a06ec7",
+      "title": "3rd eye",
+      "category": "instrumentals",
+      "versionLabel": "Version 2",
+      "originalFileName": "3rd eye (2).hdwav.wav",
+      "originalRelativePath": "Instrumentals/3rd eye (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/3rd-eye-84a06ec7.wav",
+      "reasons": [
+        "duplicate-title-group:3rd eye",
+        "same-category-version-cluster:instrumentals/3rd eye"
+      ]
+    },
+    {
+      "id": "instrumentals-3rd-eye-ceeb342c",
+      "title": "3rd eye",
+      "category": "instrumentals",
+      "versionLabel": "Version 3",
+      "originalFileName": "3rd eye (3).hdwav.wav",
+      "originalRelativePath": "Instrumentals/3rd eye (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/3rd-eye-ceeb342c.wav",
+      "reasons": [
+        "duplicate-title-group:3rd eye",
+        "same-category-version-cluster:instrumentals/3rd eye"
+      ]
+    },
+    {
+      "id": "instrumentals-3rd-eye-85c770de",
+      "title": "3rd eye",
+      "category": "instrumentals",
+      "versionLabel": "Version 4",
+      "originalFileName": "3rd eye (4).hdwav.wav",
+      "originalRelativePath": "Instrumentals/3rd eye (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/3rd-eye-85c770de.wav",
+      "reasons": [
+        "duplicate-title-group:3rd eye",
+        "same-category-version-cluster:instrumentals/3rd eye"
+      ]
+    },
+    {
+      "id": "instrumentals-3rd-eye-80fc51a0",
+      "title": "3rd eye",
+      "category": "instrumentals",
+      "versionLabel": "Main",
+      "originalFileName": "3rd eye.hdwav.wav",
+      "originalRelativePath": "Instrumentals/3rd eye.hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/3rd-eye-80fc51a0.wav",
+      "reasons": [
+        "duplicate-title-group:3rd eye",
+        "same-category-version-cluster:instrumentals/3rd eye"
+      ]
+    },
+    {
+      "id": "instrumentals-chakra-dde1525c",
+      "title": "chakra",
+      "category": "instrumentals",
+      "versionLabel": "Version 1",
+      "originalFileName": "chakra (1).hdwav.wav",
+      "originalRelativePath": "Instrumentals/chakra (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/chakra-dde1525c.wav",
+      "reasons": [
+        "duplicate-title-group:chakra",
+        "same-category-version-cluster:instrumentals/chakra"
+      ]
+    },
+    {
+      "id": "instrumentals-chakra-f07d0d52",
+      "title": "chakra",
+      "category": "instrumentals",
+      "versionLabel": "Version 3",
+      "originalFileName": "chakra (3).hdwav.wav",
+      "originalRelativePath": "Instrumentals/chakra (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/chakra-f07d0d52.wav",
+      "reasons": [
+        "duplicate-title-group:chakra",
+        "same-category-version-cluster:instrumentals/chakra"
+      ]
+    },
+    {
+      "id": "instrumentals-changed-eb9a6133",
+      "title": "CHANGED",
+      "category": "instrumentals",
+      "versionLabel": "Main",
+      "originalFileName": "CHANGED.hdwav.wav",
+      "originalRelativePath": "Instrumentals/CHANGED.hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/changed-eb9a6133.wav",
+      "reasons": [
+        "duplicate-title-group:changed"
+      ]
+    },
+    {
+      "id": "instrumentals-crown-33d52d86",
+      "title": "crown",
+      "category": "instrumentals",
+      "versionLabel": "Version 1",
+      "originalFileName": "crown (1).hdwav.wav",
+      "originalRelativePath": "Instrumentals/crown (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/crown-33d52d86.wav",
+      "reasons": [
+        "duplicate-title-group:crown",
+        "same-category-version-cluster:instrumentals/crown"
+      ]
+    },
+    {
+      "id": "instrumentals-crown-79952414",
+      "title": "crown",
+      "category": "instrumentals",
+      "versionLabel": "Version 2",
+      "originalFileName": "crown (2).hdwav.wav",
+      "originalRelativePath": "Instrumentals/crown (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/crown-79952414.wav",
+      "reasons": [
+        "duplicate-title-group:crown",
+        "same-category-version-cluster:instrumentals/crown"
+      ]
+    },
+    {
+      "id": "instrumentals-crown-79820f23",
+      "title": "crown",
+      "category": "instrumentals",
+      "versionLabel": "Version 3",
+      "originalFileName": "crown (3).hdwav.wav",
+      "originalRelativePath": "Instrumentals/crown (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/crown-79820f23.wav",
+      "reasons": [
+        "duplicate-title-group:crown",
+        "same-category-version-cluster:instrumentals/crown"
+      ]
+    },
+    {
+      "id": "instrumentals-crystal-code-485ed7c1",
+      "title": "Crystal Code",
+      "category": "instrumentals",
+      "versionLabel": "Version 1",
+      "originalFileName": "Crystal Code (1).hdwav.wav",
+      "originalRelativePath": "Instrumentals/Crystal Code (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/crystal-code-485ed7c1.wav",
+      "reasons": [
+        "duplicate-title-group:crystal code",
+        "same-category-version-cluster:instrumentals/crystal code"
+      ]
+    },
+    {
+      "id": "instrumentals-crystal-code-d9dfba97",
+      "title": "Crystal Code",
+      "category": "instrumentals",
+      "versionLabel": "Version 10",
+      "originalFileName": "Crystal Code (10).hdwav.wav",
+      "originalRelativePath": "Instrumentals/Crystal Code (10).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/crystal-code-d9dfba97.wav",
+      "reasons": [
+        "duplicate-title-group:crystal code",
+        "same-category-version-cluster:instrumentals/crystal code"
+      ]
+    },
+    {
+      "id": "instrumentals-crystal-code-8548aff4",
+      "title": "Crystal Code",
+      "category": "instrumentals",
+      "versionLabel": "Version 3",
+      "originalFileName": "Crystal Code (3).hdwav.wav",
+      "originalRelativePath": "Instrumentals/Crystal Code (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/crystal-code-8548aff4.wav",
+      "reasons": [
+        "duplicate-title-group:crystal code",
+        "same-category-version-cluster:instrumentals/crystal code"
+      ]
+    },
+    {
+      "id": "instrumentals-crystal-code-8e3bdfed",
+      "title": "Crystal Code",
+      "category": "instrumentals",
+      "versionLabel": "Version 4",
+      "originalFileName": "Crystal Code (4).hdwav.wav",
+      "originalRelativePath": "Instrumentals/Crystal Code (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/crystal-code-8e3bdfed.wav",
+      "reasons": [
+        "duplicate-title-group:crystal code",
+        "same-category-version-cluster:instrumentals/crystal code"
+      ]
+    },
+    {
+      "id": "instrumentals-crystal-code-f4be55b9",
+      "title": "Crystal Code",
+      "category": "instrumentals",
+      "versionLabel": "Version 5",
+      "originalFileName": "Crystal Code (5).hdwav.wav",
+      "originalRelativePath": "Instrumentals/Crystal Code (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/crystal-code-f4be55b9.wav",
+      "reasons": [
+        "duplicate-title-group:crystal code",
+        "same-category-version-cluster:instrumentals/crystal code"
+      ]
+    },
+    {
+      "id": "instrumentals-crystal-code-3c43c5e6",
+      "title": "Crystal Code",
+      "category": "instrumentals",
+      "versionLabel": "Version 6",
+      "originalFileName": "Crystal Code (6).hdwav.wav",
+      "originalRelativePath": "Instrumentals/Crystal Code (6).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/crystal-code-3c43c5e6.wav",
+      "reasons": [
+        "duplicate-title-group:crystal code",
+        "same-category-version-cluster:instrumentals/crystal code"
+      ]
+    },
+    {
+      "id": "instrumentals-crystal-code-11b360f1",
+      "title": "Crystal Code",
+      "category": "instrumentals",
+      "versionLabel": "Version 8",
+      "originalFileName": "Crystal Code (8).hdwav.wav",
+      "originalRelativePath": "Instrumentals/Crystal Code (8).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/crystal-code-11b360f1.wav",
+      "reasons": [
+        "duplicate-title-group:crystal code",
+        "same-category-version-cluster:instrumentals/crystal code"
+      ]
+    },
+    {
+      "id": "instrumentals-crystal-code-f44ec6c5",
+      "title": "Crystal Code",
+      "category": "instrumentals",
+      "versionLabel": "Version 9",
+      "originalFileName": "Crystal Code (9).hdwav.wav",
+      "originalRelativePath": "Instrumentals/Crystal Code (9).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/crystal-code-f44ec6c5.wav",
+      "reasons": [
+        "duplicate-title-group:crystal code",
+        "same-category-version-cluster:instrumentals/crystal code"
+      ]
+    },
+    {
+      "id": "instrumentals-crystal-code-773824e1",
+      "title": "Crystal Code",
+      "category": "instrumentals",
+      "versionLabel": "Main",
+      "originalFileName": "Crystal Code.hdwav.wav",
+      "originalRelativePath": "Instrumentals/Crystal Code.hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/crystal-code-773824e1.wav",
+      "reasons": [
+        "duplicate-title-group:crystal code",
+        "same-category-version-cluster:instrumentals/crystal code"
+      ]
+    },
+    {
+      "id": "instrumentals-heart-aa751138",
+      "title": "heart",
+      "category": "instrumentals",
+      "versionLabel": "Version 1",
+      "originalFileName": "heart (1).hdwav.wav",
+      "originalRelativePath": "Instrumentals/heart (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/heart-aa751138.wav",
+      "reasons": [
+        "duplicate-title-group:heart",
+        "same-category-version-cluster:instrumentals/heart"
+      ]
+    },
+    {
+      "id": "instrumentals-heart-55628d70",
+      "title": "heart",
+      "category": "instrumentals",
+      "versionLabel": "Version 2",
+      "originalFileName": "heart (2).hdwav.wav",
+      "originalRelativePath": "Instrumentals/heart (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/heart-55628d70.wav",
+      "reasons": [
+        "duplicate-title-group:heart",
+        "same-category-version-cluster:instrumentals/heart"
+      ]
+    },
+    {
+      "id": "instrumentals-heart-ab0168b0",
+      "title": "heart",
+      "category": "instrumentals",
+      "versionLabel": "Version 3",
+      "originalFileName": "heart (3).hdwav.wav",
+      "originalRelativePath": "Instrumentals/heart (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/heart-ab0168b0.wav",
+      "reasons": [
+        "duplicate-title-group:heart",
+        "same-category-version-cluster:instrumentals/heart"
+      ]
+    },
+    {
+      "id": "instrumentals-heart-0dbcdd20",
+      "title": "heart",
+      "category": "instrumentals",
+      "versionLabel": "Version 4",
+      "originalFileName": "heart (4).hdwav.wav",
+      "originalRelativePath": "Instrumentals/heart (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/heart-0dbcdd20.wav",
+      "reasons": [
+        "duplicate-title-group:heart",
+        "same-category-version-cluster:instrumentals/heart"
+      ]
+    },
+    {
+      "id": "instrumentals-heart-ab5f8901",
+      "title": "heart",
+      "category": "instrumentals",
+      "versionLabel": "Version 5",
+      "originalFileName": "heart (5).hdwav.wav",
+      "originalRelativePath": "Instrumentals/heart (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/heart-ab5f8901.wav",
+      "reasons": [
+        "duplicate-title-group:heart",
+        "same-category-version-cluster:instrumentals/heart"
+      ]
+    },
+    {
+      "id": "instrumentals-heart-750981c6",
+      "title": "heart",
+      "category": "instrumentals",
+      "versionLabel": "Version 6",
+      "originalFileName": "heart (6).hdwav.wav",
+      "originalRelativePath": "Instrumentals/heart (6).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/heart-750981c6.wav",
+      "reasons": [
+        "duplicate-title-group:heart",
+        "same-category-version-cluster:instrumentals/heart"
+      ]
+    },
+    {
+      "id": "instrumentals-heart-1bbc5b35",
+      "title": "heart",
+      "category": "instrumentals",
+      "versionLabel": "Version 7",
+      "originalFileName": "heart (7).hdwav.wav",
+      "originalRelativePath": "Instrumentals/heart (7).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/heart-1bbc5b35.wav",
+      "reasons": [
+        "duplicate-title-group:heart",
+        "same-category-version-cluster:instrumentals/heart"
+      ]
+    },
+    {
+      "id": "instrumentals-law-e90e2b59",
+      "title": "LAW",
+      "category": "instrumentals",
+      "versionLabel": "Version 12",
+      "originalFileName": "LAW (12).hdwav.wav",
+      "originalRelativePath": "Instrumentals/LAW (12).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/law-e90e2b59.wav",
+      "reasons": [
+        "duplicate-title-group:law",
+        "same-category-version-cluster:instrumentals/law"
+      ]
+    },
+    {
+      "id": "instrumentals-law-6de88a4f",
+      "title": "LAW",
+      "category": "instrumentals",
+      "versionLabel": "Main",
+      "originalFileName": "LAW.hdwav.wav",
+      "originalRelativePath": "Instrumentals/LAW.hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/law-6de88a4f.wav",
+      "reasons": [
+        "duplicate-title-group:law",
+        "same-category-version-cluster:instrumentals/law"
+      ]
+    },
+    {
+      "id": "instrumentals-lucky-23b55e2c",
+      "title": "LUCKY",
+      "category": "instrumentals",
+      "versionLabel": "Version 1",
+      "originalFileName": "LUCKY (1).hdwav.wav",
+      "originalRelativePath": "Instrumentals/LUCKY (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/lucky-23b55e2c.wav",
+      "reasons": [
+        "duplicate-title-group:lucky",
+        "same-category-version-cluster:instrumentals/lucky"
+      ]
+    },
+    {
+      "id": "instrumentals-lucky-3115b0ed",
+      "title": "LUCKY",
+      "category": "instrumentals",
+      "versionLabel": "Version 2",
+      "originalFileName": "LUCKY (2).hdwav.wav",
+      "originalRelativePath": "Instrumentals/LUCKY (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/lucky-3115b0ed.wav",
+      "reasons": [
+        "duplicate-title-group:lucky",
+        "same-category-version-cluster:instrumentals/lucky"
+      ]
+    },
+    {
+      "id": "instrumentals-lucky-89c4b9f4",
+      "title": "LUCKY",
+      "category": "instrumentals",
+      "versionLabel": "Main",
+      "originalFileName": "LUCKY.hdwav.wav",
+      "originalRelativePath": "Instrumentals/LUCKY.hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/lucky-89c4b9f4.wav",
+      "reasons": [
+        "duplicate-title-group:lucky",
+        "same-category-version-cluster:instrumentals/lucky"
+      ]
+    },
+    {
+      "id": "instrumentals-rooted-in-red-f6aebb22",
+      "title": "Rooted in Red",
+      "category": "instrumentals",
+      "versionLabel": "Version 4",
+      "originalFileName": "Rooted in Red (4).hdwav.wav",
+      "originalRelativePath": "Instrumentals/Rooted in Red (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/rooted-in-red-f6aebb22.wav",
+      "reasons": [
+        "duplicate-title-group:rooted in red",
+        "same-category-version-cluster:instrumentals/rooted in red"
+      ]
+    },
+    {
+      "id": "instrumentals-rooted-in-red-c2859193",
+      "title": "Rooted in Red",
+      "category": "instrumentals",
+      "versionLabel": "Version 5",
+      "originalFileName": "Rooted in Red (5).hdwav.wav",
+      "originalRelativePath": "Instrumentals/Rooted in Red (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/rooted-in-red-c2859193.wav",
+      "reasons": [
+        "duplicate-title-group:rooted in red",
+        "same-category-version-cluster:instrumentals/rooted in red"
+      ]
+    },
+    {
+      "id": "instrumentals-rooted-in-red-e5aabe6f",
+      "title": "Rooted in Red",
+      "category": "instrumentals",
+      "versionLabel": "Main",
+      "originalFileName": "Rooted in Red.hdwav.wav",
+      "originalRelativePath": "Instrumentals/Rooted in Red.hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/rooted-in-red-e5aabe6f.wav",
+      "reasons": [
+        "duplicate-title-group:rooted in red",
+        "same-category-version-cluster:instrumentals/rooted in red"
+      ]
+    },
+    {
+      "id": "instrumentals-sacral-defcfd31",
+      "title": "sacral",
+      "category": "instrumentals",
+      "versionLabel": "Version 1",
+      "originalFileName": "sacral (1).hdwav.wav",
+      "originalRelativePath": "Instrumentals/sacral (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/sacral-defcfd31.wav",
+      "reasons": [
+        "duplicate-title-group:sacral",
+        "same-category-version-cluster:instrumentals/sacral"
+      ]
+    },
+    {
+      "id": "instrumentals-sacral-9a89db2f",
+      "title": "sacral",
+      "category": "instrumentals",
+      "versionLabel": "Version 2",
+      "originalFileName": "sacral (2).hdwav.wav",
+      "originalRelativePath": "Instrumentals/sacral (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/sacral-9a89db2f.wav",
+      "reasons": [
+        "duplicate-title-group:sacral",
+        "same-category-version-cluster:instrumentals/sacral"
+      ]
+    },
+    {
+      "id": "instrumentals-sacral-126b5863",
+      "title": "sacral",
+      "category": "instrumentals",
+      "versionLabel": "Version 3",
+      "originalFileName": "sacral (3).hdwav.wav",
+      "originalRelativePath": "Instrumentals/sacral (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/sacral-126b5863.wav",
+      "reasons": [
+        "duplicate-title-group:sacral",
+        "same-category-version-cluster:instrumentals/sacral"
+      ]
+    },
+    {
+      "id": "instrumentals-solar-5d460fab",
+      "title": "solar",
+      "category": "instrumentals",
+      "versionLabel": "Version 2",
+      "originalFileName": "solar (2).hdwav.wav",
+      "originalRelativePath": "Instrumentals/solar (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/solar-5d460fab.wav",
+      "reasons": [
+        "duplicate-title-group:solar",
+        "same-category-version-cluster:instrumentals/solar"
+      ]
+    },
+    {
+      "id": "instrumentals-solar-b9cb12bd",
+      "title": "solar",
+      "category": "instrumentals",
+      "versionLabel": "Main",
+      "originalFileName": "solar.hdwav.wav",
+      "originalRelativePath": "Instrumentals/solar.hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/solar-b9cb12bd.wav",
+      "reasons": [
+        "duplicate-title-group:solar",
+        "same-category-version-cluster:instrumentals/solar"
+      ]
+    },
+    {
+      "id": "instrumentals-throat-011caf4f",
+      "title": "throat",
+      "category": "instrumentals",
+      "versionLabel": "Version 1",
+      "originalFileName": "throat (1).hdwav.wav",
+      "originalRelativePath": "Instrumentals/throat (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/throat-011caf4f.wav",
+      "reasons": [
+        "duplicate-title-group:throat",
+        "same-category-version-cluster:instrumentals/throat"
+      ]
+    },
+    {
+      "id": "instrumentals-throat-18a466b1",
+      "title": "throat",
+      "category": "instrumentals",
+      "versionLabel": "Version 2",
+      "originalFileName": "throat (2).hdwav.wav",
+      "originalRelativePath": "Instrumentals/throat (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/throat-18a466b1.wav",
+      "reasons": [
+        "duplicate-title-group:throat",
+        "same-category-version-cluster:instrumentals/throat"
+      ]
+    },
+    {
+      "id": "instrumentals-throat-f7b5969d",
+      "title": "throat",
+      "category": "instrumentals",
+      "versionLabel": "Version 4",
+      "originalFileName": "throat (4).hdwav.wav",
+      "originalRelativePath": "Instrumentals/throat (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/throat-f7b5969d.wav",
+      "reasons": [
+        "duplicate-title-group:throat",
+        "same-category-version-cluster:instrumentals/throat"
+      ]
+    },
+    {
+      "id": "instrumentals-throat-d4c4ade7",
+      "title": "throat",
+      "category": "instrumentals",
+      "versionLabel": "Version 5",
+      "originalFileName": "throat (5).hdwav.wav",
+      "originalRelativePath": "Instrumentals/throat (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/throat-d4c4ade7.wav",
+      "reasons": [
+        "duplicate-title-group:throat",
+        "same-category-version-cluster:instrumentals/throat"
+      ]
+    },
+    {
+      "id": "instrumentals-throat-0800ee25",
+      "title": "throat",
+      "category": "instrumentals",
+      "versionLabel": "Version 6",
+      "originalFileName": "throat (6).hdwav.wav",
+      "originalRelativePath": "Instrumentals/throat (6).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/throat-0800ee25.wav",
+      "reasons": [
+        "duplicate-title-group:throat",
+        "same-category-version-cluster:instrumentals/throat"
+      ]
+    },
+    {
+      "id": "instrumentals-throat-20956397",
+      "title": "throat",
+      "category": "instrumentals",
+      "versionLabel": "Main",
+      "originalFileName": "throat.hdwav.wav",
+      "originalRelativePath": "Instrumentals/throat.hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/throat-20956397.wav",
+      "reasons": [
+        "duplicate-title-group:throat",
+        "same-category-version-cluster:instrumentals/throat"
+      ]
+    },
+    {
+      "id": "instrumentals-watch-what-you-say-1a30fbb4",
+      "title": "Watch What You Say",
+      "category": "instrumentals",
+      "versionLabel": "Version 10",
+      "originalFileName": "Watch What You Say (10).hdwav.wav",
+      "originalRelativePath": "Instrumentals/Watch What You Say (10).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/watch-what-you-say-1a30fbb4.wav",
+      "reasons": [
+        "duplicate-title-group:watch what you say",
+        "same-category-version-cluster:instrumentals/watch what you say"
+      ]
+    },
+    {
+      "id": "instrumentals-watch-what-you-say-53751527",
+      "title": "Watch What You Say",
+      "category": "instrumentals",
+      "versionLabel": "Version 3",
+      "originalFileName": "Watch What You Say (3).hdwav.wav",
+      "originalRelativePath": "Instrumentals/Watch What You Say (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/watch-what-you-say-53751527.wav",
+      "reasons": [
+        "duplicate-title-group:watch what you say",
+        "same-category-version-cluster:instrumentals/watch what you say"
+      ]
+    },
+    {
+      "id": "instrumentals-watch-what-you-say-3bc587a1",
+      "title": "Watch What You Say",
+      "category": "instrumentals",
+      "versionLabel": "Version 7",
+      "originalFileName": "Watch What You Say (7).hdwav.wav",
+      "originalRelativePath": "Instrumentals/Watch What You Say (7).hdwav.wav",
+      "audioSrc": "/audio/rks3/instrumentals/watch-what-you-say-3bc587a1.wav",
+      "reasons": [
+        "duplicate-title-group:watch what you say",
+        "same-category-version-cluster:instrumentals/watch what you say"
+      ]
+    },
+    {
+      "id": "poetry--6c09eba4",
+      "title": "❤️ ☀️",
+      "category": "poetry",
+      "versionLabel": "Version 5",
+      "originalFileName": "❤️ ☀️ (5).hdwav.wav",
+      "originalRelativePath": "Poetry/❤️ ☀️ (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/-6c09eba4.wav",
+      "reasons": [
+        "no-alphanumeric-title",
+        "weak-audio-slug",
+        "non-ascii-file-name"
+      ]
+    },
+    {
+      "id": "poetry-allareone-5735747d",
+      "title": "ALLAREONE",
+      "category": "poetry",
+      "versionLabel": "Main",
+      "originalFileName": "ALLAREONE.hdwav.wav",
+      "originalRelativePath": "Poetry/ALLAREONE.hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/allareone-5735747d.wav",
+      "reasons": [
+        "duplicate-title-group:allareone"
+      ]
+    },
+    {
+      "id": "poetry-alot-bb4db8cb",
+      "title": "alot",
+      "category": "poetry",
+      "versionLabel": "Main",
+      "originalFileName": "alot.hdwav.wav",
+      "originalRelativePath": "Poetry/alot.hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/alot-bb4db8cb.wav",
+      "reasons": [
+        "duplicate-title-group:alot"
+      ]
+    },
+    {
+      "id": "poetry-bud-ce6f8ff0",
+      "title": "BUD",
+      "category": "poetry",
+      "versionLabel": "Version 5",
+      "originalFileName": "BUD (5).hdwav.wav",
+      "originalRelativePath": "Poetry/BUD (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/bud-ce6f8ff0.wav",
+      "reasons": [
+        "duplicate-title-group:bud"
+      ]
+    },
+    {
+      "id": "poetry-dead-or-not-a6458767",
+      "title": "dead or not",
+      "category": "poetry",
+      "versionLabel": "Version 4",
+      "originalFileName": "dead or not (4).hdwav.wav",
+      "originalRelativePath": "Poetry/dead or not (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/dead-or-not-a6458767.wav",
+      "reasons": [
+        "duplicate-title-group:dead or not"
+      ]
+    },
+    {
+      "id": "poetry-fa-202e9c74",
+      "title": "fa",
+      "category": "poetry",
+      "versionLabel": "Version 2",
+      "originalFileName": "fa (2).hdwav.wav",
+      "originalRelativePath": "Poetry/fa (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/fa-202e9c74.wav",
+      "reasons": [
+        "very-short-title",
+        "duplicate-title-group:fa"
+      ]
+    },
+    {
+      "id": "poetry-for-sure-c0cfcd08",
+      "title": "FOR SURE",
+      "category": "poetry",
+      "versionLabel": "Version 26",
+      "originalFileName": "FOR SURE (26).hdwav.wav",
+      "originalRelativePath": "Poetry/FOR SURE (26).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/for-sure-c0cfcd08.wav",
+      "reasons": [
+        "duplicate-title-group:for sure"
+      ]
+    },
+    {
+      "id": "poetry-ghost-96b8364c",
+      "title": "ghost",
+      "category": "poetry",
+      "versionLabel": "Version 6",
+      "originalFileName": "ghost (6).hdwav.wav",
+      "originalRelativePath": "Poetry/ghost (6).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/ghost-96b8364c.wav",
+      "reasons": [
+        "duplicate-title-group:ghost"
+      ]
+    },
+    {
+      "id": "poetry-grow-whole-8dafa1b4",
+      "title": "grow whole",
+      "category": "poetry",
+      "versionLabel": "Version 7",
+      "originalFileName": "grow whole (7).hdwav.wav",
+      "originalRelativePath": "Poetry/grow whole (7).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/grow-whole-8dafa1b4.wav",
+      "reasons": [
+        "duplicate-title-group:grow whole"
+      ]
+    },
+    {
+      "id": "poetry-hotter-fa0c8b8c",
+      "title": "HOTTER",
+      "category": "poetry",
+      "versionLabel": "Version 4",
+      "originalFileName": "HOTTER (4).hdwav.wav",
+      "originalRelativePath": "Poetry/HOTTER (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/hotter-fa0c8b8c.wav",
+      "reasons": [
+        "duplicate-title-group:hotter",
+        "same-category-version-cluster:poetry/hotter"
+      ]
+    },
+    {
+      "id": "poetry-hotter-28c5b7b5",
+      "title": "HOTTER",
+      "category": "poetry",
+      "versionLabel": "Main",
+      "originalFileName": "HOTTER.hdwav.wav",
+      "originalRelativePath": "Poetry/HOTTER.hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/hotter-28c5b7b5.wav",
+      "reasons": [
+        "duplicate-title-group:hotter",
+        "same-category-version-cluster:poetry/hotter"
+      ]
+    },
+    {
+      "id": "poetry-i-36497c99",
+      "title": "I",
+      "category": "poetry",
+      "versionLabel": "Version 3",
+      "originalFileName": "I (3).hdwav.wav",
+      "originalRelativePath": "Poetry/I (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/i-36497c99.wav",
+      "reasons": [
+        "very-short-title",
+        "duplicate-title-group:i"
+      ]
+    },
+    {
+      "id": "poetry-l-o-v-e-b1185bf8",
+      "title": "L.O.V.E.",
+      "category": "poetry",
+      "versionLabel": "Version 8",
+      "originalFileName": "L.O.V.E. (8).hdwav.wav",
+      "originalRelativePath": "Poetry/L.O.V.E. (8).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/l-o-v-e-b1185bf8.wav",
+      "reasons": [
+        "duplicate-title-group:l o v e"
+      ]
+    },
+    {
+      "id": "poetry-love-and-light-027f9bde",
+      "title": "LOVE AND LIGHT",
+      "category": "poetry",
+      "versionLabel": "Version 3",
+      "originalFileName": "LOVE AND LIGHT (3).hdwav.wav",
+      "originalRelativePath": "Poetry/LOVE AND LIGHT (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/love-and-light-027f9bde.wav",
+      "reasons": [
+        "duplicate-title-group:love and light"
+      ]
+    },
+    {
+      "id": "poetry-mind-state-36c3b45f",
+      "title": "MIND STATE",
+      "category": "poetry",
+      "versionLabel": "Version 1",
+      "originalFileName": "MIND STATE (1).hdwav.wav",
+      "originalRelativePath": "Poetry/MIND STATE (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/mind-state-36c3b45f.wav",
+      "reasons": [
+        "duplicate-title-group:mind state",
+        "same-category-version-cluster:poetry/mind state"
+      ]
+    },
+    {
+      "id": "poetry-mind-state-eddd28bf",
+      "title": "MIND STATE",
+      "category": "poetry",
+      "versionLabel": "Main",
+      "originalFileName": "MIND STATE.hdwav.wav",
+      "originalRelativePath": "Poetry/MIND STATE.hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/mind-state-eddd28bf.wav",
+      "reasons": [
+        "duplicate-title-group:mind state",
+        "same-category-version-cluster:poetry/mind state"
+      ]
+    },
+    {
+      "id": "poetry-no-bond-90fdfcd8",
+      "title": "NO BOND",
+      "category": "poetry",
+      "versionLabel": "Main",
+      "originalFileName": "NO BOND.hdwav.wav",
+      "originalRelativePath": "Poetry/NO BOND.hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/no-bond-90fdfcd8.wav",
+      "reasons": [
+        "duplicate-title-group:no bond"
+      ]
+    },
+    {
+      "id": "poetry-proof-3ff2c79b",
+      "title": "PROOF",
+      "category": "poetry",
+      "versionLabel": "Version 2",
+      "originalFileName": "PROOF (2).hdwav.wav",
+      "originalRelativePath": "Poetry/PROOF (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/proof-3ff2c79b.wav",
+      "reasons": [
+        "duplicate-title-group:proof"
+      ]
+    },
+    {
+      "id": "poetry-really-4cca739e",
+      "title": "Really",
+      "category": "poetry",
+      "versionLabel": "Version 3",
+      "originalFileName": "Really (3).hdwav.wav",
+      "originalRelativePath": "Poetry/Really (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/really-4cca739e.wav",
+      "reasons": [
+        "duplicate-title-group:really"
+      ]
+    },
+    {
+      "id": "poetry-stay-ready-24979857",
+      "title": "stay ready",
+      "category": "poetry",
+      "versionLabel": "Version 5",
+      "originalFileName": "stay ready (5).hdwav.wav",
+      "originalRelativePath": "Poetry/stay ready (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/stay-ready-24979857.wav",
+      "reasons": [
+        "duplicate-title-group:stay ready"
+      ]
+    },
+    {
+      "id": "poetry-women-fb775a26",
+      "title": "women",
+      "category": "poetry",
+      "versionLabel": "Version 3",
+      "originalFileName": "women (3).hdwav.wav",
+      "originalRelativePath": "Poetry/women (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/women-fb775a26.wav",
+      "reasons": [
+        "duplicate-title-group:women"
+      ]
+    },
+    {
+      "id": "poetry-work-b7d4da20",
+      "title": "work",
+      "category": "poetry",
+      "versionLabel": "Version 19",
+      "originalFileName": "work (19).hdwav.wav",
+      "originalRelativePath": "Poetry/work (19).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/work-b7d4da20.wav",
+      "reasons": [
+        "duplicate-title-group:work",
+        "same-category-version-cluster:poetry/work"
+      ]
+    },
+    {
+      "id": "poetry-work-d2f44fa7",
+      "title": "work",
+      "category": "poetry",
+      "versionLabel": "Version 21",
+      "originalFileName": "work (21).hdwav.wav",
+      "originalRelativePath": "Poetry/work (21).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/work-d2f44fa7.wav",
+      "reasons": [
+        "duplicate-title-group:work",
+        "same-category-version-cluster:poetry/work"
+      ]
+    },
+    {
+      "id": "poetry-yourself-c906b2fa",
+      "title": "yourself",
+      "category": "poetry",
+      "versionLabel": "Version 2",
+      "originalFileName": "yourself (2).hdwav.wav",
+      "originalRelativePath": "Poetry/yourself (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/poetry/yourself-c906b2fa.wav",
+      "reasons": [
+        "duplicate-title-group:yourself"
+      ]
+    },
+    {
+      "id": "rap-10-stars-24abfbd0",
+      "title": "10 STARS",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "10 STARS.hdwav.wav",
+      "originalRelativePath": "Rap/10 STARS.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/10-stars-24abfbd0.wav",
+      "reasons": [
+        "duplicate-title-group:10 stars"
+      ]
+    },
+    {
+      "id": "rap-alot-7dc45869",
+      "title": "alot",
+      "category": "rap",
+      "versionLabel": "Version 5",
+      "originalFileName": "alot (5).hdwav.wav",
+      "originalRelativePath": "Rap/alot (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/alot-7dc45869.wav",
+      "reasons": [
+        "duplicate-title-group:alot"
+      ]
+    },
+    {
+      "id": "rap-blue-sky-5cf54ce8",
+      "title": "BLUE SKY",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "BLUE SKY (1).hdwav.wav",
+      "originalRelativePath": "Rap/BLUE SKY (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/blue-sky-5cf54ce8.wav",
+      "reasons": [
+        "duplicate-title-group:blue sky"
+      ]
+    },
+    {
+      "id": "rap-breathe-a3e607ba",
+      "title": "Breathe",
+      "category": "rap",
+      "versionLabel": "Version 2",
+      "originalFileName": "Breathe (2).hdwav.wav",
+      "originalRelativePath": "Rap/Breathe (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/breathe-a3e607ba.wav",
+      "reasons": [
+        "duplicate-title-group:breathe"
+      ]
+    },
+    {
+      "id": "rap-btg-1d980b15",
+      "title": "btg",
+      "category": "rap",
+      "versionLabel": "Version 2",
+      "originalFileName": "btg (2).hdwav.wav",
+      "originalRelativePath": "Rap/btg (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/btg-1d980b15.wav",
+      "reasons": [
+        "duplicate-title-group:btg",
+        "same-category-version-cluster:rap/btg"
+      ]
+    },
+    {
+      "id": "rap-btg-d3951cb9",
+      "title": "btg",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "btg.hdwav.wav",
+      "originalRelativePath": "Rap/btg.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/btg-d3951cb9.wav",
+      "reasons": [
+        "duplicate-title-group:btg",
+        "same-category-version-cluster:rap/btg"
+      ]
+    },
+    {
+      "id": "rap-by-design-04c59250",
+      "title": "By Design",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "By Design (1).hdwav.wav",
+      "originalRelativePath": "Rap/By Design (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/by-design-04c59250.wav",
+      "reasons": [
+        "duplicate-title-group:by design"
+      ]
+    },
+    {
+      "id": "rap-candlelight-flow-d420e252",
+      "title": "Candlelight Flow",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "Candlelight Flow.hdwav.wav",
+      "originalRelativePath": "Rap/Candlelight Flow.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/candlelight-flow-d420e252.wav",
+      "reasons": [
+        "duplicate-title-group:candlelight flow"
+      ]
+    },
+    {
+      "id": "rap-fo-sho-082a1cba",
+      "title": "Fo Sho",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "Fo Sho (1).hdwav.wav",
+      "originalRelativePath": "Rap/Fo Sho (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/fo-sho-082a1cba.wav",
+      "reasons": [
+        "duplicate-title-group:fo sho"
+      ]
+    },
+    {
+      "id": "rap-gone-but-never-forgotten-bf3c7026",
+      "title": "Gone but never Forgotten",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "Gone but never Forgotten.hdwav.wav",
+      "originalRelativePath": "Rap/Gone but never Forgotten.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/gone-but-never-forgotten-bf3c7026.wav",
+      "reasons": [
+        "duplicate-title-group:gone but never forgotten"
+      ]
+    },
+    {
+      "id": "rap-grow-whole-5920c055",
+      "title": "grow whole",
+      "category": "rap",
+      "versionLabel": "Version 2",
+      "originalFileName": "grow whole (2).hdwav.wav",
+      "originalRelativePath": "Rap/grow whole (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/grow-whole-5920c055.wav",
+      "reasons": [
+        "duplicate-title-group:grow whole",
+        "same-category-version-cluster:rap/grow whole"
+      ]
+    },
+    {
+      "id": "rap-grow-whole-9bc40235",
+      "title": "grow whole",
+      "category": "rap",
+      "versionLabel": "Version 5",
+      "originalFileName": "grow whole (5).hdwav.wav",
+      "originalRelativePath": "Rap/grow whole (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/grow-whole-9bc40235.wav",
+      "reasons": [
+        "duplicate-title-group:grow whole",
+        "same-category-version-cluster:rap/grow whole"
+      ]
+    },
+    {
+      "id": "rap-heavens-call-798040d0",
+      "title": "Heaven's Call",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "Heaven's Call.hdwav.wav",
+      "originalRelativePath": "Rap/Heaven's Call.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/heavens-call-798040d0.wav",
+      "reasons": [
+        "duplicate-title-group:heaven s call"
+      ]
+    },
+    {
+      "id": "rap-incense-and-confessions-0a9c3086",
+      "title": "Incense and Confessions",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "Incense and Confessions.hdwav.wav",
+      "originalRelativePath": "Rap/Incense and Confessions.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/incense-and-confessions-0a9c3086.wav",
+      "reasons": [
+        "duplicate-title-group:incense and confessions"
+      ]
+    },
+    {
+      "id": "rap-l-o-v-e-a1c4ee13",
+      "title": "L.O.V.E.",
+      "category": "rap",
+      "versionLabel": "Version 15",
+      "originalFileName": "L.O.V.E. (15).hdwav.wav",
+      "originalRelativePath": "Rap/L.O.V.E. (15).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/l-o-v-e-a1c4ee13.wav",
+      "reasons": [
+        "duplicate-title-group:l o v e",
+        "same-category-version-cluster:rap/l o v e"
+      ]
+    },
+    {
+      "id": "rap-l-o-v-e-588dba16",
+      "title": "L.O.V.E.",
+      "category": "rap",
+      "versionLabel": "Version 3",
+      "originalFileName": "L.O.V.E. (3).hdwav.wav",
+      "originalRelativePath": "Rap/L.O.V.E. (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/l-o-v-e-588dba16.wav",
+      "reasons": [
+        "duplicate-title-group:l o v e",
+        "same-category-version-cluster:rap/l o v e"
+      ]
+    },
+    {
+      "id": "rap-last-lifes-bd854591",
+      "title": "Last Life's",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "Last Life's.hdwav.wav",
+      "originalRelativePath": "Rap/Last Life's.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/last-lifes-bd854591.wav",
+      "reasons": [
+        "duplicate-title-group:last life s"
+      ]
+    },
+    {
+      "id": "rap-law-817a255d",
+      "title": "LAW",
+      "category": "rap",
+      "versionLabel": "Version 3",
+      "originalFileName": "LAW (3).hdwav.wav",
+      "originalRelativePath": "Rap/LAW (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/law-817a255d.wav",
+      "reasons": [
+        "duplicate-title-group:law"
+      ]
+    },
+    {
+      "id": "rap-lets-go-fea4f1e1",
+      "title": "let's go",
+      "category": "rap",
+      "versionLabel": "Version 5",
+      "originalFileName": "let's go (5).hdwav.wav",
+      "originalRelativePath": "Rap/let's go (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/lets-go-fea4f1e1.wav",
+      "reasons": [
+        "duplicate-title-group:let s go"
+      ]
+    },
+    {
+      "id": "rap-level-up-52393dfc",
+      "title": "LEVEL UP",
+      "category": "rap",
+      "versionLabel": "Version 5",
+      "originalFileName": "LEVEL UP (5).hdwav.wav",
+      "originalRelativePath": "Rap/LEVEL UP (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/level-up-52393dfc.wav",
+      "reasons": [
+        "duplicate-title-group:level up",
+        "same-category-version-cluster:rap/level up"
+      ]
+    },
+    {
+      "id": "rap-level-up-9ba25530",
+      "title": "LEVEL UP",
+      "category": "rap",
+      "versionLabel": "Version 6",
+      "originalFileName": "LEVEL UP (6).hdwav.wav",
+      "originalRelativePath": "Rap/LEVEL UP (6).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/level-up-9ba25530.wav",
+      "reasons": [
+        "duplicate-title-group:level up",
+        "same-category-version-cluster:rap/level up"
+      ]
+    },
+    {
+      "id": "rap-listen-up-70470dee",
+      "title": "listen up",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "listen up (1).hdwav.wav",
+      "originalRelativePath": "Rap/listen up (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/listen-up-70470dee.wav",
+      "reasons": [
+        "duplicate-title-group:listen up",
+        "same-category-version-cluster:rap/listen up"
+      ]
+    },
+    {
+      "id": "rap-listen-up-34e4f37f",
+      "title": "listen up",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "listen up.hdwav.wav",
+      "originalRelativePath": "Rap/listen up.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/listen-up-34e4f37f.wav",
+      "reasons": [
+        "duplicate-title-group:listen up",
+        "same-category-version-cluster:rap/listen up"
+      ]
+    },
+    {
+      "id": "rap-met-413893f7",
+      "title": "Met",
+      "category": "rap",
+      "versionLabel": "Version 5",
+      "originalFileName": "Met (5).hdwav.wav",
+      "originalRelativePath": "Rap/Met (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/met-413893f7.wav",
+      "reasons": [
+        "duplicate-title-group:met"
+      ]
+    },
+    {
+      "id": "rap-my-mirror-b4761fd2",
+      "title": "my mirror",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "my mirror (1).hdwav.wav",
+      "originalRelativePath": "Rap/my mirror (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/my-mirror-b4761fd2.wav",
+      "reasons": [
+        "duplicate-title-group:my mirror",
+        "same-category-version-cluster:rap/my mirror"
+      ]
+    },
+    {
+      "id": "rap-my-mirror-d5d0a1bb",
+      "title": "my mirror",
+      "category": "rap",
+      "versionLabel": "Version 16",
+      "originalFileName": "my mirror (16).hdwav.wav",
+      "originalRelativePath": "Rap/my mirror (16).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/my-mirror-d5d0a1bb.wav",
+      "reasons": [
+        "duplicate-title-group:my mirror",
+        "same-category-version-cluster:rap/my mirror"
+      ]
+    },
+    {
+      "id": "rap-my-mirror-def0d5e9",
+      "title": "my mirror",
+      "category": "rap",
+      "versionLabel": "Version 3",
+      "originalFileName": "my mirror (3).hdwav.wav",
+      "originalRelativePath": "Rap/my mirror (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/my-mirror-def0d5e9.wav",
+      "reasons": [
+        "duplicate-title-group:my mirror",
+        "same-category-version-cluster:rap/my mirror"
+      ]
+    },
+    {
+      "id": "rap-never-regrets-e2c493cf",
+      "title": "never regrets",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "never regrets (1).hdwav.wav",
+      "originalRelativePath": "Rap/never regrets (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/never-regrets-e2c493cf.wav",
+      "reasons": [
+        "duplicate-title-group:never regrets",
+        "same-category-version-cluster:rap/never regrets"
+      ]
+    },
+    {
+      "id": "rap-never-regrets-1c62abf8",
+      "title": "never regrets",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "never regrets.hdwav.wav",
+      "originalRelativePath": "Rap/never regrets.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/never-regrets-1c62abf8.wav",
+      "reasons": [
+        "duplicate-title-group:never regrets",
+        "same-category-version-cluster:rap/never regrets"
+      ]
+    },
+    {
+      "id": "rap-no-bond-7f390d1f",
+      "title": "no bond",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "no bond.hdwav.wav",
+      "originalRelativePath": "Rap/no bond.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/no-bond-7f390d1f.wav",
+      "reasons": [
+        "duplicate-title-group:no bond"
+      ]
+    },
+    {
+      "id": "rap-no-stress-4f70523f",
+      "title": "no stress",
+      "category": "rap",
+      "versionLabel": "Version 9",
+      "originalFileName": "no stress (9).hdwav.wav",
+      "originalRelativePath": "Rap/no stress (9).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/no-stress-4f70523f.wav",
+      "reasons": [
+        "duplicate-title-group:no stress"
+      ]
+    },
+    {
+      "id": "rap-position-2ab48565",
+      "title": "POSITION",
+      "category": "rap",
+      "versionLabel": "Version 5",
+      "originalFileName": "POSITION (5).hdwav.wav",
+      "originalRelativePath": "Rap/POSITION (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/position-2ab48565.wav",
+      "reasons": [
+        "duplicate-title-group:position"
+      ]
+    },
+    {
+      "id": "rap-proof-b290aeb1",
+      "title": "PROOF",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "PROOF.hdwav.wav",
+      "originalRelativePath": "Rap/PROOF.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/proof-b290aeb1.wav",
+      "reasons": [
+        "duplicate-title-group:proof"
+      ]
+    },
+    {
+      "id": "rap-really-3-8e8b7c66",
+      "title": "Really 3",
+      "category": "rap",
+      "versionLabel": "Version 3",
+      "originalFileName": "Really 3.hdwav.wav",
+      "originalRelativePath": "Rap/Really 3.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/really-3-8e8b7c66.wav",
+      "reasons": [
+        "duplicate-title-group:really 3"
+      ]
+    },
+    {
+      "id": "rap-roller-56e2bafc",
+      "title": "ROLLER",
+      "category": "rap",
+      "versionLabel": "Version 8",
+      "originalFileName": "ROLLER (8).hdwav.wav",
+      "originalRelativePath": "Rap/ROLLER (8).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/roller-56e2bafc.wav",
+      "reasons": [
+        "duplicate-title-group:roller",
+        "same-category-version-cluster:rap/roller"
+      ]
+    },
+    {
+      "id": "rap-roller-9157c682",
+      "title": "ROLLER",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "ROLLER-(1).hdwav.wav",
+      "originalRelativePath": "Rap/ROLLER-(1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/roller-9157c682.wav",
+      "reasons": [
+        "duplicate-title-group:roller",
+        "same-category-version-cluster:rap/roller"
+      ]
+    },
+    {
+      "id": "rap-show-me-a6c82614",
+      "title": "SHOW ME",
+      "category": "rap",
+      "versionLabel": "Version 2",
+      "originalFileName": "SHOW ME (2).hdwav.wav",
+      "originalRelativePath": "Rap/SHOW ME (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/show-me-a6c82614.wav",
+      "reasons": [
+        "duplicate-title-group:show me",
+        "same-category-version-cluster:rap/show me"
+      ]
+    },
+    {
+      "id": "rap-show-me-1cd5eab1",
+      "title": "SHOW ME",
+      "category": "rap",
+      "versionLabel": "Version 3",
+      "originalFileName": "SHOW ME (3).hdwav.wav",
+      "originalRelativePath": "Rap/SHOW ME (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/show-me-1cd5eab1.wav",
+      "reasons": [
+        "duplicate-title-group:show me",
+        "same-category-version-cluster:rap/show me"
+      ]
+    },
+    {
+      "id": "rap-thats-life-a3da2f5d",
+      "title": "that's life",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "that's life (1).hdwav.wav",
+      "originalRelativePath": "Rap/that's life (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/thats-life-a3da2f5d.wav",
+      "reasons": [
+        "duplicate-title-group:that s life"
+      ]
+    },
+    {
+      "id": "rap-the-great-reveal-3fa22304",
+      "title": "THE GREAT REVEAL",
+      "category": "rap",
+      "versionLabel": "Version 3",
+      "originalFileName": "THE GREAT REVEAL (3).hdwav.wav",
+      "originalRelativePath": "Rap/THE GREAT REVEAL (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/the-great-reveal-3fa22304.wav",
+      "reasons": [
+        "duplicate-title-group:the great reveal"
+      ]
+    },
+    {
+      "id": "rap-thinking-to-myself-7ff38141",
+      "title": "thinking to myself",
+      "category": "rap",
+      "versionLabel": "Main",
+      "originalFileName": "thinking to myself.hdwav.wav",
+      "originalRelativePath": "Rap/thinking to myself.hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/thinking-to-myself-7ff38141.wav",
+      "reasons": [
+        "duplicate-title-group:thinking to myself"
+      ]
+    },
+    {
+      "id": "rap-thouhgts-3b0a5106",
+      "title": "THOUHGTS",
+      "category": "rap",
+      "versionLabel": "Version 4",
+      "originalFileName": "THOUHGTS (4).hdwav.wav",
+      "originalRelativePath": "Rap/THOUHGTS (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/thouhgts-3b0a5106.wav",
+      "reasons": [
+        "duplicate-title-group:thouhgts"
+      ]
+    },
+    {
+      "id": "rap-women-a8867244",
+      "title": "women",
+      "category": "rap",
+      "versionLabel": "Version 1",
+      "originalFileName": "women (1).hdwav.wav",
+      "originalRelativePath": "Rap/women (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/women-a8867244.wav",
+      "reasons": [
+        "duplicate-title-group:women",
+        "same-category-version-cluster:rap/women"
+      ]
+    },
+    {
+      "id": "rap-women-a664599f",
+      "title": "women",
+      "category": "rap",
+      "versionLabel": "Version 4",
+      "originalFileName": "women (4).hdwav.wav",
+      "originalRelativePath": "Rap/women (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/women-a664599f.wav",
+      "reasons": [
+        "duplicate-title-group:women",
+        "same-category-version-cluster:rap/women"
+      ]
+    },
+    {
+      "id": "rap-work-9eaef309",
+      "title": "work",
+      "category": "rap",
+      "versionLabel": "Version 15",
+      "originalFileName": "work (15).hdwav.wav",
+      "originalRelativePath": "Rap/work (15).hdwav.wav",
+      "audioSrc": "/audio/rks3/rap/work-9eaef309.wav",
+      "reasons": [
+        "duplicate-title-group:work"
+      ]
+    },
+    {
+      "id": "remixes-10-stars-407013d2",
+      "title": "10 STARS",
+      "category": "remixes",
+      "versionLabel": "Version 1",
+      "originalFileName": "10 STARS (1).hdwav.wav",
+      "originalRelativePath": "remixes/10 STARS (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/10-stars-407013d2.wav",
+      "reasons": [
+        "duplicate-title-group:10 stars"
+      ]
+    },
+    {
+      "id": "remixes-baby-boy-f70f5d75",
+      "title": "BABY BOY",
+      "category": "remixes",
+      "versionLabel": "Version 7",
+      "originalFileName": "BABY BOY (7).hdwav.wav",
+      "originalRelativePath": "remixes/BABY BOY (7).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/baby-boy-f70f5d75.wav",
+      "reasons": [
+        "duplicate-title-group:baby boy"
+      ]
+    },
+    {
+      "id": "remixes-baecation-6ecbe5cc",
+      "title": "BAECATION",
+      "category": "remixes",
+      "versionLabel": "Version 1",
+      "originalFileName": "BAECATION (1).hdwav.wav",
+      "originalRelativePath": "remixes/BAECATION (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/baecation-6ecbe5cc.wav",
+      "reasons": [
+        "duplicate-title-group:baecation"
+      ]
+    },
+    {
+      "id": "remixes-blue-sky-37649872",
+      "title": "BLUE SKY",
+      "category": "remixes",
+      "versionLabel": "Version 2",
+      "originalFileName": "BLUE SKY (2).hdwav.wav",
+      "originalRelativePath": "remixes/BLUE SKY (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/blue-sky-37649872.wav",
+      "reasons": [
+        "duplicate-title-group:blue sky"
+      ]
+    },
+    {
+      "id": "remixes-breathe-c95f5bd0",
+      "title": "Breathe",
+      "category": "remixes",
+      "versionLabel": "Version 8",
+      "originalFileName": "Breathe (8).hdwav.wav",
+      "originalRelativePath": "remixes/Breathe (8).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/breathe-c95f5bd0.wav",
+      "reasons": [
+        "duplicate-title-group:breathe"
+      ]
+    },
+    {
+      "id": "remixes-by-design-d511d24d",
+      "title": "By Design",
+      "category": "remixes",
+      "versionLabel": "Main",
+      "originalFileName": "By Design.hdwav.wav",
+      "originalRelativePath": "remixes/By Design.hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/by-design-d511d24d.wav",
+      "reasons": [
+        "duplicate-title-group:by design"
+      ]
+    },
+    {
+      "id": "remixes-cement-and-silk-510d2191",
+      "title": "Cement & Silk",
+      "category": "remixes",
+      "versionLabel": "Main",
+      "originalFileName": "Cement & Silk.hdwav.wav",
+      "originalRelativePath": "remixes/Cement & Silk.hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/cement-and-silk-510d2191.wav",
+      "reasons": [
+        "duplicate-title-group:cement silk"
+      ]
+    },
+    {
+      "id": "remixes-ghost-131dfe38",
+      "title": "ghost",
+      "category": "remixes",
+      "versionLabel": "Main",
+      "originalFileName": "ghost.hdwav.wav",
+      "originalRelativePath": "remixes/ghost.hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/ghost-131dfe38.wav",
+      "reasons": [
+        "duplicate-title-group:ghost"
+      ]
+    },
+    {
+      "id": "remixes-gone-but-never-forgotten-8093e239",
+      "title": "Gone But Never Forgotten",
+      "category": "remixes",
+      "versionLabel": "Version 2",
+      "originalFileName": "Gone But Never Forgotten (2).hdwav.wav",
+      "originalRelativePath": "remixes/Gone But Never Forgotten (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/gone-but-never-forgotten-8093e239.wav",
+      "reasons": [
+        "duplicate-title-group:gone but never forgotten"
+      ]
+    },
+    {
+      "id": "remixes-hurt-727c24b9",
+      "title": "hurt",
+      "category": "remixes",
+      "versionLabel": "Version 15",
+      "originalFileName": "hurt (15).hdwav.wav",
+      "originalRelativePath": "remixes/hurt (15).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/hurt-727c24b9.wav",
+      "reasons": [
+        "duplicate-title-group:hurt",
+        "same-category-version-cluster:remixes/hurt"
+      ]
+    },
+    {
+      "id": "remixes-hurt-ac09fe83",
+      "title": "hurt",
+      "category": "remixes",
+      "versionLabel": "Version 16",
+      "originalFileName": "hurt (16).hdwav.wav",
+      "originalRelativePath": "remixes/hurt (16).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/hurt-ac09fe83.wav",
+      "reasons": [
+        "duplicate-title-group:hurt",
+        "same-category-version-cluster:remixes/hurt"
+      ]
+    },
+    {
+      "id": "remixes-i-78305d84",
+      "title": "I",
+      "category": "remixes",
+      "versionLabel": "Main",
+      "originalFileName": "I.hdwav.wav",
+      "originalRelativePath": "remixes/I.hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/i-78305d84.wav",
+      "reasons": [
+        "very-short-title",
+        "duplicate-title-group:i"
+      ]
+    },
+    {
+      "id": "remixes-late-night-whispers-46c04faa",
+      "title": "Late Night Whispers",
+      "category": "remixes",
+      "versionLabel": "Main",
+      "originalFileName": "Late Night Whispers.hdwav.wav",
+      "originalRelativePath": "remixes/Late Night Whispers.hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/late-night-whispers-46c04faa.wav",
+      "reasons": [
+        "duplicate-title-group:late night whispers"
+      ]
+    },
+    {
+      "id": "remixes-law-add1709d",
+      "title": "LAW",
+      "category": "remixes",
+      "versionLabel": "Version 4",
+      "originalFileName": "LAW (4).hdwav.wav",
+      "originalRelativePath": "remixes/LAW (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/law-add1709d.wav",
+      "reasons": [
+        "duplicate-title-group:law"
+      ]
+    },
+    {
+      "id": "remixes-legend-430b2bae",
+      "title": "Legend",
+      "category": "remixes",
+      "versionLabel": "Version 7",
+      "originalFileName": "Legend (7).hdwav.wav",
+      "originalRelativePath": "remixes/Legend (7).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/legend-430b2bae.wav",
+      "reasons": [
+        "duplicate-title-group:legend"
+      ]
+    },
+    {
+      "id": "remixes-lets-go-0200a50a",
+      "title": "let's go",
+      "category": "remixes",
+      "versionLabel": "Main",
+      "originalFileName": "let's go.hdwav.wav",
+      "originalRelativePath": "remixes/let's go.hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/lets-go-0200a50a.wav",
+      "reasons": [
+        "duplicate-title-group:let s go"
+      ]
+    },
+    {
+      "id": "remixes-level-up-604e08ae",
+      "title": "LEVEL UP",
+      "category": "remixes",
+      "versionLabel": "Version 17",
+      "originalFileName": "LEVEL UP (17).hdwav.wav",
+      "originalRelativePath": "remixes/LEVEL UP (17).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/level-up-604e08ae.wav",
+      "reasons": [
+        "duplicate-title-group:level up"
+      ]
+    },
+    {
+      "id": "remixes-long-ride-97ae8e59",
+      "title": "long ride",
+      "category": "remixes",
+      "versionLabel": "Version 9",
+      "originalFileName": "long ride (9).hdwav.wav",
+      "originalRelativePath": "remixes/long ride (9).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/long-ride-97ae8e59.wav",
+      "reasons": [
+        "duplicate-title-group:long ride"
+      ]
+    },
+    {
+      "id": "remixes-love-and-light-36cb9b12",
+      "title": "LOVE AND LIGHT",
+      "category": "remixes",
+      "versionLabel": "Version 3",
+      "originalFileName": "LOVE AND LIGHT (3).hdwav.wav",
+      "originalRelativePath": "remixes/LOVE AND LIGHT (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/love-and-light-36cb9b12.wav",
+      "reasons": [
+        "duplicate-title-group:love and light"
+      ]
+    },
+    {
+      "id": "remixes-no-bond-afe18a10",
+      "title": "NO BOND",
+      "category": "remixes",
+      "versionLabel": "Version 4",
+      "originalFileName": "NO BOND (4).hdwav.wav",
+      "originalRelativePath": "remixes/NO BOND (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/no-bond-afe18a10.wav",
+      "reasons": [
+        "duplicate-title-group:no bond"
+      ]
+    },
+    {
+      "id": "remixes-no-secrets-63206a4f",
+      "title": "NO Secrets",
+      "category": "remixes",
+      "versionLabel": "Main",
+      "originalFileName": "NO Secrets.hdwav.wav",
+      "originalRelativePath": "remixes/NO Secrets.hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/no-secrets-63206a4f.wav",
+      "reasons": [
+        "duplicate-title-group:no secrets"
+      ]
+    },
+    {
+      "id": "remixes-really-3-51b886e4",
+      "title": "Really 3",
+      "category": "remixes",
+      "versionLabel": "Version 3",
+      "originalFileName": "Really 3.hdwav.wav",
+      "originalRelativePath": "remixes/Really 3.hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/really-3-51b886e4.wav",
+      "reasons": [
+        "duplicate-title-group:really 3"
+      ]
+    },
+    {
+      "id": "remixes-rise-5f18a590",
+      "title": "rise",
+      "category": "remixes",
+      "versionLabel": "Main",
+      "originalFileName": "rise.hdwav.wav",
+      "originalRelativePath": "remixes/rise.hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/rise-5f18a590.wav",
+      "reasons": [
+        "duplicate-title-group:rise"
+      ]
+    },
+    {
+      "id": "remixes-sun-of-god-76dfa792",
+      "title": "sun of God",
+      "category": "remixes",
+      "versionLabel": "Version 14",
+      "originalFileName": "sun of God (14).hdwav.wav",
+      "originalRelativePath": "remixes/sun of God (14).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/sun-of-god-76dfa792.wav",
+      "reasons": [
+        "duplicate-title-group:sun of god"
+      ]
+    },
+    {
+      "id": "remixes-thats-life-70e61e9f",
+      "title": "THAT'S LIFE",
+      "category": "remixes",
+      "versionLabel": "Version 12",
+      "originalFileName": "THAT'S LIFE (12).hdwav.wav",
+      "originalRelativePath": "remixes/THAT'S LIFE (12).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/thats-life-70e61e9f.wav",
+      "reasons": [
+        "duplicate-title-group:that s life"
+      ]
+    },
+    {
+      "id": "remixes-thats-love-70bbadfd",
+      "title": "THat's love",
+      "category": "remixes",
+      "versionLabel": "Version 16",
+      "originalFileName": "THat's love (16).hdwav.wav",
+      "originalRelativePath": "remixes/THat's love (16).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/thats-love-70bbadfd.wav",
+      "reasons": [
+        "duplicate-title-group:that s love"
+      ]
+    },
+    {
+      "id": "remixes-yourself-6a7fcefc",
+      "title": "yourself",
+      "category": "remixes",
+      "versionLabel": "Version 3",
+      "originalFileName": "yourself (3).hdwav.wav",
+      "originalRelativePath": "remixes/yourself (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/remixes/yourself-6a7fcefc.wav",
+      "reasons": [
+        "duplicate-title-group:yourself"
+      ]
+    },
+    {
+      "id": "rnb--040a052b",
+      "title": "❤️ ☀️",
+      "category": "rnb",
+      "versionLabel": "Version 8",
+      "originalFileName": "❤️ ☀️ (8).hdwav.wav",
+      "originalRelativePath": "R&B/❤️ ☀️ (8).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/-040a052b.wav",
+      "reasons": [
+        "no-alphanumeric-title",
+        "weak-audio-slug",
+        "non-ascii-file-name"
+      ]
+    },
+    {
+      "id": "rnb-7-5a8c7b33",
+      "title": "7",
+      "category": "rnb",
+      "versionLabel": "Version 12",
+      "originalFileName": "7 (12).hdwav.wav",
+      "originalRelativePath": "R&B/7 (12).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/7-5a8c7b33.wav",
+      "reasons": [
+        "very-short-title",
+        "number-only-title"
+      ]
+    },
+    {
+      "id": "rnb-alot-3ff95a99",
+      "title": "alot",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "alot.hdwav.wav",
+      "originalRelativePath": "R&B/alot.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/alot-3ff95a99.wav",
+      "reasons": [
+        "duplicate-title-group:alot"
+      ]
+    },
+    {
+      "id": "rnb-baby-boy-d43dc28b",
+      "title": "BABY BOY",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "BABY BOY.hdwav.wav",
+      "originalRelativePath": "R&B/BABY BOY.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/baby-boy-d43dc28b.wav",
+      "reasons": [
+        "duplicate-title-group:baby boy"
+      ]
+    },
+    {
+      "id": "rnb-baecation-e97badf9",
+      "title": "BAECATION",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "BAECATION.hdwav.wav",
+      "originalRelativePath": "R&B/BAECATION.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/baecation-e97badf9.wav",
+      "reasons": [
+        "duplicate-title-group:baecation"
+      ]
+    },
+    {
+      "id": "rnb-breathe-2487c07c",
+      "title": "Breathe",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Breathe.hdwav.wav",
+      "originalRelativePath": "R&B/Breathe.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/breathe-2487c07c.wav",
+      "reasons": [
+        "duplicate-title-group:breathe"
+      ]
+    },
+    {
+      "id": "rnb-btg-f517cc4b",
+      "title": "btg",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "btg .hdwav.wav",
+      "originalRelativePath": "R&B/btg .hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/btg-f517cc4b.wav",
+      "reasons": [
+        "duplicate-title-group:btg"
+      ]
+    },
+    {
+      "id": "rnb-bud-f78a51cf",
+      "title": "BUD",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "BUD.hdwav.wav",
+      "originalRelativePath": "R&B/BUD.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/bud-f78a51cf.wav",
+      "reasons": [
+        "duplicate-title-group:bud"
+      ]
+    },
+    {
+      "id": "rnb-candlelight-flow-5e9b9208",
+      "title": "Candlelight Flow",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Candlelight Flow.hdwav.wav",
+      "originalRelativePath": "R&B/Candlelight Flow.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/candlelight-flow-5e9b9208.wav",
+      "reasons": [
+        "duplicate-title-group:candlelight flow"
+      ]
+    },
+    {
+      "id": "rnb-cement-and-silk-e8983a32",
+      "title": "Cement & Silk",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Cement & Silk.hdwav.wav",
+      "originalRelativePath": "R&B/Cement & Silk.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/cement-and-silk-e8983a32.wav",
+      "reasons": [
+        "duplicate-title-group:cement silk"
+      ]
+    },
+    {
+      "id": "rnb-core-earth-eaa63c1c",
+      "title": "core earth",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "core earth.hdwav.wav",
+      "originalRelativePath": "R&B/core earth.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/core-earth-eaa63c1c.wav",
+      "reasons": [
+        "duplicate-title-group:core earth"
+      ]
+    },
+    {
+      "id": "rnb-fa-c79ee4ba",
+      "title": "fa",
+      "category": "rnb",
+      "versionLabel": "Version 9",
+      "originalFileName": "fa (9).hdwav.wav",
+      "originalRelativePath": "R&B/fa (9).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/fa-c79ee4ba.wav",
+      "reasons": [
+        "very-short-title",
+        "duplicate-title-group:fa"
+      ]
+    },
+    {
+      "id": "rnb-fo-sho-f8bb4a07",
+      "title": "Fo Sho",
+      "category": "rnb",
+      "versionLabel": "Version 11",
+      "originalFileName": "Fo Sho (11).hdwav.wav",
+      "originalRelativePath": "R&B/Fo Sho (11).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/fo-sho-f8bb4a07.wav",
+      "reasons": [
+        "duplicate-title-group:fo sho",
+        "same-category-version-cluster:rnb/fo sho"
+      ]
+    },
+    {
+      "id": "rnb-fo-sho-a4d6afa2",
+      "title": "Fo Sho",
+      "category": "rnb",
+      "versionLabel": "Version 6",
+      "originalFileName": "Fo Sho (6).hdwav.wav",
+      "originalRelativePath": "R&B/Fo Sho (6).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/fo-sho-a4d6afa2.wav",
+      "reasons": [
+        "duplicate-title-group:fo sho",
+        "same-category-version-cluster:rnb/fo sho"
+      ]
+    },
+    {
+      "id": "rnb-fo-sho-3736bc78",
+      "title": "Fo Sho",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Fo Sho.hdwav.wav",
+      "originalRelativePath": "R&B/Fo Sho.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/fo-sho-3736bc78.wav",
+      "reasons": [
+        "duplicate-title-group:fo sho",
+        "same-category-version-cluster:rnb/fo sho"
+      ]
+    },
+    {
+      "id": "rnb-fo-sho-489202a1",
+      "title": "Fo SHo",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "Fo SHo-(1).hdwav.wav",
+      "originalRelativePath": "R&B/Fo SHo-(1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/fo-sho-489202a1.wav",
+      "reasons": [
+        "duplicate-title-group:fo sho",
+        "same-category-version-cluster:rnb/fo sho"
+      ]
+    },
+    {
+      "id": "rnb-for-sure-ba14d519",
+      "title": "FOR SURE",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "FOR SURE (1).hdwav.wav",
+      "originalRelativePath": "R&B/FOR SURE (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/for-sure-ba14d519.wav",
+      "reasons": [
+        "duplicate-title-group:for sure",
+        "same-category-version-cluster:rnb/for sure"
+      ]
+    },
+    {
+      "id": "rnb-for-sure-a2c0317d",
+      "title": "FOR SURE",
+      "category": "rnb",
+      "versionLabel": "Version 15",
+      "originalFileName": "FOR SURE (15).hdwav.wav",
+      "originalRelativePath": "R&B/FOR SURE (15).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/for-sure-a2c0317d.wav",
+      "reasons": [
+        "duplicate-title-group:for sure",
+        "same-category-version-cluster:rnb/for sure"
+      ]
+    },
+    {
+      "id": "rnb-get-home-2f77ce7c",
+      "title": "get home",
+      "category": "rnb",
+      "versionLabel": "Version 2",
+      "originalFileName": "get home (2).hdwav.wav",
+      "originalRelativePath": "R&B/get home (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/get-home-2f77ce7c.wav",
+      "reasons": [
+        "duplicate-title-group:get home",
+        "same-category-version-cluster:rnb/get home"
+      ]
+    },
+    {
+      "id": "rnb-get-home-498b6e0f",
+      "title": "get home",
+      "category": "rnb",
+      "versionLabel": "Version 4",
+      "originalFileName": "get home (4).hdwav.wav",
+      "originalRelativePath": "R&B/get home (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/get-home-498b6e0f.wav",
+      "reasons": [
+        "duplicate-title-group:get home",
+        "same-category-version-cluster:rnb/get home"
+      ]
+    },
+    {
+      "id": "rnb-ghost-26d1f80d",
+      "title": "ghost",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "ghost (1).hdwav.wav",
+      "originalRelativePath": "R&B/ghost (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/ghost-26d1f80d.wav",
+      "reasons": [
+        "duplicate-title-group:ghost",
+        "same-category-version-cluster:rnb/ghost"
+      ]
+    },
+    {
+      "id": "rnb-ghost-765c7f3c",
+      "title": "ghost",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "ghost.hdwav.wav",
+      "originalRelativePath": "R&B/ghost.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/ghost-765c7f3c.wav",
+      "reasons": [
+        "duplicate-title-group:ghost",
+        "same-category-version-cluster:rnb/ghost"
+      ]
+    },
+    {
+      "id": "rnb-grow-whole-e6c4871e",
+      "title": "grow whole",
+      "category": "rnb",
+      "versionLabel": "Version 2",
+      "originalFileName": "grow whole (2).hdwav.wav",
+      "originalRelativePath": "R&B/grow whole (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/grow-whole-e6c4871e.wav",
+      "reasons": [
+        "duplicate-title-group:grow whole"
+      ]
+    },
+    {
+      "id": "rnb-h-m-b53f3439",
+      "title": "h m",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "h _ m  _ (1).hdwav.wav",
+      "originalRelativePath": "R&B/h _ m  _ (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/h-m-b53f3439.wav",
+      "reasons": [
+        "double-space",
+        "duplicate-title-group:h m",
+        "same-category-version-cluster:rnb/h m"
+      ]
+    },
+    {
+      "id": "rnb-h-m-90e441ac",
+      "title": "h m",
+      "category": "rnb",
+      "versionLabel": "Version 7",
+      "originalFileName": "h _ m  _ (7).hdwav.wav",
+      "originalRelativePath": "R&B/h _ m  _ (7).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/h-m-90e441ac.wav",
+      "reasons": [
+        "double-space",
+        "duplicate-title-group:h m",
+        "same-category-version-cluster:rnb/h m"
+      ]
+    },
+    {
+      "id": "rnb-heavens-call-abbf016b",
+      "title": "Heaven's Call",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Heaven's Call.hdwav.wav",
+      "originalRelativePath": "R&B/Heaven's Call.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/heavens-call-abbf016b.wav",
+      "reasons": [
+        "duplicate-title-group:heaven s call"
+      ]
+    },
+    {
+      "id": "rnb-hotter-bac78175",
+      "title": "HOTTER",
+      "category": "rnb",
+      "versionLabel": "Version 3",
+      "originalFileName": "HOTTER (3).hdwav.wav",
+      "originalRelativePath": "R&B/HOTTER (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/hotter-bac78175.wav",
+      "reasons": [
+        "duplicate-title-group:hotter"
+      ]
+    },
+    {
+      "id": "rnb-hurt-69572d62",
+      "title": "hurt",
+      "category": "rnb",
+      "versionLabel": "Version 14",
+      "originalFileName": "hurt (14).hdwav.wav",
+      "originalRelativePath": "R&B/hurt (14).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/hurt-69572d62.wav",
+      "reasons": [
+        "duplicate-title-group:hurt",
+        "same-category-version-cluster:rnb/hurt"
+      ]
+    },
+    {
+      "id": "rnb-hurt-c1e07dbc",
+      "title": "hurt",
+      "category": "rnb",
+      "versionLabel": "Version 3",
+      "originalFileName": "hurt (3).hdwav.wav",
+      "originalRelativePath": "R&B/hurt (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/hurt-c1e07dbc.wav",
+      "reasons": [
+        "duplicate-title-group:hurt",
+        "same-category-version-cluster:rnb/hurt"
+      ]
+    },
+    {
+      "id": "rnb-hurt-5ecf58cd",
+      "title": "hurt",
+      "category": "rnb",
+      "versionLabel": "Version 7",
+      "originalFileName": "hurt (7).hdwav.wav",
+      "originalRelativePath": "R&B/hurt (7).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/hurt-5ecf58cd.wav",
+      "reasons": [
+        "duplicate-title-group:hurt",
+        "same-category-version-cluster:rnb/hurt"
+      ]
+    },
+    {
+      "id": "rnb-hurt-dab928f7",
+      "title": "hurt",
+      "category": "rnb",
+      "versionLabel": "Version 8",
+      "originalFileName": "hurt (8).hdwav.wav",
+      "originalRelativePath": "R&B/hurt (8).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/hurt-dab928f7.wav",
+      "reasons": [
+        "duplicate-title-group:hurt",
+        "same-category-version-cluster:rnb/hurt"
+      ]
+    },
+    {
+      "id": "rnb-incense-and-confessions-2e524d97",
+      "title": "Incense and Confessions",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "Incense and Confessions (1).hdwav.wav",
+      "originalRelativePath": "R&B/Incense and Confessions (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/incense-and-confessions-2e524d97.wav",
+      "reasons": [
+        "duplicate-title-group:incense and confessions"
+      ]
+    },
+    {
+      "id": "rnb-just-love-54360db9",
+      "title": "Just Love",
+      "category": "rnb",
+      "versionLabel": "Version 3",
+      "originalFileName": "Just Love (3).hdwav.wav",
+      "originalRelativePath": "R&B/Just Love (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/just-love-54360db9.wav",
+      "reasons": [
+        "duplicate-title-group:just love",
+        "same-category-version-cluster:rnb/just love"
+      ]
+    },
+    {
+      "id": "rnb-just-love-07a320e4",
+      "title": "Just Love",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Just Love.hdwav.wav",
+      "originalRelativePath": "R&B/Just Love.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/just-love-07a320e4.wav",
+      "reasons": [
+        "duplicate-title-group:just love",
+        "same-category-version-cluster:rnb/just love"
+      ]
+    },
+    {
+      "id": "rnb-l-o-v-e-67d5f126",
+      "title": "L.O.V.E.",
+      "category": "rnb",
+      "versionLabel": "Version 14",
+      "originalFileName": "L.O.V.E. (14).hdwav.wav",
+      "originalRelativePath": "R&B/L.O.V.E. (14).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/l-o-v-e-67d5f126.wav",
+      "reasons": [
+        "duplicate-title-group:l o v e"
+      ]
+    },
+    {
+      "id": "rnb-last-lifes-f299b781",
+      "title": "Last Life's",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Last Life's.hdwav.wav",
+      "originalRelativePath": "R&B/Last Life's.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/last-lifes-f299b781.wav",
+      "reasons": [
+        "duplicate-title-group:last life s"
+      ]
+    },
+    {
+      "id": "rnb-late-night-whispers-38033d1d",
+      "title": "Late Night Whispers",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "Late Night Whispers (1).hdwav.wav",
+      "originalRelativePath": "R&B/Late Night Whispers (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/late-night-whispers-38033d1d.wav",
+      "reasons": [
+        "duplicate-title-group:late night whispers",
+        "same-category-version-cluster:rnb/late night whispers"
+      ]
+    },
+    {
+      "id": "rnb-late-night-whispers-9a2abbd4",
+      "title": "Late Night Whispers",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Late Night Whispers.hdwav.wav",
+      "originalRelativePath": "R&B/Late Night Whispers.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/late-night-whispers-9a2abbd4.wav",
+      "reasons": [
+        "duplicate-title-group:late night whispers",
+        "same-category-version-cluster:rnb/late night whispers"
+      ]
+    },
+    {
+      "id": "rnb-law-8ea21db3",
+      "title": "LAW",
+      "category": "rnb",
+      "versionLabel": "Version 4",
+      "originalFileName": "LAW (4).hdwav.wav",
+      "originalRelativePath": "R&B/LAW (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/law-8ea21db3.wav",
+      "reasons": [
+        "duplicate-title-group:law"
+      ]
+    },
+    {
+      "id": "rnb-lc-d7988403",
+      "title": "LC",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "LC (1).hdwav.wav",
+      "originalRelativePath": "R&B/LC (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/lc-d7988403.wav",
+      "reasons": [
+        "very-short-title"
+      ]
+    },
+    {
+      "id": "rnb-legend-80333dea",
+      "title": "Legend",
+      "category": "rnb",
+      "versionLabel": "Version 10",
+      "originalFileName": "Legend (10).hdwav.wav",
+      "originalRelativePath": "R&B/Legend (10).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/legend-80333dea.wav",
+      "reasons": [
+        "duplicate-title-group:legend",
+        "same-category-version-cluster:rnb/legend"
+      ]
+    },
+    {
+      "id": "rnb-legend-32272c23",
+      "title": "Legend",
+      "category": "rnb",
+      "versionLabel": "Version 4",
+      "originalFileName": "Legend (4).hdwav.wav",
+      "originalRelativePath": "R&B/Legend (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/legend-32272c23.wav",
+      "reasons": [
+        "duplicate-title-group:legend",
+        "same-category-version-cluster:rnb/legend"
+      ]
+    },
+    {
+      "id": "rnb-legend-47d2adbc",
+      "title": "Legend",
+      "category": "rnb",
+      "versionLabel": "Version 7",
+      "originalFileName": "Legend (7).hdwav.wav",
+      "originalRelativePath": "R&B/Legend (7).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/legend-47d2adbc.wav",
+      "reasons": [
+        "duplicate-title-group:legend",
+        "same-category-version-cluster:rnb/legend"
+      ]
+    },
+    {
+      "id": "rnb-lets-go-eca0a138",
+      "title": "let's go",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "let's go.hdwav.wav",
+      "originalRelativePath": "R&B/let's go.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/lets-go-eca0a138.wav",
+      "reasons": [
+        "duplicate-title-group:let s go"
+      ]
+    },
+    {
+      "id": "rnb-level-up-3b255626",
+      "title": "LEVEL UP",
+      "category": "rnb",
+      "versionLabel": "Version 17",
+      "originalFileName": "LEVEL UP (17).hdwav.wav",
+      "originalRelativePath": "R&B/LEVEL UP (17).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/level-up-3b255626.wav",
+      "reasons": [
+        "duplicate-title-group:level up",
+        "same-category-version-cluster:rnb/level up"
+      ]
+    },
+    {
+      "id": "rnb-level-up-6a4c3135",
+      "title": "LEVEL UP",
+      "category": "rnb",
+      "versionLabel": "Version 3",
+      "originalFileName": "LEVEL UP (3).hdwav.wav",
+      "originalRelativePath": "R&B/LEVEL UP (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/level-up-6a4c3135.wav",
+      "reasons": [
+        "duplicate-title-group:level up",
+        "same-category-version-cluster:rnb/level up"
+      ]
+    },
+    {
+      "id": "rnb-level-up-38093d76",
+      "title": "LEVEL UP",
+      "category": "rnb",
+      "versionLabel": "Version 7",
+      "originalFileName": "LEVEL UP (7).hdwav.wav",
+      "originalRelativePath": "R&B/LEVEL UP (7).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/level-up-38093d76.wav",
+      "reasons": [
+        "duplicate-title-group:level up",
+        "same-category-version-cluster:rnb/level up"
+      ]
+    },
+    {
+      "id": "rnb-long-ride-531fe65d",
+      "title": "long ride",
+      "category": "rnb",
+      "versionLabel": "Version 8",
+      "originalFileName": "long ride (8).hdwav.wav",
+      "originalRelativePath": "R&B/long ride (8).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/long-ride-531fe65d.wav",
+      "reasons": [
+        "duplicate-title-group:long ride",
+        "same-category-version-cluster:rnb/long ride"
+      ]
+    },
+    {
+      "id": "rnb-long-ride-52e848cb",
+      "title": "long ride",
+      "category": "rnb",
+      "versionLabel": "Version 9",
+      "originalFileName": "long ride (9).hdwav.wav",
+      "originalRelativePath": "R&B/long ride (9).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/long-ride-52e848cb.wav",
+      "reasons": [
+        "duplicate-title-group:long ride",
+        "same-category-version-cluster:rnb/long ride"
+      ]
+    },
+    {
+      "id": "rnb-love-and-light-1f86e217",
+      "title": "LOVE AND LIGHT",
+      "category": "rnb",
+      "versionLabel": "Version 3",
+      "originalFileName": "LOVE AND LIGHT (3).hdwav.wav",
+      "originalRelativePath": "R&B/LOVE AND LIGHT (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/love-and-light-1f86e217.wav",
+      "reasons": [
+        "duplicate-title-group:love and light"
+      ]
+    },
+    {
+      "id": "rnb-lucky-f3797975",
+      "title": "LUCKY",
+      "category": "rnb",
+      "versionLabel": "Version 3",
+      "originalFileName": "LUCKY (3).hdwav.wav",
+      "originalRelativePath": "R&B/LUCKY (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/lucky-f3797975.wav",
+      "reasons": [
+        "duplicate-title-group:lucky"
+      ]
+    },
+    {
+      "id": "rnb-mastery-67951f8d",
+      "title": "mastery",
+      "category": "rnb",
+      "versionLabel": "Version 5",
+      "originalFileName": "mastery (5).hdwav.wav",
+      "originalRelativePath": "R&B/mastery (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/mastery-67951f8d.wav",
+      "reasons": [
+        "duplicate-title-group:mastery"
+      ]
+    },
+    {
+      "id": "rnb-met-0d8f2061",
+      "title": "Met",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "Met (1).hdwav.wav",
+      "originalRelativePath": "R&B/Met (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/met-0d8f2061.wav",
+      "reasons": [
+        "duplicate-title-group:met",
+        "same-category-version-cluster:rnb/met"
+      ]
+    },
+    {
+      "id": "rnb-met-df9cdfe5",
+      "title": "Met",
+      "category": "rnb",
+      "versionLabel": "Version 2",
+      "originalFileName": "Met (2).hdwav.wav",
+      "originalRelativePath": "R&B/Met (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/met-df9cdfe5.wav",
+      "reasons": [
+        "duplicate-title-group:met",
+        "same-category-version-cluster:rnb/met"
+      ]
+    },
+    {
+      "id": "rnb-met-567281d6",
+      "title": "Met",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "Met.hdwav.wav",
+      "originalRelativePath": "R&B/Met.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/met-567281d6.wav",
+      "reasons": [
+        "duplicate-title-group:met",
+        "same-category-version-cluster:rnb/met"
+      ]
+    },
+    {
+      "id": "rnb-no-bond-61759873",
+      "title": "no bond",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "no bond.hdwav.wav",
+      "originalRelativePath": "R&B/no bond.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/no-bond-61759873.wav",
+      "reasons": [
+        "duplicate-title-group:no bond",
+        "same-category-version-cluster:rnb/no bond"
+      ]
+    },
+    {
+      "id": "rnb-no-bond-aaccd9a4",
+      "title": "NO BOND",
+      "category": "rnb",
+      "versionLabel": "Version 4",
+      "originalFileName": "NO BOND (4).hdwav.wav",
+      "originalRelativePath": "R&B/NO BOND (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/no-bond-aaccd9a4.wav",
+      "reasons": [
+        "duplicate-title-group:no bond",
+        "same-category-version-cluster:rnb/no bond"
+      ]
+    },
+    {
+      "id": "rnb-no-secret-5109ca90",
+      "title": "no secret",
+      "category": "rnb",
+      "versionLabel": "Version 5",
+      "originalFileName": "no secret (5).hdwav.wav",
+      "originalRelativePath": "R&B/no secret (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/no-secret-5109ca90.wav",
+      "reasons": [
+        "duplicate-title-group:no secret",
+        "same-category-version-cluster:rnb/no secret"
+      ]
+    },
+    {
+      "id": "rnb-no-secret-629e0a9f",
+      "title": "no secret",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "no secret.hdwav.wav",
+      "originalRelativePath": "R&B/no secret.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/no-secret-629e0a9f.wav",
+      "reasons": [
+        "duplicate-title-group:no secret",
+        "same-category-version-cluster:rnb/no secret"
+      ]
+    },
+    {
+      "id": "rnb-no-secrets-66896541",
+      "title": "NO Secrets",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "NO Secrets.hdwav.wav",
+      "originalRelativePath": "R&B/NO Secrets.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/no-secrets-66896541.wav",
+      "reasons": [
+        "duplicate-title-group:no secrets"
+      ]
+    },
+    {
+      "id": "rnb-no-stress-ffa009d0",
+      "title": "no stress",
+      "category": "rnb",
+      "versionLabel": "Version 15",
+      "originalFileName": "no stress (15).hdwav.wav",
+      "originalRelativePath": "R&B/no stress (15).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/no-stress-ffa009d0.wav",
+      "reasons": [
+        "duplicate-title-group:no stress"
+      ]
+    },
+    {
+      "id": "rnb-off-a8996828",
+      "title": "OFF",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "OFF_ (1).hdwav.wav",
+      "originalRelativePath": "R&B/OFF_ (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/off-a8996828.wav",
+      "reasons": [
+        "duplicate-title-group:off"
+      ]
+    },
+    {
+      "id": "rnb-position-a6bfb4ee",
+      "title": "POSITION",
+      "category": "rnb",
+      "versionLabel": "Version 4",
+      "originalFileName": "POSITION (4).hdwav.wav",
+      "originalRelativePath": "R&B/POSITION (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/position-a6bfb4ee.wav",
+      "reasons": [
+        "duplicate-title-group:position"
+      ]
+    },
+    {
+      "id": "rnb-proof-02fd29bf",
+      "title": "PROOF",
+      "category": "rnb",
+      "versionLabel": "Version 5",
+      "originalFileName": "PROOF (5).hdwav.wav",
+      "originalRelativePath": "R&B/PROOF (5).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/proof-02fd29bf.wav",
+      "reasons": [
+        "duplicate-title-group:proof",
+        "same-category-version-cluster:rnb/proof"
+      ]
+    },
+    {
+      "id": "rnb-proof-5-226c0456",
+      "title": "PROOF (5)",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "PROOF (5)-.hdwav.wav",
+      "originalRelativePath": "R&B/PROOF (5)-.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/proof-5-226c0456.wav",
+      "reasons": [
+        "duplicate-title-group:proof",
+        "same-category-version-cluster:rnb/proof"
+      ]
+    },
+    {
+      "id": "rnb-really-53606f21",
+      "title": "Really",
+      "category": "rnb",
+      "versionLabel": "Version 7",
+      "originalFileName": "Really (7).hdwav.wav",
+      "originalRelativePath": "R&B/Really (7).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/really-53606f21.wav",
+      "reasons": [
+        "duplicate-title-group:really"
+      ]
+    },
+    {
+      "id": "rnb-really-3-99685e3e",
+      "title": "Really 3",
+      "category": "rnb",
+      "versionLabel": "Version 3",
+      "originalFileName": "Really 3.hdwav.wav",
+      "originalRelativePath": "R&B/Really 3.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/really-3-99685e3e.wav",
+      "reasons": [
+        "duplicate-title-group:really 3"
+      ]
+    },
+    {
+      "id": "rnb-rise-f1fa26c1",
+      "title": "rise",
+      "category": "rnb",
+      "versionLabel": "Version 2",
+      "originalFileName": "rise (2).hdwav.wav",
+      "originalRelativePath": "R&B/rise (2).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/rise-f1fa26c1.wav",
+      "reasons": [
+        "duplicate-title-group:rise",
+        "same-category-version-cluster:rnb/rise"
+      ]
+    },
+    {
+      "id": "rnb-rise-22367980",
+      "title": "rise",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "rise-.hdwav.wav",
+      "originalRelativePath": "R&B/rise-.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/rise-22367980.wav",
+      "reasons": [
+        "duplicate-title-group:rise",
+        "same-category-version-cluster:rnb/rise"
+      ]
+    },
+    {
+      "id": "rnb-rise-a413d58a",
+      "title": "rise",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "rise.hdwav.wav",
+      "originalRelativePath": "R&B/rise.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/rise-a413d58a.wav",
+      "reasons": [
+        "duplicate-title-group:rise",
+        "same-category-version-cluster:rnb/rise"
+      ]
+    },
+    {
+      "id": "rnb-stay-ready-27187609",
+      "title": "stay ready",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "stay ready.hdwav.wav",
+      "originalRelativePath": "R&B/stay ready.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/stay-ready-27187609.wav",
+      "reasons": [
+        "duplicate-title-group:stay ready",
+        "same-category-version-cluster:rnb/stay ready"
+      ]
+    },
+    {
+      "id": "rnb-stay-ready-3-c615ea81",
+      "title": "stay ready (3)",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "stay ready (3)-.hdwav.wav",
+      "originalRelativePath": "R&B/stay ready (3)-.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/stay-ready-3-c615ea81.wav",
+      "reasons": [
+        "duplicate-title-group:stay ready",
+        "same-category-version-cluster:rnb/stay ready"
+      ]
+    },
+    {
+      "id": "rnb-sun-of-god-016835ff",
+      "title": "sun of God",
+      "category": "rnb",
+      "versionLabel": "Version 14",
+      "originalFileName": "sun of God (14).hdwav.wav",
+      "originalRelativePath": "R&B/sun of God (14).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/sun-of-god-016835ff.wav",
+      "reasons": [
+        "duplicate-title-group:sun of god"
+      ]
+    },
+    {
+      "id": "rnb-thats-life-c033e742",
+      "title": "THAT'S LIFE",
+      "category": "rnb",
+      "versionLabel": "Version 12",
+      "originalFileName": "THAT'S LIFE (12).hdwav.wav",
+      "originalRelativePath": "R&B/THAT'S LIFE (12).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/thats-life-c033e742.wav",
+      "reasons": [
+        "duplicate-title-group:that s life"
+      ]
+    },
+    {
+      "id": "rnb-thats-love-cd3712f8",
+      "title": "THat's love",
+      "category": "rnb",
+      "versionLabel": "Version 16",
+      "originalFileName": "THat's love (16).hdwav.wav",
+      "originalRelativePath": "R&B/THat's love (16).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/thats-love-cd3712f8.wav",
+      "reasons": [
+        "duplicate-title-group:that s love",
+        "same-category-version-cluster:rnb/that s love"
+      ]
+    },
+    {
+      "id": "rnb-thats-love-db5eefa4",
+      "title": "THat's love",
+      "category": "rnb",
+      "versionLabel": "Version 3",
+      "originalFileName": "THat's love (3).hdwav.wav",
+      "originalRelativePath": "R&B/THat's love (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/thats-love-db5eefa4.wav",
+      "reasons": [
+        "duplicate-title-group:that s love",
+        "same-category-version-cluster:rnb/that s love"
+      ]
+    },
+    {
+      "id": "rnb-the-great-reveal-b1d8daaa",
+      "title": "THE GREAT REVEAL",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "THE GREAT REVEAL.hdwav.wav",
+      "originalRelativePath": "R&B/THE GREAT REVEAL.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/the-great-reveal-b1d8daaa.wav",
+      "reasons": [
+        "duplicate-title-group:the great reveal"
+      ]
+    },
+    {
+      "id": "rnb-thinking-to-myself-c41b5c7e",
+      "title": "thinking to myself",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "thinking to myself  (1).hdwav.wav",
+      "originalRelativePath": "R&B/thinking to myself  (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/thinking-to-myself-c41b5c7e.wav",
+      "reasons": [
+        "double-space",
+        "duplicate-title-group:thinking to myself"
+      ]
+    },
+    {
+      "id": "rnb-women-e240361b",
+      "title": "women",
+      "category": "rnb",
+      "versionLabel": "Version 1",
+      "originalFileName": "women (1).hdwav.wav",
+      "originalRelativePath": "R&B/women (1).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/women-e240361b.wav",
+      "reasons": [
+        "duplicate-title-group:women",
+        "same-category-version-cluster:rnb/women"
+      ]
+    },
+    {
+      "id": "rnb-women-2c4ab2e3",
+      "title": "women",
+      "category": "rnb",
+      "versionLabel": "Version 10",
+      "originalFileName": "women (10).hdwav.wav",
+      "originalRelativePath": "R&B/women (10).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/women-2c4ab2e3.wav",
+      "reasons": [
+        "duplicate-title-group:women",
+        "same-category-version-cluster:rnb/women"
+      ]
+    },
+    {
+      "id": "rnb-women-9bd82e98",
+      "title": "women",
+      "category": "rnb",
+      "versionLabel": "Main",
+      "originalFileName": "women.hdwav.wav",
+      "originalRelativePath": "R&B/women.hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/women-9bd82e98.wav",
+      "reasons": [
+        "duplicate-title-group:women",
+        "same-category-version-cluster:rnb/women"
+      ]
+    },
+    {
+      "id": "rnb-work-886de331",
+      "title": "work",
+      "category": "rnb",
+      "versionLabel": "Version 3",
+      "originalFileName": "work (3).hdwav.wav",
+      "originalRelativePath": "R&B/work (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/work-886de331.wav",
+      "reasons": [
+        "duplicate-title-group:work"
+      ]
+    },
+    {
+      "id": "rnb-yourself-b12d5edf",
+      "title": "yourself",
+      "category": "rnb",
+      "versionLabel": "Version 3",
+      "originalFileName": "yourself (3).hdwav.wav",
+      "originalRelativePath": "R&B/yourself (3).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/yourself-b12d5edf.wav",
+      "reasons": [
+        "duplicate-title-group:yourself",
+        "same-category-version-cluster:rnb/yourself"
+      ]
+    },
+    {
+      "id": "rnb-yourself-87658d5b",
+      "title": "yourself",
+      "category": "rnb",
+      "versionLabel": "Version 4",
+      "originalFileName": "yourself (4).hdwav.wav",
+      "originalRelativePath": "R&B/yourself (4).hdwav.wav",
+      "audioSrc": "/audio/rks3/rnb/yourself-87658d5b.wav",
+      "reasons": [
+        "duplicate-title-group:yourself",
+        "same-category-version-cluster:rnb/yourself"
+      ]
+    },
+    {
+      "id": "skits-rks3-com-energy-cue-30s-8226f3ea",
+      "title": "RKS3.COM-Energy Cue — 30s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-Energy Cue — 30s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-Energy Cue — 30s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-energy-cue-30s-8226f3ea.wav",
+      "reasons": [
+        "non-ascii-file-name"
+      ]
+    },
+    {
+      "id": "skits-rks3-com-energy-lift-cue-30s-4a0c2fb7",
+      "title": "RKS3.COM-ENERGY-LIFT CUE— 30s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-ENERGY-LIFT CUE— 30s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-ENERGY-LIFT CUE— 30s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-energy-lift-cue-30s-4a0c2fb7.wav",
+      "reasons": [
+        "non-ascii-file-name"
+      ]
+    },
+    {
+      "id": "skits-rks3-com-finalrooom-outro-60s-725ead9d",
+      "title": "RKS3.COM-FINALROOOM-OUTRO — 60s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-FINALROOOM-OUTRO — 60s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-FINALROOOM-OUTRO — 60s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-finalrooom-outro-60s-725ead9d.wav",
+      "reasons": [
+        "non-ascii-file-name"
+      ]
+    },
+    {
+      "id": "skits-rks3-com-healing-tones-30s-2a7d2025",
+      "title": "RKS3.COM-Healing Tones — 30s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-Healing Tones — 30s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-Healing Tones — 30s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-healing-tones-30s-2a7d2025.wav",
+      "reasons": [
+        "non-ascii-file-name"
+      ]
+    },
+    {
+      "id": "skits-rks3-com-ohm-transition-soundscape-30s-d79002ec",
+      "title": "RKS3.COM-OHM Transition Soundscape — 30s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-OHM Transition Soundscape — 30s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-OHM Transition Soundscape — 30s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-ohm-transition-soundscape-30s-d79002ec.wav",
+      "reasons": [
+        "non-ascii-file-name"
+      ]
+    },
+    {
+      "id": "skits-rks3-com-shadow-tones-30s-9cc7710b",
+      "title": "RKS3.COM-SHADOW-TONES— 30s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-SHADOW-TONES— 30s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-SHADOW-TONES— 30s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-shadow-tones-30s-9cc7710b.wav",
+      "reasons": [
+        "non-ascii-file-name"
+      ]
+    },
+    {
+      "id": "skits-rks3-com-soul-pathtway-60s-9f53aa32",
+      "title": "RKS3.COM-SOUL-PATHTWAY—60s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-SOUL-PATHTWAY—60s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-SOUL-PATHTWAY—60s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-soul-pathtway-60s-9f53aa32.wav",
+      "reasons": [
+        "non-ascii-file-name"
+      ]
+    },
+    {
+      "id": "skits-rks3-com-spirit-0utro-alt-extended-120s-97b8144b",
+      "title": "RKS3.COM-SPIRIT-0UTRO-(Alt Extended) — 120s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-SPIRIT-0UTRO-(Alt Extended) — 120s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-SPIRIT-0UTRO-(Alt Extended) — 120s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-spirit-0utro-alt-extended-120s-97b8144b.wav",
+      "reasons": [
+        "non-ascii-file-name"
+      ]
+    },
+    {
+      "id": "skits-rks3-com-transition-cue-30s-987cc757",
+      "title": "RKS3.COM-TRANSITION CUE — 30s",
+      "category": "skits",
+      "versionLabel": "Main",
+      "originalFileName": "RKS3.COM-TRANSITION CUE — 30s.hdwav.wav",
+      "originalRelativePath": "rks3.com skits/RKS3.COM-TRANSITION CUE — 30s.hdwav.wav",
+      "audioSrc": "/audio/rks3/skits/rks3-com-transition-cue-30s-987cc757.wav",
+      "reasons": [
+        "non-ascii-file-name"
+      ]
+    },
+    {
+      "id": "soul-landr-soul-master-balanced-high-8a988fa5",
+      "title": "LANDR-Soul Master-Balanced-High",
+      "category": "soul",
+      "versionLabel": "Main",
+      "originalFileName": "LANDR-Soul_Master-Balanced-High.hdwav.wav",
+      "originalRelativePath": "RKS3=soul/LANDR-Soul_Master-Balanced-High.hdwav.wav",
+      "audioSrc": "/audio/rks3/soul/landr-soul-master-balanced-high-8a988fa5.wav",
+      "reasons": [
+        "future-street-soul-spirit-lane"
+      ]
+    },
+    {
+      "id": "spirit-landr-rks3-spirit-balanced-high-9a42dfb4",
+      "title": "LANDR-RKS3 spirit-Balanced-High",
+      "category": "spirit",
+      "versionLabel": "Main",
+      "originalFileName": "LANDR-RKS3_spirit-Balanced-High.hdwav.wav",
+      "originalRelativePath": "RKS3=spirit/LANDR-RKS3_spirit-Balanced-High.hdwav.wav",
+      "audioSrc": "/audio/rks3/spirit/landr-rks3-spirit-balanced-high-9a42dfb4.wav",
+      "reasons": [
+        "future-street-soul-spirit-lane"
+      ]
+    },
+    {
+      "id": "street-landr-rks3-street-balanced-high-2bd05adb",
+      "title": "LANDR-RKS3=street-Balanced-High",
+      "category": "street",
+      "versionLabel": "Main",
+      "originalFileName": "LANDR-RKS3=street-Balanced-High.hdwav.wav",
+      "originalRelativePath": "RKS3=street/LANDR-RKS3=street-Balanced-High.hdwav.wav",
+      "audioSrc": "/audio/rks3/street/landr-rks3-street-balanced-high-2bd05adb.wav",
+      "reasons": [
+        "future-street-soul-spirit-lane"
+      ]
+    }
+  ],
+  "hiddenCandidates": [],
+  "nextActions": [
+    "Approve weak-title display names.",
+    "Review duplicate/version clusters.",
+    "Choose public main versions for repeated titles.",
+    "Mark confirmed extras as alternate, remix, review, or hidden.",
+    "Choose CDN/storage before full-catalog promotion.",
+    "Promote full catalog only after metadata and storage policy are approved."
+  ]
+}

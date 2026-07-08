@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-07-08T01:40:43.179Z",
+  "mission": "RKS3 external audio upload checklist",
+  "inputs": {
+    "pilotManifestFile": "data/rks3-external-audio-pilot-manifest.json",
+    "catalogFile": "data/rks3-audio-catalog.full.json",
+    "pathStrategyFile": "data/rks3-external-audio-path-strategy.json",
+    "pathStrategyLoaded": true
+  },
+  "summary": {
+    "total": 3,
+    "readyForUpload": 0,
+    "readyForCatalogMapping": 0,
+    "needsReview": 3,
+    "byCategory": {
+      "uncategorized": 3
+    },
+    "byVisibility": {
+      "review": 3
+    }
+  },
+  "items": [
+    {
+      "number": 1,
+      "id": "sources",
+      "title": "Untitled Audio",
+      "category": "uncategorized",
+      "visibility": "review",
+      "sourceFile": "",
+      "currentPath": "",
+      "targetFolder": "audio/music/uncategorized",
+      "targetFilename": "untitled-audio.mp3",
+      "externalUrl": "",
+      "uploadNeeded": true,
+      "mapNeeded": false,
+      "readyForUpload": false,
+      "readyForCatalogMapping": false,
+      "warnings": [
+        "missing title",
+        "missing source file/path/url"
+      ]
+    },
+    {
+      "number": 2,
+      "id": "catalogContext",
+      "title": "Untitled Audio",
+      "category": "uncategorized",
+      "visibility": "review",
+      "sourceFile": "",
+      "currentPath": "",
+      "targetFolder": "audio/music/uncategorized",
+      "targetFilename": "untitled-audio.mp3",
+      "externalUrl": "",
+      "uploadNeeded": true,
+      "mapNeeded": false,
+      "readyForUpload": false,
+      "readyForCatalogMapping": false,
+      "warnings": [
+        "missing title",
+        "missing source file/path/url"
+      ]
+    },
+    {
+      "number": 3,
+      "id": "pilotPolicy",
+      "title": "Untitled Audio",
+      "category": "uncategorized",
+      "visibility": "review",
+      "sourceFile": "",
+      "currentPath": "",
+      "targetFolder": "audio/music/uncategorized",
+      "targetFilename": "untitled-audio.mp3",
+      "externalUrl": "",
+      "uploadNeeded": true,
+      "mapNeeded": false,
+      "readyForUpload": false,
+      "readyForCatalogMapping": false,
+      "warnings": [
+        "missing title",
+        "missing source file/path/url"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "generatedAt": "2026-07-07T22:53:38.655Z",
+  "sourceQcReport": "data/rks3-audio-qc-report.full.json",
+  "totalWeakTitles": 10,
+  "policy": {
+    "sourceFilesRenamed": false,
+    "sourceFilesDeleted": false,
+    "activeWebsiteOverridesChanged": false,
+    "activeWebsiteCatalogChanged": false,
+    "note": "This is a full-catalog planning file only. It is not imported by the live Music Portal."
+  },
+  "records": [
+    {
+      "id": "healing-fa-844f67d1",
+      "category": "healing",
+      "currentTitle": "fa",
+      "originalFileName": "fa (1).hdwav.wav",
+      "originalRelativePath": "Healing/fa (1).hdwav.wav",
+      "reasons": [
+        "very-short-title"
+      ],
+      "proposedOverride": {
+        "displayTitle": "FA — Title Review",
+        "displaySubtitle": "Healing weak-title review",
+        "mood": [
+          "review"
+        ],
+        "tags": [
+          "needs-review",
+          "weak-title",
+          "healing",
+          "very-short-title"
+        ],
+        "visibility": "review",
+        "priority": "normal",
+        "notes": "Full catalog weak-title plan. Original title: fa Original file: fa (1).hdwav.wav Original relative path: Healing/fa (1).hdwav.wav Reasons: very-short-title"
+      }
+    },
+    {
+      "id": "instrumentals-0332125-4da479bb",
+      "category": "instrumentals",
+      "currentTitle": "0332125",
+      "originalFileName": "0332125.hdwav.wav",
+      "originalRelativePath": "Instrumentals/0332125.hdwav.wav",
+      "reasons": [
+        "number-only-title"
+      ],
+      "proposedOverride": {
+        "displayTitle": "Untitled Instrumental 0332125",
+        "displaySubtitle": "Instrumentals weak-title review",
+        "mood": [
+          "review"
+        ],
+        "tags": [
+          "needs-review",
+          "weak-title",
+          "instrumentals",
+          "number-only-title"
+        ],
+        "visibility": "review",
+        "priority": "normal",
+        "notes": "Full catalog weak-title plan. Original title: 0332125 Original file: 0332125.hdwav.wav Original relative path: Instrumentals/0332125.hdwav.wav Reasons: number-only-title"
+      }
+    },
+    {
+      "id": "poetry--6c09eba4",
+      "category": "poetry",
+      "currentTitle": "❤️ ☀️",
+      "originalFileName": "❤️ ☀️ (5).hdwav.wav",
+      "originalRelativePath": "Poetry/❤️ ☀️ (5).hdwav.wav",
+      "reasons": [
+        "no-alphanumeric-title",
+        "weak-audio-slug"
+      ],
+      "proposedOverride": {
+        "displayTitle": "Love & Light",
+        "displaySubtitle": "Poetry weak-title review",
+        "mood": [
+          "review"
+        ],
+        "tags": [
+          "needs-review",
+          "weak-title",
+          "poetry",
+          "no-alphanumeric-title",
+          "weak-audio-slug"
+        ],
+        "visibility": "review",
+        "priority": "normal",
+        "notes": "Full catalog weak-title plan. Original title: ❤️ ☀️ Original file: ❤️ ☀️ (5).hdwav.wav Original relative path: Poetry/❤️ ☀️ (5).hdwav.wav Reasons: no-alphanumeric-title, weak-audio-slug"
+      }
+    },
+    {
+      "id": "poetry-fa-202e9c74",
+      "category": "poetry",
+      "currentTitle": "fa",
+      "originalFileName": "fa (2).hdwav.wav",
+      "originalRelativePath": "Poetry/fa (2).hdwav.wav",
+      "reasons": [
+        "very-short-title"
+      ],
+      "proposedOverride": {
+        "displayTitle": "FA — Title Review",
+        "displaySubtitle": "Poetry weak-title review",
+        "mood": [
+          "review"
+        ],
+        "tags": [
+          "needs-review",
+          "weak-title",
+          "poetry",
+          "very-short-title"
+        ],
+        "visibility": "review",
+        "priority": "normal",
+        "notes": "Full catalog weak-title plan. Original title: fa Original file: fa (2).hdwav.wav Original relative path: Poetry/fa (2).hdwav.wav Reasons: very-short-title"
+      }
+    },
+    {
+      "id": "poetry-i-36497c99",
+      "category": "poetry",
+      "currentTitle": "I",
+      "originalFileName": "I (3).hdwav.wav",
+      "originalRelativePath": "Poetry/I (3).hdwav.wav",
+      "reasons": [
+        "very-short-title"
+      ],
+      "proposedOverride": {
+        "displayTitle": "I — Title Review",
+        "displaySubtitle": "Poetry weak-title review",
+        "mood": [
+          "review"
+        ],
+        "tags": [
+          "needs-review",
+          "weak-title",
+          "poetry",
+          "very-short-title"
+        ],
+        "visibility": "review",
+        "priority": "normal",
+        "notes": "Full catalog weak-title plan. Original title: I Original file: I (3).hdwav.wav Original relative path: Poetry/I (3).hdwav.wav Reasons: very-short-title"
+      }
+    },
+    {
+      "id": "remixes-i-78305d84",
+      "category": "remixes",
+      "currentTitle": "I",
+      "originalFileName": "I.hdwav.wav",
+      "originalRelativePath": "remixes/I.hdwav.wav",
+      "reasons": [
+        "very-short-title"
+      ],
+      "proposedOverride": {
+        "displayTitle": "I — Title Review",
+        "displaySubtitle": "Remixes weak-title review",
+        "mood": [
+          "review"
+        ],
+        "tags": [
+          "needs-review",
+          "weak-title",
+          "remixes",
+          "very-short-title"
+        ],
+        "visibility": "review",
+        "priority": "normal",
+        "notes": "Full catalog weak-title plan. Original title: I Original file: I.hdwav.wav Original relative path: remixes/I.hdwav.wav Reasons: very-short-title"
+      }
+    },
+    {
+      "id": "rnb--040a052b",
+      "category": "rnb",
+      "currentTitle": "❤️ ☀️",
+      "originalFileName": "❤️ ☀️ (8).hdwav.wav",
+      "originalRelativePath": "R&B/❤️ ☀️ (8).hdwav.wav",
+      "reasons": [
+        "no-alphanumeric-title",
+        "weak-audio-slug"
+      ],
+      "proposedOverride": {
+        "displayTitle": "Love & Light",
+        "displaySubtitle": "R&B weak-title review",
+        "mood": [
+          "review"
+        ],
+        "tags": [
+          "needs-review",
+          "weak-title",
+          "rnb",
+          "no-alphanumeric-title",
+          "weak-audio-slug"
+        ],
+        "visibility": "review",
+        "priority": "normal",
+        "notes": "Full catalog weak-title plan. Original title: ❤️ ☀️ Original file: ❤️ ☀️ (8).hdwav.wav Original relative path: R&B/❤️ ☀️ (8).hdwav.wav Reasons: no-alphanumeric-title, weak-audio-slug"
+      }
+    },
+    {
+      "id": "rnb-7-5a8c7b33",
+      "category": "rnb",
+      "currentTitle": "7",
+      "originalFileName": "7 (12).hdwav.wav",
+      "originalRelativePath": "R&B/7 (12).hdwav.wav",
+      "reasons": [
+        "very-short-title",
+        "number-only-title"
+      ],
+      "proposedOverride": {
+        "displayTitle": "Seven",
+        "displaySubtitle": "R&B weak-title review",
+        "mood": [
+          "review"
+        ],
+        "tags": [
+          "needs-review",
+          "weak-title",
+          "rnb",
+          "very-short-title",
+          "number-only-title"
+        ],
+        "visibility": "review",
+        "priority": "normal",
+        "notes": "Full catalog weak-title plan. Original title: 7 Original file: 7 (12).hdwav.wav Original relative path: R&B/7 (12).hdwav.wav Reasons: very-short-title, number-only-title"
+      }
+    },
+    {
+      "id": "rnb-fa-c79ee4ba",
+      "category": "rnb",
+      "currentTitle": "fa",
+      "originalFileName": "fa (9).hdwav.wav",
+      "originalRelativePath": "R&B/fa (9).hdwav.wav",
+      "reasons": [
+        "very-short-title"
+      ],
+      "proposedOverride": {
+        "displayTitle": "FA — Title Review",
+        "displaySubtitle": "R&B weak-title review",
+        "mood": [
+          "review"
+        ],
+        "tags": [
+          "needs-review",
+          "weak-title",
+          "rnb",
+          "very-short-title"
+        ],
+        "visibility": "review",
+        "priority": "normal",
+        "notes": "Full catalog weak-title plan. Original title: fa Original file: fa (9).hdwav.wav Original relative path: R&B/fa (9).hdwav.wav Reasons: very-short-title"
+      }
+    },
+    {
+      "id": "rnb-lc-d7988403",
+      "category": "rnb",
+      "currentTitle": "LC",
+      "originalFileName": "LC (1).hdwav.wav",
+      "originalRelativePath": "R&B/LC (1).hdwav.wav",
+      "reasons": [
+        "very-short-title"
+      ],
+      "proposedOverride": {
+        "displayTitle": "LC — Title Review",
+        "displaySubtitle": "R&B weak-title review",
+        "mood": [
+          "review"
+        ],
+        "tags": [
+          "needs-review",
+          "weak-title",
+          "rnb",
+          "very-short-title"
+        ],
+        "visibility": "review",
+        "priority": "normal",
+        "notes": "Full catalog weak-title plan. Original title: LC Original file: LC (1).hdwav.wav Original relative path: R&B/LC (1).hdwav.wav Reasons: very-short-title"
+      }
+    }
+  ]
+}

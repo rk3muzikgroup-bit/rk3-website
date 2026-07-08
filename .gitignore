@@ -1,0 +1,94 @@
+# ======================================================
+# GITIGNORE — RK3 COMMAND BASE
+# ======================================================
+
+# ======================================================
+# SYSTEM
+# ======================================================
+.DS_Store
+Thumbs.db
+
+# macOS external-drive metadata / AppleDouble files
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+
+# ======================================================
+# NODE / PACKAGE MANAGERS
+# ======================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ======================================================
+# NEXT.JS
+# ======================================================
+.next/
+out/
+dist/
+.vercel/
+
+# ======================================================
+# ENVIRONMENT VARIABLES
+# ======================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ======================================================
+# BUILD / CACHE
+# ======================================================
+.cache/
+.turbo/
+.eslintcache
+*.tsbuildinfo
+
+# ======================================================
+# AUDIO / MEDIA (GENERATED)
+# ======================================================
+
+# RKS3 generated HDWAV website audio.
+# Do NOT commit large generated audio files to GitHub.
+public/audio/rks3/
+
+public/sounds/generated/
+public/sounds/tmp/
+public/audio/tmp/
+public/audio/cache/
+
+# Generated scan report can contain local drive paths.
+# Catalog may stay tracked later if we choose.
+data/rks3-audio-report.json
+
+# ======================================================
+# EXPORTS / USER DATA
+# ======================================================
+exports/
+downloads/
+*.zip
+*.csv
+*.json.backup
+
+# ======================================================
+# IDE / EDITORS
+# ======================================================
+.vscode/
+.idea/
+*.swp
+
+# ======================================================
+# TEST / COVERAGE
+# ======================================================
+coverage/
+
+# ======================================================
+# MISC
+# ======================================================
+*.log
+*.tmp
+data/rks3-audio-qc-report.json

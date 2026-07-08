@@ -1,0 +1,491 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ======================================================
+   GLOBAL BASE — IRON MAN 2056
+   Calm Power • Healing Tech • Future Lab
+====================================================== */
+
+html,
+body {
+  background:
+    radial-gradient(
+      1200px 600px at 50% -260px,
+      rgba(80, 220, 210, 0.10),
+      transparent 62%
+    ),
+    radial-gradient(
+      900px 520px at 82% 22%,
+      rgba(130, 140, 255, 0.07),
+      transparent 58%
+    ),
+    linear-gradient(
+      180deg,
+      #05070b 0%,
+      #070b12 38%,
+      #06090e 100%
+    );
+
+  color: #e6f1ff;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont;
+  overscroll-behavior: none;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+/* ======================================================
+   FILM GRAIN — ULTRA SUBTLE (CINEMA SAFE)
+====================================================== */
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.045;
+
+  background-image:
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23noise)' opacity='0.035'/%3E%3C/svg%3E");
+
+  mix-blend-mode: overlay;
+}
+
+/* ======================================================
+   CINEMATIC VIGNETTE
+====================================================== */
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+
+  background:
+    radial-gradient(
+      circle at center,
+      transparent 56%,
+      rgba(0, 0, 0, 0.48) 100%
+    );
+}
+
+/* App Router root stacking */
+body {
+  position: relative;
+  z-index: 0;
+}
+
+body > div {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* ======================================================
+   RESPECT REDUCED MOTION
+====================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ======================================================
+   CORE VARIABLES — SINGLE SOURCE OF TRUTH
+====================================================== */
+
+:root {
+  /* Glow system */
+  --glow-main: rgba(255, 255, 255, 0.28);
+  --glow-soft: rgba(255, 255, 255, 0.14);
+  --glow-strong: rgba(255, 255, 255, 0.52);
+
+  /* Audio + FX channels */
+  --sound-energy: 0.2;
+  --chakra-pulse: 0;
+  --warp-glow: 0;
+
+  /* Warp shake */
+  --shake-x: 0px;
+  --shake-y: 0px;
+  --shake-r: 0deg;
+}
+
+/* ======================================================
+   NEBULA — CINEMATIC CORE
+====================================================== */
+
+.nebula {
+  filter:
+    blur(60px)
+    brightness(
+      calc(
+        1 +
+        var(--sound-energy) * 0.35 +
+        var(--chakra-pulse) * 0.35 +
+        var(--warp-glow) * 0.6
+      )
+    )
+    saturate(
+      calc(
+        1 +
+        var(--sound-energy) * 0.4 +
+        var(--chakra-pulse) * 0.4 +
+        var(--warp-glow) * 0.7
+      )
+    );
+
+  transition:
+    filter 0.7s ease,
+    opacity 0.7s ease,
+    transform 0.7s ease;
+
+  will-change: filter, opacity, transform;
+}
+
+/* ======================================================
+   PORTAL THEMES
+====================================================== */
+
+.theme-default {
+  --glow-main: rgba(255, 255, 255, 0.28);
+  --glow-soft: rgba(255, 255, 255, 0.14);
+  --glow-strong: rgba(255, 255, 255, 255, 0.52);
+}
+
+.theme-street {
+  --glow-main: rgba(255, 185, 80, 0.38);
+  --glow-soft: rgba(255, 160, 60, 0.18);
+  --glow-strong: rgba(255, 210, 120, 0.55);
+}
+
+.theme-soul {
+  --glow-main: rgba(190, 140, 255, 0.38);
+  --glow-soft: rgba(165, 125, 230, 0.18);
+  --glow-strong: rgba(220, 180, 255, 0.55);
+}
+
+.theme-spirit {
+  --glow-main: rgba(120, 220, 255, 0.38);
+  --glow-soft: rgba(120, 210, 255, 0.18);
+  --glow-strong: rgba(170, 245, 255, 0.55);
+}
+
+/* ======================================================
+   UI GLOW UTILITIES
+====================================================== */
+
+.glow {
+  text-shadow:
+    0 0 10px var(--glow-main),
+    0 0 22px var(--glow-soft);
+}
+
+.glow-strong {
+  text-shadow:
+    0 0 14px var(--glow-main),
+    0 0 36px var(--glow-strong);
+}
+
+.glow-border {
+  border-color: color-mix(in srgb, var(--glow-main) 40%, transparent);
+  box-shadow: 0 0 14px color-mix(in srgb, var(--glow-main) 45%, transparent);
+}
+
+/* ======================================================
+   SESSION CARDS — FLOATING GLASS
+====================================================== */
+
+.session-card {
+  position: relative;
+  border-radius: 1rem;
+  padding: 1.25rem;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0.02)
+  );
+
+  backdrop-filter: blur(14px);
+  border: 1px solid color-mix(in srgb, var(--glow-main) 32%, transparent);
+
+  box-shadow:
+    0 0 22px color-mix(in srgb, var(--glow-soft) 40%, transparent);
+
+  transition:
+    transform 0.8s ease,
+    box-shadow 0.8s ease,
+    border-color 0.8s ease;
+}
+
+.session-card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 0 38px color-mix(in srgb, var(--glow-main) 55%, transparent);
+  border-color: color-mix(in srgb, var(--glow-main) 55%, transparent);
+}
+
+/* ======================================================
+   MOTION
+====================================================== */
+
+.fade-in {
+  animation: fadeIn 0.8s ease-out both;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes soulPulse {
+  0%, 100% {
+    box-shadow: 0 0 18px rgba(52, 211, 153, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 32px rgba(52, 211, 153, 0.45);
+  }
+}
+
+.animate-soulPulse {
+  animation: soulPulse 4.8s ease-in-out infinite;
+}
+
+/* ======================================================
+   WARP SHAKE
+====================================================== */
+
+.warp-shake {
+  transform:
+    translate3d(var(--shake-x), var(--shake-y), 0)
+    rotate(var(--shake-r));
+  will-change: transform;
+}
+
+/* ======================================================
+   PHASE 2 — HUD LANGUAGE (IRON MAN 2056)
+====================================================== */
+
+/* -------------------------------
+   HUD LINE SYSTEM
+-------------------------------- */
+
+.hud-line {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.hud-line::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.2em;
+  bottom: 0.2em;
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--glow-main),
+    transparent
+  );
+  box-shadow: 0 0 12px var(--glow-soft);
+}
+
+/* Horizontal variant */
+.hud-line-x {
+  position: relative;
+  padding-top: 0.75rem;
+}
+
+.hud-line-x::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 40%;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--glow-main),
+    transparent
+  );
+  box-shadow: 0 0 14px var(--glow-soft);
+}
+
+/* -------------------------------
+   HUD GLASS DISCIPLINE
+-------------------------------- */
+
+.hud-glass {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0.015)
+  );
+  backdrop-filter: blur(14px);
+  border: 1px solid color-mix(in srgb, var(--glow-main) 28%, transparent);
+}
+
+/* Lighter glass (for overlays) */
+.hud-glass-soft {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(10px);
+}
+
+/* -------------------------------
+   HUD GLOW STATES
+-------------------------------- */
+
+.hud-glow {
+  box-shadow: 0 0 14px var(--glow-soft);
+}
+
+.hud-glow-active {
+  box-shadow:
+    0 0 18px var(--glow-main),
+    0 0 36px var(--glow-soft);
+}
+
+.hud-glow-energized {
+  box-shadow:
+    0 0 24px var(--glow-main),
+    0 0 48px var(--glow-strong);
+}
+
+/* -------------------------------
+   ARC / ENERGY ELEMENTS
+-------------------------------- */
+
+.hud-arc {
+  border-radius: 9999px;
+  border: 1px solid color-mix(in srgb, var(--glow-main) 35%, transparent);
+  box-shadow: inset 0 0 18px var(--glow-soft);
+}
+
+.hud-arc-active {
+  box-shadow:
+    inset 0 0 24px var(--glow-main),
+    0 0 32px var(--glow-soft);
+}
+
+/* ======================================================
+   TYPOGRAPHY — SYSTEM HIERARCHY
+====================================================== */
+
+/* SYSTEM (Iron Man HUD text) */
+.text-system {
+  font-size: 0.65rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+/* MODULE (section headers) */
+.text-module {
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+/* SESSION (primary titles) */
+.text-session {
+  font-size: 1.15rem;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+/* Subtle numeric / telemetry */
+.text-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
+}
+/* ======================================================
+   MINI PLAYER v2 — ARC REACTOR
+====================================================== */
+
+.mini-reactor {
+  position: relative;
+  overflow: hidden;
+}
+
+/* -------------------------------
+   CORE ENERGY
+-------------------------------- */
+
+.reactor-core {
+  position: absolute;
+  inset: 50%;
+  width: 88px;
+  height: 88px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(255,255,255,0.85),
+      var(--glow-main) 35%,
+      transparent 65%
+    );
+
+  opacity: 0.35;
+  filter: blur(2px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* Active breathing pulse */
+.reactor-active {
+  animation: reactorPulse 3.2s ease-in-out infinite;
+  opacity: 0.85;
+}
+
+/* -------------------------------
+   ARC RINGS
+-------------------------------- */
+
+.reactor-ring {
+  position: absolute;
+  inset: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.ring-a {
+  width: 130px;
+  height: 130px;
+  border: 1px solid color-mix(in srgb, var(--glow-main) 45%, transparent);
+  box-shadow: inset 0 0 22px var(--glow-soft);
+}
+
+.ring-b {
+  width: 168px;
+  height: 168px;
+  border: 1px dashed color-mix(in srgb, var(--glow-main) 30%, transparent);
+  opacity: 0.55;
+}
+
+/* -------------------------------
+   MOTION
+-------------------------------- */
+
+@keyframes reactorPulse {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(0.96);
+    filter: blur(2px);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.05);
+    filter: blur(4px);
+  }
+}

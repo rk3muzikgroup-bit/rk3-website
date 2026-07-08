@@ -1,0 +1,68 @@
+{
+  "instrumentals-0332125-4da479bb": {
+    "displayTitle": "Untitled Instrumental 0332125",
+    "displaySubtitle": "Instrumental metadata review",
+    "mood": [
+      "instrumental",
+      "review"
+    ],
+    "tags": [
+      "instrumental",
+      "needs-review"
+    ],
+    "visibility": "review",
+    "priority": "normal",
+    "notes": "Original weak title: 0332125. Original file: 0332125.hdwav.wav"
+  },
+  "poetry--6c09eba4": {
+    "displayTitle": "Love & Light",
+    "displaySubtitle": "Poetry version — metadata review",
+    "mood": [
+      "light",
+      "heart",
+      "review"
+    ],
+    "tags": [
+      "poetry",
+      "love-light",
+      "needs-review"
+    ],
+    "visibility": "review",
+    "priority": "normal",
+    "notes": "Original weak title: ❤️ ☀️. Original file: ❤️ ☀️ (5).hdwav.wav"
+  },
+  "rnb--040a052b": {
+    "displayTitle": "Love & Light",
+    "displaySubtitle": "R&B version — metadata review",
+    "mood": [
+      "heart",
+      "soul",
+      "review"
+    ],
+    "tags": [
+      "rnb",
+      "love-light",
+      "needs-review"
+    ],
+    "visibility": "review",
+    "priority": "normal",
+    "notes": "Original weak title: ❤️ ☀️. Original file: ❤️ ☀️ (8).hdwav.wav"
+  },
+  "rnb-7-5a8c7b33": {
+    "displayTitle": "Seven",
+    "displaySubtitle": "R&B version 12 — metadata review",
+    "mood": [
+      "rnb",
+      "soul",
+      "review"
+    ],
+    "tags": [
+      "rnb",
+      "seven",
+      "needs-review"
+    ],
+    "visibility": "review",
+    "priority": "normal",
+    "notes": "Original weak title: 7. Original file: 7 (12).hdwav.wav"
+  }
+}
