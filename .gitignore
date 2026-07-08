@@ -92,3 +92,16 @@ coverage/
 *.log
 *.tmp
 data/rks3-audio-qc-report.json
+
+# ======================================================
+# RKS3 LARGE MEDIA PROTECTION
+# ======================================================
+# Large audio/video files must live in external storage/CDN, not GitHub.
+public/sounds/
+public/audio/
+public/videos/
+
+# Optional local media staging folders
+_media/
+media-staging/
+external-audio-staging/
