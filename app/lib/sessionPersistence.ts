@@ -1,11 +1,11 @@
 // app/lib/sessionPersistence.ts
 
-import type { Session } from "@/lib/sessions";
+import type { SessionPayload } from "@/hooks/useSessionEngine";
 
 export const SESSION_PROGRESS_KEY = "rk3:lastSession";
 
 export type PersistedSession = {
-  session: Session;
+  session: SessionPayload;
   elapsedMs: number;
   state: "playing" | "paused";
   savedAt: number;

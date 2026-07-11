@@ -30,7 +30,7 @@ export default function LivingRoomPage() {
       <div className="relative z-10 mx-auto w-full max-w-7xl">
         <div className="mb-8 flex flex-wrap gap-3">
           <Link
-            href="/portal/nexus"
+            href="/nexus"
             prefetch={false}
             className="inline-flex rounded-full border border-white/10 bg-white/[0.03] px-5 py-3 text-[10px] uppercase tracking-[0.28em] text-white/45 transition hover:border-white/25 hover:text-white/75"
           >
@@ -38,7 +38,7 @@ export default function LivingRoomPage() {
           </Link>
 
           <Link
-            href="/portal/awareness-plans"
+            href="/join"
             prefetch={false}
             className="inline-flex rounded-full border border-emerald-200/20 bg-emerald-200/[0.06] px-5 py-3 text-[10px] uppercase tracking-[0.28em] text-emerald-100/65 transition hover:border-emerald-200/40 hover:text-emerald-100"
           >

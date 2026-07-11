@@ -18,6 +18,7 @@ export default function SessionHUD() {
 
   function shareSession() {
     if (typeof window === "undefined") return;
+    if (!session) return;
 
     try {
       const code = createSessionCode(session, 60);
@@ -45,7 +46,7 @@ export default function SessionHUD() {
       <div className="flex gap-2">
         {state === "idle" && (
           <button
-            onClick={play}
+            onClick={() => play()}
             className="flex-1 rounded bg-emerald-400 py-2 text-sm font-medium text-black"
           >
             Start

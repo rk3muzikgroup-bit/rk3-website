@@ -1,3 +1,5 @@
+"use client";
+
 import { useLivingRoom } from "@/hooks/useLivingRoom";
 
 export default function PresenceZone() {

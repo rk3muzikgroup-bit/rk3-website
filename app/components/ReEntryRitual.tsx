@@ -36,7 +36,7 @@ export default function ReEntryRitual({ onResume }: Props) {
   if (!session) return null;
 
   function handleResume() {
-    if (resuming) return;
+    if (resuming || !session) return;
     setResuming(true);
     onResume(session, minutes);
   }

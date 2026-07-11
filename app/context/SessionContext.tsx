@@ -1,17 +1,25 @@
 "use client";
 
 import { createContext, useContext, useMemo } from "react";
-import { useSessionEngine } from "@/hooks/useSessionEngine";
+import {
+  useSessionEngine,
+  type SessionPayload,
+  type SessionStep,
+} from "@/hooks/useSessionEngine";
+
+type SessionState = "idle" | "playing" | "paused" | "ended";
 
 type SessionContextType = {
-  load: (session: {
-    id: string;
-    title: string;
-    realm?: string;
-  }) => void;
+  session: SessionPayload | null;
+  state: SessionState;
+  currentStep: SessionStep | null;
+  elapsed: number;
+  totalDuration: number;
 
+  load: (session: SessionPayload) => void;
   play: (src?: string, title?: string) => void;
   pause: () => void;
+  resume: () => void;
   stop: () => void;
   setVolume: (v: number) => void;
 };
@@ -26,11 +34,21 @@ export function SessionProvider({
   const engine = useSessionEngine();
 
   const value = useMemo<SessionContextType>(() => {
+    const state: SessionState = engine.isRunning
+      ? "playing"
+      : engine.session
+      ? "paused"
+      : "idle";
+
     return {
+      session: engine.session,
+      state,
+      currentStep: engine.currentStep,
+      elapsed: engine.elapsed,
+      totalDuration: engine.totalDuration,
+
       load(session) {
-        // 🔮 reserved for future session routing / hydration
-        // no-op for now (safe)
-        console.log("[Session] loaded:", session);
+        engine.load(session);
       },
 
       play(src, title) {
@@ -39,6 +57,10 @@ export function SessionProvider({
 
       pause() {
         engine.pause();
+      },
+
+      resume() {
+        engine.play();
       },
 
       stop() {

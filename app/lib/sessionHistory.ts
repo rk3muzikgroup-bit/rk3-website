@@ -4,9 +4,15 @@ import type { SessionPayload } from "@/hooks/useSessionEngine";
 
 /* ───────── TYPES ───────── */
 
+export type SessionHistoryPayload = Pick<
+  SessionPayload,
+  "id" | "title" | "steps"
+>;
+
 export type SessionHistoryItem = {
   id: string;
   title?: string;
+  payload?: SessionHistoryPayload;
   stepsCount: number;
   durationMs: number;
   createdAt: number;
@@ -45,12 +51,7 @@ function write(items: SessionHistoryItem[]) {
 /**
  * Log a completed session to history
  */
-export function logSession(
-  payload: Pick<
-    SessionPayload,
-    "id" | "title" | "steps"
-  >
-) {
+export function logSession(payload: SessionHistoryPayload) {
   const items = read();
 
   const durationMs = payload.steps.reduce(
@@ -59,8 +60,12 @@ export function logSession(
   );
 
   const next: SessionHistoryItem = {
-    id: crypto.randomUUID(),
+    id:
+      typeof crypto !== "undefined" && "randomUUID" in crypto
+        ? crypto.randomUUID()
+        : `${Date.now()}-${Math.random()}`,
     title: payload.title ?? "Healing Session",
+    payload,
     stepsCount: payload.steps.length,
     durationMs,
     createdAt: Date.now(),
@@ -73,10 +78,8 @@ export function logSession(
 /**
  * Toggle favorite flag on a history item
  */
-export function toggleSessionHistoryFavorite(
-  id: string
-) {
-  const items = read().map(item =>
+export function toggleSessionHistoryFavorite(id: string) {
+  const items = read().map((item) =>
     item.id === id
       ? { ...item, favorite: !item.favorite }
       : item
@@ -93,11 +96,20 @@ export function getSessionHistory(): SessionHistoryItem[] {
 }
 
 /**
+ * Compatibility aliases for older hooks/components
+ */
+export const getHistory = getSessionHistory;
+export const toggleFavorite = toggleSessionHistoryFavorite;
+
+/**
  * Optional helper: clear session history
  */
 export function clearSessionHistory() {
   if (typeof window === "undefined") return;
+
   try {
     localStorage.removeItem(KEY);
-  } catch {}
+  } catch {
+    // fail silently
+  }
 }

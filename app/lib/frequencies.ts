@@ -32,7 +32,7 @@ export const FREQUENCY_VAULT: FrequencyGroup[] = [
       { id: "528", label: "528 Hz – Coherence / Repair", hz: 528, chakra: "heart" },
       { id: "639", label: "639 Hz – Relational Balance", hz: 639, chakra: "heart" },
       { id: "741", label: "741 Hz – Expression Clarity", hz: 741, chakra: "throat" },
-      { id: "852", label: "852 Hz – Intuitive Awareness", hz: 852, chakra: "third_eye" },
+      { id: "852", label: "852 Hz – Intuitive Awareness", hz: 852, chakra: "thirdEye" },
       { id: "963", label: "963 Hz – Unity / Stillness", hz: 963, chakra: "crown" },
     ],
   },

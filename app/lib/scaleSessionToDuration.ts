@@ -31,13 +31,14 @@ export function scaleSessionToDuration(
 
   const minutes = Math.round(safeTargetMs / 60000);
 
+  const baseTitle = stripDurationSuffix(
+    session.title || "Untitled Session"
+  );
+
   return {
     ...session,
     steps: scaledSteps,
-    title: session.title
-      ? stripDurationSuffix(session.title) +
-        ` (${minutes} min)`
-      : undefined,
+    title: `${baseTitle} (${minutes} min)`,
   };
 }
 

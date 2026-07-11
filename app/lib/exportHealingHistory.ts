@@ -18,14 +18,14 @@ export function exportHealingHistoryCSV() {
       ...recent.map(r => [
         "Recent",
         r.title,
-        r.minutes,
+        String(r.minutes),
         new Date(r.timestamp).toLocaleString(),
       ]),
 
       ...favorites.map(f => [
         "Pinned",
         f.title,
-        f.minutes,
+        String(f.minutes),
         new Date(f.pinnedAt).toLocaleString(),
       ]),
     ];

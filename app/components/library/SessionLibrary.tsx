@@ -34,6 +34,7 @@ export default function SessionLibrary() {
             install({
               id: "heart-reset",
               title: "Heart Reset",
+              realm: "soul",
             })
           }
         />
@@ -47,6 +48,7 @@ export default function SessionLibrary() {
             install({
               id: "7day-heart",
               title: "7-Day Heart Reset",
+              realm: "soul",
             })
           }
         />

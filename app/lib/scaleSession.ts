@@ -1,5 +1,7 @@
 import type { SessionPayload } from "@/hooks/useSessionEngine";
 
+export type TimeScale = 3 | 7 | 11;
+
 /**
  * Scales a session to a target duration (ms)
  * while preserving step proportions.
@@ -32,13 +34,14 @@ export function scaleSessionToDuration(
 
   const minutes = Math.round(safeTargetMs / 60000);
 
+  const baseTitle = stripDurationSuffix(
+    session.title || "Untitled Session"
+  );
+
   return {
     ...session,
     steps: scaledSteps,
-    title: session.title
-      ? stripDurationSuffix(session.title) +
-        ` (${minutes} min)`
-      : undefined,
+    title: `${baseTitle} (${minutes} min)`,
   };
 }
 

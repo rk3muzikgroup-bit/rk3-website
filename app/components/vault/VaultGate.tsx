@@ -1,15 +1,21 @@
 "use client";
 
+import type { ReactNode } from "react";
 import { vaultPolicy } from "@/lib/vault/vaultPolicy";
+import type { VaultContext } from "@/lib/vault/vaultPolicy";
 import type { VaultAccess } from "@/lib/vault/vaultTypes";
 
 type Props = {
   access: VaultAccess;
-  children: React.ReactNode;
+  children: ReactNode;
+  context?: Partial<VaultContext>;
 };
 
-export default function VaultGate({ access, children }: Props) {
-  const allowed = vaultPolicy.canAccess(access);
+export default function VaultGate({ access, children, context }: Props) {
+  const allowed = vaultPolicy(access, {
+    isOwner: context?.isOwner ?? true,
+    isMember: context?.isMember ?? false,
+  });
 
   if (!allowed) {
     return (

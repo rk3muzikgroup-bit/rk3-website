@@ -1,8 +1,8 @@
 "use client";
 
 import { nanoid } from "nanoid";
-import { sessionRepo } from "@/lib/persist/sessionRepo";
-import SessionEngine from "@/components/SessionEngine";
+import { sessionRepo } from "@/lib/presets/sessionRepo";
+import SessionEngine from "@/components/Session/SessionEngine";
 import type { BuilderDraftSession } from "./BuilderRoot";
 import type { SessionPayload } from "@/hooks/useSessionEngine";
 
@@ -38,6 +38,8 @@ export default function BuilderReview({
 
   /* ───────── SAVE FINAL SESSION ───────── */
   function handleSave() {
+    if (!intent) return;
+
     const sessionId = nanoid();
     const versionId = nanoid();
 
@@ -56,7 +58,14 @@ export default function BuilderReview({
       id: versionId,
       sessionId,
       version: 1,
-      flow,
+      flow: flow.map((section, i) => ({
+        id: section.id || `step-${i}`,
+        label: section.label,
+        audioSrc: section.audioSrc,
+        voiceSrc: section.voiceSrc,
+        duration: section.duration ?? 60000,
+        chakra: section.chakra ?? "heart",
+      })),
       createdAt: Date.now(),
     });
 

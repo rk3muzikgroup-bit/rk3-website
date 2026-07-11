@@ -10,7 +10,7 @@ const CHAKRA_COLORS: Record<Chakra, string> = {
   solar: "bg-yellow-400",
   heart: "bg-emerald-400",
   throat: "bg-sky-400",
-  third_eye: "bg-indigo-400",
+  thirdEye: "bg-indigo-400",
   crown: "bg-purple-400",
 };
 

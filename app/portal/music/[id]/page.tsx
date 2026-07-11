@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import type { Route } from "next";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { ReactNode } from "react";
 import { useParams } from "next/navigation";
@@ -34,8 +35,8 @@ function getCategoryLabel(category: string) {
   return CATEGORY_LABELS[category] ?? category;
 }
 
-function getRecordUrl(track: RKS3GeneratedAudioTrack) {
-  return `/portal/music/${track.id}`;
+function getRecordUrl(track: RKS3GeneratedAudioTrack): Route {
+  return `/portal/music/${track.id}` as Route;
 }
 
 function getParamId(value: string | string[] | undefined) {

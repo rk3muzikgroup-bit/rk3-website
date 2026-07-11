@@ -9,7 +9,7 @@ const CHAKRA_ORDER = [
   "solar",
   "heart",
   "throat",
-  "third_eye",
+  "thirdEye",
   "crown",
 ] as const;
 
@@ -25,7 +25,7 @@ export default function ProfileHUD({
   );
 
   return (
-    <HUDFade delay={100}>
+    <HUDFade show={true} delay={100}>
       <div className="fixed top-24 right-6 z-50 w-64 bg-black/80 backdrop-blur-xl border border-white/10 rounded-xl p-4">
         {/* NAME */}
         <div className="text-sm tracking-widest uppercase mb-3 opacity-70">

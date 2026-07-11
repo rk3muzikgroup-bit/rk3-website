@@ -19,7 +19,7 @@ export function emptyChakraStats(): ChakraStats {
     solar: { timeMs: 0, sessions: 0 },
     heart: { timeMs: 0, sessions: 0 },
     throat: { timeMs: 0, sessions: 0 },
-    third_eye: { timeMs: 0, sessions: 0 },
+    thirdEye: { timeMs: 0, sessions: 0 },
     crown: { timeMs: 0, sessions: 0 },
   };
 }

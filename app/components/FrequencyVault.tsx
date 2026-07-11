@@ -25,7 +25,7 @@ const CHAKRAS: Chakra[] = [
   "solar",
   "heart",
   "throat",
-  "third_eye",
+  "thirdEye",
   "crown",
 ];
 

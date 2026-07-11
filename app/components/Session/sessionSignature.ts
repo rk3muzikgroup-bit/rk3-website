@@ -42,13 +42,22 @@ export async function signSession(payload: object) {
 
 /* ───────── VERIFY ───────── */
 
+function constantTimeEqual(a: string, b: string) {
+  if (a.length !== b.length) return false;
+
+  let diff = 0;
+
+  for (let i = 0; i < a.length; i += 1) {
+    diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  }
+
+  return diff === 0;
+}
+
 export async function verifySession(
   payload: object,
   signature: string
 ) {
   const expected = await signSession(payload);
-  return crypto.timingSafeEqual(
-    new TextEncoder().encode(expected),
-    new TextEncoder().encode(signature)
-  );
+  return constantTimeEqual(expected, signature);
 }

@@ -1,7 +1,7 @@
 "use client";
 
 import SoulTopBar from "@/components/soul/SoulTopBar";
-import SessionGrid from "@/components/session/SessionGrid";
+import SessionGrid from "@/components/Session/SessionGrid";
 
 export default function SoulPage() {
   return (

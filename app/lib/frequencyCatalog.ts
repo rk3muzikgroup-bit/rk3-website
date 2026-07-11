@@ -41,7 +41,7 @@ export type PureFrequency = FrequencyBase & {
 
 export type BaseBathFrequency = FrequencyBase & {
   type: "base-bath";
-  layers: { hz: number; gain?: number }[];
+  layers: { hz: number; gain?: number; pan?: number }[];
 };
 
 export type BinaryFrequency = FrequencyBase & {
@@ -122,5 +122,7 @@ export function getFrequenciesByType(type: FrequencyType) {
 }
 
 export function getFrequenciesByRealm(realm: FrequencyRealm) {
-  return ALL_FREQUENCIES.filter(f => f.realms.includes(realm));
+  return ALL_FREQUENCIES.filter(f =>
+    (f.realms as readonly FrequencyRealm[]).includes(realm)
+  );
 }

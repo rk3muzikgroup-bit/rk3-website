@@ -46,7 +46,7 @@ export default function SoulMarketplace() {
     session.load({
       id: card.id,
       title: card.title,
-      realm: "soul",
+      steps: [],
     });
 
     session.play();

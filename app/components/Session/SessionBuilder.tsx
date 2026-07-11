@@ -155,7 +155,7 @@ export default function SessionBuilder({
                 "solar",
                 "heart",
                 "throat",
-                "third_eye",
+                "thirdEye",
                 "crown",
               ].map(c => (
                 <option key={c} value={c}>

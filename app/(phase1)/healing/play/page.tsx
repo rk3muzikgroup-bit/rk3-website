@@ -30,7 +30,7 @@ export default function PlayPage() {
       <div className="flex gap-4">
         {!engine.isRunning && (
           <button
-            onClick={engine.play}
+            onClick={() => engine.play()}
             className="px-6 py-2 rounded bg-emerald-500 text-black"
           >
             Play
@@ -49,6 +49,7 @@ export default function PlayPage() {
 
       {/* TIMELINE */}
       <SessionTimeline
+        markers={engine.markers}
         elapsedMs={engine.elapsed}
         totalMs={engine.totalDuration}
         onSeek={engine.seek}

@@ -32,6 +32,8 @@ export default function ResumePrompt({ onResume, portalId }: Props) {
   if (!visible || !sessionId) return null;
 
   function handleResume() {
+    if (!sessionId) return;
+
     // Mark prompt as handled for this visit
     saveMemory({ resumeDismissed: true });
     setVisible(false);

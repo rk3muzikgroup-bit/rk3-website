@@ -60,7 +60,7 @@ const CHAKRAS: readonly Chakra[] = [
   "solar",
   "heart",
   "throat",
-  "third_eye",
+  "thirdEye",
   "crown",
 ];
 

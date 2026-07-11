@@ -1,7 +1,5 @@
 // app/lib/sessionHistory.ts
 
-console.log("SOUL_SESSIONS:", SOUL_SESSIONS);
-
 export type SessionHistoryItem = {
   id: string;
   title?: string;

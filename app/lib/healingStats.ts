@@ -32,7 +32,7 @@ export function computeHealingStats(): HealingStats {
     const match = session.title
       ?.toLowerCase()
       ?.match(
-        /(root|sacral|solar|heart|throat|third_eye|crown)/
+        /(root|sacral|solar|heart|throat|thirdEye|crown)/
       );
 
     if (match) {

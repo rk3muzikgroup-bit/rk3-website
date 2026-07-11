@@ -4,7 +4,7 @@ import type {
   SessionPayload,
   SessionStep,
 } from "@/hooks/useSessionEngine";
-import { FREQUENCIES } from "@/lib/frequencyCatalog";
+import { ALL_FREQUENCIES as FREQUENCIES } from "@/lib/frequencyCatalog";
 
 /* ───────── CONSTANTS ───────── */
 
@@ -77,11 +77,11 @@ export const SESSIONS: Record<
 > = {
   /* 🔥 AUTO-GENERATED SINGLE FREQUENCY SESSIONS */
   ...Object.fromEntries(
-    FREQUENCIES.map(f => [
+    FREQUENCIES.filter((f) => f.type === "pure").map((f) => [
       `freq_${f.id}`,
       makeFrequencySession(
         f.id,
-        f.chakra,
+        "heart",
         `${f.hz} Hz — ${f.label}`
       ),
     ])
@@ -105,7 +105,7 @@ export const SESSIONS: Record<
       { frequencyId: "528", chakra: "solar", minutes: 7 },
       { frequencyId: "639", chakra: "heart", minutes: 7 },
       { frequencyId: "741", chakra: "throat", minutes: 6 },
-      { frequencyId: "852", chakra: "third_eye", minutes: 6 },
+      { frequencyId: "852", chakra: "thirdEye", minutes: 6 },
       { frequencyId: "963", chakra: "crown", minutes: 8 },
     ],
   }),
@@ -126,7 +126,7 @@ export const SESSIONS: Record<
       { frequencyId: "528", chakra: "solar", minutes: 6 },
       { frequencyId: "639", chakra: "heart", minutes: 6 },
       { frequencyId: "741", chakra: "throat", minutes: 6 },
-      { frequencyId: "852", chakra: "third_eye", minutes: 6 },
+      { frequencyId: "852", chakra: "thirdEye", minutes: 6 },
       { frequencyId: "963", chakra: "crown", minutes: 6 },
     ],
   }),

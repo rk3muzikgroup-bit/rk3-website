@@ -36,7 +36,7 @@ export function recommendNext(
    */
   const balanceMap: Record<string, string> = {
     crown: "root",
-    third_eye: "root",
+    thirdEye: "root",
     throat: "sacral",
     heart: "root",
     solar: "heart",

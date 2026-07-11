@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useState } from "react";
 
-type PortalSurface = string | null;
+export type PortalSurface = string | null;
 
 type PortalSurfaceContextValue = {
   surface: PortalSurface;

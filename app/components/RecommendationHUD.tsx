@@ -17,12 +17,12 @@ export default function RecommendationHUD({
   if (!rec) return null;
 
   function handleLaunch() {
-    if (disabled) return;
+    if (disabled || !rec) return;
     onLaunch(rec.id, rec.type);
   }
 
   return (
-    <HUDFade delay={300}>
+    <HUDFade show={true} delay={300}>
       <div
         className={`fixed top-1/2 left-6 z-50 w-72 -translate-y-1/2
           bg-black/80 backdrop-blur-xl border border-white/10

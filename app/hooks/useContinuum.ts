@@ -1,10 +1,22 @@
 "use client";
 
-import { useContinuum } from "@/hooks/useContinuum";
+import { useEffect, useState } from "react";
+import { loadContinuum, type ContinuumState } from "@/lib/continuum";
 import { getContinuumTier } from "@/lib/continuumTier";
 
+export function useContinuum() {
+  const [continuum, setContinuum] = useState<ContinuumState | null>(null);
+
+  useEffect(() => {
+    setContinuum(loadContinuum());
+  }, []);
+
+  return continuum;
+}
+
 export function useContinuumTier() {
-  const c = useContinuum();
-  if (!c) return null;
-  return getContinuumTier(c);
+  const continuum = useContinuum();
+  if (!continuum) return null;
+
+  return getContinuumTier(continuum);
 }

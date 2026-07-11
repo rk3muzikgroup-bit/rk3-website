@@ -24,7 +24,7 @@ const CHAKRA_BASE_FREQ: Record<Chakra, number> = {
   solar: 320,
   heart: 341,
   throat: 384,
-  third_eye: 426,
+  thirdEye: 426,
   crown: 480,
 };
 

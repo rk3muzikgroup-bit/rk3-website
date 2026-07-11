@@ -9,7 +9,7 @@ const CHAKRA_ORDER: Chakra[] = [
   "solar",
   "heart",
   "throat",
-  "third_eye",
+  "thirdEye",
   "crown",
 ];
 
@@ -19,7 +19,7 @@ const CHAKRA_COLORS: Record<Chakra, string> = {
   solar: "#ffd43b",
   heart: "#3bff9a",
   throat: "#3bc4ff",
-  third_eye: "#7b5cff",
+  thirdEye: "#7b5cff",
   crown: "#d8b4ff",
 };
 

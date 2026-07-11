@@ -12,7 +12,7 @@ export function chakraColor(chakra?: Chakra) {
       return "#22C55E"; // green
     case "throat":
       return "#3B82F6"; // blue
-    case "third_eye":
+    case "thirdEye":
       return "#6366F1"; // indigo
     case "crown":
       return "#A855F7"; // violet

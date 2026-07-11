@@ -3,9 +3,9 @@
 import { useAudioEnergy } from "@/hooks/useAudioEnergy";
 
 export default function SoundReactiveGlow() {
-  const { energy } = useAudioEnergy();
+  const { energyRef } = useAudioEnergy();
 
-  const intensity = Math.min(Math.max(energy ?? 0, 0), 1);
+  const intensity = Math.min(Math.max(energyRef.current ?? 0, 0), 1);
 
   return (
     <div

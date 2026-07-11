@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Route } from "next";
 
 type Portal = {
   title: string;
@@ -97,7 +98,7 @@ const portals: Portal[] = [
     title: "Awareness Plans",
     description:
       "Founding QC Window, Tester Family access, and the RKS3 awareness path.",
-    href: "/portal/awareness-plans",
+    href: "/join",
     color: "rgba(16,185,129,1)",
     system: "AWARENESS ACCESS",
     lane: "Unified",
@@ -137,7 +138,7 @@ export default function PortalGrid() {
         {portals.map((portal) => (
           <Link
             key={portal.title}
-            href={portal.href}
+            href={portal.href as Route}
             prefetch={false}
             className="group block"
           >

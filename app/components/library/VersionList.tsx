@@ -1,11 +1,11 @@
 "use client";
 
-import { sessionRepo } from "@/lib/persist/sessionRepo";
-import type { SessionVersion } from "@/lib/persist/sessionTypes";
+import { sessionRepo } from "@/lib/presets/sessionRepo";
+import type { SessionVersion } from "@/lib/presets/sessionTypes";
 
 type Props = {
   sessionId: string;
-  activeVersionId: string;
+  activeVersionId?: string;
   onActivate: () => void;
 };
 

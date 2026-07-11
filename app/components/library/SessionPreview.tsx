@@ -1,6 +1,6 @@
 "use client";
 
-import SessionEngine from "@/components/session/SessionEngine";
+import SessionEngine from "@/components/Session/SessionEngine";
 
 type Props = {
   sessionId: string;

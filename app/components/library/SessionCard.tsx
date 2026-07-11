@@ -145,11 +145,6 @@ export default function SessionCard({
           </span>
         </div>
       )}
-    <motion.div
-  layoutId={`session-card-${title}`}
-  whileHover={{ y: -4 }}
-  transition={{ duration: 0.25, ease: "easeOut" }}
-  className="relative rounded-2xl ..."
->
+    </motion.div>
   );
 }
