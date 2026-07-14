@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
-const NEXUS_WELCOME_SRC = "/audio/nexus/nexus-welcome.mp3";
-const NEXUS_WELCOME_FALLBACK_SECONDS = 71;
+const NEXUS_WELCOME_SRC = "https://cudecfkuaszevzhyashj.supabase.co/storage/v1/object/public/rks3-public-media/nexus/nexus-welcome.mp3";
+const NEXUS_WELCOME_FALLBACK_SECONDS = 82;
 
 function formatTime(seconds: number) {
   if (!Number.isFinite(seconds) || seconds < 0) return "0:00";
@@ -270,7 +270,7 @@ const progressValue = Math.min(welcomeTime, progressDuration);
                 </span>
 
                 <span className="rounded-full border border-purple-200/20 bg-purple-200/[0.08] px-4 py-1.5 text-[10px] uppercase tracking-[0.28em] text-purple-100/65">
-                  1:11 Target
+                  1:22 Welcome
                 </span>
 
                 <span className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-1.5 text-[10px] uppercase tracking-[0.28em] text-white/40">
