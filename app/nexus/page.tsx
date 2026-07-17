@@ -429,7 +429,7 @@ const progressValue = Math.min(welcomeTime, progressDuration);
               {canProceed ? (
                 <>
                   <Link
-  href="/portal/living-room"
+  href="/portal/orientation"
   prefetch={false}
   className="inline-flex rounded-full border border-cyan-200/25 bg-cyan-200/[0.08] px-5 py-3 text-[10px] uppercase tracking-[0.22em] text-cyan-100/70 transition hover:border-cyan-200/45 hover:text-cyan-100"
 >
@@ -437,7 +437,7 @@ const progressValue = Math.min(welcomeTime, progressDuration);
 </Link>
 
 <Link
-  href="/portal/living-room"
+  href="/portal/initiation"
   prefetch={false}
   className="inline-flex rounded-full border border-purple-200/25 bg-purple-200/[0.08] px-5 py-3 text-[10px] uppercase tracking-[0.22em] text-purple-100/70 transition hover:border-purple-200/45 hover:text-purple-100"
 >
@@ -445,7 +445,7 @@ const progressValue = Math.min(welcomeTime, progressDuration);
 </Link>
 
 <Link
-  href="/portal/living-room"
+  href="/portal/ride"
   prefetch={false}
   className="inline-flex rounded-full border border-amber-200/25 bg-amber-200/[0.08] px-5 py-3 text-[10px] uppercase tracking-[0.22em] text-amber-100/70 transition hover:border-amber-200/45 hover:text-amber-100"
 >
