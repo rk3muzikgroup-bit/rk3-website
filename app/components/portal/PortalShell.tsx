@@ -16,7 +16,7 @@ export default function PortalShell({
   children,
 }: PortalShellProps) {
   return (
-    <main className="rk3-clean relative min-h-screen overflow-hidden bg-black text-white">
+    <main className="rk3-clean relative min-h-screen overflow-x-hidden bg-black text-white">
       <div
         className="pointer-events-none absolute inset-0"
         style={{
