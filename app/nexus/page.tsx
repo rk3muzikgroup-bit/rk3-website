@@ -377,9 +377,12 @@ const progressValue = Math.min(welcomeTime, progressDuration);
                 )}
 
                 {canProceed ? (
-                  <div className="inline-flex justify-center rounded-full border border-cyan-200/20 bg-cyan-200/[0.06] px-5 py-3 text-[10px] uppercase tracking-[0.22em] text-cyan-100/60">
+                  <a
+                    href="#begin-here"
+                    className="inline-flex cursor-pointer justify-center rounded-full border border-cyan-200/20 bg-cyan-200/[0.06] px-5 py-3 text-[10px] uppercase tracking-[0.22em] text-cyan-100/60 transition hover:border-cyan-200/40 hover:text-cyan-100"
+                  >
                     Continue Below
-                  </div>
+                  </a>
                 ) : (
                   <button
                     type="button"
@@ -407,7 +410,10 @@ const progressValue = Math.min(welcomeTime, progressDuration);
         </section>
 
         {/* BEGIN HERE */}
-        <section className="mb-8 rounded-[2rem] border border-white/10 bg-white/[0.025] p-6 backdrop-blur-xl md:p-7">
+        <section
+          id="begin-here"
+          className="mb-8 scroll-mt-8 rounded-[2rem] border border-white/10 bg-white/[0.025] p-6 backdrop-blur-xl md:p-7"
+        >
           <div className="flex flex-wrap items-center justify-between gap-6">
             <div>
               <p className="text-[10px] uppercase tracking-[0.3em] text-white/32">
