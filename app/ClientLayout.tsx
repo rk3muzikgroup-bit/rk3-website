@@ -1,6 +1,7 @@
 "use client";
 
 import { ReactNode } from "react";
+import { usePathname } from "next/navigation";
 import AmbientBackground from "@/components/AmbientBackground";
 import MiniPlayer from "@/components/audio/MiniPlayer";
 
@@ -9,6 +10,9 @@ export default function ClientLayout({
 }: {
   children: ReactNode;
 }) {
+  const pathname = usePathname();
+  const hideGlobalMiniPlayer = pathname === "/nexus";
+
   return (
     <div className="relative min-h-screen w-full bg-[#05070b] text-white overflow-hidden">
       
@@ -22,10 +26,12 @@ export default function ClientLayout({
         {children}
       </div>
 
-      {/* 🎧 Mini Player */}
-      <div className="fixed inset-x-0 bottom-0 z-[100] pointer-events-none">
-        <MiniPlayer />
-      </div>
+      {/* 🎧 Mini Player — Nexus has its own dedicated audio controls */}
+      {!hideGlobalMiniPlayer && (
+        <div className="fixed inset-x-0 bottom-0 z-[100] pointer-events-none">
+          <MiniPlayer />
+        </div>
+      )}
 
     </div>
   );
