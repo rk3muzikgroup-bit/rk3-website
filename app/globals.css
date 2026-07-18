@@ -29,7 +29,7 @@ body {
 
   color: #e6f1ff;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont;
-  overscroll-behavior: none;
+  overscroll-behavior: auto;
   min-height: 100%;
   overflow-x: hidden;
 }
