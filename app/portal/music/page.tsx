@@ -380,12 +380,6 @@ export default function RKS3MusicPortalPage() {
                     ? `${currentTrack.versionLabel} • ${currentTrack.sourceFormat.toUpperCase()}`
                     : "Select a record to begin."}
                 </p>
-
-                {currentTrack ? (
-                  <p className="mt-3 break-words text-xs leading-6 text-white/35">
-                    {currentTrack.audioSrc}
-                  </p>
-                ) : null}
               </div>
 
               {currentTrack ? (
@@ -812,10 +806,6 @@ export default function RKS3MusicPortalPage() {
 
                           <p className="mt-2 text-sm leading-7 text-white/55">
                             {track.versionLabel} • {track.sourceFormat.toUpperCase()}
-                          </p>
-
-                          <p className="mt-2 break-words text-xs leading-6 text-white/35">
-                            {track.audioSrc}
                           </p>
 
                           <div className="mt-3">
