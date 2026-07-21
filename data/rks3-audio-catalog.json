@@ -7,7 +7,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/01-chakra-energies-063411e5.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/01-chakra-energies-063411e5.wav",
     "originalFileName": "01.chakra energies.hdwav.wav",
     "originalRelativePath": "Healing/01.chakra energies.hdwav.wav",
     "includeInRKS3": true
@@ -20,7 +20,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/01-chakras-4c70845d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/01-chakras-4c70845d.wav",
     "originalFileName": "01.chakras.hdwav.wav",
     "originalRelativePath": "Healing/01.chakras.hdwav.wav",
     "includeInRKS3": true
@@ -33,7 +33,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/01-sun-of-god-0f0c8b9c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/01-sun-of-god-0f0c8b9c.wav",
     "originalFileName": "01.sun of god.hdwav.wav",
     "originalRelativePath": "Healing/01.sun of god.hdwav.wav",
     "includeInRKS3": true
@@ -46,7 +46,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/02-fear-ea72653a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/02-fear-ea72653a.wav",
     "originalFileName": "02.fear.hdwav.wav",
     "originalRelativePath": "Healing/02.fear.hdwav.wav",
     "includeInRKS3": true
@@ -59,7 +59,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/02-tzu-efea5d62.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/02-tzu-efea5d62.wav",
     "originalFileName": "02.Tzu.hdwav.wav",
     "originalRelativePath": "Healing/02.Tzu.hdwav.wav",
     "includeInRKS3": true
@@ -72,7 +72,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/0332125-4da479bb.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/0332125-4da479bb.wav",
     "originalFileName": "0332125.hdwav.wav",
     "originalRelativePath": "Instrumentals/0332125.hdwav.wav",
     "includeInRKS3": true
@@ -85,7 +85,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/3rd-eye-8805842c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/3rd-eye-8805842c.wav",
     "originalFileName": "3rd eye (1).hdwav.wav",
     "originalRelativePath": "Instrumentals/3rd eye (1).hdwav.wav",
     "includeInRKS3": true
@@ -98,7 +98,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/3rd-eye-84a06ec7.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/3rd-eye-84a06ec7.wav",
     "originalFileName": "3rd eye (2).hdwav.wav",
     "originalRelativePath": "Instrumentals/3rd eye (2).hdwav.wav",
     "includeInRKS3": true
@@ -111,7 +111,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/3rd-eye-ceeb342c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/3rd-eye-ceeb342c.wav",
     "originalFileName": "3rd eye (3).hdwav.wav",
     "originalRelativePath": "Instrumentals/3rd eye (3).hdwav.wav",
     "includeInRKS3": true
@@ -124,7 +124,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/3rd-eye-85c770de.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/3rd-eye-85c770de.wav",
     "originalFileName": "3rd eye (4).hdwav.wav",
     "originalRelativePath": "Instrumentals/3rd eye (4).hdwav.wav",
     "includeInRKS3": true
@@ -137,7 +137,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/-6c09eba4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/-6c09eba4.wav",
     "originalFileName": "❤️ ☀️ (5).hdwav.wav",
     "originalRelativePath": "Poetry/❤️ ☀️ (5).hdwav.wav",
     "includeInRKS3": true
@@ -150,7 +150,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/all-93411b44.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/all-93411b44.wav",
     "originalFileName": "all (1).hdwav.wav",
     "originalRelativePath": "Poetry/all (1).hdwav.wav",
     "includeInRKS3": true
@@ -163,7 +163,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/allareone-5735747d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/allareone-5735747d.wav",
     "originalFileName": "ALLAREONE.hdwav.wav",
     "originalRelativePath": "Poetry/ALLAREONE.hdwav.wav",
     "includeInRKS3": true
@@ -176,7 +176,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/alot-bb4db8cb.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/alot-bb4db8cb.wav",
     "originalFileName": "alot.hdwav.wav",
     "originalRelativePath": "Poetry/alot.hdwav.wav",
     "includeInRKS3": true
@@ -189,7 +189,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/awakened-women-33c28bc3.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/awakened-women-33c28bc3.wav",
     "originalFileName": "AWAKENED WOMEN (3).hdwav.wav",
     "originalRelativePath": "Poetry/AWAKENED WOMEN (3).hdwav.wav",
     "includeInRKS3": true
@@ -202,7 +202,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/10-stars-24abfbd0.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/10-stars-24abfbd0.wav",
     "originalFileName": "10 STARS.hdwav.wav",
     "originalRelativePath": "Rap/10 STARS.hdwav.wav",
     "includeInRKS3": true
@@ -215,7 +215,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/40-projects-388011db.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/40-projects-388011db.wav",
     "originalFileName": "40_Projects.hdwav.wav",
     "originalRelativePath": "Rap/40_Projects.hdwav.wav",
     "includeInRKS3": true
@@ -228,7 +228,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/allnight-8c01397b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/allnight-8c01397b.wav",
     "originalFileName": "AllNight.hdwav.wav",
     "originalRelativePath": "Rap/AllNight.hdwav.wav",
     "includeInRKS3": true
@@ -241,7 +241,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/alot-7dc45869.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/alot-7dc45869.wav",
     "originalFileName": "alot (5).hdwav.wav",
     "originalRelativePath": "Rap/alot (5).hdwav.wav",
     "includeInRKS3": true
@@ -254,7 +254,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/atlantis-rep-2-e61d478f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/atlantis-rep-2-e61d478f.wav",
     "originalFileName": "Atlantis rep 2.hdwav.wav",
     "originalRelativePath": "Rap/Atlantis rep 2.hdwav.wav",
     "includeInRKS3": true
@@ -267,7 +267,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/10-stars-407013d2.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/10-stars-407013d2.wav",
     "originalFileName": "10 STARS (1).hdwav.wav",
     "originalRelativePath": "remixes/10 STARS (1).hdwav.wav",
     "includeInRKS3": true
@@ -280,7 +280,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/all-1-48b1bbb9.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/all-1-48b1bbb9.wav",
     "originalFileName": "all 1.hdwav.wav",
     "originalRelativePath": "remixes/all 1.hdwav.wav",
     "includeInRKS3": true
@@ -293,7 +293,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/all-2-dc7e0c5b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/all-2-dc7e0c5b.wav",
     "originalFileName": "all 2.hdwav.wav",
     "originalRelativePath": "remixes/all 2.hdwav.wav",
     "includeInRKS3": true
@@ -306,7 +306,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/baby-boy-f70f5d75.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/baby-boy-f70f5d75.wav",
     "originalFileName": "BABY BOY (7).hdwav.wav",
     "originalRelativePath": "remixes/BABY BOY (7).hdwav.wav",
     "includeInRKS3": true
@@ -319,7 +319,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/baecation-6ecbe5cc.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/baecation-6ecbe5cc.wav",
     "originalFileName": "BAECATION (1).hdwav.wav",
     "originalRelativePath": "remixes/BAECATION (1).hdwav.wav",
     "includeInRKS3": true
@@ -332,7 +332,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/-040a052b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/-040a052b.wav",
     "originalFileName": "❤️ ☀️ (8).hdwav.wav",
     "originalRelativePath": "R&B/❤️ ☀️ (8).hdwav.wav",
     "includeInRKS3": true
@@ -345,7 +345,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/7-5a8c7b33.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/7-5a8c7b33.wav",
     "originalFileName": "7 (12).hdwav.wav",
     "originalRelativePath": "R&B/7 (12).hdwav.wav",
     "includeInRKS3": true
@@ -358,7 +358,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/alot-3ff95a99.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/alot-3ff95a99.wav",
     "originalFileName": "alot.hdwav.wav",
     "originalRelativePath": "R&B/alot.hdwav.wav",
     "includeInRKS3": true
@@ -371,7 +371,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/ashes-in-the-air-fa79b3b4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/ashes-in-the-air-fa79b3b4.wav",
     "originalFileName": "Ashes in the Air.hdwav.wav",
     "originalRelativePath": "R&B/Ashes in the Air.hdwav.wav",
     "includeInRKS3": true
@@ -384,7 +384,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/baby-boy-d43dc28b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/baby-boy-d43dc28b.wav",
     "originalFileName": "BABY BOY.hdwav.wav",
     "originalRelativePath": "R&B/BABY BOY.hdwav.wav",
     "includeInRKS3": true
