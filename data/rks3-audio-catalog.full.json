@@ -7,7 +7,7 @@
     "category": "bilingual",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/bilingual/bi-lingual-8e959e7e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/bilingual/bi-lingual-8e959e7e.wav",
     "originalFileName": "Bi-Lingual (1).hdwav.wav",
     "originalRelativePath": "english:spanish/Bi-Lingual (1).hdwav.wav",
     "includeInRKS3": true
@@ -20,7 +20,7 @@
     "category": "bilingual",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/bilingual/bi-lingual-09ae936f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/bilingual/bi-lingual-09ae936f.wav",
     "originalFileName": "Bi-Lingual (10).hdwav.wav",
     "originalRelativePath": "english:spanish/Bi-Lingual (10).hdwav.wav",
     "includeInRKS3": true
@@ -33,7 +33,7 @@
     "category": "bilingual",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/bilingual/bi-lingual-5bdcad5c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/bilingual/bi-lingual-5bdcad5c.wav",
     "originalFileName": "Bi-Lingual (3).hdwav.wav",
     "originalRelativePath": "english:spanish/Bi-Lingual (3).hdwav.wav",
     "includeInRKS3": true
@@ -46,7 +46,7 @@
     "category": "bilingual",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/bilingual/free-727bfdae.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/bilingual/free-727bfdae.wav",
     "originalFileName": "FREE (1).hdwav.wav",
     "originalRelativePath": "english:spanish/FREE (1).hdwav.wav",
     "includeInRKS3": true
@@ -59,7 +59,7 @@
     "category": "bilingual",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/bilingual/free-4970aa3e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/bilingual/free-4970aa3e.wav",
     "originalFileName": "FREE (2).hdwav.wav",
     "originalRelativePath": "english:spanish/FREE (2).hdwav.wav",
     "includeInRKS3": true
@@ -72,7 +72,7 @@
     "category": "bilingual",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/bilingual/grow-bi-c5ee4c73.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/bilingual/grow-bi-c5ee4c73.wav",
     "originalFileName": "GROW BI (1).hdwav.wav",
     "originalRelativePath": "english:spanish/GROW BI (1).hdwav.wav",
     "includeInRKS3": true
@@ -85,7 +85,7 @@
     "category": "bilingual",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/bilingual/grow-whole-bi-f8154183.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/bilingual/grow-whole-bi-f8154183.wav",
     "originalFileName": "grow whole Bi (3).hdwav.wav",
     "originalRelativePath": "english:spanish/grow whole Bi (3).hdwav.wav",
     "includeInRKS3": true
@@ -98,7 +98,7 @@
     "category": "bilingual",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/bilingual/l-o-t-u-bi-cce3d4af.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/bilingual/l-o-t-u-bi-cce3d4af.wav",
     "originalFileName": "L.O.T.U. bi (1).hdwav.wav",
     "originalRelativePath": "english:spanish/L.O.T.U. bi (1).hdwav.wav",
     "includeInRKS3": true
@@ -111,7 +111,7 @@
     "category": "bilingual",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/bilingual/level-up-865b0467.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/bilingual/level-up-865b0467.wav",
     "originalFileName": "LEVEL UP (27) .hdwav.wav",
     "originalRelativePath": "english:spanish/LEVEL UP (27) .hdwav.wav",
     "includeInRKS3": true
@@ -124,7 +124,7 @@
     "category": "bilingual",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/bilingual/long-run-neo-soul-8d1fdfb2.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/bilingual/long-run-neo-soul-8d1fdfb2.wav",
     "originalFileName": "LONG RUN NEO SOUL (1).hdwav.wav",
     "originalRelativePath": "english:spanish/LONG RUN NEO SOUL (1).hdwav.wav",
     "includeInRKS3": true
@@ -137,7 +137,7 @@
     "category": "bilingual",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/bilingual/reggaetone-59768173.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/bilingual/reggaetone-59768173.wav",
     "originalFileName": "REGGAETONE (1).hdwav.wav",
     "originalRelativePath": "english:spanish/REGGAETONE (1).hdwav.wav",
     "includeInRKS3": true
@@ -150,7 +150,7 @@
     "category": "bilingual",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/bilingual/reggaetone-3883752c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/bilingual/reggaetone-3883752c.wav",
     "originalFileName": "REGGAETONE (2).hdwav.wav",
     "originalRelativePath": "english:spanish/REGGAETONE (2).hdwav.wav",
     "includeInRKS3": true
@@ -163,7 +163,7 @@
     "category": "bilingual",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/bilingual/reggaetone-525026e4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/bilingual/reggaetone-525026e4.wav",
     "originalFileName": "REGGAETONE (3).hdwav.wav",
     "originalRelativePath": "english:spanish/REGGAETONE (3).hdwav.wav",
     "includeInRKS3": true
@@ -176,7 +176,7 @@
     "category": "bilingual",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/bilingual/thats-life-bi-neo-3c35aa06.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/bilingual/thats-life-bi-neo-3c35aa06.wav",
     "originalFileName": "that's life bi neo (1) .hdwav.wav",
     "originalRelativePath": "english:spanish/that's life bi neo (1) .hdwav.wav",
     "includeInRKS3": true
@@ -189,7 +189,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/01-chakra-energies-063411e5.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/01-chakra-energies-063411e5.wav",
     "originalFileName": "01.chakra energies.hdwav.wav",
     "originalRelativePath": "Healing/01.chakra energies.hdwav.wav",
     "includeInRKS3": true
@@ -202,7 +202,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/01-chakras-4c70845d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/01-chakras-4c70845d.wav",
     "originalFileName": "01.chakras.hdwav.wav",
     "originalRelativePath": "Healing/01.chakras.hdwav.wav",
     "includeInRKS3": true
@@ -215,7 +215,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/01-sun-of-god-0f0c8b9c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/01-sun-of-god-0f0c8b9c.wav",
     "originalFileName": "01.sun of god.hdwav.wav",
     "originalRelativePath": "Healing/01.sun of god.hdwav.wav",
     "includeInRKS3": true
@@ -228,7 +228,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/02-fear-ea72653a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/02-fear-ea72653a.wav",
     "originalFileName": "02.fear.hdwav.wav",
     "originalRelativePath": "Healing/02.fear.hdwav.wav",
     "includeInRKS3": true
@@ -241,7 +241,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/02-tzu-efea5d62.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/02-tzu-efea5d62.wav",
     "originalFileName": "02.Tzu.hdwav.wav",
     "originalRelativePath": "Healing/02.Tzu.hdwav.wav",
     "includeInRKS3": true
@@ -254,7 +254,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/03-be-the-lotus-cdfee3f0.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/03-be-the-lotus-cdfee3f0.wav",
     "originalFileName": "03.be the lotus.hdwav.wav",
     "originalRelativePath": "Healing/03.be the lotus.hdwav.wav",
     "includeInRKS3": true
@@ -267,7 +267,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/04-met-a-tron-b4cf0efe.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/04-met-a-tron-b4cf0efe.wav",
     "originalFileName": "04.Met-a-tron (1).hdwav.wav",
     "originalRelativePath": "Healing/04.Met-a-tron (1).hdwav.wav",
     "includeInRKS3": true
@@ -280,7 +280,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/06-ohm-56d43635.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/06-ohm-56d43635.wav",
     "originalFileName": "06.ohm.hdwav.wav",
     "originalRelativePath": "Healing/06.ohm.hdwav.wav",
     "includeInRKS3": true
@@ -293,7 +293,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/07-awakened-women-d4e3f4eb.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/07-awakened-women-d4e3f4eb.wav",
     "originalFileName": "07.awakened women.hdwav.wav",
     "originalRelativePath": "Healing/07.awakened women.hdwav.wav",
     "includeInRKS3": true
@@ -306,7 +306,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/10-children-of-god-57b75c59.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/10-children-of-god-57b75c59.wav",
     "originalFileName": "10-Children-of-God.hdwav.wav",
     "originalRelativePath": "Healing/10-Children-of-God.hdwav.wav",
     "includeInRKS3": true
@@ -319,7 +319,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/10-alignment-ecdc89c6.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/10-alignment-ecdc89c6.wav",
     "originalFileName": "10.alignment.hdwav.wav",
     "originalRelativePath": "Healing/10.alignment.hdwav.wav",
     "includeInRKS3": true
@@ -332,7 +332,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/5d-intro-26debe33.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/5d-intro-26debe33.wav",
     "originalFileName": "5D INTRO.hdwav.wav",
     "originalRelativePath": "Healing/5D INTRO.hdwav.wav",
     "includeInRKS3": true
@@ -345,7 +345,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/alchemy-in-me-5eb66ce8.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/alchemy-in-me-5eb66ce8.wav",
     "originalFileName": "ALCHEMY IN ME.hdwav.wav",
     "originalRelativePath": "Healing/ALCHEMY IN ME.hdwav.wav",
     "includeInRKS3": true
@@ -358,7 +358,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/allareone-23077149.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/allareone-23077149.wav",
     "originalFileName": "ALLAREONE.hdwav.wav",
     "originalRelativePath": "Healing/ALLAREONE.hdwav.wav",
     "includeInRKS3": true
@@ -371,7 +371,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/cant-stop-winning-49e22d84.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/cant-stop-winning-49e22d84.wav",
     "originalFileName": "can't stop winning (1).hdwav.wav",
     "originalRelativePath": "Healing/can't stop winning (1).hdwav.wav",
     "includeInRKS3": true
@@ -384,7 +384,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/chakra-615a76e1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/chakra-615a76e1.wav",
     "originalFileName": "chakra (4).hdwav.wav",
     "originalRelativePath": "Healing/chakra (4).hdwav.wav",
     "includeInRKS3": true
@@ -397,7 +397,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/changed-fb5cba81.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/changed-fb5cba81.wav",
     "originalFileName": "CHANGED (13).hdwav.wav",
     "originalRelativePath": "Healing/CHANGED (13).hdwav.wav",
     "includeInRKS3": true
@@ -410,7 +410,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/changed-21eaba0d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/changed-21eaba0d.wav",
     "originalFileName": "CHANGED (7).hdwav.wav",
     "originalRelativePath": "Healing/CHANGED (7).hdwav.wav",
     "includeInRKS3": true
@@ -423,7 +423,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/core-earth-60be27d4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/core-earth-60be27d4.wav",
     "originalFileName": "core earth (2).hdwav.wav",
     "originalRelativePath": "Healing/core earth (2).hdwav.wav",
     "includeInRKS3": true
@@ -436,7 +436,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/core-earth-27dd67ba.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/core-earth-27dd67ba.wav",
     "originalFileName": "core earth (4).hdwav.wav",
     "originalRelativePath": "Healing/core earth (4).hdwav.wav",
     "includeInRKS3": true
@@ -449,7 +449,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/cosmic-love-spiritual-melodic-3c9b859e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/cosmic-love-spiritual-melodic-3c9b859e.wav",
     "originalFileName": "cosmic love spiritual melodic.hdwav.wav",
     "originalRelativePath": "Healing/cosmic love spiritual melodic.hdwav.wav",
     "includeInRKS3": true
@@ -462,7 +462,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/dead-or-not-46a5729a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/dead-or-not-46a5729a.wav",
     "originalFileName": "dead or not (3).hdwav.wav",
     "originalRelativePath": "Healing/dead or not (3).hdwav.wav",
     "includeInRKS3": true
@@ -475,7 +475,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/dead-or-not-2-2515af56.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/dead-or-not-2-2515af56.wav",
     "originalFileName": "dead or not #2.hdwav.wav",
     "originalRelativePath": "Healing/dead or not #2.hdwav.wav",
     "includeInRKS3": true
@@ -488,7 +488,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/deepness-1-be1bb0a4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/deepness-1-be1bb0a4.wav",
     "originalFileName": "deepness-#1.hdwav.wav",
     "originalRelativePath": "Healing/deepness-#1.hdwav.wav",
     "includeInRKS3": true
@@ -501,7 +501,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/did-that-1-bdc85541.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/did-that-1-bdc85541.wav",
     "originalFileName": "did that-#1.hdwav.wav",
     "originalRelativePath": "Healing/did that-#1.hdwav.wav",
     "includeInRKS3": true
@@ -514,7 +514,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/fa-844f67d1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/fa-844f67d1.wav",
     "originalFileName": "fa (1).hdwav.wav",
     "originalRelativePath": "Healing/fa (1).hdwav.wav",
     "includeInRKS3": true
@@ -527,7 +527,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/fallen-angles-fb7a534e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/fallen-angles-fb7a534e.wav",
     "originalFileName": "FALLEN ANGLES.hdwav.wav",
     "originalRelativePath": "Healing/FALLEN ANGLES.hdwav.wav",
     "includeInRKS3": true
@@ -540,7 +540,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/h-m-0d318223.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/h-m-0d318223.wav",
     "originalFileName": "h _ m  _ (5).hdwav.wav",
     "originalRelativePath": "Healing/h _ m  _ (5).hdwav.wav",
     "includeInRKS3": true
@@ -553,7 +553,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/h-m-fcb7c397.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/h-m-fcb7c397.wav",
     "originalFileName": "h _ m  _ (8).hdwav.wav",
     "originalRelativePath": "Healing/h _ m  _ (8).hdwav.wav",
     "includeInRKS3": true
@@ -566,7 +566,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/heavens-call-498862f5.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/heavens-call-498862f5.wav",
     "originalFileName": "Heaven's Call (1).hdwav.wav",
     "originalRelativePath": "Healing/Heaven's Call (1).hdwav.wav",
     "includeInRKS3": true
@@ -579,7 +579,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/i-am-flame-e9edb2da.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/i-am-flame-e9edb2da.wav",
     "originalFileName": "I AM FLAME.hdwav.wav",
     "originalRelativePath": "Healing/I AM FLAME.hdwav.wav",
     "includeInRKS3": true
@@ -592,7 +592,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/indian-b8d61f1e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/indian-b8d61f1e.wav",
     "originalFileName": "INDIAN.hdwav.wav",
     "originalRelativePath": "Healing/INDIAN.hdwav.wav",
     "includeInRKS3": true
@@ -605,7 +605,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/inner-light-cfe7f5c8.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/inner-light-cfe7f5c8.wav",
     "originalFileName": "Inner Light (2).hdwav.wav",
     "originalRelativePath": "Healing/Inner Light (2).hdwav.wav",
     "includeInRKS3": true
@@ -618,7 +618,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/inner-light-7683b926.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/inner-light-7683b926.wav",
     "originalFileName": "Inner Light.hdwav.wav",
     "originalRelativePath": "Healing/Inner Light.hdwav.wav",
     "includeInRKS3": true
@@ -631,7 +631,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/isis-ad8d1071.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/isis-ad8d1071.wav",
     "originalFileName": "isis.hdwav.wav",
     "originalRelativePath": "Healing/isis.hdwav.wav",
     "includeInRKS3": true
@@ -644,7 +644,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/just-love-e840c99e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/just-love-e840c99e.wav",
     "originalFileName": "Just Love (4).hdwav.wav",
     "originalRelativePath": "Healing/Just Love (4).hdwav.wav",
     "includeInRKS3": true
@@ -657,7 +657,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/just-the-start-c7a7ad88.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/just-the-start-c7a7ad88.wav",
     "originalFileName": "JUST THE START (1).hdwav.wav",
     "originalRelativePath": "Healing/JUST THE START (1).hdwav.wav",
     "includeInRKS3": true
@@ -670,7 +670,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/l-o-v-e-47cf5e18.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/l-o-v-e-47cf5e18.wav",
     "originalFileName": "L.O.V.E. (1).hdwav.wav",
     "originalRelativePath": "Healing/L.O.V.E. (1).hdwav.wav",
     "includeInRKS3": true
@@ -683,7 +683,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/law-8802df08.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/law-8802df08.wav",
     "originalFileName": "LAW (4).hdwav.wav",
     "originalRelativePath": "Healing/LAW (4).hdwav.wav",
     "includeInRKS3": true
@@ -696,7 +696,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/light-7bd1f837.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/light-7bd1f837.wav",
     "originalFileName": "light (7).hdwav.wav",
     "originalRelativePath": "Healing/light (7).hdwav.wav",
     "includeInRKS3": true
@@ -709,7 +709,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/mastery-f6c6aeec.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/mastery-f6c6aeec.wav",
     "originalFileName": "mastery (1).hdwav.wav",
     "originalRelativePath": "Healing/mastery (1).hdwav.wav",
     "includeInRKS3": true
@@ -722,7 +722,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/mastery-cfde3cce.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/mastery-cfde3cce.wav",
     "originalFileName": "mastery (4).hdwav.wav",
     "originalRelativePath": "Healing/mastery (4).hdwav.wav",
     "includeInRKS3": true
@@ -735,7 +735,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/mastery-d298d353.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/mastery-d298d353.wav",
     "originalFileName": "mastery (5).hdwav.wav",
     "originalRelativePath": "Healing/mastery (5).hdwav.wav",
     "includeInRKS3": true
@@ -748,7 +748,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/met-72f71cfb.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/met-72f71cfb.wav",
     "originalFileName": "Met (7).hdwav.wav",
     "originalRelativePath": "Healing/Met (7).hdwav.wav",
     "includeInRKS3": true
@@ -761,7 +761,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/native-land-a6d4f387.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/native-land-a6d4f387.wav",
     "originalFileName": "NATIVE LAND.hdwav.wav",
     "originalRelativePath": "Healing/NATIVE LAND.hdwav.wav",
     "includeInRKS3": true
@@ -774,7 +774,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/no-stress-20d6894c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/no-stress-20d6894c.wav",
     "originalFileName": "no stress (10).hdwav.wav",
     "originalRelativePath": "Healing/no stress (10).hdwav.wav",
     "includeInRKS3": true
@@ -787,7 +787,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/off-7ae567b2.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/off-7ae567b2.wav",
     "originalFileName": "OFF.hdwav.wav",
     "originalRelativePath": "Healing/OFF.hdwav.wav",
     "includeInRKS3": true
@@ -800,7 +800,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/one-heart-reggae-beats-cb56089b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/one-heart-reggae-beats-cb56089b.wav",
     "originalFileName": "one heart reggae beats (1).hdwav.wav",
     "originalRelativePath": "Healing/one heart reggae beats (1).hdwav.wav",
     "includeInRKS3": true
@@ -813,7 +813,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/position-7f0d95ec.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/position-7f0d95ec.wav",
     "originalFileName": "POSITION (3).hdwav.wav",
     "originalRelativePath": "Healing/POSITION (3).hdwav.wav",
     "includeInRKS3": true
@@ -826,7 +826,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/really-d8ff0f60.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/really-d8ff0f60.wav",
     "originalFileName": "Really (2).hdwav.wav",
     "originalRelativePath": "Healing/Really (2).hdwav.wav",
     "includeInRKS3": true
@@ -839,7 +839,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/rich-look-inwaed-2cf71b22.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/rich-look-inwaed-2cf71b22.wav",
     "originalFileName": "RICH LOOK INWAED (1).hdwav.wav",
     "originalRelativePath": "Healing/RICH LOOK INWAED (1).hdwav.wav",
     "includeInRKS3": true
@@ -852,7 +852,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/roller-456d457e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/roller-456d457e.wav",
     "originalFileName": "ROLLER (10).hdwav.wav",
     "originalRelativePath": "Healing/ROLLER (10).hdwav.wav",
     "includeInRKS3": true
@@ -865,7 +865,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/sun-of-god-f9def525.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/sun-of-god-f9def525.wav",
     "originalFileName": "sun of God (8).hdwav.wav",
     "originalRelativePath": "Healing/sun of God (8).hdwav.wav",
     "includeInRKS3": true
@@ -878,7 +878,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/tester-44bcedcb.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/tester-44bcedcb.wav",
     "originalFileName": "tester (1).hdwav.wav",
     "originalRelativePath": "Healing/tester (1).hdwav.wav",
     "includeInRKS3": true
@@ -891,7 +891,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/tester-fa44dbaf.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/tester-fa44dbaf.wav",
     "originalFileName": "tester (2).hdwav.wav",
     "originalRelativePath": "Healing/tester (2).hdwav.wav",
     "includeInRKS3": true
@@ -904,7 +904,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/tester-438fc9a2.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/tester-438fc9a2.wav",
     "originalFileName": "tester (4).hdwav.wav",
     "originalRelativePath": "Healing/tester (4).hdwav.wav",
     "includeInRKS3": true
@@ -917,7 +917,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/the-great-reveal-25eb847b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/the-great-reveal-25eb847b.wav",
     "originalFileName": "THE GREAT REVEAL (2).hdwav.wav",
     "originalRelativePath": "Healing/THE GREAT REVEAL (2).hdwav.wav",
     "includeInRKS3": true
@@ -930,7 +930,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/thouhgts-a5e225e6.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/thouhgts-a5e225e6.wav",
     "originalFileName": "THOUHGTS (6).hdwav.wav",
     "originalRelativePath": "Healing/THOUHGTS (6).hdwav.wav",
     "includeInRKS3": true
@@ -943,7 +943,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/truly-living-c4120d3a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/truly-living-c4120d3a.wav",
     "originalFileName": "Truly living (2).hdwav.wav",
     "originalRelativePath": "Healing/Truly living (2).hdwav.wav",
     "includeInRKS3": true
@@ -956,7 +956,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/tzu-d9ccd11b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/tzu-d9ccd11b.wav",
     "originalFileName": "Tzu (9).hdwav.wav",
     "originalRelativePath": "Healing/Tzu (9).hdwav.wav",
     "includeInRKS3": true
@@ -969,7 +969,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/yoga-down-4bff31fe.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/yoga-down-4bff31fe.wav",
     "originalFileName": "YOGA DOWN (1).hdwav.wav",
     "originalRelativePath": "Healing/YOGA DOWN (1).hdwav.wav",
     "includeInRKS3": true
@@ -982,7 +982,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/yoga-down-62cbe3b0.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/yoga-down-62cbe3b0.wav",
     "originalFileName": "YOGA DOWN (2).hdwav.wav",
     "originalRelativePath": "Healing/YOGA DOWN (2).hdwav.wav",
     "includeInRKS3": true
@@ -995,7 +995,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/yoga-down-e6f3680e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/yoga-down-e6f3680e.wav",
     "originalFileName": "YOGA DOWN (3).hdwav.wav",
     "originalRelativePath": "Healing/YOGA DOWN (3).hdwav.wav",
     "includeInRKS3": true
@@ -1008,7 +1008,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/yoga-down-ad32a249.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/yoga-down-ad32a249.wav",
     "originalFileName": "YOGA DOWN (5).hdwav.wav",
     "originalRelativePath": "Healing/YOGA DOWN (5).hdwav.wav",
     "includeInRKS3": true
@@ -1021,7 +1021,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/yoga-down-3299feaa.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/yoga-down-3299feaa.wav",
     "originalFileName": "YOGA DOWN (6).hdwav.wav",
     "originalRelativePath": "Healing/YOGA DOWN (6).hdwav.wav",
     "includeInRKS3": true
@@ -1034,7 +1034,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/yoga-down-ab2e024a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/yoga-down-ab2e024a.wav",
     "originalFileName": "YOGA DOWN.hdwav.wav",
     "originalRelativePath": "Healing/YOGA DOWN.hdwav.wav",
     "includeInRKS3": true
@@ -1047,7 +1047,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/yourself-9ae236b8.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/yourself-9ae236b8.wav",
     "originalFileName": "yourself (1).hdwav.wav",
     "originalRelativePath": "Healing/yourself (1).hdwav.wav",
     "includeInRKS3": true
@@ -1060,7 +1060,7 @@
     "category": "healing",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/healing/yourself-170711bd.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/healing/yourself-170711bd.wav",
     "originalFileName": "yourself (2).hdwav.wav",
     "originalRelativePath": "Healing/yourself (2).hdwav.wav",
     "includeInRKS3": true
@@ -1073,7 +1073,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/0332125-4da479bb.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/0332125-4da479bb.wav",
     "originalFileName": "0332125.hdwav.wav",
     "originalRelativePath": "Instrumentals/0332125.hdwav.wav",
     "includeInRKS3": true
@@ -1086,7 +1086,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/3rd-eye-8805842c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/3rd-eye-8805842c.wav",
     "originalFileName": "3rd eye (1).hdwav.wav",
     "originalRelativePath": "Instrumentals/3rd eye (1).hdwav.wav",
     "includeInRKS3": true
@@ -1099,7 +1099,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/3rd-eye-84a06ec7.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/3rd-eye-84a06ec7.wav",
     "originalFileName": "3rd eye (2).hdwav.wav",
     "originalRelativePath": "Instrumentals/3rd eye (2).hdwav.wav",
     "includeInRKS3": true
@@ -1112,7 +1112,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/3rd-eye-ceeb342c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/3rd-eye-ceeb342c.wav",
     "originalFileName": "3rd eye (3).hdwav.wav",
     "originalRelativePath": "Instrumentals/3rd eye (3).hdwav.wav",
     "includeInRKS3": true
@@ -1125,7 +1125,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/3rd-eye-85c770de.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/3rd-eye-85c770de.wav",
     "originalFileName": "3rd eye (4).hdwav.wav",
     "originalRelativePath": "Instrumentals/3rd eye (4).hdwav.wav",
     "includeInRKS3": true
@@ -1138,7 +1138,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/3rd-eye-80fc51a0.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/3rd-eye-80fc51a0.wav",
     "originalFileName": "3rd eye.hdwav.wav",
     "originalRelativePath": "Instrumentals/3rd eye.hdwav.wav",
     "includeInRKS3": true
@@ -1151,7 +1151,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/astrail-afc542e2.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/astrail-afc542e2.wav",
     "originalFileName": "ASTRAIL (1).hdwav.wav",
     "originalRelativePath": "Instrumentals/ASTRAIL (1).hdwav.wav",
     "includeInRKS3": true
@@ -1164,7 +1164,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/astral-ee282693.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/astral-ee282693.wav",
     "originalFileName": "ASTRAL.hdwav.wav",
     "originalRelativePath": "Instrumentals/ASTRAL.hdwav.wav",
     "includeInRKS3": true
@@ -1177,7 +1177,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/astral-drift-ad34941f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/astral-drift-ad34941f.wav",
     "originalFileName": "Astral Drift.hdwav.wav",
     "originalRelativePath": "Instrumentals/Astral Drift.hdwav.wav",
     "includeInRKS3": true
@@ -1190,7 +1190,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/chakra-dde1525c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/chakra-dde1525c.wav",
     "originalFileName": "chakra (1).hdwav.wav",
     "originalRelativePath": "Instrumentals/chakra (1).hdwav.wav",
     "includeInRKS3": true
@@ -1203,7 +1203,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/chakra-f07d0d52.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/chakra-f07d0d52.wav",
     "originalFileName": "chakra (3).hdwav.wav",
     "originalRelativePath": "Instrumentals/chakra (3).hdwav.wav",
     "includeInRKS3": true
@@ -1216,7 +1216,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/changed-eb9a6133.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/changed-eb9a6133.wav",
     "originalFileName": "CHANGED.hdwav.wav",
     "originalRelativePath": "Instrumentals/CHANGED.hdwav.wav",
     "includeInRKS3": true
@@ -1229,7 +1229,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/clarity-584bca4a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/clarity-584bca4a.wav",
     "originalFileName": "CLARITY.hdwav.wav",
     "originalRelativePath": "Instrumentals/CLARITY.hdwav.wav",
     "includeInRKS3": true
@@ -1242,7 +1242,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/crown-33d52d86.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/crown-33d52d86.wav",
     "originalFileName": "crown (1).hdwav.wav",
     "originalRelativePath": "Instrumentals/crown (1).hdwav.wav",
     "includeInRKS3": true
@@ -1255,7 +1255,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/crown-79952414.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/crown-79952414.wav",
     "originalFileName": "crown (2).hdwav.wav",
     "originalRelativePath": "Instrumentals/crown (2).hdwav.wav",
     "includeInRKS3": true
@@ -1268,7 +1268,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/crown-79820f23.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/crown-79820f23.wav",
     "originalFileName": "crown (3).hdwav.wav",
     "originalRelativePath": "Instrumentals/crown (3).hdwav.wav",
     "includeInRKS3": true
@@ -1281,7 +1281,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/crystal-code-485ed7c1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/crystal-code-485ed7c1.wav",
     "originalFileName": "Crystal Code (1).hdwav.wav",
     "originalRelativePath": "Instrumentals/Crystal Code (1).hdwav.wav",
     "includeInRKS3": true
@@ -1294,7 +1294,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/crystal-code-d9dfba97.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/crystal-code-d9dfba97.wav",
     "originalFileName": "Crystal Code (10).hdwav.wav",
     "originalRelativePath": "Instrumentals/Crystal Code (10).hdwav.wav",
     "includeInRKS3": true
@@ -1307,7 +1307,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/crystal-code-8548aff4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/crystal-code-8548aff4.wav",
     "originalFileName": "Crystal Code (3).hdwav.wav",
     "originalRelativePath": "Instrumentals/Crystal Code (3).hdwav.wav",
     "includeInRKS3": true
@@ -1320,7 +1320,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/crystal-code-8e3bdfed.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/crystal-code-8e3bdfed.wav",
     "originalFileName": "Crystal Code (4).hdwav.wav",
     "originalRelativePath": "Instrumentals/Crystal Code (4).hdwav.wav",
     "includeInRKS3": true
@@ -1333,7 +1333,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/crystal-code-f4be55b9.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/crystal-code-f4be55b9.wav",
     "originalFileName": "Crystal Code (5).hdwav.wav",
     "originalRelativePath": "Instrumentals/Crystal Code (5).hdwav.wav",
     "includeInRKS3": true
@@ -1346,7 +1346,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/crystal-code-3c43c5e6.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/crystal-code-3c43c5e6.wav",
     "originalFileName": "Crystal Code (6).hdwav.wav",
     "originalRelativePath": "Instrumentals/Crystal Code (6).hdwav.wav",
     "includeInRKS3": true
@@ -1359,7 +1359,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/crystal-code-11b360f1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/crystal-code-11b360f1.wav",
     "originalFileName": "Crystal Code (8).hdwav.wav",
     "originalRelativePath": "Instrumentals/Crystal Code (8).hdwav.wav",
     "includeInRKS3": true
@@ -1372,7 +1372,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/crystal-code-f44ec6c5.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/crystal-code-f44ec6c5.wav",
     "originalFileName": "Crystal Code (9).hdwav.wav",
     "originalRelativePath": "Instrumentals/Crystal Code (9).hdwav.wav",
     "includeInRKS3": true
@@ -1385,7 +1385,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/crystal-code-773824e1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/crystal-code-773824e1.wav",
     "originalFileName": "Crystal Code.hdwav.wav",
     "originalRelativePath": "Instrumentals/Crystal Code.hdwav.wav",
     "includeInRKS3": true
@@ -1398,7 +1398,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/heart-aa751138.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/heart-aa751138.wav",
     "originalFileName": "heart (1).hdwav.wav",
     "originalRelativePath": "Instrumentals/heart (1).hdwav.wav",
     "includeInRKS3": true
@@ -1411,7 +1411,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/heart-55628d70.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/heart-55628d70.wav",
     "originalFileName": "heart (2).hdwav.wav",
     "originalRelativePath": "Instrumentals/heart (2).hdwav.wav",
     "includeInRKS3": true
@@ -1424,7 +1424,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/heart-ab0168b0.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/heart-ab0168b0.wav",
     "originalFileName": "heart (3).hdwav.wav",
     "originalRelativePath": "Instrumentals/heart (3).hdwav.wav",
     "includeInRKS3": true
@@ -1437,7 +1437,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/heart-0dbcdd20.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/heart-0dbcdd20.wav",
     "originalFileName": "heart (4).hdwav.wav",
     "originalRelativePath": "Instrumentals/heart (4).hdwav.wav",
     "includeInRKS3": true
@@ -1450,7 +1450,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/heart-ab5f8901.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/heart-ab5f8901.wav",
     "originalFileName": "heart (5).hdwav.wav",
     "originalRelativePath": "Instrumentals/heart (5).hdwav.wav",
     "includeInRKS3": true
@@ -1463,7 +1463,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/heart-750981c6.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/heart-750981c6.wav",
     "originalFileName": "heart (6).hdwav.wav",
     "originalRelativePath": "Instrumentals/heart (6).hdwav.wav",
     "includeInRKS3": true
@@ -1476,7 +1476,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/heart-1bbc5b35.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/heart-1bbc5b35.wav",
     "originalFileName": "heart (7).hdwav.wav",
     "originalRelativePath": "Instrumentals/heart (7).hdwav.wav",
     "includeInRKS3": true
@@ -1489,7 +1489,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/instruments-0c148f7b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/instruments-0c148f7b.wav",
     "originalFileName": "instruments (7).hdwav.wav",
     "originalRelativePath": "Instrumentals/instruments (7).hdwav.wav",
     "includeInRKS3": true
@@ -1502,7 +1502,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/law-e90e2b59.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/law-e90e2b59.wav",
     "originalFileName": "LAW (12).hdwav.wav",
     "originalRelativePath": "Instrumentals/LAW (12).hdwav.wav",
     "includeInRKS3": true
@@ -1515,7 +1515,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/law-6de88a4f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/law-6de88a4f.wav",
     "originalFileName": "LAW.hdwav.wav",
     "originalRelativePath": "Instrumentals/LAW.hdwav.wav",
     "includeInRKS3": true
@@ -1528,7 +1528,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/lucky-23b55e2c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/lucky-23b55e2c.wav",
     "originalFileName": "LUCKY (1).hdwav.wav",
     "originalRelativePath": "Instrumentals/LUCKY (1).hdwav.wav",
     "includeInRKS3": true
@@ -1541,7 +1541,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/lucky-3115b0ed.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/lucky-3115b0ed.wav",
     "originalFileName": "LUCKY (2).hdwav.wav",
     "originalRelativePath": "Instrumentals/LUCKY (2).hdwav.wav",
     "includeInRKS3": true
@@ -1554,7 +1554,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/lucky-89c4b9f4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/lucky-89c4b9f4.wav",
     "originalFileName": "LUCKY.hdwav.wav",
     "originalRelativePath": "Instrumentals/LUCKY.hdwav.wav",
     "includeInRKS3": true
@@ -1567,7 +1567,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/neo-soul-rap-83439aa3.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/neo-soul-rap-83439aa3.wav",
     "originalFileName": "neo soul rap (1).hdwav.wav",
     "originalRelativePath": "Instrumentals/neo soul rap (1).hdwav.wav",
     "includeInRKS3": true
@@ -1580,7 +1580,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/rooted-in-red-f6aebb22.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/rooted-in-red-f6aebb22.wav",
     "originalFileName": "Rooted in Red (4).hdwav.wav",
     "originalRelativePath": "Instrumentals/Rooted in Red (4).hdwav.wav",
     "includeInRKS3": true
@@ -1593,7 +1593,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/rooted-in-red-c2859193.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/rooted-in-red-c2859193.wav",
     "originalFileName": "Rooted in Red (5).hdwav.wav",
     "originalRelativePath": "Instrumentals/Rooted in Red (5).hdwav.wav",
     "includeInRKS3": true
@@ -1606,7 +1606,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/rooted-in-red-e5aabe6f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/rooted-in-red-e5aabe6f.wav",
     "originalFileName": "Rooted in Red.hdwav.wav",
     "originalRelativePath": "Instrumentals/Rooted in Red.hdwav.wav",
     "includeInRKS3": true
@@ -1619,7 +1619,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/sacral-defcfd31.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/sacral-defcfd31.wav",
     "originalFileName": "sacral (1).hdwav.wav",
     "originalRelativePath": "Instrumentals/sacral (1).hdwav.wav",
     "includeInRKS3": true
@@ -1632,7 +1632,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/sacral-9a89db2f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/sacral-9a89db2f.wav",
     "originalFileName": "sacral (2).hdwav.wav",
     "originalRelativePath": "Instrumentals/sacral (2).hdwav.wav",
     "includeInRKS3": true
@@ -1645,7 +1645,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/sacral-126b5863.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/sacral-126b5863.wav",
     "originalFileName": "sacral (3).hdwav.wav",
     "originalRelativePath": "Instrumentals/sacral (3).hdwav.wav",
     "includeInRKS3": true
@@ -1658,7 +1658,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/sacred-echoes-2-0de2299e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/sacred-echoes-2-0de2299e.wav",
     "originalFileName": "Sacred Echoes-#2.hdwav.wav",
     "originalRelativePath": "Instrumentals/Sacred Echoes-#2.hdwav.wav",
     "includeInRKS3": true
@@ -1671,7 +1671,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/solar-5d460fab.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/solar-5d460fab.wav",
     "originalFileName": "solar (2).hdwav.wav",
     "originalRelativePath": "Instrumentals/solar (2).hdwav.wav",
     "includeInRKS3": true
@@ -1684,7 +1684,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/solar-b9cb12bd.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/solar-b9cb12bd.wav",
     "originalFileName": "solar.hdwav.wav",
     "originalRelativePath": "Instrumentals/solar.hdwav.wav",
     "includeInRKS3": true
@@ -1697,7 +1697,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/throat-011caf4f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/throat-011caf4f.wav",
     "originalFileName": "throat (1).hdwav.wav",
     "originalRelativePath": "Instrumentals/throat (1).hdwav.wav",
     "includeInRKS3": true
@@ -1710,7 +1710,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/throat-18a466b1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/throat-18a466b1.wav",
     "originalFileName": "throat (2).hdwav.wav",
     "originalRelativePath": "Instrumentals/throat (2).hdwav.wav",
     "includeInRKS3": true
@@ -1723,7 +1723,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/throat-f7b5969d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/throat-f7b5969d.wav",
     "originalFileName": "throat (4).hdwav.wav",
     "originalRelativePath": "Instrumentals/throat (4).hdwav.wav",
     "includeInRKS3": true
@@ -1736,7 +1736,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/throat-d4c4ade7.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/throat-d4c4ade7.wav",
     "originalFileName": "throat (5).hdwav.wav",
     "originalRelativePath": "Instrumentals/throat (5).hdwav.wav",
     "includeInRKS3": true
@@ -1749,7 +1749,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/throat-0800ee25.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/throat-0800ee25.wav",
     "originalFileName": "throat (6).hdwav.wav",
     "originalRelativePath": "Instrumentals/throat (6).hdwav.wav",
     "includeInRKS3": true
@@ -1762,7 +1762,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/throat-20956397.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/throat-20956397.wav",
     "originalFileName": "throat.hdwav.wav",
     "originalRelativePath": "Instrumentals/throat.hdwav.wav",
     "includeInRKS3": true
@@ -1775,7 +1775,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/velvet-petals-bcc48f8d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/velvet-petals-bcc48f8d.wav",
     "originalFileName": "Velvet Petals (1).hdwav.wav",
     "originalRelativePath": "Instrumentals/Velvet Petals (1).hdwav.wav",
     "includeInRKS3": true
@@ -1788,7 +1788,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/watch-what-you-say-1a30fbb4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/watch-what-you-say-1a30fbb4.wav",
     "originalFileName": "Watch What You Say (10).hdwav.wav",
     "originalRelativePath": "Instrumentals/Watch What You Say (10).hdwav.wav",
     "includeInRKS3": true
@@ -1801,7 +1801,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/watch-what-you-say-53751527.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/watch-what-you-say-53751527.wav",
     "originalFileName": "Watch What You Say (3).hdwav.wav",
     "originalRelativePath": "Instrumentals/Watch What You Say (3).hdwav.wav",
     "includeInRKS3": true
@@ -1814,7 +1814,7 @@
     "category": "instrumentals",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/instrumentals/watch-what-you-say-3bc587a1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/instrumentals/watch-what-you-say-3bc587a1.wav",
     "originalFileName": "Watch What You Say (7).hdwav.wav",
     "originalRelativePath": "Instrumentals/Watch What You Say (7).hdwav.wav",
     "includeInRKS3": true
@@ -1827,7 +1827,7 @@
     "category": "mixtapes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/mixtapes/1st-mixtape-6a1810fb.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/mixtapes/1st-mixtape-6a1810fb.wav",
     "originalFileName": "1st Mixtape.wav",
     "originalRelativePath": "mix-tapes/1st Mixtape.wav",
     "includeInRKS3": true
@@ -1840,7 +1840,7 @@
     "category": "mixtapes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/mixtapes/2nd-mixtape-bc85f880.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/mixtapes/2nd-mixtape-bc85f880.wav",
     "originalFileName": "2nd Mixtape.wav",
     "originalRelativePath": "mix-tapes/2nd Mixtape.wav",
     "includeInRKS3": true
@@ -1853,22 +1853,22 @@
     "category": "mixtapes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/mixtapes/3rd-mixtape-617ecb88.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/mixtapes/3rd-mixtape-617ecb88.wav",
     "originalFileName": "3rd Mixtape.wav",
     "originalRelativePath": "mix-tapes/3rd Mixtape.wav",
     "includeInRKS3": true
   },
   {
     "id": "poetry--6c09eba4",
-    "title": "❤️ ☀️",
-    "originalTitle": "❤️ ☀️ (5)",
+    "title": "\u2764\ufe0f \u2600\ufe0f",
+    "originalTitle": "\u2764\ufe0f \u2600\ufe0f (5)",
     "versionLabel": "Version 5",
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/-6c09eba4.wav",
-    "originalFileName": "❤️ ☀️ (5).hdwav.wav",
-    "originalRelativePath": "Poetry/❤️ ☀️ (5).hdwav.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/-6c09eba4.wav",
+    "originalFileName": "\u2764\ufe0f \u2600\ufe0f (5).hdwav.wav",
+    "originalRelativePath": "Poetry/\u2764\ufe0f \u2600\ufe0f (5).hdwav.wav",
     "includeInRKS3": true
   },
   {
@@ -1879,7 +1879,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/all-93411b44.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/all-93411b44.wav",
     "originalFileName": "all (1).hdwav.wav",
     "originalRelativePath": "Poetry/all (1).hdwav.wav",
     "includeInRKS3": true
@@ -1892,7 +1892,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/allareone-5735747d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/allareone-5735747d.wav",
     "originalFileName": "ALLAREONE.hdwav.wav",
     "originalRelativePath": "Poetry/ALLAREONE.hdwav.wav",
     "includeInRKS3": true
@@ -1905,7 +1905,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/alot-bb4db8cb.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/alot-bb4db8cb.wav",
     "originalFileName": "alot.hdwav.wav",
     "originalRelativePath": "Poetry/alot.hdwav.wav",
     "includeInRKS3": true
@@ -1918,7 +1918,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/awakened-women-33c28bc3.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/awakened-women-33c28bc3.wav",
     "originalFileName": "AWAKENED WOMEN (3).hdwav.wav",
     "originalRelativePath": "Poetry/AWAKENED WOMEN (3).hdwav.wav",
     "includeInRKS3": true
@@ -1931,7 +1931,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/breakthrough-d52a1615.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/breakthrough-d52a1615.wav",
     "originalFileName": "Breakthrough.hdwav.wav",
     "originalRelativePath": "Poetry/Breakthrough.hdwav.wav",
     "includeInRKS3": true
@@ -1944,7 +1944,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/bud-ce6f8ff0.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/bud-ce6f8ff0.wav",
     "originalFileName": "BUD (5).hdwav.wav",
     "originalRelativePath": "Poetry/BUD (5).hdwav.wav",
     "includeInRKS3": true
@@ -1957,7 +1957,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/dead-or-not-a6458767.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/dead-or-not-a6458767.wav",
     "originalFileName": "dead or not (4).hdwav.wav",
     "originalRelativePath": "Poetry/dead or not (4).hdwav.wav",
     "includeInRKS3": true
@@ -1970,7 +1970,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/fa-202e9c74.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/fa-202e9c74.wav",
     "originalFileName": "fa (2).hdwav.wav",
     "originalRelativePath": "Poetry/fa (2).hdwav.wav",
     "includeInRKS3": true
@@ -1983,7 +1983,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/for-sure-c0cfcd08.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/for-sure-c0cfcd08.wav",
     "originalFileName": "FOR SURE (26).hdwav.wav",
     "originalRelativePath": "Poetry/FOR SURE (26).hdwav.wav",
     "includeInRKS3": true
@@ -1996,7 +1996,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/forever-beautiful-dfb2146a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/forever-beautiful-dfb2146a.wav",
     "originalFileName": "FOREVER BEAUTIFUL.hdwav.wav",
     "originalRelativePath": "Poetry/FOREVER BEAUTIFUL.hdwav.wav",
     "includeInRKS3": true
@@ -2009,7 +2009,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/ghost-96b8364c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/ghost-96b8364c.wav",
     "originalFileName": "ghost (6).hdwav.wav",
     "originalRelativePath": "Poetry/ghost (6).hdwav.wav",
     "includeInRKS3": true
@@ -2022,7 +2022,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/grow-whole-8dafa1b4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/grow-whole-8dafa1b4.wav",
     "originalFileName": "grow whole (7).hdwav.wav",
     "originalRelativePath": "Poetry/grow whole (7).hdwav.wav",
     "includeInRKS3": true
@@ -2035,7 +2035,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/hotter-fa0c8b8c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/hotter-fa0c8b8c.wav",
     "originalFileName": "HOTTER (4).hdwav.wav",
     "originalRelativePath": "Poetry/HOTTER (4).hdwav.wav",
     "includeInRKS3": true
@@ -2048,7 +2048,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/hotter-28c5b7b5.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/hotter-28c5b7b5.wav",
     "originalFileName": "HOTTER.hdwav.wav",
     "originalRelativePath": "Poetry/HOTTER.hdwav.wav",
     "includeInRKS3": true
@@ -2061,7 +2061,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/i-36497c99.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/i-36497c99.wav",
     "originalFileName": "I (3).hdwav.wav",
     "originalRelativePath": "Poetry/I (3).hdwav.wav",
     "includeInRKS3": true
@@ -2074,7 +2074,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/intro-b67b676d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/intro-b67b676d.wav",
     "originalFileName": "INTRO.hdwav.wav",
     "originalRelativePath": "Poetry/INTRO.hdwav.wav",
     "includeInRKS3": true
@@ -2087,7 +2087,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/intro-star-bound-b3db899a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/intro-star-bound-b3db899a.wav",
     "originalFileName": "INTRO STAR BOUND.hdwav.wav",
     "originalRelativePath": "Poetry/INTRO STAR BOUND.hdwav.wav",
     "includeInRKS3": true
@@ -2100,7 +2100,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/jesus-reason-version-6aa25caa.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/jesus-reason-version-6aa25caa.wav",
     "originalFileName": "jesus reason version.hdwav.wav",
     "originalRelativePath": "Poetry/jesus reason version.hdwav.wav",
     "includeInRKS3": true
@@ -2113,7 +2113,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/l-o-v-e-b1185bf8.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/l-o-v-e-b1185bf8.wav",
     "originalFileName": "L.O.V.E. (8).hdwav.wav",
     "originalRelativePath": "Poetry/L.O.V.E. (8).hdwav.wav",
     "includeInRKS3": true
@@ -2126,7 +2126,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/love-and-light-027f9bde.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/love-and-light-027f9bde.wav",
     "originalFileName": "LOVE AND LIGHT (3).hdwav.wav",
     "originalRelativePath": "Poetry/LOVE AND LIGHT (3).hdwav.wav",
     "includeInRKS3": true
@@ -2139,7 +2139,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/magnetized-connection-347c0758.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/magnetized-connection-347c0758.wav",
     "originalFileName": "Magnetized Connection.hdwav.wav",
     "originalRelativePath": "Poetry/Magnetized Connection.hdwav.wav",
     "includeInRKS3": true
@@ -2152,7 +2152,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/mind-state-36c3b45f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/mind-state-36c3b45f.wav",
     "originalFileName": "MIND STATE (1).hdwav.wav",
     "originalRelativePath": "Poetry/MIND STATE (1).hdwav.wav",
     "includeInRKS3": true
@@ -2165,7 +2165,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/mind-state-eddd28bf.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/mind-state-eddd28bf.wav",
     "originalFileName": "MIND STATE.hdwav.wav",
     "originalRelativePath": "Poetry/MIND STATE.hdwav.wav",
     "includeInRKS3": true
@@ -2178,7 +2178,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/no-bond-90fdfcd8.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/no-bond-90fdfcd8.wav",
     "originalFileName": "NO BOND.hdwav.wav",
     "originalRelativePath": "Poetry/NO BOND.hdwav.wav",
     "includeInRKS3": true
@@ -2191,7 +2191,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/proof-3ff2c79b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/proof-3ff2c79b.wav",
     "originalFileName": "PROOF (2).hdwav.wav",
     "originalRelativePath": "Poetry/PROOF (2).hdwav.wav",
     "includeInRKS3": true
@@ -2204,7 +2204,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/really-4cca739e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/really-4cca739e.wav",
     "originalFileName": "Really (3).hdwav.wav",
     "originalRelativePath": "Poetry/Really (3).hdwav.wav",
     "includeInRKS3": true
@@ -2217,7 +2217,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/stay-ready-24979857.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/stay-ready-24979857.wav",
     "originalFileName": "stay ready (5).hdwav.wav",
     "originalRelativePath": "Poetry/stay ready (5).hdwav.wav",
     "includeInRKS3": true
@@ -2230,7 +2230,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/street-hustle-neo-jazz-bounce-f15dc9fc.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/street-hustle-neo-jazz-bounce-f15dc9fc.wav",
     "originalFileName": "Street Hustle Neo Jazz Bounce (3).hdwav.wav",
     "originalRelativePath": "Poetry/Street Hustle Neo Jazz Bounce (3).hdwav.wav",
     "includeInRKS3": true
@@ -2243,7 +2243,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/thouhts-42967e34.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/thouhts-42967e34.wav",
     "originalFileName": "THOUHTS (1).hdwav.wav",
     "originalRelativePath": "Poetry/THOUHTS (1).hdwav.wav",
     "includeInRKS3": true
@@ -2256,7 +2256,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/velvet-whisper-06ede59d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/velvet-whisper-06ede59d.wav",
     "originalFileName": "Velvet Whisper (1).hdwav.wav",
     "originalRelativePath": "Poetry/Velvet Whisper (1).hdwav.wav",
     "includeInRKS3": true
@@ -2269,7 +2269,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/vibration-a315e5c3.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/vibration-a315e5c3.wav",
     "originalFileName": "vibration (9).hdwav.wav",
     "originalRelativePath": "Poetry/vibration (9).hdwav.wav",
     "includeInRKS3": true
@@ -2282,7 +2282,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/what-am-i-7de3e5a5.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/what-am-i-7de3e5a5.wav",
     "originalFileName": "WHAT AM I.hdwav.wav",
     "originalRelativePath": "Poetry/WHAT AM I.hdwav.wav",
     "includeInRKS3": true
@@ -2295,7 +2295,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/women-fb775a26.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/women-fb775a26.wav",
     "originalFileName": "women (3).hdwav.wav",
     "originalRelativePath": "Poetry/women (3).hdwav.wav",
     "includeInRKS3": true
@@ -2308,7 +2308,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/work-b7d4da20.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/work-b7d4da20.wav",
     "originalFileName": "work (19).hdwav.wav",
     "originalRelativePath": "Poetry/work (19).hdwav.wav",
     "includeInRKS3": true
@@ -2321,7 +2321,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/work-d2f44fa7.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/work-d2f44fa7.wav",
     "originalFileName": "work (21).hdwav.wav",
     "originalRelativePath": "Poetry/work (21).hdwav.wav",
     "includeInRKS3": true
@@ -2334,7 +2334,7 @@
     "category": "poetry",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/poetry/yourself-c906b2fa.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/poetry/yourself-c906b2fa.wav",
     "originalFileName": "yourself (2).hdwav.wav",
     "originalRelativePath": "Poetry/yourself (2).hdwav.wav",
     "includeInRKS3": true
@@ -2347,7 +2347,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/10-stars-24abfbd0.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/10-stars-24abfbd0.wav",
     "originalFileName": "10 STARS.hdwav.wav",
     "originalRelativePath": "Rap/10 STARS.hdwav.wav",
     "includeInRKS3": true
@@ -2360,7 +2360,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/40-projects-388011db.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/40-projects-388011db.wav",
     "originalFileName": "40_Projects.hdwav.wav",
     "originalRelativePath": "Rap/40_Projects.hdwav.wav",
     "includeInRKS3": true
@@ -2373,7 +2373,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/allnight-8c01397b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/allnight-8c01397b.wav",
     "originalFileName": "AllNight.hdwav.wav",
     "originalRelativePath": "Rap/AllNight.hdwav.wav",
     "includeInRKS3": true
@@ -2386,7 +2386,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/alot-7dc45869.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/alot-7dc45869.wav",
     "originalFileName": "alot (5).hdwav.wav",
     "originalRelativePath": "Rap/alot (5).hdwav.wav",
     "includeInRKS3": true
@@ -2399,7 +2399,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/atlantis-rep-2-e61d478f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/atlantis-rep-2-e61d478f.wav",
     "originalFileName": "Atlantis rep 2.hdwav.wav",
     "originalRelativePath": "Rap/Atlantis rep 2.hdwav.wav",
     "includeInRKS3": true
@@ -2412,7 +2412,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/be-a-blessing-06596031.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/be-a-blessing-06596031.wav",
     "originalFileName": "BE A BLESSING.hdwav.wav",
     "originalRelativePath": "Rap/BE A BLESSING.hdwav.wav",
     "includeInRKS3": true
@@ -2425,7 +2425,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/blue-sky-5cf54ce8.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/blue-sky-5cf54ce8.wav",
     "originalFileName": "BLUE SKY (1).hdwav.wav",
     "originalRelativePath": "Rap/BLUE SKY (1).hdwav.wav",
     "includeInRKS3": true
@@ -2438,7 +2438,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/bout-2-blow-up-36554cb8.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/bout-2-blow-up-36554cb8.wav",
     "originalFileName": "BOUT 2 BLOW UP.hdwav.wav",
     "originalRelativePath": "Rap/BOUT 2 BLOW UP.hdwav.wav",
     "includeInRKS3": true
@@ -2451,7 +2451,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/breathe-a3e607ba.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/breathe-a3e607ba.wav",
     "originalFileName": "Breathe (2).hdwav.wav",
     "originalRelativePath": "Rap/Breathe (2).hdwav.wav",
     "includeInRKS3": true
@@ -2464,7 +2464,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/btg-1d980b15.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/btg-1d980b15.wav",
     "originalFileName": "btg (2).hdwav.wav",
     "originalRelativePath": "Rap/btg (2).hdwav.wav",
     "includeInRKS3": true
@@ -2477,7 +2477,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/btg-d3951cb9.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/btg-d3951cb9.wav",
     "originalFileName": "btg.hdwav.wav",
     "originalRelativePath": "Rap/btg.hdwav.wav",
     "includeInRKS3": true
@@ -2490,7 +2490,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/by-design-04c59250.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/by-design-04c59250.wav",
     "originalFileName": "By Design (1).hdwav.wav",
     "originalRelativePath": "Rap/By Design (1).hdwav.wav",
     "includeInRKS3": true
@@ -2503,7 +2503,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/candlelight-flow-d420e252.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/candlelight-flow-d420e252.wav",
     "originalFileName": "Candlelight Flow.hdwav.wav",
     "originalRelativePath": "Rap/Candlelight Flow.hdwav.wav",
     "includeInRKS3": true
@@ -2516,7 +2516,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/city-smoke-serenade-1bcd6fbe.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/city-smoke-serenade-1bcd6fbe.wav",
     "originalFileName": "City Smoke Serenade.hdwav.wav",
     "originalRelativePath": "Rap/City Smoke Serenade.hdwav.wav",
     "includeInRKS3": true
@@ -2529,7 +2529,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/did-that-2-ccec92a1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/did-that-2-ccec92a1.wav",
     "originalFileName": "did that 2.hdwav.wav",
     "originalRelativePath": "Rap/did that 2.hdwav.wav",
     "includeInRKS3": true
@@ -2542,7 +2542,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/divine-fem-781f00c6.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/divine-fem-781f00c6.wav",
     "originalFileName": "DIVINE FEM.hdwav.wav",
     "originalRelativePath": "Rap/DIVINE FEM.hdwav.wav",
     "includeInRKS3": true
@@ -2555,7 +2555,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/fears-and-feelings-3582dbdc.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/fears-and-feelings-3582dbdc.wav",
     "originalFileName": "FEARS & FEELINGS.hdwav.wav",
     "originalRelativePath": "Rap/FEARS & FEELINGS.hdwav.wav",
     "includeInRKS3": true
@@ -2568,7 +2568,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/fo-sho-082a1cba.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/fo-sho-082a1cba.wav",
     "originalFileName": "Fo Sho (1).hdwav.wav",
     "originalRelativePath": "Rap/Fo Sho (1).hdwav.wav",
     "includeInRKS3": true
@@ -2581,7 +2581,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/get-big-5ca075a4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/get-big-5ca075a4.wav",
     "originalFileName": "get big.hdwav.wav",
     "originalRelativePath": "Rap/get big.hdwav.wav",
     "includeInRKS3": true
@@ -2594,7 +2594,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/gone-but-never-forgotten-bf3c7026.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/gone-but-never-forgotten-bf3c7026.wav",
     "originalFileName": "Gone but never Forgotten.hdwav.wav",
     "originalRelativePath": "Rap/Gone but never Forgotten.hdwav.wav",
     "includeInRKS3": true
@@ -2607,7 +2607,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/greater-9d3491c1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/greater-9d3491c1.wav",
     "originalFileName": "GREATER (4).hdwav.wav",
     "originalRelativePath": "Rap/GREATER (4).hdwav.wav",
     "includeInRKS3": true
@@ -2620,7 +2620,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/grow-whole-5920c055.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/grow-whole-5920c055.wav",
     "originalFileName": "grow whole (2).hdwav.wav",
     "originalRelativePath": "Rap/grow whole (2).hdwav.wav",
     "includeInRKS3": true
@@ -2633,7 +2633,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/grow-whole-9bc40235.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/grow-whole-9bc40235.wav",
     "originalFileName": "grow whole (5).hdwav.wav",
     "originalRelativePath": "Rap/grow whole (5).hdwav.wav",
     "includeInRKS3": true
@@ -2646,7 +2646,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/heal-the-hurt-6670bf15.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/heal-the-hurt-6670bf15.wav",
     "originalFileName": "Heal The Hurt.hdwav.wav",
     "originalRelativePath": "Rap/Heal The Hurt.hdwav.wav",
     "includeInRKS3": true
@@ -2659,7 +2659,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/heavens-call-798040d0.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/heavens-call-798040d0.wav",
     "originalFileName": "Heaven's Call.hdwav.wav",
     "originalRelativePath": "Rap/Heaven's Call.hdwav.wav",
     "includeInRKS3": true
@@ -2672,7 +2672,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/higher-ascension-8d2f7e9f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/higher-ascension-8d2f7e9f.wav",
     "originalFileName": "Higher Ascension.hdwav.wav",
     "originalRelativePath": "Rap/Higher Ascension.hdwav.wav",
     "includeInRKS3": true
@@ -2685,7 +2685,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/higher-soul-4deac785.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/higher-soul-4deac785.wav",
     "originalFileName": "Higher soul.hdwav.wav",
     "originalRelativePath": "Rap/Higher soul.hdwav.wav",
     "includeInRKS3": true
@@ -2698,7 +2698,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/i-am-8c1031b9.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/i-am-8c1031b9.wav",
     "originalFileName": "I Am.hdwav.wav",
     "originalRelativePath": "Rap/I Am.hdwav.wav",
     "includeInRKS3": true
@@ -2711,7 +2711,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/incense-and-confessions-0a9c3086.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/incense-and-confessions-0a9c3086.wav",
     "originalFileName": "Incense and Confessions.hdwav.wav",
     "originalRelativePath": "Rap/Incense and Confessions.hdwav.wav",
     "includeInRKS3": true
@@ -2724,7 +2724,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/l-o-v-e-a1c4ee13.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/l-o-v-e-a1c4ee13.wav",
     "originalFileName": "L.O.V.E. (15).hdwav.wav",
     "originalRelativePath": "Rap/L.O.V.E. (15).hdwav.wav",
     "includeInRKS3": true
@@ -2737,7 +2737,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/l-o-v-e-588dba16.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/l-o-v-e-588dba16.wav",
     "originalFileName": "L.O.V.E. (3).hdwav.wav",
     "originalRelativePath": "Rap/L.O.V.E. (3).hdwav.wav",
     "includeInRKS3": true
@@ -2750,7 +2750,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/last-lifes-bd854591.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/last-lifes-bd854591.wav",
     "originalFileName": "Last Life's.hdwav.wav",
     "originalRelativePath": "Rap/Last Life's.hdwav.wav",
     "includeInRKS3": true
@@ -2763,7 +2763,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/law-817a255d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/law-817a255d.wav",
     "originalFileName": "LAW (3).hdwav.wav",
     "originalRelativePath": "Rap/LAW (3).hdwav.wav",
     "includeInRKS3": true
@@ -2776,7 +2776,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/let-me-know-3f558af8.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/let-me-know-3f558af8.wav",
     "originalFileName": "let me know.hdwav.wav",
     "originalRelativePath": "Rap/let me know.hdwav.wav",
     "includeInRKS3": true
@@ -2789,7 +2789,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/lets-go-fea4f1e1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/lets-go-fea4f1e1.wav",
     "originalFileName": "let's go (5).hdwav.wav",
     "originalRelativePath": "Rap/let's go (5).hdwav.wav",
     "includeInRKS3": true
@@ -2802,7 +2802,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/level-up-52393dfc.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/level-up-52393dfc.wav",
     "originalFileName": "LEVEL UP (5).hdwav.wav",
     "originalRelativePath": "Rap/LEVEL UP (5).hdwav.wav",
     "includeInRKS3": true
@@ -2815,7 +2815,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/level-up-9ba25530.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/level-up-9ba25530.wav",
     "originalFileName": "LEVEL UP (6).hdwav.wav",
     "originalRelativePath": "Rap/LEVEL UP (6).hdwav.wav",
     "includeInRKS3": true
@@ -2828,7 +2828,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/light-that-stayed-72d5ea5a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/light-that-stayed-72d5ea5a.wav",
     "originalFileName": "light that stayed.hdwav.wav",
     "originalRelativePath": "Rap/light that stayed.hdwav.wav",
     "includeInRKS3": true
@@ -2841,7 +2841,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/like-money-f1aa0339.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/like-money-f1aa0339.wav",
     "originalFileName": "like money (2).hdwav.wav",
     "originalRelativePath": "Rap/like money (2).hdwav.wav",
     "includeInRKS3": true
@@ -2854,7 +2854,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/listen-up-70470dee.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/listen-up-70470dee.wav",
     "originalFileName": "listen up (1).hdwav.wav",
     "originalRelativePath": "Rap/listen up (1).hdwav.wav",
     "includeInRKS3": true
@@ -2867,7 +2867,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/listen-up-34e4f37f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/listen-up-34e4f37f.wav",
     "originalFileName": "listen up.hdwav.wav",
     "originalRelativePath": "Rap/listen up.hdwav.wav",
     "includeInRKS3": true
@@ -2880,7 +2880,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/lord-jesus-ea38647d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/lord-jesus-ea38647d.wav",
     "originalFileName": "lord jesus.hdwav.wav",
     "originalRelativePath": "Rap/lord jesus.hdwav.wav",
     "includeInRKS3": true
@@ -2893,7 +2893,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/met-413893f7.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/met-413893f7.wav",
     "originalFileName": "Met (5).hdwav.wav",
     "originalRelativePath": "Rap/Met (5).hdwav.wav",
     "includeInRKS3": true
@@ -2906,7 +2906,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/metatron-c1699463.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/metatron-c1699463.wav",
     "originalFileName": "Metatron.hdwav.wav",
     "originalRelativePath": "Rap/Metatron.hdwav.wav",
     "includeInRKS3": true
@@ -2919,7 +2919,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/midnight-groove-2b8dc764.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/midnight-groove-2b8dc764.wav",
     "originalFileName": "Midnight Groove-(1).hdwav.wav",
     "originalRelativePath": "Rap/Midnight Groove-(1).hdwav.wav",
     "includeInRKS3": true
@@ -2932,7 +2932,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/moonlight-miles-9bb1e595.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/moonlight-miles-9bb1e595.wav",
     "originalFileName": "Moonlight Miles.hdwav.wav",
     "originalRelativePath": "Rap/Moonlight Miles.hdwav.wav",
     "includeInRKS3": true
@@ -2945,7 +2945,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/my-mirror-b4761fd2.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/my-mirror-b4761fd2.wav",
     "originalFileName": "my mirror (1).hdwav.wav",
     "originalRelativePath": "Rap/my mirror (1).hdwav.wav",
     "includeInRKS3": true
@@ -2958,7 +2958,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/my-mirror-d5d0a1bb.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/my-mirror-d5d0a1bb.wav",
     "originalFileName": "my mirror (16).hdwav.wav",
     "originalRelativePath": "Rap/my mirror (16).hdwav.wav",
     "includeInRKS3": true
@@ -2971,7 +2971,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/my-mirror-def0d5e9.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/my-mirror-def0d5e9.wav",
     "originalFileName": "my mirror (3).hdwav.wav",
     "originalRelativePath": "Rap/my mirror (3).hdwav.wav",
     "includeInRKS3": true
@@ -2984,7 +2984,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/never-regrets-e2c493cf.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/never-regrets-e2c493cf.wav",
     "originalFileName": "never regrets (1).hdwav.wav",
     "originalRelativePath": "Rap/never regrets (1).hdwav.wav",
     "includeInRKS3": true
@@ -2997,7 +2997,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/never-regrets-1c62abf8.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/never-regrets-1c62abf8.wav",
     "originalFileName": "never regrets.hdwav.wav",
     "originalRelativePath": "Rap/never regrets.hdwav.wav",
     "includeInRKS3": true
@@ -3010,7 +3010,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/no-bond-7f390d1f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/no-bond-7f390d1f.wav",
     "originalFileName": "no bond.hdwav.wav",
     "originalRelativePath": "Rap/no bond.hdwav.wav",
     "includeInRKS3": true
@@ -3023,7 +3023,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/no-stress-4f70523f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/no-stress-4f70523f.wav",
     "originalFileName": "no stress (9).hdwav.wav",
     "originalRelativePath": "Rap/no stress (9).hdwav.wav",
     "includeInRKS3": true
@@ -3036,7 +3036,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/noo-secret-79ae9e7e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/noo-secret-79ae9e7e.wav",
     "originalFileName": "NOO SECRET (1).hdwav.wav",
     "originalRelativePath": "Rap/NOO SECRET (1).hdwav.wav",
     "includeInRKS3": true
@@ -3049,7 +3049,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/off-task-698529c9.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/off-task-698529c9.wav",
     "originalFileName": "OFF TASK.hdwav.wav",
     "originalRelativePath": "Rap/OFF TASK.hdwav.wav",
     "includeInRKS3": true
@@ -3062,7 +3062,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/outrageous-d85d8fbb.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/outrageous-d85d8fbb.wav",
     "originalFileName": "outrageous.hdwav.wav",
     "originalRelativePath": "Rap/outrageous.hdwav.wav",
     "includeInRKS3": true
@@ -3075,7 +3075,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/paradise-weekend-61d27225.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/paradise-weekend-61d27225.wav",
     "originalFileName": "PARADISE WEEKEND.hdwav.wav",
     "originalRelativePath": "Rap/PARADISE WEEKEND.hdwav.wav",
     "includeInRKS3": true
@@ -3088,7 +3088,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/position-2ab48565.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/position-2ab48565.wav",
     "originalFileName": "POSITION (5).hdwav.wav",
     "originalRelativePath": "Rap/POSITION (5).hdwav.wav",
     "includeInRKS3": true
@@ -3101,7 +3101,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/praying-4-her-8f1b689a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/praying-4-her-8f1b689a.wav",
     "originalFileName": "praying 4 her (2).hdwav.wav",
     "originalRelativePath": "Rap/praying 4 her (2).hdwav.wav",
     "includeInRKS3": true
@@ -3114,7 +3114,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/proof-b290aeb1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/proof-b290aeb1.wav",
     "originalFileName": "PROOF.hdwav.wav",
     "originalRelativePath": "Rap/PROOF.hdwav.wav",
     "includeInRKS3": true
@@ -3127,7 +3127,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/really-3-8e8b7c66.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/really-3-8e8b7c66.wav",
     "originalFileName": "Really 3.hdwav.wav",
     "originalRelativePath": "Rap/Really 3.hdwav.wav",
     "includeInRKS3": true
@@ -3140,7 +3140,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/right-left-48989575.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/right-left-48989575.wav",
     "originalFileName": "Right_Left.hdwav.wav",
     "originalRelativePath": "Rap/Right_Left.hdwav.wav",
     "includeInRKS3": true
@@ -3153,7 +3153,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/roller-56e2bafc.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/roller-56e2bafc.wav",
     "originalFileName": "ROLLER (8).hdwav.wav",
     "originalRelativePath": "Rap/ROLLER (8).hdwav.wav",
     "includeInRKS3": true
@@ -3166,7 +3166,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/roller-9157c682.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/roller-9157c682.wav",
     "originalFileName": "ROLLER-(1).hdwav.wav",
     "originalRelativePath": "Rap/ROLLER-(1).hdwav.wav",
     "includeInRKS3": true
@@ -3179,7 +3179,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/show-me-a6c82614.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/show-me-a6c82614.wav",
     "originalFileName": "SHOW ME (2).hdwav.wav",
     "originalRelativePath": "Rap/SHOW ME (2).hdwav.wav",
     "includeInRKS3": true
@@ -3192,7 +3192,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/show-me-1cd5eab1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/show-me-1cd5eab1.wav",
     "originalFileName": "SHOW ME (3).hdwav.wav",
     "originalRelativePath": "Rap/SHOW ME (3).hdwav.wav",
     "includeInRKS3": true
@@ -3205,7 +3205,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/street-hustle-278d9788.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/street-hustle-278d9788.wav",
     "originalFileName": "street hustle.hdwav.wav",
     "originalRelativePath": "Rap/street hustle.hdwav.wav",
     "includeInRKS3": true
@@ -3218,7 +3218,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/street-hustle-neo-jazz-bdd9b306.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/street-hustle-neo-jazz-bdd9b306.wav",
     "originalFileName": "street Hustle Neo Jazz.hdwav.wav",
     "originalRelativePath": "Rap/street Hustle Neo Jazz.hdwav.wav",
     "includeInRKS3": true
@@ -3231,7 +3231,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/street-psalms-42e9a84e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/street-psalms-42e9a84e.wav",
     "originalFileName": "street psalms.hdwav.wav",
     "originalRelativePath": "Rap/street psalms.hdwav.wav",
     "includeInRKS3": true
@@ -3244,7 +3244,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/sweetheart-2-fda00e71.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/sweetheart-2-fda00e71.wav",
     "originalFileName": "Sweetheart 2.hdwav.wav",
     "originalRelativePath": "Rap/Sweetheart 2.hdwav.wav",
     "includeInRKS3": true
@@ -3257,7 +3257,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/thats-life-a3da2f5d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/thats-life-a3da2f5d.wav",
     "originalFileName": "that's life (1).hdwav.wav",
     "originalRelativePath": "Rap/that's life (1).hdwav.wav",
     "includeInRKS3": true
@@ -3270,7 +3270,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/the-great-reveal-3fa22304.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/the-great-reveal-3fa22304.wav",
     "originalFileName": "THE GREAT REVEAL (3).hdwav.wav",
     "originalRelativePath": "Rap/THE GREAT REVEAL (3).hdwav.wav",
     "includeInRKS3": true
@@ -3283,7 +3283,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/thinking-to-myself-7ff38141.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/thinking-to-myself-7ff38141.wav",
     "originalFileName": "thinking to myself.hdwav.wav",
     "originalRelativePath": "Rap/thinking to myself.hdwav.wav",
     "includeInRKS3": true
@@ -3296,7 +3296,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/thouhgts-3b0a5106.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/thouhgts-3b0a5106.wav",
     "originalFileName": "THOUHGTS (4).hdwav.wav",
     "originalRelativePath": "Rap/THOUHGTS (4).hdwav.wav",
     "includeInRKS3": true
@@ -3309,7 +3309,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/torn-in-two-1532acd6.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/torn-in-two-1532acd6.wav",
     "originalFileName": "Torn in Two (1).hdwav.wav",
     "originalRelativePath": "Rap/Torn in Two (1).hdwav.wav",
     "includeInRKS3": true
@@ -3322,7 +3322,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/truly-living-1-df3d3e7c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/truly-living-1-df3d3e7c.wav",
     "originalFileName": "Truly living 1 (9).hdwav.wav",
     "originalRelativePath": "Rap/Truly living 1 (9).hdwav.wav",
     "includeInRKS3": true
@@ -3335,7 +3335,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/unlock-u-847a62bd.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/unlock-u-847a62bd.wav",
     "originalFileName": "unlock U.hdwav.wav",
     "originalRelativePath": "Rap/unlock U.hdwav.wav",
     "includeInRKS3": true
@@ -3348,7 +3348,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/unlocked-05afb76b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/unlocked-05afb76b.wav",
     "originalFileName": "UNLOCKED (3).hdwav.wav",
     "originalRelativePath": "Rap/UNLOCKED (3).hdwav.wav",
     "includeInRKS3": true
@@ -3361,7 +3361,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/velvet-shadows-15f4cc58.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/velvet-shadows-15f4cc58.wav",
     "originalFileName": "Velvet Shadows (1).hdwav.wav",
     "originalRelativePath": "Rap/Velvet Shadows (1).hdwav.wav",
     "includeInRKS3": true
@@ -3374,7 +3374,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/watch-what-you-say-vocal-be8f2a4d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/watch-what-you-say-vocal-be8f2a4d.wav",
     "originalFileName": "Watch What You Say (Vocal)_ (2).hdwav.wav",
     "originalRelativePath": "Rap/Watch What You Say (Vocal)_ (2).hdwav.wav",
     "includeInRKS3": true
@@ -3387,7 +3387,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/webethenomads-3fda798e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/webethenomads-3fda798e.wav",
     "originalFileName": "WeBeTheNomads.hdwav.wav",
     "originalRelativePath": "Rap/WeBeTheNomads.hdwav.wav",
     "includeInRKS3": true
@@ -3400,7 +3400,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/whole-vibe-04a91a87.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/whole-vibe-04a91a87.wav",
     "originalFileName": "whole vibe (1).hdwav.wav",
     "originalRelativePath": "Rap/whole vibe (1).hdwav.wav",
     "includeInRKS3": true
@@ -3413,7 +3413,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/women-a8867244.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/women-a8867244.wav",
     "originalFileName": "women (1).hdwav.wav",
     "originalRelativePath": "Rap/women (1).hdwav.wav",
     "includeInRKS3": true
@@ -3426,7 +3426,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/women-a664599f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/women-a664599f.wav",
     "originalFileName": "women (4).hdwav.wav",
     "originalRelativePath": "Rap/women (4).hdwav.wav",
     "includeInRKS3": true
@@ -3439,7 +3439,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/work-9eaef309.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/work-9eaef309.wav",
     "originalFileName": "work (15).hdwav.wav",
     "originalRelativePath": "Rap/work (15).hdwav.wav",
     "includeInRKS3": true
@@ -3452,7 +3452,7 @@
     "category": "rap",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rap/you-mine-34930224.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rap/you-mine-34930224.wav",
     "originalFileName": "YOU MINE (1).hdwav.wav",
     "originalRelativePath": "Rap/YOU MINE (1).hdwav.wav",
     "includeInRKS3": true
@@ -3465,7 +3465,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/10-stars-407013d2.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/10-stars-407013d2.wav",
     "originalFileName": "10 STARS (1).hdwav.wav",
     "originalRelativePath": "remixes/10 STARS (1).hdwav.wav",
     "includeInRKS3": true
@@ -3478,7 +3478,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/all-1-48b1bbb9.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/all-1-48b1bbb9.wav",
     "originalFileName": "all 1.hdwav.wav",
     "originalRelativePath": "remixes/all 1.hdwav.wav",
     "includeInRKS3": true
@@ -3491,7 +3491,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/all-2-dc7e0c5b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/all-2-dc7e0c5b.wav",
     "originalFileName": "all 2.hdwav.wav",
     "originalRelativePath": "remixes/all 2.hdwav.wav",
     "includeInRKS3": true
@@ -3504,7 +3504,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/baby-boy-f70f5d75.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/baby-boy-f70f5d75.wav",
     "originalFileName": "BABY BOY (7).hdwav.wav",
     "originalRelativePath": "remixes/BABY BOY (7).hdwav.wav",
     "includeInRKS3": true
@@ -3517,7 +3517,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/baecation-6ecbe5cc.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/baecation-6ecbe5cc.wav",
     "originalFileName": "BAECATION (1).hdwav.wav",
     "originalRelativePath": "remixes/BAECATION (1).hdwav.wav",
     "includeInRKS3": true
@@ -3530,7 +3530,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/blue-sky-37649872.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/blue-sky-37649872.wav",
     "originalFileName": "BLUE SKY (2).hdwav.wav",
     "originalRelativePath": "remixes/BLUE SKY (2).hdwav.wav",
     "includeInRKS3": true
@@ -3543,7 +3543,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/breathe-c95f5bd0.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/breathe-c95f5bd0.wav",
     "originalFileName": "Breathe (8).hdwav.wav",
     "originalRelativePath": "remixes/Breathe (8).hdwav.wav",
     "includeInRKS3": true
@@ -3556,7 +3556,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/by-design-d511d24d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/by-design-d511d24d.wav",
     "originalFileName": "By Design.hdwav.wav",
     "originalRelativePath": "remixes/By Design.hdwav.wav",
     "includeInRKS3": true
@@ -3569,7 +3569,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/cement-and-silk-510d2191.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/cement-and-silk-510d2191.wav",
     "originalFileName": "Cement & Silk.hdwav.wav",
     "originalRelativePath": "remixes/Cement & Silk.hdwav.wav",
     "includeInRKS3": true
@@ -3582,7 +3582,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/densities-1-0b934cf3.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/densities-1-0b934cf3.wav",
     "originalFileName": "DENSITIES-#1.hdwav.wav",
     "originalRelativePath": "remixes/DENSITIES-#1.hdwav.wav",
     "includeInRKS3": true
@@ -3595,7 +3595,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/five-fears-52c84d4a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/five-fears-52c84d4a.wav",
     "originalFileName": "FIVE FEARS (3).hdwav.wav",
     "originalRelativePath": "remixes/FIVE FEARS (3).hdwav.wav",
     "includeInRKS3": true
@@ -3608,7 +3608,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/ghost-131dfe38.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/ghost-131dfe38.wav",
     "originalFileName": "ghost.hdwav.wav",
     "originalRelativePath": "remixes/ghost.hdwav.wav",
     "includeInRKS3": true
@@ -3621,7 +3621,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/gone-but-never-forgotten-8093e239.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/gone-but-never-forgotten-8093e239.wav",
     "originalFileName": "Gone But Never Forgotten (2).hdwav.wav",
     "originalRelativePath": "remixes/Gone But Never Forgotten (2).hdwav.wav",
     "includeInRKS3": true
@@ -3634,7 +3634,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/greater-then-greatest-91ef0c7a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/greater-then-greatest-91ef0c7a.wav",
     "originalFileName": "GREATER THEN GREATEST (1).hdwav.wav",
     "originalRelativePath": "remixes/GREATER THEN GREATEST (1).hdwav.wav",
     "includeInRKS3": true
@@ -3647,7 +3647,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/higher-path-088f2994.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/higher-path-088f2994.wav",
     "originalFileName": "Higher Path (1).hdwav.wav",
     "originalRelativePath": "remixes/Higher Path (1).hdwav.wav",
     "includeInRKS3": true
@@ -3660,7 +3660,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/hurt-727c24b9.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/hurt-727c24b9.wav",
     "originalFileName": "hurt (15).hdwav.wav",
     "originalRelativePath": "remixes/hurt (15).hdwav.wav",
     "includeInRKS3": true
@@ -3673,7 +3673,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/hurt-ac09fe83.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/hurt-ac09fe83.wav",
     "originalFileName": "hurt (16).hdwav.wav",
     "originalRelativePath": "remixes/hurt (16).hdwav.wav",
     "includeInRKS3": true
@@ -3686,7 +3686,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/i-78305d84.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/i-78305d84.wav",
     "originalFileName": "I.hdwav.wav",
     "originalRelativePath": "remixes/I.hdwav.wav",
     "includeInRKS3": true
@@ -3699,7 +3699,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/late-night-whispers-46c04faa.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/late-night-whispers-46c04faa.wav",
     "originalFileName": "Late Night Whispers.hdwav.wav",
     "originalRelativePath": "remixes/Late Night Whispers.hdwav.wav",
     "includeInRKS3": true
@@ -3712,7 +3712,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/law-add1709d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/law-add1709d.wav",
     "originalFileName": "LAW (4).hdwav.wav",
     "originalRelativePath": "remixes/LAW (4).hdwav.wav",
     "includeInRKS3": true
@@ -3725,7 +3725,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/legend-430b2bae.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/legend-430b2bae.wav",
     "originalFileName": "Legend (7).hdwav.wav",
     "originalRelativePath": "remixes/Legend (7).hdwav.wav",
     "includeInRKS3": true
@@ -3738,7 +3738,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/lets-go-0200a50a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/lets-go-0200a50a.wav",
     "originalFileName": "let's go.hdwav.wav",
     "originalRelativePath": "remixes/let's go.hdwav.wav",
     "includeInRKS3": true
@@ -3751,7 +3751,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/level-up-604e08ae.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/level-up-604e08ae.wav",
     "originalFileName": "LEVEL UP (17).hdwav.wav",
     "originalRelativePath": "remixes/LEVEL UP (17).hdwav.wav",
     "includeInRKS3": true
@@ -3764,7 +3764,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/long-ride-97ae8e59.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/long-ride-97ae8e59.wav",
     "originalFileName": "long ride (9).hdwav.wav",
     "originalRelativePath": "remixes/long ride (9).hdwav.wav",
     "includeInRKS3": true
@@ -3777,7 +3777,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/love-and-light-36cb9b12.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/love-and-light-36cb9b12.wav",
     "originalFileName": "LOVE AND LIGHT (3).hdwav.wav",
     "originalRelativePath": "remixes/LOVE AND LIGHT (3).hdwav.wav",
     "includeInRKS3": true
@@ -3790,7 +3790,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/no-bond-afe18a10.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/no-bond-afe18a10.wav",
     "originalFileName": "NO BOND (4).hdwav.wav",
     "originalRelativePath": "remixes/NO BOND (4).hdwav.wav",
     "includeInRKS3": true
@@ -3803,7 +3803,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/no-secrets-63206a4f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/no-secrets-63206a4f.wav",
     "originalFileName": "NO Secrets.hdwav.wav",
     "originalRelativePath": "remixes/NO Secrets.hdwav.wav",
     "includeInRKS3": true
@@ -3816,7 +3816,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/really-3-51b886e4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/really-3-51b886e4.wav",
     "originalFileName": "Really 3.hdwav.wav",
     "originalRelativePath": "remixes/Really 3.hdwav.wav",
     "includeInRKS3": true
@@ -3829,7 +3829,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/rise-5f18a590.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/rise-5f18a590.wav",
     "originalFileName": "rise.hdwav.wav",
     "originalRelativePath": "remixes/rise.hdwav.wav",
     "includeInRKS3": true
@@ -3842,7 +3842,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/rks3-street-b713c81c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/rks3-street-b713c81c.wav",
     "originalFileName": "RKS3=street.hdwav.wav",
     "originalRelativePath": "remixes/RKS3=street.hdwav.wav",
     "includeInRKS3": true
@@ -3855,7 +3855,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/sun-of-god-76dfa792.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/sun-of-god-76dfa792.wav",
     "originalFileName": "sun of God (14).hdwav.wav",
     "originalRelativePath": "remixes/sun of God (14).hdwav.wav",
     "includeInRKS3": true
@@ -3868,7 +3868,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/thats-life-70e61e9f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/thats-life-70e61e9f.wav",
     "originalFileName": "THAT'S LIFE (12).hdwav.wav",
     "originalRelativePath": "remixes/THAT'S LIFE (12).hdwav.wav",
     "includeInRKS3": true
@@ -3881,7 +3881,7 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/thats-love-70bbadfd.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/thats-love-70bbadfd.wav",
     "originalFileName": "THat's love (16).hdwav.wav",
     "originalRelativePath": "remixes/THat's love (16).hdwav.wav",
     "includeInRKS3": true
@@ -3894,22 +3894,22 @@
     "category": "remixes",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/remixes/yourself-6a7fcefc.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/remixes/yourself-6a7fcefc.wav",
     "originalFileName": "yourself (3).hdwav.wav",
     "originalRelativePath": "remixes/yourself (3).hdwav.wav",
     "includeInRKS3": true
   },
   {
     "id": "rnb--040a052b",
-    "title": "❤️ ☀️",
-    "originalTitle": "❤️ ☀️ (8)",
+    "title": "\u2764\ufe0f \u2600\ufe0f",
+    "originalTitle": "\u2764\ufe0f \u2600\ufe0f (8)",
     "versionLabel": "Version 8",
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/-040a052b.wav",
-    "originalFileName": "❤️ ☀️ (8).hdwav.wav",
-    "originalRelativePath": "R&B/❤️ ☀️ (8).hdwav.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/-040a052b.wav",
+    "originalFileName": "\u2764\ufe0f \u2600\ufe0f (8).hdwav.wav",
+    "originalRelativePath": "R&B/\u2764\ufe0f \u2600\ufe0f (8).hdwav.wav",
     "includeInRKS3": true
   },
   {
@@ -3920,7 +3920,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/7-5a8c7b33.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/7-5a8c7b33.wav",
     "originalFileName": "7 (12).hdwav.wav",
     "originalRelativePath": "R&B/7 (12).hdwav.wav",
     "includeInRKS3": true
@@ -3933,7 +3933,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/alot-3ff95a99.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/alot-3ff95a99.wav",
     "originalFileName": "alot.hdwav.wav",
     "originalRelativePath": "R&B/alot.hdwav.wav",
     "includeInRKS3": true
@@ -3946,7 +3946,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/ashes-in-the-air-fa79b3b4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/ashes-in-the-air-fa79b3b4.wav",
     "originalFileName": "Ashes in the Air.hdwav.wav",
     "originalRelativePath": "R&B/Ashes in the Air.hdwav.wav",
     "includeInRKS3": true
@@ -3959,7 +3959,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/baby-boy-d43dc28b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/baby-boy-d43dc28b.wav",
     "originalFileName": "BABY BOY.hdwav.wav",
     "originalRelativePath": "R&B/BABY BOY.hdwav.wav",
     "includeInRKS3": true
@@ -3972,7 +3972,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/bae-cation-r-and-b-77fda844.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/bae-cation-r-and-b-77fda844.wav",
     "originalFileName": "BAE-CATION.R&B.hdwav.wav",
     "originalRelativePath": "R&B/BAE-CATION.R&B.hdwav.wav",
     "includeInRKS3": true
@@ -3985,7 +3985,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/baecation-e97badf9.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/baecation-e97badf9.wav",
     "originalFileName": "BAECATION.hdwav.wav",
     "originalRelativePath": "R&B/BAECATION.hdwav.wav",
     "includeInRKS3": true
@@ -3998,7 +3998,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/blue-skys-800d32a8.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/blue-skys-800d32a8.wav",
     "originalFileName": "Blue_Skys.hdwav.wav",
     "originalRelativePath": "R&B/Blue_Skys.hdwav.wav",
     "includeInRKS3": true
@@ -4011,7 +4011,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/breathe-2487c07c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/breathe-2487c07c.wav",
     "originalFileName": "Breathe.hdwav.wav",
     "originalRelativePath": "R&B/Breathe.hdwav.wav",
     "includeInRKS3": true
@@ -4024,7 +4024,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/breathe-deep-3ecaaa4b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/breathe-deep-3ecaaa4b.wav",
     "originalFileName": "BREATHE DEEP.hdwav.wav",
     "originalRelativePath": "R&B/BREATHE DEEP.hdwav.wav",
     "includeInRKS3": true
@@ -4037,7 +4037,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/btg-f517cc4b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/btg-f517cc4b.wav",
     "originalFileName": "btg .hdwav.wav",
     "originalRelativePath": "R&B/btg .hdwav.wav",
     "includeInRKS3": true
@@ -4050,7 +4050,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/bud-f78a51cf.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/bud-f78a51cf.wav",
     "originalFileName": "BUD.hdwav.wav",
     "originalRelativePath": "R&B/BUD.hdwav.wav",
     "includeInRKS3": true
@@ -4063,7 +4063,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/candlelight-flow-5e9b9208.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/candlelight-flow-5e9b9208.wav",
     "originalFileName": "Candlelight Flow.hdwav.wav",
     "originalRelativePath": "R&B/Candlelight Flow.hdwav.wav",
     "includeInRKS3": true
@@ -4076,7 +4076,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/causal-thoughts-e27c69d4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/causal-thoughts-e27c69d4.wav",
     "originalFileName": "CAUSAL THOUGHTS.hdwav.wav",
     "originalRelativePath": "R&B/CAUSAL THOUGHTS.hdwav.wav",
     "includeInRKS3": true
@@ -4089,7 +4089,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/cement-and-silk-e8983a32.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/cement-and-silk-e8983a32.wav",
     "originalFileName": "Cement & Silk.hdwav.wav",
     "originalRelativePath": "R&B/Cement & Silk.hdwav.wav",
     "includeInRKS3": true
@@ -4102,7 +4102,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/core-earth-eaa63c1c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/core-earth-eaa63c1c.wav",
     "originalFileName": "core earth.hdwav.wav",
     "originalRelativePath": "R&B/core earth.hdwav.wav",
     "includeInRKS3": true
@@ -4115,7 +4115,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/core-earth1-c98ff657.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/core-earth1-c98ff657.wav",
     "originalFileName": "core earth1.hdwav.wav",
     "originalRelativePath": "R&B/core earth1.hdwav.wav",
     "includeInRKS3": true
@@ -4128,7 +4128,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/dead-or-not-balanced-05f4021f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/dead-or-not-balanced-05f4021f.wav",
     "originalFileName": "dead or not-Balanced.hdwav.wav",
     "originalRelativePath": "R&B/dead or not-Balanced.hdwav.wav",
     "includeInRKS3": true
@@ -4141,7 +4141,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/densities-d82b1262.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/densities-d82b1262.wav",
     "originalFileName": "DENSITIES.hdwav.wav",
     "originalRelativePath": "R&B/DENSITIES.hdwav.wav",
     "includeInRKS3": true
@@ -4154,7 +4154,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/divine-feminine-ec0cd95f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/divine-feminine-ec0cd95f.wav",
     "originalFileName": "Divine_Feminine.hdwav.wav",
     "originalRelativePath": "R&B/Divine_Feminine.hdwav.wav",
     "includeInRKS3": true
@@ -4167,7 +4167,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/dusty-serenade-1efafe39.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/dusty-serenade-1efafe39.wav",
     "originalFileName": "Dusty Serenade.hdwav.wav",
     "originalRelativePath": "R&B/Dusty Serenade.hdwav.wav",
     "includeInRKS3": true
@@ -4180,7 +4180,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/early-morning-loving-c3197637.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/early-morning-loving-c3197637.wav",
     "originalFileName": "EARLY MORNING LOVING.hdwav.wav",
     "originalRelativePath": "R&B/EARLY MORNING LOVING.hdwav.wav",
     "includeInRKS3": true
@@ -4193,7 +4193,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/fa-c79ee4ba.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/fa-c79ee4ba.wav",
     "originalFileName": "fa (9).hdwav.wav",
     "originalRelativePath": "R&B/fa (9).hdwav.wav",
     "includeInRKS3": true
@@ -4206,7 +4206,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/feel-ok-13ce6acf.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/feel-ok-13ce6acf.wav",
     "originalFileName": "feel ok.hdwav.wav",
     "originalRelativePath": "R&B/feel ok.hdwav.wav",
     "includeInRKS3": true
@@ -4219,7 +4219,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/fo-sho-f8bb4a07.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/fo-sho-f8bb4a07.wav",
     "originalFileName": "Fo Sho (11).hdwav.wav",
     "originalRelativePath": "R&B/Fo Sho (11).hdwav.wav",
     "includeInRKS3": true
@@ -4232,7 +4232,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/fo-sho-a4d6afa2.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/fo-sho-a4d6afa2.wav",
     "originalFileName": "Fo Sho (6).hdwav.wav",
     "originalRelativePath": "R&B/Fo Sho (6).hdwav.wav",
     "includeInRKS3": true
@@ -4245,7 +4245,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/fo-sho-3736bc78.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/fo-sho-3736bc78.wav",
     "originalFileName": "Fo Sho.hdwav.wav",
     "originalRelativePath": "R&B/Fo Sho.hdwav.wav",
     "includeInRKS3": true
@@ -4258,7 +4258,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/fo-sho-489202a1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/fo-sho-489202a1.wav",
     "originalFileName": "Fo SHo-(1).hdwav.wav",
     "originalRelativePath": "R&B/Fo SHo-(1).hdwav.wav",
     "includeInRKS3": true
@@ -4271,7 +4271,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/for-sure-ba14d519.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/for-sure-ba14d519.wav",
     "originalFileName": "FOR SURE (1).hdwav.wav",
     "originalRelativePath": "R&B/FOR SURE (1).hdwav.wav",
     "includeInRKS3": true
@@ -4284,7 +4284,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/for-sure-a2c0317d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/for-sure-a2c0317d.wav",
     "originalFileName": "FOR SURE (15).hdwav.wav",
     "originalRelativePath": "R&B/FOR SURE (15).hdwav.wav",
     "includeInRKS3": true
@@ -4297,7 +4297,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/get-home-2f77ce7c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/get-home-2f77ce7c.wav",
     "originalFileName": "get home (2).hdwav.wav",
     "originalRelativePath": "R&B/get home (2).hdwav.wav",
     "includeInRKS3": true
@@ -4310,7 +4310,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/get-home-498b6e0f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/get-home-498b6e0f.wav",
     "originalFileName": "get home (4).hdwav.wav",
     "originalRelativePath": "R&B/get home (4).hdwav.wav",
     "includeInRKS3": true
@@ -4323,7 +4323,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/getting-money-1ac72186.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/getting-money-1ac72186.wav",
     "originalFileName": "GETTING MONEY.hdwav.wav",
     "originalRelativePath": "R&B/GETTING MONEY.hdwav.wav",
     "includeInRKS3": true
@@ -4336,7 +4336,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/ghost-26d1f80d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/ghost-26d1f80d.wav",
     "originalFileName": "ghost (1).hdwav.wav",
     "originalRelativePath": "R&B/ghost (1).hdwav.wav",
     "includeInRKS3": true
@@ -4349,7 +4349,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/ghost-765c7f3c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/ghost-765c7f3c.wav",
     "originalFileName": "ghost.hdwav.wav",
     "originalRelativePath": "R&B/ghost.hdwav.wav",
     "includeInRKS3": true
@@ -4362,7 +4362,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/gone-but-still-loved-f1f0efe9.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/gone-but-still-loved-f1f0efe9.wav",
     "originalFileName": "Gone But Still Loved (3).hdwav.wav",
     "originalRelativePath": "R&B/Gone But Still Loved (3).hdwav.wav",
     "includeInRKS3": true
@@ -4375,7 +4375,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/greater-than-the-greatest-b46e3f1f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/greater-than-the-greatest-b46e3f1f.wav",
     "originalFileName": "Greater_Than_The_Greatest.hdwav.wav",
     "originalRelativePath": "R&B/Greater_Than_The_Greatest.hdwav.wav",
     "includeInRKS3": true
@@ -4388,7 +4388,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/grow-whole-e6c4871e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/grow-whole-e6c4871e.wav",
     "originalFileName": "grow whole (2).hdwav.wav",
     "originalRelativePath": "R&B/grow whole (2).hdwav.wav",
     "includeInRKS3": true
@@ -4401,7 +4401,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/grown-love-6e8c4a4e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/grown-love-6e8c4a4e.wav",
     "originalFileName": "GROWN LOVE.hdwav.wav",
     "originalRelativePath": "R&B/GROWN LOVE.hdwav.wav",
     "includeInRKS3": true
@@ -4414,7 +4414,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/h-m-b53f3439.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/h-m-b53f3439.wav",
     "originalFileName": "h _ m  _ (1).hdwav.wav",
     "originalRelativePath": "R&B/h _ m  _ (1).hdwav.wav",
     "includeInRKS3": true
@@ -4427,7 +4427,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/h-m-90e441ac.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/h-m-90e441ac.wav",
     "originalFileName": "h _ m  _ (7).hdwav.wav",
     "originalRelativePath": "R&B/h _ m  _ (7).hdwav.wav",
     "includeInRKS3": true
@@ -4440,7 +4440,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/ha-ha-ha-ha-85805de9.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/ha-ha-ha-ha-85805de9.wav",
     "originalFileName": "HA HA HA HA.hdwav.wav",
     "originalRelativePath": "R&B/HA HA HA HA.hdwav.wav",
     "includeInRKS3": true
@@ -4453,7 +4453,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/heart-and-mind-5481349d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/heart-and-mind-5481349d.wav",
     "originalFileName": "Heart_&_Mind.hdwav.wav",
     "originalRelativePath": "R&B/Heart_&_Mind.hdwav.wav",
     "includeInRKS3": true
@@ -4466,7 +4466,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/heavens-call-abbf016b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/heavens-call-abbf016b.wav",
     "originalFileName": "Heaven's Call.hdwav.wav",
     "originalRelativePath": "R&B/Heaven's Call.hdwav.wav",
     "includeInRKS3": true
@@ -4479,7 +4479,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/home-5b6d0d55.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/home-5b6d0d55.wav",
     "originalFileName": "home.hdwav.wav",
     "originalRelativePath": "R&B/home.hdwav.wav",
     "includeInRKS3": true
@@ -4492,7 +4492,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/hotshit-80aaf006.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/hotshit-80aaf006.wav",
     "originalFileName": "HOTSHIT.hdwav.wav",
     "originalRelativePath": "R&B/HOTSHIT.hdwav.wav",
     "includeInRKS3": true
@@ -4505,7 +4505,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/hotter-bac78175.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/hotter-bac78175.wav",
     "originalFileName": "HOTTER (3).hdwav.wav",
     "originalRelativePath": "R&B/HOTTER (3).hdwav.wav",
     "includeInRKS3": true
@@ -4518,7 +4518,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/hurt-69572d62.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/hurt-69572d62.wav",
     "originalFileName": "hurt (14).hdwav.wav",
     "originalRelativePath": "R&B/hurt (14).hdwav.wav",
     "includeInRKS3": true
@@ -4531,7 +4531,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/hurt-c1e07dbc.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/hurt-c1e07dbc.wav",
     "originalFileName": "hurt (3).hdwav.wav",
     "originalRelativePath": "R&B/hurt (3).hdwav.wav",
     "includeInRKS3": true
@@ -4544,7 +4544,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/hurt-5ecf58cd.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/hurt-5ecf58cd.wav",
     "originalFileName": "hurt (7).hdwav.wav",
     "originalRelativePath": "R&B/hurt (7).hdwav.wav",
     "includeInRKS3": true
@@ -4557,7 +4557,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/hurt-dab928f7.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/hurt-dab928f7.wav",
     "originalFileName": "hurt (8).hdwav.wav",
     "originalRelativePath": "R&B/hurt (8).hdwav.wav",
     "includeInRKS3": true
@@ -4570,7 +4570,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/incense-and-confessions-2e524d97.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/incense-and-confessions-2e524d97.wav",
     "originalFileName": "Incense and Confessions (1).hdwav.wav",
     "originalRelativePath": "R&B/Incense and Confessions (1).hdwav.wav",
     "includeInRKS3": true
@@ -4583,7 +4583,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/just-love-54360db9.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/just-love-54360db9.wav",
     "originalFileName": "Just Love (3).hdwav.wav",
     "originalRelativePath": "R&B/Just Love (3).hdwav.wav",
     "includeInRKS3": true
@@ -4596,7 +4596,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/just-love-07a320e4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/just-love-07a320e4.wav",
     "originalFileName": "Just Love.hdwav.wav",
     "originalRelativePath": "R&B/Just Love.hdwav.wav",
     "includeInRKS3": true
@@ -4609,7 +4609,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/just-love-4-6918bca7.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/just-love-4-6918bca7.wav",
     "originalFileName": "Just Love 4.hdwav.wav",
     "originalRelativePath": "R&B/Just Love 4.hdwav.wav",
     "includeInRKS3": true
@@ -4622,7 +4622,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/l-o-t-u-7b2aa684.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/l-o-t-u-7b2aa684.wav",
     "originalFileName": "L.O.T.U. (2).hdwav.wav",
     "originalRelativePath": "R&B/L.O.T.U. (2).hdwav.wav",
     "includeInRKS3": true
@@ -4635,7 +4635,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/l-o-v-e-67d5f126.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/l-o-v-e-67d5f126.wav",
     "originalFileName": "L.O.V.E. (14).hdwav.wav",
     "originalRelativePath": "R&B/L.O.V.E. (14).hdwav.wav",
     "includeInRKS3": true
@@ -4648,7 +4648,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/last-day-on-earth-da05c20f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/last-day-on-earth-da05c20f.wav",
     "originalFileName": "last day on earth.hdwav.wav",
     "originalRelativePath": "R&B/last day on earth.hdwav.wav",
     "includeInRKS3": true
@@ -4661,7 +4661,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/last-lifes-f299b781.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/last-lifes-f299b781.wav",
     "originalFileName": "Last Life's.hdwav.wav",
     "originalRelativePath": "R&B/Last Life's.hdwav.wav",
     "includeInRKS3": true
@@ -4674,7 +4674,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/late-night-whispers-38033d1d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/late-night-whispers-38033d1d.wav",
     "originalFileName": "Late Night Whispers (1).hdwav.wav",
     "originalRelativePath": "R&B/Late Night Whispers (1).hdwav.wav",
     "includeInRKS3": true
@@ -4687,7 +4687,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/late-night-whispers-9a2abbd4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/late-night-whispers-9a2abbd4.wav",
     "originalFileName": "Late Night Whispers.hdwav.wav",
     "originalRelativePath": "R&B/Late Night Whispers.hdwav.wav",
     "includeInRKS3": true
@@ -4700,7 +4700,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/law-8ea21db3.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/law-8ea21db3.wav",
     "originalFileName": "LAW (4).hdwav.wav",
     "originalRelativePath": "R&B/LAW (4).hdwav.wav",
     "includeInRKS3": true
@@ -4713,7 +4713,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/lc-d7988403.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/lc-d7988403.wav",
     "originalFileName": "LC (1).hdwav.wav",
     "originalRelativePath": "R&B/LC (1).hdwav.wav",
     "includeInRKS3": true
@@ -4726,7 +4726,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/legend-80333dea.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/legend-80333dea.wav",
     "originalFileName": "Legend (10).hdwav.wav",
     "originalRelativePath": "R&B/Legend (10).hdwav.wav",
     "includeInRKS3": true
@@ -4739,7 +4739,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/legend-32272c23.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/legend-32272c23.wav",
     "originalFileName": "Legend (4).hdwav.wav",
     "originalRelativePath": "R&B/Legend (4).hdwav.wav",
     "includeInRKS3": true
@@ -4752,7 +4752,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/legend-47d2adbc.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/legend-47d2adbc.wav",
     "originalFileName": "Legend (7).hdwav.wav",
     "originalRelativePath": "R&B/Legend (7).hdwav.wav",
     "includeInRKS3": true
@@ -4765,7 +4765,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/lets-go-eca0a138.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/lets-go-eca0a138.wav",
     "originalFileName": "let's go.hdwav.wav",
     "originalRelativePath": "R&B/let's go.hdwav.wav",
     "includeInRKS3": true
@@ -4778,7 +4778,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/level-up-3b255626.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/level-up-3b255626.wav",
     "originalFileName": "LEVEL UP (17).hdwav.wav",
     "originalRelativePath": "R&B/LEVEL UP (17).hdwav.wav",
     "includeInRKS3": true
@@ -4791,7 +4791,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/level-up-6a4c3135.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/level-up-6a4c3135.wav",
     "originalFileName": "LEVEL UP (3).hdwav.wav",
     "originalRelativePath": "R&B/LEVEL UP (3).hdwav.wav",
     "includeInRKS3": true
@@ -4804,7 +4804,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/level-up-38093d76.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/level-up-38093d76.wav",
     "originalFileName": "LEVEL UP (7).hdwav.wav",
     "originalRelativePath": "R&B/LEVEL UP (7).hdwav.wav",
     "includeInRKS3": true
@@ -4817,7 +4817,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/listen-up-hdwav-33abd361.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/listen-up-hdwav-33abd361.wav",
     "originalFileName": "listen up.hdwav.hdwav.wav",
     "originalRelativePath": "R&B/listen up.hdwav.hdwav.wav",
     "includeInRKS3": true
@@ -4830,7 +4830,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/long-ride-531fe65d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/long-ride-531fe65d.wav",
     "originalFileName": "long ride (8).hdwav.wav",
     "originalRelativePath": "R&B/long ride (8).hdwav.wav",
     "includeInRKS3": true
@@ -4843,7 +4843,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/long-ride-52e848cb.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/long-ride-52e848cb.wav",
     "originalFileName": "long ride (9).hdwav.wav",
     "originalRelativePath": "R&B/long ride (9).hdwav.wav",
     "includeInRKS3": true
@@ -4856,7 +4856,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/love-and-light-1f86e217.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/love-and-light-1f86e217.wav",
     "originalFileName": "LOVE AND LIGHT (3).hdwav.wav",
     "originalRelativePath": "R&B/LOVE AND LIGHT (3).hdwav.wav",
     "includeInRKS3": true
@@ -4869,7 +4869,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/lucky-f3797975.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/lucky-f3797975.wav",
     "originalFileName": "LUCKY (3).hdwav.wav",
     "originalRelativePath": "R&B/LUCKY (3).hdwav.wav",
     "includeInRKS3": true
@@ -4882,7 +4882,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/luxury-pain-0dcc57f4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/luxury-pain-0dcc57f4.wav",
     "originalFileName": "LUXURY PAIN.hdwav.wav",
     "originalRelativePath": "R&B/LUXURY PAIN.hdwav.wav",
     "includeInRKS3": true
@@ -4895,7 +4895,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/mastery-67951f8d.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/mastery-67951f8d.wav",
     "originalFileName": "mastery (5).hdwav.wav",
     "originalRelativePath": "R&B/mastery (5).hdwav.wav",
     "includeInRKS3": true
@@ -4908,7 +4908,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/met-0d8f2061.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/met-0d8f2061.wav",
     "originalFileName": "Met (1).hdwav.wav",
     "originalRelativePath": "R&B/Met (1).hdwav.wav",
     "includeInRKS3": true
@@ -4921,7 +4921,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/met-df9cdfe5.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/met-df9cdfe5.wav",
     "originalFileName": "Met (2).hdwav.wav",
     "originalRelativePath": "R&B/Met (2).hdwav.wav",
     "includeInRKS3": true
@@ -4934,7 +4934,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/met-567281d6.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/met-567281d6.wav",
     "originalFileName": "Met.hdwav.wav",
     "originalRelativePath": "R&B/Met.hdwav.wav",
     "includeInRKS3": true
@@ -4947,7 +4947,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/mouth-full-of-lies-a7e92568.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/mouth-full-of-lies-a7e92568.wav",
     "originalFileName": "MOUTH FULL OF LIES.hdwav.wav",
     "originalRelativePath": "R&B/MOUTH FULL OF LIES.hdwav.wav",
     "includeInRKS3": true
@@ -4960,7 +4960,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/neon-skies-5fdf9685.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/neon-skies-5fdf9685.wav",
     "originalFileName": "neon skies.hdwav.wav",
     "originalRelativePath": "R&B/neon skies.hdwav.wav",
     "includeInRKS3": true
@@ -4973,7 +4973,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/no-bond-61759873.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/no-bond-61759873.wav",
     "originalFileName": "no bond.hdwav.wav",
     "originalRelativePath": "R&B/no bond.hdwav.wav",
     "includeInRKS3": true
@@ -4986,7 +4986,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/no-bond-aaccd9a4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/no-bond-aaccd9a4.wav",
     "originalFileName": "NO BOND (4).hdwav.wav",
     "originalRelativePath": "R&B/NO BOND (4).hdwav.wav",
     "includeInRKS3": true
@@ -4999,7 +4999,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/no-bond-1-a560eeb7.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/no-bond-1-a560eeb7.wav",
     "originalFileName": "NO BOND 1.hdwav.wav",
     "originalRelativePath": "R&B/NO BOND 1.hdwav.wav",
     "includeInRKS3": true
@@ -5012,7 +5012,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/no-secret-5109ca90.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/no-secret-5109ca90.wav",
     "originalFileName": "no secret (5).hdwav.wav",
     "originalRelativePath": "R&B/no secret (5).hdwav.wav",
     "includeInRKS3": true
@@ -5025,7 +5025,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/no-secret-629e0a9f.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/no-secret-629e0a9f.wav",
     "originalFileName": "no secret.hdwav.wav",
     "originalRelativePath": "R&B/no secret.hdwav.wav",
     "includeInRKS3": true
@@ -5038,7 +5038,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/no-secrets-66896541.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/no-secrets-66896541.wav",
     "originalFileName": "NO Secrets.hdwav.wav",
     "originalRelativePath": "R&B/NO Secrets.hdwav.wav",
     "includeInRKS3": true
@@ -5051,7 +5051,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/no-stress-ffa009d0.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/no-stress-ffa009d0.wav",
     "originalFileName": "no stress (15).hdwav.wav",
     "originalRelativePath": "R&B/no stress (15).hdwav.wav",
     "includeInRKS3": true
@@ -5064,7 +5064,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/off-a8996828.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/off-a8996828.wav",
     "originalFileName": "OFF_ (1).hdwav.wav",
     "originalRelativePath": "R&B/OFF_ (1).hdwav.wav",
     "includeInRKS3": true
@@ -5077,7 +5077,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/position-a6bfb4ee.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/position-a6bfb4ee.wav",
     "originalFileName": "POSITION (4).hdwav.wav",
     "originalRelativePath": "R&B/POSITION (4).hdwav.wav",
     "includeInRKS3": true
@@ -5090,7 +5090,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/positions-55704b5c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/positions-55704b5c.wav",
     "originalFileName": "POSITIONS (2).hdwav.wav",
     "originalRelativePath": "R&B/POSITIONS (2).hdwav.wav",
     "includeInRKS3": true
@@ -5103,7 +5103,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/pray-4-u-1-37a9c1f7.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/pray-4-u-1-37a9c1f7.wav",
     "originalFileName": "pray 4 U 1.hdwav.wav",
     "originalRelativePath": "R&B/pray 4 U 1.hdwav.wav",
     "includeInRKS3": true
@@ -5116,7 +5116,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/pray-for-her-f371723a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/pray-for-her-f371723a.wav",
     "originalFileName": "Pray_For_Her.hdwav.wav",
     "originalRelativePath": "R&B/Pray_For_Her.hdwav.wav",
     "includeInRKS3": true
@@ -5129,7 +5129,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/pray-for-her-1-2dd756bb.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/pray-for-her-1-2dd756bb.wav",
     "originalFileName": "Pray_For_Her 1.hdwav.wav",
     "originalRelativePath": "R&B/Pray_For_Her 1.hdwav.wav",
     "includeInRKS3": true
@@ -5142,7 +5142,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/proof-02fd29bf.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/proof-02fd29bf.wav",
     "originalFileName": "PROOF (5).hdwav.wav",
     "originalRelativePath": "R&B/PROOF (5).hdwav.wav",
     "includeInRKS3": true
@@ -5155,7 +5155,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/proof-5-226c0456.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/proof-5-226c0456.wav",
     "originalFileName": "PROOF (5)-.hdwav.wav",
     "originalRelativePath": "R&B/PROOF (5)-.hdwav.wav",
     "includeInRKS3": true
@@ -5168,7 +5168,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/really-53606f21.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/really-53606f21.wav",
     "originalFileName": "Really (7).hdwav.wav",
     "originalRelativePath": "R&B/Really (7).hdwav.wav",
     "includeInRKS3": true
@@ -5181,7 +5181,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/really-3-99685e3e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/really-3-99685e3e.wav",
     "originalFileName": "Really 3.hdwav.wav",
     "originalRelativePath": "R&B/Really 3.hdwav.wav",
     "includeInRKS3": true
@@ -5194,7 +5194,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/rewrote-the-books-3c427c51.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/rewrote-the-books-3c427c51.wav",
     "originalFileName": "REWROTE THE BOOKS (4).hdwav.wav",
     "originalRelativePath": "R&B/REWROTE THE BOOKS (4).hdwav.wav",
     "includeInRKS3": true
@@ -5207,7 +5207,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/rise-f1fa26c1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/rise-f1fa26c1.wav",
     "originalFileName": "rise (2).hdwav.wav",
     "originalRelativePath": "R&B/rise (2).hdwav.wav",
     "includeInRKS3": true
@@ -5220,7 +5220,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/rise-22367980.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/rise-22367980.wav",
     "originalFileName": "rise-.hdwav.wav",
     "originalRelativePath": "R&B/rise-.hdwav.wav",
     "includeInRKS3": true
@@ -5233,7 +5233,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/rise-a413d58a.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/rise-a413d58a.wav",
     "originalFileName": "rise.hdwav.wav",
     "originalRelativePath": "R&B/rise.hdwav.wav",
     "includeInRKS3": true
@@ -5246,7 +5246,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/rk3-1st-joint-34edca0c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/rk3-1st-joint-34edca0c.wav",
     "originalFileName": "RK3 1ST JOINT.hdwav.wav",
     "originalRelativePath": "R&B/RK3 1ST JOINT.hdwav.wav",
     "includeInRKS3": true
@@ -5259,7 +5259,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/show-me-2-061568c1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/show-me-2-061568c1.wav",
     "originalFileName": "SHOW ME 2.hdwav.wav",
     "originalRelativePath": "R&B/SHOW ME 2.hdwav.wav",
     "includeInRKS3": true
@@ -5272,7 +5272,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/sleep-6559d3c1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/sleep-6559d3c1.wav",
     "originalFileName": "sleep (1).hdwav.wav",
     "originalRelativePath": "R&B/sleep (1).hdwav.wav",
     "includeInRKS3": true
@@ -5285,7 +5285,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/stay-ready-27187609.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/stay-ready-27187609.wav",
     "originalFileName": "stay ready.hdwav.wav",
     "originalRelativePath": "R&B/stay ready.hdwav.wav",
     "includeInRKS3": true
@@ -5298,7 +5298,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/stay-ready-3-c615ea81.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/stay-ready-3-c615ea81.wav",
     "originalFileName": "stay ready (3)-.hdwav.wav",
     "originalRelativePath": "R&B/stay ready (3)-.hdwav.wav",
     "includeInRKS3": true
@@ -5311,7 +5311,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/still-368c1729.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/still-368c1729.wav",
     "originalFileName": "STILL (3).hdwav.wav",
     "originalRelativePath": "R&B/STILL (3).hdwav.wav",
     "includeInRKS3": true
@@ -5324,7 +5324,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/street-plasm-162909f4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/street-plasm-162909f4.wav",
     "originalFileName": "STREET PLASM.hdwav.wav",
     "originalRelativePath": "R&B/STREET PLASM.hdwav.wav",
     "includeInRKS3": true
@@ -5337,7 +5337,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/sun-of-god-016835ff.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/sun-of-god-016835ff.wav",
     "originalFileName": "sun of God (14).hdwav.wav",
     "originalRelativePath": "R&B/sun of God (14).hdwav.wav",
     "includeInRKS3": true
@@ -5350,7 +5350,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/sweetheart-3-dc2cdb74.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/sweetheart-3-dc2cdb74.wav",
     "originalFileName": "sweetheart 3.hdwav.wav",
     "originalRelativePath": "R&B/sweetheart 3.hdwav.wav",
     "includeInRKS3": true
@@ -5363,7 +5363,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/taste-20c3af4c.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/taste-20c3af4c.wav",
     "originalFileName": "TASTE (1).hdwav.wav",
     "originalRelativePath": "R&B/TASTE (1).hdwav.wav",
     "includeInRKS3": true
@@ -5376,7 +5376,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/that-type-love-4bbe2003.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/that-type-love-4bbe2003.wav",
     "originalFileName": "that type love (1).hdwav.wav",
     "originalRelativePath": "R&B/that type love (1).hdwav.wav",
     "includeInRKS3": true
@@ -5389,7 +5389,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/thats-life-c033e742.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/thats-life-c033e742.wav",
     "originalFileName": "THAT'S LIFE (12).hdwav.wav",
     "originalRelativePath": "R&B/THAT'S LIFE (12).hdwav.wav",
     "includeInRKS3": true
@@ -5402,7 +5402,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/thats-love-cd3712f8.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/thats-love-cd3712f8.wav",
     "originalFileName": "THat's love (16).hdwav.wav",
     "originalRelativePath": "R&B/THat's love (16).hdwav.wav",
     "includeInRKS3": true
@@ -5415,7 +5415,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/thats-love-db5eefa4.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/thats-love-db5eefa4.wav",
     "originalFileName": "THat's love (3).hdwav.wav",
     "originalRelativePath": "R&B/THat's love (3).hdwav.wav",
     "includeInRKS3": true
@@ -5428,7 +5428,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/the-great-reveal-b1d8daaa.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/the-great-reveal-b1d8daaa.wav",
     "originalFileName": "THE GREAT REVEAL.hdwav.wav",
     "originalRelativePath": "R&B/THE GREAT REVEAL.hdwav.wav",
     "includeInRKS3": true
@@ -5441,7 +5441,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/the-world-4b5fb9b1.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/the-world-4b5fb9b1.wav",
     "originalFileName": "the world.hdwav.wav",
     "originalRelativePath": "R&B/the world.hdwav.wav",
     "includeInRKS3": true
@@ -5454,7 +5454,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/things-changed-f76c6013.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/things-changed-f76c6013.wav",
     "originalFileName": "things changed.hdwav.wav",
     "originalRelativePath": "R&B/things changed.hdwav.wav",
     "includeInRKS3": true
@@ -5467,7 +5467,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/thinking-to-myself-c41b5c7e.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/thinking-to-myself-c41b5c7e.wav",
     "originalFileName": "thinking to myself  (1).hdwav.wav",
     "originalRelativePath": "R&B/thinking to myself  (1).hdwav.wav",
     "includeInRKS3": true
@@ -5480,7 +5480,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/u-the-gift-809ac144.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/u-the-gift-809ac144.wav",
     "originalFileName": "U the gift.hdwav.wav",
     "originalRelativePath": "R&B/U the gift.hdwav.wav",
     "includeInRKS3": true
@@ -5493,7 +5493,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/we-ready-9a4890df.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/we-ready-9a4890df.wav",
     "originalFileName": "we ready.hdwav.wav",
     "originalRelativePath": "R&B/we ready.hdwav.wav",
     "includeInRKS3": true
@@ -5506,7 +5506,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/we-ready-1-85ec2111.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/we-ready-1-85ec2111.wav",
     "originalFileName": "we ready 1.hdwav.wav",
     "originalRelativePath": "R&B/we ready 1.hdwav.wav",
     "includeInRKS3": true
@@ -5519,7 +5519,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/whole-b4-you-1-f92fab47.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/whole-b4-you-1-f92fab47.wav",
     "originalFileName": "Whole_B4_You 1.hdwav.wav",
     "originalRelativePath": "R&B/Whole_B4_You 1.hdwav.wav",
     "includeInRKS3": true
@@ -5532,7 +5532,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/woman-wrong-man-6e915f32.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/woman-wrong-man-6e915f32.wav",
     "originalFileName": "WOMAN WRONG MAN.hdwav.wav",
     "originalRelativePath": "R&B/WOMAN WRONG MAN.hdwav.wav",
     "includeInRKS3": true
@@ -5545,7 +5545,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/women-e240361b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/women-e240361b.wav",
     "originalFileName": "women (1).hdwav.wav",
     "originalRelativePath": "R&B/women (1).hdwav.wav",
     "includeInRKS3": true
@@ -5558,7 +5558,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/women-2c4ab2e3.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/women-2c4ab2e3.wav",
     "originalFileName": "women (10).hdwav.wav",
     "originalRelativePath": "R&B/women (10).hdwav.wav",
     "includeInRKS3": true
@@ -5571,7 +5571,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/women-9bd82e98.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/women-9bd82e98.wav",
     "originalFileName": "women.hdwav.wav",
     "originalRelativePath": "R&B/women.hdwav.wav",
     "includeInRKS3": true
@@ -5584,7 +5584,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/work-886de331.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/work-886de331.wav",
     "originalFileName": "work (3).hdwav.wav",
     "originalRelativePath": "R&B/work (3).hdwav.wav",
     "includeInRKS3": true
@@ -5597,7 +5597,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/you-are-neo-soul-74b0fb07.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/you-are-neo-soul-74b0fb07.wav",
     "originalFileName": "YOU ARE NEO SOUL.hdwav.wav",
     "originalRelativePath": "R&B/YOU ARE NEO SOUL.hdwav.wav",
     "includeInRKS3": true
@@ -5610,7 +5610,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/you-are-sexy-soft-jazz-d746d1b2.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/you-are-sexy-soft-jazz-d746d1b2.wav",
     "originalFileName": "YOU ARE SEXY SOFT JAZZ (1).hdwav.wav",
     "originalRelativePath": "R&B/YOU ARE SEXY SOFT JAZZ (1).hdwav.wav",
     "includeInRKS3": true
@@ -5623,7 +5623,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/you-the-one-dbfb0ca5.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/you-the-one-dbfb0ca5.wav",
     "originalFileName": "you the one (1).hdwav.wav",
     "originalRelativePath": "R&B/you the one (1).hdwav.wav",
     "includeInRKS3": true
@@ -5636,7 +5636,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/yourself-b12d5edf.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/yourself-b12d5edf.wav",
     "originalFileName": "yourself (3).hdwav.wav",
     "originalRelativePath": "R&B/yourself (3).hdwav.wav",
     "includeInRKS3": true
@@ -5649,7 +5649,7 @@
     "category": "rnb",
     "sourceFormat": "hdwav",
     "actualFileExtension": ".wav",
-    "audioSrc": "/audio/rks3/rnb/yourself-87658d5b.wav",
+    "audioSrc": "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/rnb/yourself-87658d5b.wav",
     "originalFileName": "yourself (4).hdwav.wav",
     "originalRelativePath": "R&B/yourself (4).hdwav.wav",
     "includeInRKS3": true

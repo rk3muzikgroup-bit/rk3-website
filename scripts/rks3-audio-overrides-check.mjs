@@ -2,8 +2,13 @@ import fs from "node:fs";
 import path from "node:path";
 
 const projectRoot = process.cwd();
+const useFullCatalog = process.argv.includes("--full");
 
-const catalogPath = path.join(projectRoot, "data", "rks3-audio-catalog.json");
+const catalogFileName = useFullCatalog
+  ? "rks3-audio-catalog.full.json"
+  : "rks3-audio-catalog.json";
+
+const catalogPath = path.join(projectRoot, "data", catalogFileName);
 const overridesPath = path.join(projectRoot, "data", "rks3-audio-overrides.json");
 
 if (!fs.existsSync(catalogPath)) {
@@ -43,6 +48,7 @@ const invalidPriority = overrideIds.filter((id) => {
 console.log("");
 console.log("RKS3 AUDIO OVERRIDES CHECK");
 console.log("--------------------------");
+console.log(`Mode: ${useFullCatalog ? "full" : "active"}`);
 console.log(`Catalog records: ${catalog.length}`);
 console.log(`Override records: ${overrideIds.length}`);
 console.log(`Orphan overrides: ${orphanOverrides.length}`);
