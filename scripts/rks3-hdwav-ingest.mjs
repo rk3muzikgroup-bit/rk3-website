@@ -130,6 +130,39 @@ const CATEGORY_ALIASES = {
   soundscapes: "soundscapes",
 };
 
+const EXCLUDED_PORTAL_SOURCE_FOLDERS = new Set([
+  "music",
+  "promo",
+  "rks3.com skits",
+  "rks3=soul",
+  "rks3=spirit",
+  "rks3=street",
+]);
+
+const APPROVED_LEGACY_MIXTAPE_WAVS = new Map([
+  [
+    "mix-tapes/1st mixtape.wav",
+    "mix-tapes/1st Mixtape.hdwav.wav",
+  ],
+  [
+    "mix-tapes/2nd mixtape.wav",
+    "mix-tapes/2nd Mixtape.hdwav.wav",
+  ],
+  [
+    "mix-tapes/3rd mixtape.wav",
+    "mix-tapes/3rd Mixtape.hdwav.wav",
+  ],
+]);
+
+function getApprovedLegacyMixtapeIdentityPath(relativePath) {
+  const normalizedPath = relativePath
+    .split(path.sep)
+    .join("/")
+    .toLowerCase();
+
+  return APPROVED_LEGACY_MIXTAPE_WAVS.get(normalizedPath) ?? null;
+}
+
 function walkDirectory(dir) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
   const files = [];
@@ -228,7 +261,11 @@ function isRks3HdwavFile(fileName, filePath) {
   );
 }
 
-function createCatalogItem(filePath, relativePath) {
+function createCatalogItem(
+  filePath,
+  relativePath,
+  identityRelativePath = relativePath
+) {
   const fileName = path.basename(filePath);
   const rawTitle = titleFromFileName(fileName);
 
@@ -239,7 +276,7 @@ function createCatalogItem(filePath, relativePath) {
   const category = getCategory(relativePath);
   const baseTitle = cleanBaseTitle(rawTitle);
   const versionLabel = extractVersionLabel(rawTitle);
-  const hash = shortHash(relativePath);
+  const hash = shortHash(identityRelativePath);
 
   const safeFileName = `${slugify(baseTitle)}-${hash}.wav`;
   const audioSrc = `/audio/rks3/${category}/${safeFileName}`;
@@ -349,6 +386,9 @@ const report = {
   ignoredWav: 0,
   ignoredMacSystemFiles: 0,
   ignoredOther: 0,
+  approvedLegacyMixtapeWavFiles: 0,
+  excludedPortalSourceFiles: 0,
+  excludedPortalSourceByFolder: {},
   invalidHdwavFiles: [],
   totalHdwavByCategory: {},
   categories: {},
@@ -365,8 +405,27 @@ for (const filePath of allFiles) {
     continue;
   }
 
+  const topLevelSourceFolder =
+    relativePath.split(path.sep).filter(Boolean)[0]?.toLowerCase() ?? "";
+
+  if (EXCLUDED_PORTAL_SOURCE_FOLDERS.has(topLevelSourceFolder)) {
+    report.excludedPortalSourceFiles += 1;
+    report.excludedPortalSourceByFolder[topLevelSourceFolder] =
+      (report.excludedPortalSourceByFolder[topLevelSourceFolder] ?? 0) + 1;
+    continue;
+  }
+
+  const approvedLegacyIdentityPath =
+    getApprovedLegacyMixtapeIdentityPath(relativePath);
+
   const ext = path.extname(filePath).toLowerCase();
-  const isRks3Hdwav = isRks3HdwavFile(fileName, filePath);
+  const isRks3Hdwav =
+    isRks3HdwavFile(fileName, filePath) ||
+    approvedLegacyIdentityPath !== null;
+
+  if (approvedLegacyIdentityPath !== null) {
+    report.approvedLegacyMixtapeWavFiles += 1;
+  }
 
   if (ext === ".mp3") {
     report.ignoredMp3 += 1;
@@ -385,7 +444,11 @@ for (const filePath of allFiles) {
 
   report.totalHdwavFound += 1;
 
-  const item = createCatalogItem(filePath, relativePath);
+  const item = createCatalogItem(
+    filePath,
+    relativePath,
+    approvedLegacyIdentityPath ?? relativePath
+  );
 
   if (!item) {
     report.invalidHdwavFiles.push(relativePath);
@@ -432,7 +495,18 @@ console.log(`HDWAV imported/cataloged: ${report.importedHdwav}`);
 console.log(`Audio copied: ${report.audioCopied}`);
 console.log(`MP3 ignored: ${report.ignoredMp3}`);
 console.log(`WAV ignored: ${report.ignoredWav}`);
+console.log(
+  `Approved legacy mixtape WAV files: ${report.approvedLegacyMixtapeWavFiles}`
+);
 console.log(`Mac system files ignored: ${report.ignoredMacSystemFiles}`);
+console.log(
+  `Promotion-campaign files excluded: ${report.excludedPortalSourceFiles}`
+);
+console.log(
+  `Excluded promotion folders: ${JSON.stringify(
+    report.excludedPortalSourceByFolder
+  )}`
+);
 console.log(`Other ignored: ${report.ignoredOther}`);
 console.log(`Catalog: ${catalogPath}`);
 console.log(`Report: ${reportPath}`);
