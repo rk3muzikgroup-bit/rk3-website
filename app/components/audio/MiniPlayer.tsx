@@ -34,7 +34,7 @@ export default function MiniPlayer() {
           scale: hasPlayed ? 1 : 0.96,
         }}
         transition={{ duration: 0.35, ease: "easeOut" }}
-        className="pointer-events-auto"
+        className={hasPlayed ? "pointer-events-auto" : "pointer-events-none"}
       >
         <div
           className="
