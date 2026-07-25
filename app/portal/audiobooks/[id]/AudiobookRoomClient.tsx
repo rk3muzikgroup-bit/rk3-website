@@ -218,7 +218,24 @@ export default function AudiobookRoomClient({ book }: { book: AudiobookBook }) {
           preload="metadata"
           onCanPlay={() => {
             setAudioError(false);
-            setMode("Audio Ready");
+
+            const audio = audioRef.current;
+
+            setMode((currentMode) => {
+              if (audio && !audio.paused) {
+                return "Playing";
+              }
+
+              if (
+                currentMode === "Paused" ||
+                currentMode === "Stopped" ||
+                currentMode === "Complete"
+              ) {
+                return currentMode;
+              }
+
+              return "Audio Ready";
+            });
           }}
           onLoadedMetadata={() => {
             setDuration(audioRef.current?.duration ?? 0);
