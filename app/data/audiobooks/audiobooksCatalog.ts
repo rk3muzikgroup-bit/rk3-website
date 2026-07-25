@@ -17,6 +17,9 @@ export type RKS3Audiobook = {
   sections: string[];
 };
 
+const AUDIOBOOK_R2_BASE =
+  "https://pub-da716ca4c7ab49abbc22db919c726c8b.r2.dev/audio/rks3/audiobooks";
+
 export const audiobooksCatalog: RKS3Audiobook[] = [
   {
     id: "kybalion",
@@ -26,7 +29,7 @@ export const audiobooksCatalog: RKS3Audiobook[] = [
     runtime: "Multi-section",
     status: "Audio Ready",
     frequency: "Hermetic Law • Mentalism • Vibration",
-    audioBasePath: "/audio/audiobooks/kybalion",
+    audioBasePath: `${AUDIOBOOK_R2_BASE}/kybalion`,
     sections: [
       "All Is Mind",
       "Principle of Awareness",
@@ -46,7 +49,7 @@ export const audiobooksCatalog: RKS3Audiobook[] = [
   runtime: "Approx. 20 Min",
   status: "Audio Ready",
   frequency: "Entry • Alignment • Awareness",
-  audioBasePath: "/audio/audiobooks/the-rks3-initiation",
+  audioBasePath: `${AUDIOBOOK_R2_BASE}/the-rks3-initiation`,
   relatedBookId: "the-rks3-initiation",
   sections: [
     "Before You Enter",
@@ -75,7 +78,7 @@ export const audiobooksCatalog: RKS3Audiobook[] = [
   runtime: "5 Sections",
   status: "Audio Ready",
   frequency: "Creation • Memory • Resurrection",
-  audioBasePath: "/audio/audiobooks/from-bones-to-breath",
+  audioBasePath: `${AUDIOBOOK_R2_BASE}/from-bones-to-breath`,
   relatedBookId: "from-bones-to-breath",
   sections: [
     "The Skeleton",
@@ -93,7 +96,7 @@ export const audiobooksCatalog: RKS3Audiobook[] = [
   runtime: "5 Sections",
   status: "Audio Ready",
   frequency: "Resonance • Breath • Nervous System",
-  audioBasePath: "/audio/audiobooks/the-frequency-manual",
+  audioBasePath: `${AUDIOBOOK_R2_BASE}/the-frequency-manual`,
   relatedBookId: "the-frequency-manual",
   sections: [
     "What Frequency Means",
